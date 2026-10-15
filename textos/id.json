@@ -1,0 +1,177 @@
+{
+ "saltar": "Langsung ke konten",
+ "nav-rendimiento": "Performa",
+ "nav-funciones": "Fitur",
+ "descargar-corto": "Unduh",
+ "antetitulo": "Perekam layar dan pemutar video gratis untuk Windows",
+ "titular": "Rekam. Potong. Bagikan.",
+ "entradilla": "Instant replay dan perekaman layar tanpa FPS turun, editor klip bawaan, dan setiap klip langsung tersalin ke clipboard, siap dikirim ke Discord. Plus pemutar video yang terbuka seketika.",
+ "descargar": "Unduh Zas",
+ "versiones": "Lihat rilis",
+ "gratis": "Gratis · Windows 10 dan 11 · Tanpa iklan",
+ "rend-ante": "Performa terukur",
+ "rend-titulo": "Kecepatan itu diukur.",
+ "cifra1-nombre": "Untuk membuka video",
+ "cifra1-detalle": "Dari klik dua kali hingga frame pertama, dengan Zas di memori. Median untuk video 1080p60.",
+ "cifra2-nombre": "Hingga klip tersalin",
+ "cifra2-detalle": "Dari menekan Ctrl+E hingga klip 12 detik ada di clipboard, siap ditempel.",
+ "cifra3-nombre": "FPS yang hilang saat merekam",
+ "cifra3-detalle": "Fortnite di 1440p: 61–69 FPS tanpa merekam dan 68–70 FPS saat merekam dengan kartu grafis. Diukur dengan PresentMon.",
+ "metodo-titulo": "Cara kami mengukurnya",
+ "pasos-ante": "Klip dalam hitungan detik",
+ "pasos-titulo": "Dari video ke chat cukup tiga tombol.",
+ "paso1": "Tandai bagiannya",
+ "paso1-texto": "Awal dan akhir, sambil menonton.",
+ "paso2": "Ekspor",
+ "paso2-texto": "Tanpa encode ulang: klip langsung jadi, dengan kualitas asli.",
+ "paso3": "Tempel",
+ "paso3-texto": "Klip sudah ada di clipboard: tempel di chat mana pun.",
+ "comp-ante": "Zas vs yang lain",
+ "comp-titulo": "Alternatif untuk ShadowPlay, OBS, dan Medal.",
+ "comp-sub": "Rekam seperti ShadowPlay di kartu grafis apa pun, tanpa pengaturan rumit seperti OBS, dan edit klip tanpa mengunggahnya ke cloud mana pun. Semua dalam satu aplikasi yang sekaligus menjadi pemutar video Anda.",
+ "comp-nota": "Berdasarkan informasi publik tiap aplikasi per Oktober 2026. ShadowPlay adalah fitur perekaman di NVIDIA App.",
+ "func-ante": "Satu aplikasi, bukan tiga",
+ "func-titulo": "Semua yang Anda lakukan dengan video.",
+ "b3-titulo": "Rekam dan bagikan",
+ "b3-texto": "Seret area layar dan rekam dengan audio sistem serta mikrofon pilihan Anda. Di-encode oleh kartu grafis (NVIDIA, AMD, atau Intel), hingga 120 fps, tanpa mengorbankan frame game Anda. Instant replay menyimpan beberapa detik terakhir saat ada momen seru, dan klipnya tersalin, siap ditempel di Discord.",
+ "a-grabar": "Rekam layar",
+ "a-repeticion": "Simpan replay",
+ "a-panel": "Panel perekaman",
+ "b2-titulo": "Edit",
+ "b2-texto": "Pisahkan dan hapus bagian di timeline. Tambahkan teks, kotak, panah, area piksel (sensor), dan zoom beranimasi, masing-masing dengan waktu mulai dan selesai sendiri. Ekspor, dan langsung tersalin.",
+ "b2-atajo": "membuka editor",
+ "b1-titulo": "Putar",
+ "b1-texto": "Tetap di memori setelah ditutup, jadi video berikutnya muncul begitu Anda membukanya. Antarmuka menghilang saat tidak dipakai, dan hampir semua format bisa diputar. Juga penampil foto yang cepat: JPEG, PNG, WebP, HEIC, AVIF, dan lainnya.",
+ "faq-ante": "Pertanyaan",
+ "faq-titulo": "Yang sering ditanyakan.",
+ "final-titulo": "Buka video. Lakukan lebih banyak.",
+ "descargar-windows": "Unduh Zas untuk Windows",
+ "final-nota": "Gratis. Tanpa iklan. Memperbarui diri saat Anda mau.",
+ "pie-versiones": "Rilis",
+ "creditos": "Dibangun dengan",
+ "y": "dan",
+ "stock": "Video di tangkapan layar:",
+ "bbb": "Diukur dengan",
+ "alt-escaparate": "Panel perekaman Zas terbuka di atas layar: rekam area atau seluruh layar, instant replay, suara, kualitas, FPS, dan codec",
+ "alt-recortar": "Timeline Zas dengan satu bagian ditandai warna kuning amber",
+ "alt-compartir": "Zas memberi tahu bahwa klip sudah disimpan dan disalin",
+ "alt-copiado": "Zas menampilkan “Disimpan dan disalin”: klip sudah ada di clipboard",
+ "alt-editor": "Editor Zas dengan teks, panah, dan kotak di atas video",
+ "alt-reproduce": "Zas memutar video layar penuh, dengan kontrol di bagian bawah",
+ "meta-titulo": "Zas: perekam layar gratis untuk Windows, alternatif ShadowPlay, OBS, dan Medal",
+ "meta-descripcion": "Zas Player adalah perekam layar dan alat pembuat klip gratis untuk Windows: instant replay tanpa FPS turun, editor klip bawaan, dan klip yang tersalin ke clipboard, siap untuk Discord. Plus pemutar video yang terbuka seketika. Tanpa iklan, tanpa akun.",
+ "meta-og-titulo": "Zas Player · Rekam. Potong. Bagikan.",
+ "version-palabra": "versi",
+ "idioma-etiqueta": "Bahasa",
+ "metodo": "<p>Zas 1.15.1, versi yang Anda unduh di sini, di PC dengan AMD Ryzen 5 3600, NVIDIA GeForce RTX 2060, memori 32 GB, dan Windows 11, dengan layar 2560×1440. Video uji: satu menit Big Buck Bunny (H.264, 1080p 60 fps) dan dua versi 10 detik yang dibuat darinya (H.265 4K 30 fps dan VP9 1080p 30 fps).</p><table><tr><th></th><th>H.264 1080p60</th><th>H.265 2160p30</th><th>VP9 1080p30</th></tr><tr><td>Buka dengan Zas di memori</td><td>378 ms</td><td>134 ms</td><td>125 ms</td></tr><tr><td>Buka dengan Zas tertutup</td><td>710 ms</td><td>595 ms</td><td>514 ms</td></tr></table><p><b>Membuka</b>: dari menjalankan <code>zas.exe video</code> (sama dengan klik dua kali) hingga frame pertama tampil di layar. Median dari 8 kali buka di memori dan 5 kali dari awal. Dengan Zas di memori, 2 dari 24 kali buka lebih lama (0,7 dan 2,9 detik); dengan Zas tertutup, yang paling lambat 0,83 detik. File sudah ada di cache Windows.</p><p><b>Klip tersalin</b>: menandai bagian 12 detik dan menekan Ctrl+E (tanpa encode ulang) hingga file ada di clipboard. Median dari 5 kali percobaan: 0,14 detik; percobaan pertama butuh 33 detik dan penyebabnya belum diketahui. Dengan akurasi per frame (encode ulang, Ctrl+Shift+E), bagian yang sama butuh 4,6 hingga 5,0 detik.</p><p><b>FPS saat merekam</b>: Fortnite di 2560×1440 di latar depan, diukur dengan PresentMon (Intel). Tanpa merekam, 61–69 FPS; merekam di 60 fps dengan kartu grafis (H.264 atau H.265 via NVENC), 68–70 FPS, masih dalam rentang variasi yang sama. Perekaman memakai 18% dari satu core CPU. Metode CPU lama (libx264) memakai 2,7 core dan tersendat.</p><p><b>Memori</b>: 99 MB saat diam (di latar belakang, siap membuka) dan sekitar 300 MB saat memutar video 1080p60.</p><p>Ini hasil pengukuran di satu komputer tertentu: hasil di komputer Anda bisa berbeda.</p>",
+ "preguntas": [
+  [
+   "Apakah Zas alternatif yang bagus untuk ShadowPlay, OBS, atau Medal?",
+   "Ya, jika yang Anda inginkan adalah merekam layar atau menyimpan momen gameplay lalu membagikannya dengan cepat. Seperti ShadowPlay, Zas merekam dengan kartu grafis dan punya instant replay, tetapi berjalan di NVIDIA, AMD, dan Intel. Berbeda dengan OBS, tidak ada yang perlu diatur. Dan seperti Medal, ada editor klip, tetapi semuanya tetap di PC Anda: tanpa akun, tanpa cloud, dan tanpa iklan. Jika Anda perlu live streaming, OBS tetap pilihannya; Zas tidak bisa streaming."
+  ],
+  [
+   "Apakah merekam dengan Zas menurunkan FPS?",
+   "Dalam pengujian kami, tidak. Fortnite di 1440p berjalan di 61–69 FPS tanpa merekam dan 68–70 FPS saat Zas merekam dengan kartu grafis (diukur dengan PresentMon di RTX 2060). Zas melakukan encode di kartu grafis (NVENC, AMF, atau Quick Sync), jadi CPU hampir tidak bekerja: 18% dari satu core."
+  ],
+  [
+   "Bagaimana cara membagikan klip ke Discord?",
+   "Simpan momennya dengan Win+Shift+G (instant replay), atau tandai bagian dengan I dan O lalu tekan Ctrl+E. Klip tersalin ke clipboard: di Discord, tekan Ctrl+V. Perlu diingat, Discord hanya mengizinkan file hingga 20 MB untuk akun gratis."
+  ],
+  [
+   "Apa itu Zas Player?",
+   "Zas (atau Zas Player) adalah perekam layar, editor klip, dan pemutar video gratis untuk Windows 10 dan 11. Zas membuka video seketika dan sudah dilengkapi pemotong video serta penampil foto."
+  ],
+  [
+   "Bagaimana cara mengunduh Zas?",
+   "Klik “Unduh Zas” di halaman ini: installer resmi, Zas-Setup.exe, akan diunduh dari GitHub. Buka, instalasi selesai dalam hitungan detik, dan setelah itu Zas memperbarui diri saat Anda mau."
+  ],
+  [
+   "Apakah gratis? Ada iklannya?",
+   "Gratis, tanpa iklan, dan tidak perlu membuat akun."
+  ],
+  [
+   "Format apa saja yang bisa dibuka?",
+   "Hampir semua video (MP4, MKV, WebM, MOV, AVI, WMV, TS…) berkat mpv dan FFmpeg, serta foto JPEG, PNG, WebP, HEIC, AVIF, dan lainnya."
+  ]
+ ],
+ "compara": {
+  "filas": [
+   [
+    "Gratis",
+    "si",
+    "si",
+    "si",
+    "si*"
+   ],
+   [
+    "Kartu grafis apa pun (NVIDIA, AMD, Intel)",
+    "si",
+    "Hanya NVIDIA",
+    "si",
+    "si"
+   ],
+   [
+    "Instant replay",
+    "si",
+    "si",
+    "Perlu diatur",
+    "si"
+   ],
+   [
+    "Editor klip (potong, teks, panah, blur, zoom)",
+    "si",
+    "no",
+    "no",
+    "si"
+   ],
+   [
+    "File klip di clipboard, siap ditempel",
+    "si",
+    "no",
+    "no",
+    "Hanya tautan"
+   ],
+   [
+    "Termasuk pemutar video dan penampil foto",
+    "si",
+    "no",
+    "no",
+    "no"
+   ],
+   [
+    "Tanpa akun atau cloud",
+    "si",
+    "si",
+    "si",
+    "Minta daftar"
+   ],
+   [
+    "Klip highlight otomatis",
+    "no",
+    "Beberapa game",
+    "no",
+    "si"
+   ],
+   [
+    "Live streaming",
+    "no",
+    "no",
+    "si",
+    "no"
+   ]
+  ],
+  "pie": "* Dengan fitur berbayar.",
+  "si": "Ya",
+  "no": "Tidak"
+ },
+ "jsonld-subcategoria": "Pemutar video",
+ "jsonld-funciones": [
+  "Perekam layar dengan GPU (NVIDIA, AMD, Intel)",
+  "Instant replay",
+  "Editor klip",
+  "Klip tersalin ke clipboard",
+  "Potong video tanpa encode ulang",
+  "Pemutar video",
+  "Penampil gambar"
+ ]
+}

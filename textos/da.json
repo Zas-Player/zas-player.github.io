@@ -1,0 +1,177 @@
+{
+ "saltar": "Spring til indhold",
+ "nav-rendimiento": "Ydeevne",
+ "nav-funciones": "Funktioner",
+ "descargar-corto": "Download",
+ "antetitulo": "Gratis skærmoptager og videoafspiller til Windows",
+ "titular": "Optag. Klip. Del.",
+ "entradilla": "Øjeblikkelig genafspilning og skærmoptagelse uden tab af FPS, en indbygget klipeditor og hvert klip kopieret til udklipsholderen, klar til Discord. Plus en videoafspiller, der åbner med det samme.",
+ "descargar": "Download Zas",
+ "versiones": "Se versioner",
+ "gratis": "Gratis · Windows 10 og 11 · Ingen reklamer",
+ "rend-ante": "Målt ydeevne",
+ "rend-titulo": "Hastigheden er målt.",
+ "cifra1-nombre": "For at åbne en video",
+ "cifra1-detalle": "Fra dobbeltklik til første billede, med Zas i hukommelsen. Median for en video i 1080p60.",
+ "cifra2-nombre": "Til klippet er kopieret",
+ "cifra2-detalle": "Fra du trykker på Ctrl+E, til et klip på 12 s ligger i udklipsholderen, klar til at sætte ind.",
+ "cifra3-nombre": "Tabte FPS under optagelse",
+ "cifra3-detalle": "Fortnite i 1440p: 61–69 FPS uden optagelse og 68–70 under optagelse med grafikkortet. Målt med PresentMon.",
+ "metodo-titulo": "Sådan målte vi",
+ "pasos-ante": "Et klip på få sekunder",
+ "pasos-titulo": "Fra video til chat med tre taster.",
+ "paso1": "Markér stykket",
+ "paso1-texto": "Start og slut, mens du ser.",
+ "paso2": "Eksportér",
+ "paso2-texto": "Ingen genkodning: klippet er klar med det samme, i den oprindelige kvalitet.",
+ "paso3": "Sæt ind",
+ "paso3-texto": "Det ligger allerede i udklipsholderen: sæt det ind i en hvilken som helst chat.",
+ "comp-ante": "Zas mod resten",
+ "comp-titulo": "Alternativet til ShadowPlay, OBS og Medal.",
+ "comp-sub": "Optag som med ShadowPlay på ethvert grafikkort, uden opsætning som i OBS, og redigér klippet uden at uploade det til en sky. Alt sammen i én app, der også er din videoafspiller.",
+ "comp-nota": "Baseret på hver apps offentlige oplysninger pr. oktober 2026. ShadowPlay er optagefunktionen i NVIDIA-appen.",
+ "func-ante": "Én app, ikke tre",
+ "func-titulo": "Alt, hvad du gør med dine videoer.",
+ "b3-titulo": "Optag og del",
+ "b3-texto": "Træk et område af skærmen op, og optag med systemlyd og den mikrofon, du vælger. Kodet af grafikkortet (NVIDIA, AMD eller Intel), op til 120 fps, uden at det koster dit spil billeder. Øjeblikkelig genafspilning gemmer de seneste sekunder, når noget sker, og klippet bliver kopieret, klar til at sætte ind i Discord.",
+ "a-grabar": "Optag skærmen",
+ "a-repeticion": "Gem genafspilningen",
+ "a-panel": "Optagepanel",
+ "b2-titulo": "Redigér",
+ "b2-texto": "Del og fjern stykker på tidslinjen. Tilføj tekst, bokse, pile, pixelerede områder og animeret zoom, hver med sin egen start og slut. Eksportér, og det er kopieret.",
+ "b2-atajo": "åbner editoren",
+ "b1-titulo": "Afspil",
+ "b1-texto": "Den bliver i hukommelsen, når du lukker den, så den næste video vises, så snart du åbner den. Brugerfladen forsvinder, når du ikke bruger den, og den afspiller næsten alle formater. Den er også en hurtig billedfremviser: JPEG, PNG, WebP, HEIC, AVIF og flere.",
+ "faq-ante": "Spørgsmål",
+ "faq-titulo": "Det, folk ofte spørger om.",
+ "final-titulo": "Åbn en video. Gør meget mere.",
+ "descargar-windows": "Download Zas til Windows",
+ "final-nota": "Gratis. Ingen reklamer. Opdaterer sig selv, når du siger til.",
+ "pie-versiones": "Versioner",
+ "creditos": "Bygget på",
+ "y": "og",
+ "stock": "Videoer i skærmbillederne:",
+ "bbb": "Målt med",
+ "alt-escaparate": "Optagepanelet i Zas åbent over skærmen: optag et område eller skærmen, øjeblikkelig genafspilning, lyd, kvalitet, FPS og codec",
+ "alt-recortar": "Tidslinjen i Zas med et stykke markeret i rav",
+ "alt-compartir": "Zas viser, at klippet er gemt og kopieret",
+ "alt-copiado": "Zas viser »Gemt og kopieret«: klippet ligger allerede i udklipsholderen",
+ "alt-editor": "Editoren i Zas med en tekst, en pil og en boks over videoen",
+ "alt-reproduce": "Zas afspiller en video i fuld skærm med knapperne nederst",
+ "meta-titulo": "Zas: gratis skærmoptager til Windows, et alternativ til ShadowPlay, OBS og Medal",
+ "meta-descripcion": "Zas Player er en gratis skærmoptager og et klipværktøj til Windows: øjeblikkelig genafspilning uden tab af FPS, en indbygget klipeditor og klip kopieret til udklipsholderen, klar til Discord. Plus en videoafspiller, der åbner med det samme. Ingen reklamer, ingen konto.",
+ "meta-og-titulo": "Zas Player · Optag. Klip. Del.",
+ "version-palabra": "version",
+ "idioma-etiqueta": "Sprog",
+ "metodo": "<p>Zas 1.15.1, den version du downloader her, på en pc med AMD Ryzen 5 3600, NVIDIA GeForce RTX 2060, 32 GB hukommelse og Windows 11 samt en skærm på 2560×1440. Testvideo: et minut af Big Buck Bunny (H.264, 1080p ved 60 fps) og to versioner på 10 s lavet ud fra den (H.265 i 4K ved 30 fps og VP9 1080p ved 30 fps).</p><table><tr><th></th><th>H.264 1080p60</th><th>H.265 2160p30</th><th>VP9 1080p30</th></tr><tr><td>Åbn med Zas i hukommelsen</td><td>378 ms</td><td>134 ms</td><td>125 ms</td></tr><tr><td>Åbn med Zas lukket</td><td>710 ms</td><td>595 ms</td><td>514 ms</td></tr></table><p><b>Åbn</b>: fra <code>zas.exe video</code> startes (det samme som et dobbeltklik), til første billede er på skærmen. Medianer af 8 åbninger fra hukommelsen og 5 fra bunden. Med Zas i hukommelsen tog 2 af 24 åbninger længere tid (0,7 og 2,9 s); med Zas lukket var den langsomste 0,83 s. Filen lå allerede i Windows-cachen.</p><p><b>Klip kopieret</b>: fra et stykke på 12 s markeres og der trykkes på Ctrl+E (ingen genkodning), til filen ligger i udklipsholderen. Median af 5 kørsler: 0,14 s; den første tog 33 s og er uforklaret. Billedpræcist (med genkodning, Ctrl+Shift+E) tager det samme stykke 4,6 til 5,0 s.</p><p><b>FPS under optagelse</b>: Fortnite i 2560×1440 i forgrunden, målt med PresentMon (Intel). Uden optagelse 61–69 FPS; ved optagelse i 60 fps med grafikkortet (H.264 eller H.265 via NVENC) 68–70 FPS, inden for samme variation. Optagelsen bruger 18 % af én CPU-kerne. Den gamle CPU-metode (libx264) brugte 2,7 kerner og hakkede.</p><p><b>Hukommelse</b>: 99 MB i tomgang (i baggrunden, klar til at åbne) og omkring 300 MB under afspilning af videoen i 1080p60.</p><p>Det er målinger fra én bestemt computer: din kan give andre resultater.</p>",
+ "preguntas": [
+  [
+   "Er Zas et godt alternativ til ShadowPlay, OBS eller Medal?",
+   "Ja, hvis du vil optage skærmen eller gemme øjeblikke fra dine spil og dele dem hurtigt. Ligesom ShadowPlay optager det med grafikkortet og har øjeblikkelig genafspilning, men det virker med NVIDIA, AMD og Intel. I modsætning til OBS er der intet at sætte op. Og ligesom Medal har det en klipeditor, men alt bliver på din pc: ingen konto, ingen sky og ingen reklamer. Skal du streame live, er OBS stadig værktøjet; Zas streamer ikke."
+  ],
+  [
+   "Sænker optagelse med Zas mine FPS?",
+   "I vores test: nej. Fortnite i 1440p kørte med 61–69 FPS uden optagelse og 68–70, mens Zas optog med grafikkortet (målt med PresentMon på et RTX 2060). Zas koder på grafikkortet (NVENC, AMF eller Quick Sync), så CPU'en næsten ikke arbejder: 18 % af én kerne."
+  ],
+  [
+   "Hvordan deler jeg et klip på Discord?",
+   "Gem øjeblikket med Win+Shift+G (øjeblikkelig genafspilning), eller markér et stykke med I og O, og tryk på Ctrl+E. Klippet kopieres til udklipsholderen: i Discord trykker du på Ctrl+V. Bemærk, at Discord tillader filer på op til 20 MB på gratis konti."
+  ],
+  [
+   "Hvad er Zas Player?",
+   "Zas (eller Zas Player) er en gratis skærmoptager, klipeditor og videoafspiller til Windows 10 og 11. Den åbner videoer med det samme og har indbygget trimning og billedfremviser."
+  ],
+  [
+   "Hvordan downloader jeg Zas?",
+   "Klik på »Download Zas« på denne side: så downloades det officielle installationsprogram, Zas-Setup.exe, fra GitHub. Åbn det, det installeres på få sekunder, og derefter opdaterer det sig selv, når du siger til."
+  ],
+  [
+   "Er det gratis? Er der reklamer?",
+   "Det er gratis, uden reklamer og uden konto, du skal oprette."
+  ],
+  [
+   "Hvilke formater kan det åbne?",
+   "Næsten alle videoer (MP4, MKV, WebM, MOV, AVI, WMV, TS…) takket være mpv og FFmpeg, og billeder i JPEG, PNG, WebP, HEIC, AVIF og flere."
+  ]
+ ],
+ "compara": {
+  "filas": [
+   [
+    "Gratis",
+    "si",
+    "si",
+    "si",
+    "si*"
+   ],
+   [
+    "Ethvert grafikkort (NVIDIA, AMD, Intel)",
+    "si",
+    "Kun NVIDIA",
+    "si",
+    "si"
+   ],
+   [
+    "Øjeblikkelig genafspilning",
+    "si",
+    "si",
+    "Kræver opsætning",
+    "si"
+   ],
+   [
+    "Klipeditor (trim, tekst, pile, sløring, zoom)",
+    "si",
+    "no",
+    "no",
+    "si"
+   ],
+   [
+    "Klipfil i udklipsholderen, klar til at sætte ind",
+    "si",
+    "no",
+    "no",
+    "Et link"
+   ],
+   [
+    "Videoafspiller og billedfremviser medfølger",
+    "si",
+    "no",
+    "no",
+    "no"
+   ],
+   [
+    "Ingen konto eller sky",
+    "si",
+    "si",
+    "si",
+    "Kræver konto"
+   ],
+   [
+    "Automatiske højdepunktsklip",
+    "no",
+    "Nogle spil",
+    "no",
+    "si"
+   ],
+   [
+    "Livestreaming",
+    "no",
+    "no",
+    "si",
+    "no"
+   ]
+  ],
+  "pie": "* Med betalte funktioner.",
+  "si": "Ja",
+  "no": "Nej"
+ },
+ "jsonld-subcategoria": "Videoafspiller",
+ "jsonld-funciones": [
+  "Skærmoptager med GPU (NVIDIA, AMD, Intel)",
+  "Øjeblikkelig genafspilning",
+  "Klipeditor",
+  "Klip kopieret til udklipsholderen",
+  "Trim videoer uden genkodning",
+  "Videoafspiller",
+  "Billedfremviser"
+ ]
+}

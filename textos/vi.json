@@ -1,0 +1,177 @@
+{
+ "saltar": "Chuyển đến nội dung",
+ "nav-rendimiento": "Hiệu năng",
+ "nav-funciones": "Tính năng",
+ "descargar-corto": "Tải xuống",
+ "antetitulo": "Phần mềm quay màn hình và trình phát video miễn phí cho Windows",
+ "titular": "Quay. Cắt. Chia sẻ.",
+ "entradilla": "Phát lại tức thì và quay màn hình không tụt FPS, trình chỉnh sửa clip tích hợp sẵn, mọi clip đều được sao chép vào bộ nhớ tạm, sẵn sàng dán vào Discord. Kèm theo trình phát video mở ngay lập tức.",
+ "descargar": "Tải Zas",
+ "versiones": "Xem các phiên bản",
+ "gratis": "Miễn phí · Windows 10 và 11 · Không quảng cáo",
+ "rend-ante": "Hiệu năng đo thực tế",
+ "rend-titulo": "Tốc độ phải được đo.",
+ "cifra1-nombre": "Để mở một video",
+ "cifra1-detalle": "Từ lúc nhấp đúp đến khung hình đầu tiên, khi Zas đang thường trú trong bộ nhớ. Giá trị trung vị với video 1080p60.",
+ "cifra2-nombre": "Để có clip đã sao chép",
+ "cifra2-detalle": "Từ lúc nhấn Ctrl+E đến khi clip 12 giây nằm trong bộ nhớ tạm, sẵn sàng để dán.",
+ "cifra3-nombre": "FPS bị mất khi quay",
+ "cifra3-detalle": "Fortnite ở 1440p: 61–69 FPS khi không quay và 68–70 FPS khi quay bằng card đồ họa. Đo bằng PresentMon.",
+ "metodo-titulo": "Cách chúng tôi đo",
+ "pasos-ante": "Clip trong vài giây",
+ "pasos-titulo": "Từ video đến khung chat chỉ với ba phím.",
+ "paso1": "Đánh dấu đoạn",
+ "paso1-texto": "Chọn điểm đầu và điểm cuối ngay khi đang xem.",
+ "paso2": "Xuất",
+ "paso2-texto": "Không mã hóa lại: clip có ngay, giữ nguyên chất lượng gốc.",
+ "paso3": "Dán",
+ "paso3-texto": "Clip đã nằm trong bộ nhớ tạm: dán vào bất kỳ khung chat nào.",
+ "comp-ante": "Zas so với các phần mềm khác",
+ "comp-titulo": "Lựa chọn thay thế ShadowPlay, OBS và Medal.",
+ "comp-sub": "Quay như ShadowPlay trên mọi card đồ họa, không cần thiết lập như OBS, và chỉnh sửa clip mà không phải tải lên đám mây nào. Tất cả trong một ứng dụng, đồng thời cũng là trình phát video của bạn.",
+ "comp-nota": "Dựa trên thông tin công khai của từng ứng dụng tính đến tháng Mười năm 2026. ShadowPlay là tính năng quay của NVIDIA App.",
+ "func-ante": "Một ứng dụng thay cho ba",
+ "func-titulo": "Mọi thứ bạn làm với video.",
+ "b3-titulo": "Quay và chia sẻ",
+ "b3-texto": "Kéo chọn một vùng màn hình và quay kèm âm thanh hệ thống cùng micro bạn chọn. Mã hóa bằng card đồ họa (NVIDIA, AMD hoặc Intel), tối đa 120 fps, không làm tụt khung hình trong game. Phát lại tức thì lưu lại vài giây vừa qua khi có khoảnh khắc đáng nhớ, và clip được sao chép sẵn để dán vào Discord.",
+ "a-grabar": "Quay màn hình",
+ "a-repeticion": "Lưu đoạn phát lại",
+ "a-panel": "Bảng điều khiển quay",
+ "b2-titulo": "Chỉnh sửa",
+ "b2-texto": "Chia và xóa các đoạn trên dòng thời gian. Thêm chữ, khung, mũi tên, vùng làm mờ pixel và hiệu ứng thu phóng động, mỗi thứ có thời điểm bắt đầu và kết thúc riêng. Xuất là đã sao chép.",
+ "b2-atajo": "mở trình chỉnh sửa",
+ "b1-titulo": "Phát",
+ "b1-texto": "Zas vẫn thường trú trong bộ nhớ sau khi đóng, nên video tiếp theo hiện ra ngay khi bạn mở. Giao diện tự ẩn khi bạn không dùng và phát được gần như mọi định dạng. Đây cũng là trình xem ảnh nhanh: JPEG, PNG, WebP, HEIC, AVIF và nhiều hơn nữa.",
+ "faq-ante": "Câu hỏi",
+ "faq-titulo": "Những điều mọi người hay hỏi.",
+ "final-titulo": "Mở một video. Làm được nhiều hơn thế.",
+ "descargar-windows": "Tải Zas cho Windows",
+ "final-nota": "Miễn phí. Không quảng cáo. Tự cập nhật khi bạn cho phép.",
+ "pie-versiones": "Phiên bản",
+ "creditos": "Xây dựng trên",
+ "y": "và",
+ "stock": "Video trong ảnh chụp màn hình:",
+ "bbb": "Đo bằng",
+ "alt-escaparate": "Bảng điều khiển quay của Zas mở trên màn hình: quay một vùng hoặc toàn màn hình, phát lại tức thì, âm thanh, chất lượng, FPS và codec",
+ "alt-recortar": "Dòng thời gian của Zas với một đoạn được đánh dấu màu hổ phách",
+ "alt-compartir": "Zas báo clip đã được lưu và sao chép",
+ "alt-copiado": "Zas hiển thị “Đã lưu và sao chép”: clip đã nằm trong bộ nhớ tạm",
+ "alt-editor": "Trình chỉnh sửa của Zas với chữ, mũi tên và khung trên video",
+ "alt-reproduce": "Zas phát video toàn màn hình, các nút điều khiển ở phía dưới",
+ "meta-titulo": "Zas: phần mềm quay màn hình miễn phí cho Windows, thay thế ShadowPlay, OBS và Medal",
+ "meta-descripcion": "Zas Player là phần mềm quay màn hình và cắt clip miễn phí cho Windows: phát lại tức thì không tụt FPS, trình chỉnh sửa clip tích hợp và clip được sao chép vào bộ nhớ tạm, sẵn sàng cho Discord. Kèm trình phát video mở tức thì. Không quảng cáo, không cần tài khoản.",
+ "meta-og-titulo": "Zas Player · Quay. Cắt. Chia sẻ.",
+ "version-palabra": "phiên bản",
+ "idioma-etiqueta": "Ngôn ngữ",
+ "metodo": "<p>Zas 1.15.1, phiên bản bạn tải tại đây, chạy trên PC dùng AMD Ryzen 5 3600, NVIDIA GeForce RTX 2060, 32 GB bộ nhớ và Windows 11, màn hình 2560×1440. Video thử nghiệm: một phút Big Buck Bunny (H.264, 1080p ở 60 fps) và hai phiên bản dài 10 giây tạo từ video đó (H.265 4K ở 30 fps và VP9 1080p ở 30 fps).</p><table><tr><th></th><th>H.264 1080p60</th><th>H.265 2160p30</th><th>VP9 1080p30</th></tr><tr><td>Mở khi Zas đang trong bộ nhớ</td><td>378 ms</td><td>134 ms</td><td>125 ms</td></tr><tr><td>Mở khi Zas đã đóng</td><td>710 ms</td><td>595 ms</td><td>514 ms</td></tr></table><p><b>Mở</b>: từ lúc chạy <code>zas.exe video</code> (tương đương nhấp đúp) đến khi khung hình đầu tiên hiện trên màn hình. Trung vị của 8 lần mở khi trong bộ nhớ và 5 lần mở từ đầu. Khi Zas trong bộ nhớ, 2 trên 24 lần mở lâu hơn (0,7 và 2,9 giây); khi Zas đã đóng, lần chậm nhất là 0,83 giây. Tệp đã nằm sẵn trong bộ nhớ đệm của Windows.</p><p><b>Sao chép clip</b>: đánh dấu đoạn 12 giây và nhấn Ctrl+E (không mã hóa lại) cho đến khi tệp nằm trong bộ nhớ tạm. Trung vị của 5 lần chạy: 0,14 giây; lần đầu mất 33 giây và chưa rõ nguyên nhân. Khi cắt chính xác từng khung hình (mã hóa lại, Ctrl+Shift+E), cùng đoạn đó mất 4,6 đến 5,0 giây.</p><p><b>FPS khi quay</b>: Fortnite ở 2560×1440 chạy ở cửa sổ chính, đo bằng PresentMon (Intel). Không quay: 61–69 FPS; quay ở 60 fps bằng card đồ họa (H.264 hoặc H.265 qua NVENC): 68–70 FPS, nằm trong cùng biên độ dao động. Việc quay chỉ dùng 18% của một nhân CPU. Cách cũ dùng CPU (libx264) tốn 2,7 nhân và bị giật.</p><p><b>Bộ nhớ</b>: 99 MB khi rảnh (chạy nền, sẵn sàng mở) và khoảng 300 MB khi phát video 1080p60.</p><p>Đây là số đo trên một máy tính cụ thể: máy của bạn có thể khác.</p>",
+ "preguntas": [
+  [
+   "Zas có phải là lựa chọn tốt thay cho ShadowPlay, OBS hay Medal?",
+   "Có, nếu bạn muốn quay màn hình hoặc lưu lại khoảnh khắc khi chơi game rồi chia sẻ thật nhanh. Giống ShadowPlay, Zas quay bằng card đồ họa và có phát lại tức thì, nhưng chạy được trên NVIDIA, AMD và Intel. Khác với OBS, bạn không cần thiết lập gì cả. Và như Medal, Zas có trình chỉnh sửa clip, nhưng mọi thứ đều nằm trên PC của bạn: không tài khoản, không đám mây, không quảng cáo. Nếu bạn cần livestream, OBS vẫn là công cụ phù hợp; Zas không hỗ trợ phát trực tiếp."
+  ],
+  [
+   "Quay bằng Zas có làm tụt FPS không?",
+   "Trong thử nghiệm của chúng tôi thì không. Fortnite ở 1440p chạy 61–69 FPS khi không quay và 68–70 FPS khi Zas quay bằng card đồ họa (đo bằng PresentMon trên RTX 2060). Zas mã hóa bằng card đồ họa (NVENC, AMF hoặc Quick Sync), nên CPU gần như không phải làm gì: chỉ 18% của một nhân."
+  ],
+  [
+   "Làm sao để chia sẻ clip lên Discord?",
+   "Lưu khoảnh khắc bằng Win+Shift+G (phát lại tức thì), hoặc đánh dấu một đoạn bằng I và O rồi nhấn Ctrl+E. Clip được sao chép vào bộ nhớ tạm: trong Discord, nhấn Ctrl+V. Lưu ý Discord chỉ cho phép tệp tối đa 20 MB với tài khoản miễn phí."
+  ],
+  [
+   "Zas Player là gì?",
+   "Zas (hay Zas Player) là phần mềm quay màn hình, chỉnh sửa clip và trình phát video miễn phí cho Windows 10 và 11. Zas mở video ngay lập tức, có sẵn công cụ cắt video và trình xem ảnh."
+  ],
+  [
+   "Tải Zas như thế nào?",
+   "Nhấp “Tải Zas” trên trang này: trình cài đặt chính thức Zas-Setup.exe sẽ được tải từ GitHub. Mở tệp, cài đặt xong trong vài giây và từ đó Zas tự cập nhật khi bạn cho phép."
+  ],
+  [
+   "Có miễn phí không? Có quảng cáo không?",
+   "Miễn phí, không quảng cáo và không cần tạo tài khoản."
+  ],
+  [
+   "Zas mở được những định dạng nào?",
+   "Gần như mọi video (MP4, MKV, WebM, MOV, AVI, WMV, TS…) nhờ mpv và FFmpeg, cùng ảnh JPEG, PNG, WebP, HEIC, AVIF và nhiều định dạng khác."
+  ]
+ ],
+ "compara": {
+  "filas": [
+   [
+    "Miễn phí",
+    "si",
+    "si",
+    "si",
+    "si*"
+   ],
+   [
+    "Mọi card đồ họa (NVIDIA, AMD, Intel)",
+    "si",
+    "Chỉ NVIDIA",
+    "si",
+    "si"
+   ],
+   [
+    "Phát lại tức thì",
+    "si",
+    "si",
+    "Cần thiết lập",
+    "si"
+   ],
+   [
+    "Chỉnh sửa clip (cắt, chữ, mũi tên, làm mờ, thu phóng)",
+    "si",
+    "no",
+    "no",
+    "si"
+   ],
+   [
+    "Tệp clip nằm sẵn trong bộ nhớ tạm, chỉ việc dán",
+    "si",
+    "no",
+    "no",
+    "Một liên kết"
+   ],
+   [
+    "Kèm trình phát video và trình xem ảnh",
+    "si",
+    "no",
+    "no",
+    "no"
+   ],
+   [
+    "Không cần tài khoản hay đám mây",
+    "si",
+    "si",
+    "si",
+    "Yêu cầu đăng ký"
+   ],
+   [
+    "Tự động tạo clip highlight",
+    "no",
+    "Một số game",
+    "no",
+    "si"
+   ],
+   [
+    "Phát trực tiếp",
+    "no",
+    "no",
+    "si",
+    "no"
+   ]
+  ],
+  "pie": "* Có tính năng trả phí.",
+  "si": "Có",
+  "no": "Không"
+ },
+ "jsonld-subcategoria": "Trình phát video",
+ "jsonld-funciones": [
+  "Quay màn hình bằng GPU (NVIDIA, AMD, Intel)",
+  "Phát lại tức thì",
+  "Trình chỉnh sửa clip",
+  "Sao chép clip vào bộ nhớ tạm",
+  "Cắt video không cần mã hóa lại",
+  "Trình phát video",
+  "Trình xem ảnh"
+ ]
+}

@@ -1,0 +1,177 @@
+{
+ "saltar": "Siirry sisältöön",
+ "nav-rendimiento": "Suorituskyky",
+ "nav-funciones": "Ominaisuudet",
+ "descargar-corto": "Lataa",
+ "antetitulo": "Ilmainen näytön tallennin ja videosoitin Windowsille",
+ "titular": "Tallenna. Leikkaa. Jaa.",
+ "entradilla": "Pikauusinta ja näytön tallennus ilman FPS-pudotusta, sisäänrakennettu klippieditori ja jokainen klippi kopioituna leikepöydälle valmiiksi Discordiin. Lisäksi videosoitin, joka aukeaa heti.",
+ "descargar": "Lataa Zas",
+ "versiones": "Katso versiot",
+ "gratis": "Ilmainen · Windows 10 ja 11 · Ei mainoksia",
+ "rend-ante": "Mitattu suorituskyky",
+ "rend-titulo": "Nopeus on mitattu.",
+ "cifra1-nombre": "Videon avaamiseen",
+ "cifra1-detalle": "Kaksoisnapsautuksesta ensimmäiseen kuvaan, kun Zas on muistissa. Mediaani 1080p60-videolle.",
+ "cifra2-nombre": "Klipin kopiointiin",
+ "cifra2-detalle": "Ctrl+E-painalluksesta siihen, että 12 s:n klippi on leikepöydällä valmiina liitettäväksi.",
+ "cifra3-nombre": "FPS-pudotus tallennettaessa",
+ "cifra3-detalle": "Fortnite 1440p:llä: 61–69 FPS ilman tallennusta ja 68–70 tallennettaessa näytönohjaimella. Mitattu PresentMonilla.",
+ "metodo-titulo": "Miten mittasimme",
+ "pasos-ante": "Klippi sekunneissa",
+ "pasos-titulo": "Videosta chattiin kolmella näppäimellä.",
+ "paso1": "Merkitse kohta",
+ "paso1-texto": "Alku ja loppu, katsomisen lomassa.",
+ "paso2": "Vie",
+ "paso2-texto": "Ei uudelleenkoodausta: klippi on heti valmis, alkuperäisessä laadussa.",
+ "paso3": "Liitä",
+ "paso3-texto": "Se on jo leikepöydällä: liitä se mihin tahansa chattiin.",
+ "comp-ante": "Zas vs. muut",
+ "comp-titulo": "Vaihtoehto ShadowPlaylle, OBS:lle ja Medalille.",
+ "comp-sub": "Tallenna kuin ShadowPlaylla millä tahansa näytönohjaimella, ilman OBS:n kaltaisia asetuksia, ja muokkaa klippiä lataamatta sitä mihinkään pilveen. Kaikki yhdessä sovelluksessa, joka on myös videosoittimesi.",
+ "comp-nota": "Perustuu kunkin sovelluksen julkisiin tietoihin lokakuussa 2026. ShadowPlay on NVIDIA App -sovelluksen tallennusominaisuus.",
+ "func-ante": "Yksi sovellus, ei kolme",
+ "func-titulo": "Kaikki, mitä teet videoillasi.",
+ "b3-titulo": "Tallenna ja jaa",
+ "b3-texto": "Rajaa alue näytöltä ja tallenna järjestelmän äänen ja valitsemasi mikrofonin kanssa. Näytönohjain koodaa (NVIDIA, AMD tai Intel), jopa 120 fps, eikä peli menetä ruutuja. Pikauusinta tallentaa viimeiset sekunnit, kun jotain tapahtuu, ja klippi kopioidaan valmiiksi liitettäväksi Discordiin.",
+ "a-grabar": "Tallenna näyttö",
+ "a-repeticion": "Tallenna uusinta",
+ "a-panel": "Tallennuspaneeli",
+ "b2-titulo": "Muokkaa",
+ "b2-texto": "Jaa ja poista osia aikajanalla. Lisää tekstiä, laatikoita, nuolia, pikselöityjä alueita ja animoitu zoomaus, kullekin oma alku ja loppu. Vie, ja se on kopioitu.",
+ "b2-atajo": "avaa editorin",
+ "b1-titulo": "Toista",
+ "b1-texto": "Se jää muistiin sulkemisen jälkeen, joten seuraava video näkyy heti, kun avaat sen. Käyttöliittymä katoaa, kun et käytä sitä, ja se toistaa lähes minkä tahansa muodon. Se on myös nopea kuvankatseluohjelma: JPEG, PNG, WebP, HEIC, AVIF ja muita.",
+ "faq-ante": "Kysymykset",
+ "faq-titulo": "Mitä usein kysytään.",
+ "final-titulo": "Avaa video. Tee paljon enemmän.",
+ "descargar-windows": "Lataa Zas Windowsille",
+ "final-nota": "Ilmainen. Ei mainoksia. Päivittyy, kun sanot.",
+ "pie-versiones": "Versiot",
+ "creditos": "Pohjana",
+ "y": "ja",
+ "stock": "Kuvakaappausten videot:",
+ "bbb": "Mittauksissa käytetty",
+ "alt-escaparate": "Zasin tallennuspaneeli auki näytön päällä: tallenna alue tai koko näyttö, pikauusinta, ääni, laatu, FPS ja koodekki",
+ "alt-recortar": "Zasin aikajana, jossa osa on merkitty meripihkan värillä",
+ "alt-compartir": "Zas ilmoittaa, että klippi on tallennettu ja kopioitu",
+ "alt-copiado": "Zas näyttää ”Tallennettu ja kopioitu”: klippi on jo leikepöydällä",
+ "alt-editor": "Zasin editori, jossa videon päällä on teksti, nuoli ja laatikko",
+ "alt-reproduce": "Zas toistaa videota koko näytössä, säätimet alareunassa",
+ "meta-titulo": "Zas: ilmainen näytön tallennin Windowsille, vaihtoehto ShadowPlaylle, OBS:lle ja Medalille",
+ "meta-descripcion": "Zas Player on ilmainen näytön tallennin ja klippityökalu Windowsille: pikauusinta ilman FPS-pudotusta, sisäänrakennettu klippieditori ja klipit kopioituna leikepöydälle valmiiksi Discordiin. Lisäksi heti aukeava videosoitin. Ei mainoksia, ei tiliä.",
+ "meta-og-titulo": "Zas Player · Tallenna. Leikkaa. Jaa.",
+ "version-palabra": "versio",
+ "idioma-etiqueta": "Kieli",
+ "metodo": "<p>Zas 1.15.1, eli täältä ladattava versio, PC:llä, jossa on AMD Ryzen 5 3600, NVIDIA GeForce RTX 2060, 32 Gt muistia ja Windows 11 sekä 2560×1440-näyttö. Testivideo: minuutti Big Buck Bunnya (H.264, 1080p, 60 fps) ja siitä tehdyt kaksi 10 s:n versiota (H.265 4K, 30 fps ja VP9 1080p, 30 fps).</p><table><tr><th></th><th>H.264 1080p60</th><th>H.265 2160p30</th><th>VP9 1080p30</th></tr><tr><td>Avaus, Zas muistissa</td><td>378 ms</td><td>134 ms</td><td>125 ms</td></tr><tr><td>Avaus, Zas suljettuna</td><td>710 ms</td><td>595 ms</td><td>514 ms</td></tr></table><p><b>Avaus</b>: komennon <code>zas.exe video</code> käynnistyksestä (sama kuin kaksoisnapsautus) ensimmäiseen kuvaan näytöllä. Mediaanit 8 avauksesta muistista ja 5 kylmäkäynnistyksestä. Kun Zas oli muistissa, 2 avausta 24:stä kesti pidempään (0,7 ja 2,9 s); Zasin ollessa suljettuna hitain oli 0,83 s. Tiedosto oli jo Windowsin välimuistissa.</p><p><b>Klippi kopioitu</b>: 12 s:n osan merkitsemisestä ja Ctrl+E:n painamisesta (ei uudelleenkoodausta) siihen, että tiedosto on leikepöydällä. Mediaani 5 ajosta: 0,14 s; ensimmäinen kesti 33 s, eikä syytä tiedetä. Ruudun tarkkuudella (uudelleenkoodaus, Ctrl+Shift+E) sama osa vie 4,6–5,0 s.</p><p><b>FPS tallennettaessa</b>: Fortnite 2560×1440-tarkkuudella etualalla, mitattu PresentMonilla (Intel). Ilman tallennusta 61–69 FPS; tallennettaessa 60 fps:llä näytönohjaimella (H.264 tai H.265, NVENC) 68–70 FPS, saman vaihtelun sisällä. Tallennus käyttää 18 % yhdestä suoritinytimestä. Vanha suoritinpohjainen tapa (libx264) käytti 2,7 ydintä ja nyki.</p><p><b>Muisti</b>: 99 Mt levossa (taustalla, valmiina avaamaan) ja noin 300 Mt 1080p60-videota toistettaessa.</p><p>Nämä ovat mittauksia yhdeltä tietokoneelta: omasi voi antaa eri tulokset.</p>",
+ "preguntas": [
+  [
+   "Onko Zas hyvä vaihtoehto ShadowPlaylle, OBS:lle tai Medalille?",
+   "Kyllä, jos haluat tallentaa näyttöä tai pelihetkiä ja jakaa ne nopeasti. ShadowPlayn tapaan se tallentaa näytönohjaimella ja siinä on pikauusinta, mutta se toimii NVIDIA-, AMD- ja Intel-näytönohjaimilla. Toisin kuin OBS:ssä, mitään ei tarvitse säätää. Medalin tapaan siinä on klippieditori, mutta kaikki pysyy omalla PC:lläsi: ei tiliä, ei pilveä eikä mainoksia. Jos haluat striimata suorana, OBS on yhä oikea työkalu; Zas ei striimaa."
+  ],
+  [
+   "Laskeeko Zasilla tallentaminen FPS:ää?",
+   "Testissämme ei. Fortnite 1440p:llä pyöri 61–69 FPS:n nopeudella ilman tallennusta ja 68–70 FPS:llä Zasin tallentaessa näytönohjaimella (mitattu PresentMonilla, RTX 2060). Zas koodaa näytönohjaimella (NVENC, AMF tai Quick Sync), joten suoritin tuskin tekee töitä: 18 % yhdestä ytimestä."
+  ],
+  [
+   "Miten jaan klipin Discordissa?",
+   "Tallenna hetki näppäimillä Win+Shift+G (pikauusinta) tai merkitse osa näppäimillä I ja O ja paina Ctrl+E. Klippi kopioidaan leikepöydälle: paina Discordissa Ctrl+V. Huomaa, että Discord sallii ilmaistileillä enintään 20 Mt:n tiedostot."
+  ],
+  [
+   "Mikä Zas Player on?",
+   "Zas (tai Zas Player) on ilmainen näytön tallennin, klippieditori ja videosoitin Windows 10:lle ja 11:lle. Se avaa videot heti, ja siinä on sisäänrakennettu leikkaustyökalu ja kuvankatseluohjelma."
+  ],
+  [
+   "Miten lataan Zasin?",
+   "Napsauta tällä sivulla ”Lataa Zas”: virallinen asennusohjelma Zas-Setup.exe latautuu GitHubista. Avaa se, asennus kestää sekunteja, ja sen jälkeen Zas päivittyy, kun sanot."
+  ],
+  [
+   "Onko se ilmainen? Onko siinä mainoksia?",
+   "Se on ilmainen, ilman mainoksia, eikä tiliä tarvitse luoda."
+  ],
+  [
+   "Mitä tiedostomuotoja se avaa?",
+   "Lähes minkä tahansa videon (MP4, MKV, WebM, MOV, AVI, WMV, TS…) mpv:n ja FFmpegin ansiosta sekä kuvat muodoissa JPEG, PNG, WebP, HEIC, AVIF ja muita."
+  ]
+ ],
+ "compara": {
+  "filas": [
+   [
+    "Ilmainen",
+    "si",
+    "si",
+    "si",
+    "si*"
+   ],
+   [
+    "Mikä tahansa näytönohjain (NVIDIA, AMD, Intel)",
+    "si",
+    "Vain NVIDIA",
+    "si",
+    "si"
+   ],
+   [
+    "Pikauusinta",
+    "si",
+    "si",
+    "Vaatii asetuksia",
+    "si"
+   ],
+   [
+    "Klippieditori (leikkaus, teksti, nuolet, sumennus, zoomaus)",
+    "si",
+    "no",
+    "no",
+    "si"
+   ],
+   [
+    "Klippitiedosto leikepöydällä valmiina liitettäväksi",
+    "si",
+    "no",
+    "no",
+    "Linkki"
+   ],
+   [
+    "Videosoitin ja kuvankatseluohjelma mukana",
+    "si",
+    "no",
+    "no",
+    "no"
+   ],
+   [
+    "Ei tiliä eikä pilveä",
+    "si",
+    "si",
+    "si",
+    "Vaatii tilin"
+   ],
+   [
+    "Automaattiset kohokohtaklipit",
+    "no",
+    "Osa peleistä",
+    "no",
+    "si"
+   ],
+   [
+    "Suoratoisto",
+    "no",
+    "no",
+    "si",
+    "no"
+   ]
+  ],
+  "pie": "* Maksullisin ominaisuuksin.",
+  "si": "Kyllä",
+  "no": "Ei"
+ },
+ "jsonld-subcategoria": "Videosoitin",
+ "jsonld-funciones": [
+  "Näytön tallennin GPU:lla (NVIDIA, AMD, Intel)",
+  "Pikauusinta",
+  "Klippieditori",
+  "Klipit kopioidaan leikepöydälle",
+  "Videoiden leikkaus ilman uudelleenkoodausta",
+  "Videosoitin",
+  "Kuvankatseluohjelma"
+ ]
+}

@@ -1,0 +1,177 @@
+{
+ "saltar": "Liigu sisu juurde",
+ "nav-rendimiento": "Jõudlus",
+ "nav-funciones": "Funktsioonid",
+ "descargar-corto": "Laadi alla",
+ "antetitulo": "Tasuta ekraanisalvesti ja videopleier Windowsile",
+ "titular": "Salvesta. Lõika. Jaga.",
+ "entradilla": "Kohene kordus ja ekraanisalvestus ilma FPS-i kaota, sisseehitatud klipiredaktor ja iga klipp kopeeritud lõikelauale, valmis Discordi jaoks. Lisaks videopleier, mis avaneb hetkega.",
+ "descargar": "Laadi alla Zas",
+ "versiones": "Vaata versioone",
+ "gratis": "Tasuta · Windows 10 ja 11 · Reklaamideta",
+ "rend-ante": "Mõõdetud jõudlus",
+ "rend-titulo": "Kiirus on mõõdetud.",
+ "cifra1-nombre": "Video avamiseks",
+ "cifra1-detalle": "Topeltklõpsust esimese kaadrini, kui Zas on mälus. Mediaan 1080p60 video puhul.",
+ "cifra2-nombre": "Klipi kopeerimiseks",
+ "cifra2-detalle": "Ctrl+E vajutamisest kuni 12 s klipp on lõikelaual, valmis kleepimiseks.",
+ "cifra3-nombre": "Kaotatud FPS salvestamisel",
+ "cifra3-detalle": "Fortnite 1440p juures: 61–69 FPS ilma salvestamata ja 68–70 graafikakaardiga salvestades. Mõõdetud PresentMoniga.",
+ "metodo-titulo": "Kuidas me mõõtsime",
+ "pasos-ante": "Klipp sekunditega",
+ "pasos-titulo": "Videost vestlusesse kolme klahviga.",
+ "paso1": "Märgi lõik",
+ "paso1-texto": "Algus ja lõpp, vaatamise ajal.",
+ "paso2": "Ekspordi",
+ "paso2-texto": "Ilma ümberkodeerimiseta: klipp on kohe valmis, algses kvaliteedis.",
+ "paso3": "Kleebi",
+ "paso3-texto": "See on juba lõikelaual: kleebi see ükskõik millisesse vestlusesse.",
+ "comp-ante": "Zas vs. teised",
+ "comp-titulo": "Alternatiiv ShadowPlayle, OBS-ile ja Medalile.",
+ "comp-sub": "Salvesta nagu ShadowPlayga mis tahes graafikakaardil, ilma OBS-i moodi seadistamiseta, ja muuda klippi ilma seda pilve üles laadimata. Kõik ühes rakenduses, mis on ühtlasi sinu videopleier.",
+ "comp-nota": "Põhineb iga rakenduse avalikul teabel 2026. aasta oktoobri seisuga. ShadowPlay on NVIDIA App rakenduse salvestusfunktsioon.",
+ "func-ante": "Üks rakendus, mitte kolm",
+ "func-titulo": "Kõik, mida sa videotega teed.",
+ "b3-titulo": "Salvesta ja jaga",
+ "b3-texto": "Vali ekraanilt ala ja salvesta koos süsteemiheli ja enda valitud mikrofoniga. Kodeerib graafikakaart (NVIDIA, AMD või Intel), kuni 120 fps, ilma et mäng kaadreid kaotaks. Kohene kordus salvestab viimased sekundid, kui midagi juhtub, ja klipp kopeeritakse, valmis Discordi kleepimiseks.",
+ "a-grabar": "Salvesta ekraan",
+ "a-repeticion": "Salvesta kordus",
+ "a-panel": "Salvestuspaneel",
+ "b2-titulo": "Muuda",
+ "b2-texto": "Tükelda ja eemalda lõike ajajoonel. Lisa teksti, kaste, nooli, pikseldatud alasid ja animeeritud suumi, igaühele oma algus ja lõpp. Ekspordi ja see ongi kopeeritud.",
+ "b2-atajo": "avab redaktori",
+ "b1-titulo": "Esita",
+ "b1-texto": "See jääb pärast sulgemist mällu, nii et järgmine video ilmub kohe, kui selle avad. Liides kaob, kui sa seda ei kasuta, ja see esitab peaaegu iga vormingut. See on ka kiire pildivaatur: JPEG, PNG, WebP, HEIC, AVIF ja muud.",
+ "faq-ante": "Küsimused",
+ "faq-titulo": "Mida tavaliselt küsitakse.",
+ "final-titulo": "Ava video. Tee palju rohkemat.",
+ "descargar-windows": "Laadi alla Zas Windowsile",
+ "final-nota": "Tasuta. Reklaamideta. Uueneb siis, kui sina ütled.",
+ "pie-versiones": "Versioonid",
+ "creditos": "Põhineb tarkvaral",
+ "y": "ja",
+ "stock": "Kuvatõmmiste videod:",
+ "bbb": "Mõõtmisel kasutatud",
+ "alt-escaparate": "Zasi salvestuspaneel avatud ekraani kohal: salvesta ala või ekraan, kohene kordus, heli, kvaliteet, FPS ja koodek",
+ "alt-recortar": "Zasi ajajoon, kus üks lõik on märgitud merevaigukarva värviga",
+ "alt-compartir": "Zas teatab, et klipp on salvestatud ja kopeeritud",
+ "alt-copiado": "Zas näitab teadet „Salvestatud ja kopeeritud”: klipp on juba lõikelaual",
+ "alt-editor": "Zasi redaktor, video kohal tekst, nool ja kast",
+ "alt-reproduce": "Zas esitab videot täisekraanil, juhtnupud all",
+ "meta-titulo": "Zas: tasuta ekraanisalvesti Windowsile, alternatiiv ShadowPlayle, OBS-ile ja Medalile",
+ "meta-descripcion": "Zas Player on tasuta ekraanisalvesti ja klipitööriist Windowsile: kohene kordus ilma FPS-i kaota, sisseehitatud klipiredaktor ja klipid kopeeritud lõikelauale, valmis Discordi jaoks. Lisaks hetkega avanev videopleier. Reklaamideta, kontota.",
+ "meta-og-titulo": "Zas Player · Salvesta. Lõika. Jaga.",
+ "version-palabra": "versioon",
+ "idioma-etiqueta": "Keel",
+ "metodo": "<p>Zas 1.15.1, ehk siit allalaaditav versioon, arvutis, milles on AMD Ryzen 5 3600, NVIDIA GeForce RTX 2060, 32 GB mälu ja Windows 11 ning 2560×1440 ekraan. Testvideo: üks minut filmist Big Buck Bunny (H.264, 1080p, 60 fps) ja sellest tehtud kaks 10 s versiooni (H.265 4K, 30 fps ja VP9 1080p, 30 fps).</p><table><tr><th></th><th>H.264 1080p60</th><th>H.265 2160p30</th><th>VP9 1080p30</th></tr><tr><td>Avamine, Zas mälus</td><td>378 ms</td><td>134 ms</td><td>125 ms</td></tr><tr><td>Avamine, Zas suletud</td><td>710 ms</td><td>595 ms</td><td>514 ms</td></tr></table><p><b>Avamine</b>: käsu <code>zas.exe video</code> käivitamisest (sama mis topeltklõps) esimese kaadrini ekraanil. Mediaanid 8 avamisest mälust ja 5 nullist. Kui Zas oli mälus, kestis 2 avamist 24-st kauem (0,7 ja 2,9 s); kui Zas oli suletud, oli aeglaseim 0,83 s. Fail oli juba Windowsi vahemälus.</p><p><b>Klipp kopeeritud</b>: 12 s lõigu märkimisest ja Ctrl+E vajutamisest (ilma ümberkodeerimiseta) kuni fail on lõikelaual. Mediaan 5 korrast: 0,14 s; esimene võttis 33 s ja põhjus on teadmata. Kaadritäpselt (ümberkodeerimisega, Ctrl+Shift+E) võtab sama lõik 4,6 kuni 5,0 s.</p><p><b>FPS salvestamisel</b>: Fortnite 2560×1440 juures esiplaanil, mõõdetud PresentMoniga (Intel). Ilma salvestamata 61–69 FPS; graafikakaardiga 60 fps juures salvestades (H.264 või H.265, NVENC) 68–70 FPS, sama kõikumise piires. Salvestamine kasutab 18% ühest protsessorituumast. Vana protsessoripõhine meetod (libx264) kasutas 2,7 tuuma ja hakkis.</p><p><b>Mälu</b>: 99 MB jõudeolekus (taustal, avamiseks valmis) ja umbes 300 MB 1080p60 video esitamisel.</p><p>Need on mõõtmised ühest konkreetsest arvutist: sinu tulemused võivad erineda.</p>",
+ "preguntas": [
+  [
+   "Kas Zas on hea alternatiiv ShadowPlayle, OBS-ile või Medalile?",
+   "Jah, kui soovid salvestada ekraani või mänguhetki ja neid kiiresti jagada. Nagu ShadowPlay, salvestab see graafikakaardiga ja sellel on kohene kordus, kuid see töötab NVIDIA, AMD ja Inteli kaartidega. Erinevalt OBS-ist pole midagi vaja seadistada. Ja nagu Medalil, on sellel klipiredaktor, kuid kõik jääb sinu arvutisse: pole kontot, pilve ega reklaame. Kui vajad otseülekannet, on OBS endiselt õige tööriist; Zas otseülekandeid ei tee."
+  ],
+  [
+   "Kas Zasiga salvestamine vähendab FPS-i?",
+   "Meie testis mitte. Fortnite 1440p juures jooksis 61–69 FPS-iga ilma salvestamata ja 68–70 FPS-iga, kui Zas graafikakaardiga salvestas (mõõdetud PresentMoniga, RTX 2060). Zas kodeerib graafikakaardil (NVENC, AMF või Quick Sync), nii et protsessor peaaegu ei tööta: 18% ühest tuumast."
+  ],
+  [
+   "Kuidas klippi Discordis jagada?",
+   "Salvesta hetk klahvidega Win+Shift+G (kohene kordus) või märgi lõik klahvidega I ja O ning vajuta Ctrl+E. Klipp kopeeritakse lõikelauale: vajuta Discordis Ctrl+V. Pane tähele, et tasuta kontodel lubab Discord kuni 20 MB faile."
+  ],
+  [
+   "Mis on Zas Player?",
+   "Zas (või Zas Player) on tasuta ekraanisalvesti, klipiredaktor ja videopleier operatsioonisüsteemidele Windows 10 ja 11. See avab videod hetkega ning sellel on sisseehitatud lõikur ja pildivaatur."
+  ],
+  [
+   "Kuidas Zasi alla laadida?",
+   "Klõpsa sellel lehel nupul „Laadi alla Zas”: see laadib GitHubist alla ametliku installeri Zas-Setup.exe. Ava see, paigaldus võtab mõne sekundi ja edaspidi uueneb Zas siis, kui sina ütled."
+  ],
+  [
+   "Kas see on tasuta? Kas seal on reklaame?",
+   "See on tasuta, reklaamideta ja kontot pole vaja luua."
+  ],
+  [
+   "Milliseid vorminguid see avab?",
+   "Peaaegu iga video (MP4, MKV, WebM, MOV, AVI, WMV, TS…) tänu mpv-le ja FFmpegile ning pildid vormingus JPEG, PNG, WebP, HEIC, AVIF ja muud."
+  ]
+ ],
+ "compara": {
+  "filas": [
+   [
+    "Tasuta",
+    "si",
+    "si",
+    "si",
+    "si*"
+   ],
+   [
+    "Mis tahes graafikakaart (NVIDIA, AMD, Intel)",
+    "si",
+    "Ainult NVIDIA",
+    "si",
+    "si"
+   ],
+   [
+    "Kohene kordus",
+    "si",
+    "si",
+    "Seadistamisega",
+    "si"
+   ],
+   [
+    "Klipiredaktor (lõikamine, tekst, nooled, hägustus, suum)",
+    "si",
+    "no",
+    "no",
+    "si"
+   ],
+   [
+    "Klipifail lõikelaual, valmis kleepimiseks",
+    "si",
+    "no",
+    "no",
+    "Link"
+   ],
+   [
+    "Videopleier ja pildivaatur kaasas",
+    "si",
+    "no",
+    "no",
+    "no"
+   ],
+   [
+    "Ilma konto ja pilveta",
+    "si",
+    "si",
+    "si",
+    "Nõuab kontot"
+   ],
+   [
+    "Automaatsed esiletõstude klipid",
+    "no",
+    "Mõned mängud",
+    "no",
+    "si"
+   ],
+   [
+    "Otseülekanne",
+    "no",
+    "no",
+    "si",
+    "no"
+   ]
+  ],
+  "pie": "* Tasuliste funktsioonidega.",
+  "si": "Jah",
+  "no": "Ei"
+ },
+ "jsonld-subcategoria": "Videopleier",
+ "jsonld-funciones": [
+  "GPU-ga ekraanisalvesti (NVIDIA, AMD, Intel)",
+  "Kohene kordus",
+  "Klipiredaktor",
+  "Klipid kopeeritakse lõikelauale",
+  "Videote lõikamine ilma ümberkodeerimiseta",
+  "Videopleier",
+  "Pildivaatur"
+ ]
+}

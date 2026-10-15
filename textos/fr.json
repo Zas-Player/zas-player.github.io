@@ -1,0 +1,177 @@
+{
+ "saltar": "Aller au contenu",
+ "nav-rendimiento": "Performances",
+ "nav-funciones": "Fonctionnalités",
+ "descargar-corto": "Télécharger",
+ "antetitulo": "Enregistreur d’écran et lecteur vidéo gratuit pour Windows",
+ "titular": "Enregistrez. Découpez. Partagez.",
+ "entradilla": "Relecture instantanée et enregistrement d’écran sans perte de FPS, un éditeur de clips intégré et chaque clip copié dans le presse-papiers, prêt pour Discord. Et un lecteur vidéo qui s’ouvre instantanément.",
+ "descargar": "Télécharger Zas",
+ "versiones": "Voir les versions",
+ "gratis": "Gratuit · Windows 10 et 11 · Sans publicité",
+ "rend-ante": "Performances mesurées",
+ "rend-titulo": "La vitesse, ça se mesure.",
+ "cifra1-nombre": "Pour ouvrir une vidéo",
+ "cifra1-detalle": "Du double-clic à la première image, avec Zas en mémoire. Médiane pour une vidéo 1080p60.",
+ "cifra2-nombre": "Pour avoir un clip copié",
+ "cifra2-detalle": "De l’appui sur Ctrl+E à un clip de 12 s dans le presse-papiers, prêt à coller.",
+ "cifra3-nombre": "FPS perdus pendant l’enregistrement",
+ "cifra3-detalle": "Fortnite en 1440p : 61–69 FPS sans enregistrer et 68–70 en enregistrant avec la carte graphique. Mesuré avec PresentMon.",
+ "metodo-titulo": "Notre méthode de mesure",
+ "pasos-ante": "Un clip en quelques secondes",
+ "pasos-titulo": "De la vidéo au chat en trois touches.",
+ "paso1": "Marquez le passage",
+ "paso1-texto": "Le début et la fin, pendant la lecture.",
+ "paso2": "Exportez",
+ "paso2-texto": "Sans réencodage : le clip est prêt tout de suite, dans la qualité d’origine.",
+ "paso3": "Collez",
+ "paso3-texto": "Il est déjà dans le presse-papiers : collez-le dans n’importe quel chat.",
+ "comp-ante": "Zas face aux autres",
+ "comp-titulo": "L’alternative à ShadowPlay, OBS et Medal.",
+ "comp-sub": "Enregistrez comme avec ShadowPlay sur n’importe quelle carte graphique, sans configuration comme avec OBS, et modifiez le clip sans l’envoyer dans le cloud. Le tout dans une seule application qui est aussi votre lecteur vidéo.",
+ "comp-nota": "D’après les informations publiques de chaque application en octobre 2026. ShadowPlay est la fonction d’enregistrement de la NVIDIA App.",
+ "func-ante": "Une application, pas trois",
+ "func-titulo": "Tout ce que vous faites avec vos vidéos.",
+ "b3-titulo": "Enregistrez et partagez",
+ "b3-texto": "Sélectionnez une zone de l’écran et enregistrez avec le son du système et le micro de votre choix. L’encodage est assuré par la carte graphique (NVIDIA, AMD ou Intel), jusqu’à 120 fps, sans coûter d’images à votre jeu. La relecture instantanée sauvegarde les dernières secondes quand il se passe quelque chose, et le clip est copié, prêt à coller dans Discord.",
+ "a-grabar": "Enregistrer l’écran",
+ "a-repeticion": "Sauvegarder la relecture",
+ "a-panel": "Panneau d’enregistrement",
+ "b2-titulo": "Modifiez",
+ "b2-texto": "Coupez et supprimez des passages sur la timeline. Ajoutez du texte, des cadres, des flèches, des zones pixelisées et un zoom animé, chacun avec son propre début et sa propre fin. Exportez, c’est copié.",
+ "b2-atajo": "ouvre l’éditeur",
+ "b1-titulo": "Lisez",
+ "b1-texto": "Zas reste en mémoire après sa fermeture : la vidéo suivante s’affiche dès que vous l’ouvrez. L’interface s’efface quand vous ne l’utilisez pas, et il lit presque tous les formats. C’est aussi une visionneuse de photos rapide : JPEG, PNG, WebP, HEIC, AVIF et plus encore.",
+ "faq-ante": "Questions",
+ "faq-titulo": "Les questions fréquentes.",
+ "final-titulo": "Ouvrez une vidéo. Faites bien plus.",
+ "descargar-windows": "Télécharger Zas pour Windows",
+ "final-nota": "Gratuit. Sans publicité. Se met à jour quand vous le décidez.",
+ "pie-versiones": "Versions",
+ "creditos": "Basé sur",
+ "y": "et",
+ "stock": "Vidéos des captures d’écran :",
+ "bbb": "Mesuré avec",
+ "alt-escaparate": "Le panneau d’enregistrement de Zas ouvert sur l’écran : enregistrer une zone ou l’écran, relecture instantanée, son, qualité, FPS et codec",
+ "alt-recortar": "La timeline de Zas avec un passage marqué en ambre",
+ "alt-compartir": "Zas indiquant que le clip est enregistré et copié",
+ "alt-copiado": "Zas affichant « Enregistré et copié » : le clip est déjà dans le presse-papiers",
+ "alt-editor": "L’éditeur de Zas avec un texte, une flèche et un cadre sur la vidéo",
+ "alt-reproduce": "Zas lisant une vidéo en plein écran, avec les commandes en bas",
+ "meta-titulo": "Zas : enregistreur d’écran gratuit pour Windows, alternative à ShadowPlay, OBS et Medal",
+ "meta-descripcion": "Zas Player est un enregistreur d’écran et de clips gratuit pour Windows : relecture instantanée sans perte de FPS, éditeur de clips intégré et clips copiés dans le presse-papiers, prêts pour Discord. Et un lecteur vidéo instantané. Sans publicité, sans compte.",
+ "meta-og-titulo": "Zas Player · Enregistrez. Découpez. Partagez.",
+ "version-palabra": "version",
+ "idioma-etiqueta": "Langue",
+ "metodo": "<p>Zas 1.15.1, la version téléchargeable ici, sur un PC équipé d’un AMD Ryzen 5 3600, d’une NVIDIA GeForce RTX 2060, de 32 Go de mémoire et de Windows 11, avec un écran en 2560×1440. Vidéo de test : une minute de Big Buck Bunny (H.264, 1080p à 60 fps) et deux versions de 10 s qui en sont tirées (H.265 en 4K à 30 fps et VP9 1080p à 30 fps).</p><table><tr><th></th><th>H.264 1080p60</th><th>H.265 2160p30</th><th>VP9 1080p30</th></tr><tr><td>Ouverture avec Zas en mémoire</td><td>378 ms</td><td>134 ms</td><td>125 ms</td></tr><tr><td>Ouverture avec Zas fermé</td><td>710 ms</td><td>595 ms</td><td>514 ms</td></tr></table><p><b>Ouverture</b> : du lancement de <code>zas.exe vidéo</code> (équivalent à un double-clic) à la première image à l’écran. Médianes de 8 ouvertures en mémoire et de 5 à froid. Avec Zas en mémoire, 2 ouvertures sur 24 ont pris plus de temps (0,7 et 2,9 s) ; avec Zas fermé, la plus lente a pris 0,83 s. Le fichier était déjà dans le cache de Windows.</p><p><b>Clip copié</b> : marquer un passage de 12 s et appuyer sur Ctrl+E (sans réencodage) jusqu’à ce que le fichier soit dans le presse-papiers. Médiane de 5 essais : 0,14 s ; le premier a pris 33 s, sans explication. À l’image près (avec réencodage, Ctrl+Shift+E), le même passage prend de 4,6 à 5,0 s.</p><p><b>FPS pendant l’enregistrement</b> : Fortnite en 2560×1440 au premier plan, mesuré avec PresentMon (Intel). Sans enregistrer, 61–69 FPS ; en enregistrant à 60 fps avec la carte graphique (H.264 ou H.265 via NVENC), 68–70 FPS, dans la même marge de variation. L’enregistrement utilise 18 % d’un cœur du processeur. L’ancienne méthode par le processeur (libx264) utilisait 2,7 cœurs et provoquait des saccades.</p><p><b>Mémoire</b> : 99 Mo au repos (en arrière-plan, prêt à ouvrir) et environ 300 Mo pendant la lecture de la vidéo 1080p60.</p><p>Ces mesures proviennent d’un ordinateur précis : les vôtres peuvent différer.</p>",
+ "preguntas": [
+  [
+   "Zas est-il une bonne alternative à ShadowPlay, OBS ou Medal ?",
+   "Oui, si vous voulez enregistrer votre écran ou sauvegarder vos meilleures actions de jeu et les partager rapidement. Comme ShadowPlay, il enregistre avec la carte graphique et propose la relecture instantanée, mais il fonctionne avec NVIDIA, AMD et Intel. Contrairement à OBS, il n’y a rien à configurer. Et comme Medal, il intègre un éditeur de clips, mais tout reste sur votre PC : pas de compte, pas de cloud et pas de publicité. Pour le streaming en direct, OBS reste l’outil qu’il vous faut ; Zas ne diffuse pas en direct."
+  ],
+  [
+   "L’enregistrement avec Zas fait-il baisser mes FPS ?",
+   "Dans notre test, non. Fortnite en 1440p tournait à 61–69 FPS sans enregistrer et à 68–70 pendant que Zas enregistrait avec la carte graphique (mesuré avec PresentMon sur une RTX 2060). Zas encode sur la carte graphique (NVENC, AMF ou Quick Sync) : le processeur travaille à peine, 18 % d’un cœur."
+  ],
+  [
+   "Comment partager un clip sur Discord ?",
+   "Sauvegardez le moment avec Win+Shift+G (relecture instantanée), ou marquez un passage avec I et O puis appuyez sur Ctrl+E. Le clip est copié dans le presse-papiers : dans Discord, appuyez sur Ctrl+V. Notez que Discord accepte les fichiers jusqu’à 20 Mo avec un compte gratuit."
+  ],
+  [
+   "Qu’est-ce que Zas Player ?",
+   "Zas (ou Zas Player) est un enregistreur d’écran, un éditeur de clips et un lecteur vidéo gratuit pour Windows 10 et 11. Il ouvre les vidéos instantanément et intègre un outil de découpe et une visionneuse de photos."
+  ],
+  [
+   "Comment télécharger Zas ?",
+   "Cliquez sur « Télécharger Zas » sur cette page : vous téléchargez le programme d’installation officiel, Zas-Setup.exe, depuis GitHub. Ouvrez-le, l’installation prend quelques secondes et Zas se met ensuite à jour quand vous le décidez."
+  ],
+  [
+   "Est-il gratuit ? Contient-il des publicités ?",
+   "Il est gratuit, sans publicité et sans compte à créer."
+  ],
+  [
+   "Quels formats ouvre-t-il ?",
+   "Presque toutes les vidéos (MP4, MKV, WebM, MOV, AVI, WMV, TS…) grâce à mpv et FFmpeg, et les photos en JPEG, PNG, WebP, HEIC, AVIF et plus encore."
+  ]
+ ],
+ "compara": {
+  "filas": [
+   [
+    "Gratuit",
+    "si",
+    "si",
+    "si",
+    "si*"
+   ],
+   [
+    "Toute carte graphique (NVIDIA, AMD, Intel)",
+    "si",
+    "NVIDIA uniquement",
+    "si",
+    "si"
+   ],
+   [
+    "Relecture instantanée",
+    "si",
+    "si",
+    "À configurer",
+    "si"
+   ],
+   [
+    "Éditeur de clips (découpe, texte, flèches, flou, zoom)",
+    "si",
+    "no",
+    "no",
+    "si"
+   ],
+   [
+    "Fichier du clip dans le presse-papiers, prêt à coller",
+    "si",
+    "no",
+    "no",
+    "Un lien"
+   ],
+   [
+    "Lecteur vidéo et visionneuse de photos inclus",
+    "si",
+    "no",
+    "no",
+    "no"
+   ],
+   [
+    "Sans compte ni cloud",
+    "si",
+    "si",
+    "si",
+    "Inscription demandée"
+   ],
+   [
+    "Clips automatiques des meilleurs moments",
+    "no",
+    "Certains jeux",
+    "no",
+    "si"
+   ],
+   [
+    "Streaming en direct",
+    "no",
+    "no",
+    "si",
+    "no"
+   ]
+  ],
+  "pie": "* Avec des fonctionnalités payantes.",
+  "si": "Oui",
+  "no": "Non"
+ },
+ "jsonld-subcategoria": "Lecteur vidéo",
+ "jsonld-funciones": [
+  "Enregistreur d’écran par GPU (NVIDIA, AMD, Intel)",
+  "Relecture instantanée",
+  "Éditeur de clips",
+  "Clips copiés dans le presse-papiers",
+  "Découpe de vidéos sans réencodage",
+  "Lecteur vidéo",
+  "Visionneuse d’images"
+ ]
+}

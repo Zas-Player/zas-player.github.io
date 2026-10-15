@@ -1,0 +1,177 @@
+{
+ "saltar": "Prejsť na obsah",
+ "nav-rendimiento": "Výkon",
+ "nav-funciones": "Funkcie",
+ "descargar-corto": "Stiahnuť",
+ "antetitulo": "Bezplatný nahrávač obrazovky a prehrávač videa pre Windows",
+ "titular": "Nahrajte. Strihnite. Zdieľajte.",
+ "entradilla": "Okamžitý záznam a nahrávanie obrazovky bez straty FPS, vstavaný editor klipov a každý klip hneď v schránke, pripravený pre Discord. A k tomu prehrávač videa, ktorý sa otvorí okamžite.",
+ "descargar": "Stiahnuť Zas",
+ "versiones": "Zobraziť verzie",
+ "gratis": "Zadarmo · Windows 10 a 11 · Bez reklám",
+ "rend-ante": "Zmeraný výkon",
+ "rend-titulo": "Rýchlosť sa meria.",
+ "cifra1-nombre": "Na otvorenie videa",
+ "cifra1-detalle": "Od dvojkliku po prvú snímku, so Zas v pamäti. Medián pre video 1080p60.",
+ "cifra2-nombre": "Na skopírovanie klipu",
+ "cifra2-detalle": "Od stlačenia Ctrl+E po 12-sekundový klip v schránke, pripravený na vloženie.",
+ "cifra3-nombre": "Strata FPS pri nahrávaní",
+ "cifra3-detalle": "Fortnite v 1440p: 61–69 FPS bez nahrávania a 68–70 pri nahrávaní grafickou kartou. Merané nástrojom PresentMon.",
+ "metodo-titulo": "Ako sme to merali",
+ "pasos-ante": "Klip za pár sekúnd",
+ "pasos-titulo": "Z videa do chatu tromi klávesmi.",
+ "paso1": "Označte úsek",
+ "paso1-texto": "Začiatok a koniec, priamo počas pozerania.",
+ "paso2": "Exportujte",
+ "paso2-texto": "Bez prekódovania: klip je hotový hneď, v pôvodnej kvalite.",
+ "paso3": "Vložte",
+ "paso3-texto": "Už je v schránke: vložte ho do ľubovoľného chatu.",
+ "comp-ante": "Zas a tí ostatní",
+ "comp-titulo": "Alternatíva k ShadowPlay, OBS a Medal.",
+ "comp-sub": "Nahrávajte ako v ShadowPlay na akejkoľvek grafickej karte, bez nastavovania ako v OBS, a upravte klip bez nahrávania do cloudu. Všetko v jednej aplikácii, ktorá je zároveň vaším prehrávačom videa.",
+ "comp-nota": "Podľa verejne dostupných informácií o jednotlivých aplikáciách k októbru 2026. ShadowPlay je funkcia nahrávania v aplikácii NVIDIA App.",
+ "func-ante": "Jedna aplikácia namiesto troch",
+ "func-titulo": "Všetko, čo robíte so svojimi videami.",
+ "b3-titulo": "Nahrávajte a zdieľajte",
+ "b3-texto": "Potiahnutím vyberte oblasť obrazovky a nahrávajte so zvukom systému a mikrofónom podľa vlastného výberu. Kóduje grafická karta (NVIDIA, AMD alebo Intel), až 120 fps, bez toho, aby hra prišla o snímky. Okamžitý záznam uloží posledné sekundy, keď sa niečo stane, a klip sa skopíruje, pripravený na vloženie do Discordu.",
+ "a-grabar": "Nahrať obrazovku",
+ "a-repeticion": "Uložiť záznam",
+ "a-panel": "Panel nahrávania",
+ "b2-titulo": "Upravujte",
+ "b2-texto": "Rozdeľujte a odstraňujte časti na časovej osi. Pridajte text, rámčeky, šípky, rozpixelované oblasti a animovaný zoom, každý s vlastným začiatkom a koncom. Exportujete a je skopírované.",
+ "b2-atajo": "otvorí editor",
+ "b1-titulo": "Prehrávajte",
+ "b1-texto": "Po zatvorení zostáva v pamäti, takže ďalšie video sa zobrazí hneď, ako ho otvoríte. Rozhranie zmizne, keď ho nepoužívate, a prehrá takmer akýkoľvek formát. Je to aj rýchly prehliadač fotiek: JPEG, PNG, WebP, HEIC, AVIF a ďalšie.",
+ "faq-ante": "Otázky",
+ "faq-titulo": "Na čo sa ľudia často pýtajú.",
+ "final-titulo": "Otvorte video. Urobte oveľa viac.",
+ "descargar-windows": "Stiahnuť Zas pre Windows",
+ "final-nota": "Zadarmo. Bez reklám. Aktualizuje sa, keď chcete vy.",
+ "pie-versiones": "Verzie",
+ "creditos": "Postavené na",
+ "y": "a",
+ "stock": "Videá na snímkach obrazovky:",
+ "bbb": "Merané pomocou",
+ "alt-escaparate": "Panel nahrávania Zas otvorený nad obrazovkou: nahrávanie oblasti alebo obrazovky, okamžitý záznam, zvuk, kvalita, FPS a kodek",
+ "alt-recortar": "Časová os Zas s úsekom označeným jantárovou farbou",
+ "alt-compartir": "Zas oznamuje, že klip je uložený a skopírovaný",
+ "alt-copiado": "Zas s hlásením „Uložené a skopírované“: klip je už v schránke",
+ "alt-editor": "Editor Zas s textom, šípkou a rámčekom cez video",
+ "alt-reproduce": "Zas prehráva video na celej obrazovke, s ovládacími prvkami dole",
+ "meta-titulo": "Zas: bezplatný nahrávač obrazovky pre Windows, alternatíva k ShadowPlay, OBS a Medal",
+ "meta-descripcion": "Zas Player je bezplatný nahrávač obrazovky a klipov pre Windows: okamžitý záznam bez straty FPS, vstavaný editor klipov a klipy skopírované do schránky, pripravené pre Discord. K tomu bleskový prehrávač videa. Bez reklám a bez účtu.",
+ "meta-og-titulo": "Zas Player · Nahrajte. Strihnite. Zdieľajte.",
+ "version-palabra": "verzia",
+ "idioma-etiqueta": "Jazyk",
+ "metodo": "<p>Zas 1.15.1, teda verzia, ktorú si tu stiahnete, na PC s AMD Ryzen 5 3600, NVIDIA GeForce RTX 2060, 32 GB pamäte a Windows 11, s obrazovkou 2560×1440. Testovacie video: minúta z Big Buck Bunny (H.264, 1080p pri 60 fps) a dve z neho vytvorené verzie po 10 s (H.265 v 4K pri 30 fps a VP9 1080p pri 30 fps).</p><table><tr><th></th><th>H.264 1080p60</th><th>H.265 2160p30</th><th>VP9 1080p30</th></tr><tr><td>Otvorenie so Zas v pamäti</td><td>378 ms</td><td>134 ms</td><td>125 ms</td></tr><tr><td>Otvorenie so zatvoreným Zas</td><td>710 ms</td><td>595 ms</td><td>514 ms</td></tr></table><p><b>Otvorenie</b>: od spustenia <code>zas.exe video</code> (to isté ako dvojklik) po prvú snímku na obrazovke. Mediány z 8 otvorení z pamäte a 5 od nuly. So Zas v pamäti trvali 2 z 24 otvorení dlhšie (0,7 a 2,9 s); so zatvoreným Zas trvalo najpomalšie 0,83 s. Súbor už bol vo vyrovnávacej pamäti Windows.</p><p><b>Skopírovaný klip</b>: od označenia 12-sekundového úseku a stlačenia Ctrl+E (bez prekódovania) po okamih, keď je súbor v schránke. Medián z 5 pokusov: 0,14 s; prvý trval 33 s a príčinu nepoznáme. S presnosťou na snímku (s prekódovaním, Ctrl+Shift+E) trvá ten istý úsek 4,6 až 5,0 s.</p><p><b>FPS pri nahrávaní</b>: Fortnite v rozlíšení 2560×1440 v popredí, merané nástrojom PresentMon (Intel). Bez nahrávania 61–69 FPS; pri nahrávaní v 60 fps grafickou kartou (H.264 alebo H.265 cez NVENC) 68–70 FPS, teda v rámci rovnakého kolísania. Nahrávanie využíva 18 % jedného jadra CPU. Staršia metóda cez CPU (libx264) využívala 2,7 jadra a obraz sa zasekával.</p><p><b>Pamäť</b>: 99 MB v nečinnosti (na pozadí, pripravené na otvorenie) a približne 300 MB pri prehrávaní videa 1080p60.</p><p>Ide o merania z jedného konkrétneho počítača: u vás sa výsledky môžu líšiť.</p>",
+ "preguntas": [
+  [
+   "Je Zas dobrá alternatíva k ShadowPlay, OBS alebo Medal?",
+   "Áno, ak chcete nahrávať obrazovku alebo ukladať herné momenty a rýchlo ich zdieľať. Rovnako ako ShadowPlay nahráva pomocou grafickej karty a má okamžitý záznam, ale funguje na kartách NVIDIA, AMD aj Intel. Na rozdiel od OBS netreba nič nastavovať. A podobne ako Medal má editor klipov, no všetko zostáva vo vašom PC: bez účtu, bez cloudu a bez reklám. Ak potrebujete streamovať naživo, správnym nástrojom zostáva OBS; Zas nestreamuje."
+  ],
+  [
+   "Zníži nahrávanie v Zas moje FPS?",
+   "V našom teste nie. Fortnite v 1440p bežal na 61–69 FPS bez nahrávania a na 68–70, keď Zas nahrával grafickou kartou (merané nástrojom PresentMon na RTX 2060). Zas kóduje na grafickej karte (NVENC, AMF alebo Quick Sync), takže procesor takmer nepracuje: 18 % jedného jadra."
+  ],
+  [
+   "Ako zdieľať klip na Discorde?",
+   "Uložte moment skratkou Win+Shift+G (okamžitý záznam) alebo označte úsek klávesmi I a O a stlačte Ctrl+E. Klip sa skopíruje do schránky: v Discorde stlačte Ctrl+V. Pozor, Discord pri bezplatných účtoch povoľuje súbory do 20 MB."
+  ],
+  [
+   "Čo je Zas Player?",
+   "Zas (alebo Zas Player) je bezplatný nahrávač obrazovky, editor klipov a prehrávač videa pre Windows 10 a 11. Videá otvára okamžite a má vstavaný nástroj na strihanie aj prehliadač fotiek."
+  ],
+  [
+   "Ako stiahnuť Zas?",
+   "Kliknite na tejto stránke na „Stiahnuť Zas“: stiahne sa oficiálny inštalátor Zas-Setup.exe z GitHubu. Spustite ho, nainštaluje sa za pár sekúnd a odvtedy sa aktualizuje sám, keď mu to povolíte."
+  ],
+  [
+   "Je zadarmo? Má reklamy?",
+   "Je zadarmo, bez reklám a bez potreby zakladať účet."
+  ],
+  [
+   "Aké formáty otvorí?",
+   "Takmer akékoľvek video (MP4, MKV, WebM, MOV, AVI, WMV, TS…) vďaka mpv a FFmpeg a fotky vo formátoch JPEG, PNG, WebP, HEIC, AVIF a ďalších."
+  ]
+ ],
+ "compara": {
+  "filas": [
+   [
+    "Zadarmo",
+    "si",
+    "si",
+    "si",
+    "si*"
+   ],
+   [
+    "Akákoľvek grafická karta (NVIDIA, AMD, Intel)",
+    "si",
+    "Len NVIDIA",
+    "si",
+    "si"
+   ],
+   [
+    "Okamžitý záznam",
+    "si",
+    "si",
+    "Po nastavení",
+    "si"
+   ],
+   [
+    "Editor klipov (strihanie, text, šípky, rozmazanie, zoom)",
+    "si",
+    "no",
+    "no",
+    "si"
+   ],
+   [
+    "Súbor klipu v schránke, pripravený na vloženie",
+    "si",
+    "no",
+    "no",
+    "Odkaz"
+   ],
+   [
+    "Prehrávač videa a prehliadač fotiek v cene",
+    "si",
+    "no",
+    "no",
+    "no"
+   ],
+   [
+    "Bez účtu a cloudu",
+    "si",
+    "si",
+    "si",
+    "Vyžaduje registráciu"
+   ],
+   [
+    "Automatické klipy najlepších momentov",
+    "no",
+    "Niektoré hry",
+    "no",
+    "si"
+   ],
+   [
+    "Živé streamovanie",
+    "no",
+    "no",
+    "si",
+    "no"
+   ]
+  ],
+  "pie": "* S platenými funkciami.",
+  "si": "Áno",
+  "no": "Nie"
+ },
+ "jsonld-subcategoria": "Prehrávač videa",
+ "jsonld-funciones": [
+  "Nahrávač obrazovky s kódovaním na GPU (NVIDIA, AMD, Intel)",
+  "Okamžitý záznam",
+  "Editor klipov",
+  "Klipy skopírované do schránky",
+  "Strihanie videa bez prekódovania",
+  "Prehrávač videa",
+  "Prehliadač obrázkov"
+ ]
+}

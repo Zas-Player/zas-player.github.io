@@ -2,22 +2,25 @@
 // el borde de la cabecera al bajar y una aparición discreta. Todo el texto está en el HTML.
 (function () {
   "use strict";
-  var es = document.documentElement.lang === "es";
+  var palabra = document.documentElement.getAttribute("data-version") || "version";
 
   if (window.fetch) {
     fetch("https://api.github.com/repos/Zas-Player/zas-releases/releases/latest", { headers: { Accept: "application/vnd.github+json" } })
       .then(function (r) { return r.ok ? r.json() : null; })
       .then(function (d) {
-        if (d && d.tag_name) document.getElementById("version").textContent = " · " + (es ? "versión " : "version ") + d.tag_name.replace(/^v/, "");
+        if (d && d.tag_name) document.getElementById("version").textContent = " · " + palabra + " " + d.tag_name.replace(/^v/, "");
       })
       .catch(function () {});
   }
 
-  // elegir idioma con el botón: se recuerda y manda sobre el del navegador
-  var boton = document.querySelector(".idioma");
-  if (boton) boton.addEventListener("click", function () {
-    try { localStorage.setItem("zas-idioma", boton.getAttribute("hreflang")); } catch (e) {}
+  // elegir idioma en el selector: se recuerda y manda sobre el del navegador
+  document.querySelectorAll(".idiomas a").forEach(function (a) {
+    a.addEventListener("click", function () {
+      try { localStorage.setItem("zas-idioma", a.getAttribute("data-codigo")); } catch (e) {}
+    });
   });
+  var sel = document.querySelector(".idiomas");
+  if (sel) document.addEventListener("click", function (ev) { if (sel.open && !sel.contains(ev.target)) sel.open = false; });
 
   // preguntas: abrir y cerrar con una animación de altura (sin ella si se pide menos movimiento)
   var quieto = window.matchMedia("(prefers-reduced-motion: reduce)").matches;

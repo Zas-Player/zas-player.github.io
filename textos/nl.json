@@ -1,0 +1,177 @@
+{
+ "saltar": "Naar inhoud gaan",
+ "nav-rendimiento": "Prestaties",
+ "nav-funciones": "Functies",
+ "descargar-corto": "Downloaden",
+ "antetitulo": "Gratis schermrecorder en videospeler voor Windows",
+ "titular": "Opnemen. Knippen. Delen.",
+ "entradilla": "Instant replay en schermopname zonder FPS-verlies, een ingebouwde clipeditor en elke clip direct op je klembord, klaar voor Discord. Plus een videospeler die meteen opent.",
+ "descargar": "Zas downloaden",
+ "versiones": "Releases bekijken",
+ "gratis": "Gratis · Windows 10 en 11 · Geen advertenties",
+ "rend-ante": "Gemeten prestaties",
+ "rend-titulo": "Snelheid meet je.",
+ "cifra1-nombre": "Om een video te openen",
+ "cifra1-detalle": "Van dubbelklik tot het eerste frame, met Zas in het geheugen. Mediaan voor een 1080p60-video.",
+ "cifra2-nombre": "Om een clip te kopiëren",
+ "cifra2-detalle": "Van Ctrl+E tot een clip van 12 s op het klembord, klaar om te plakken.",
+ "cifra3-nombre": "FPS-verlies tijdens opnemen",
+ "cifra3-detalle": "Fortnite op 1440p: 61–69 FPS zonder opname en 68–70 tijdens opname met de videokaart. Gemeten met PresentMon.",
+ "metodo-titulo": "Hoe we het hebben gemeten",
+ "pasos-ante": "Een clip in seconden",
+ "pasos-titulo": "Van video naar chat in drie toetsen.",
+ "paso1": "Markeer het stuk",
+ "paso1-texto": "Begin en einde, terwijl je kijkt.",
+ "paso2": "Exporteer",
+ "paso2-texto": "Zonder hercodering: de clip is meteen klaar, in de originele kwaliteit.",
+ "paso3": "Plak",
+ "paso3-texto": "Hij staat al op het klembord: plak hem in elke chat.",
+ "comp-ante": "Zas vs de rest",
+ "comp-titulo": "Het alternatief voor ShadowPlay, OBS en Medal.",
+ "comp-sub": "Neem op zoals met ShadowPlay op elke videokaart, zonder instellen zoals bij OBS, en bewerk de clip zonder hem naar de cloud te uploaden. Alles in één app die ook je videospeler is.",
+ "comp-nota": "Op basis van de openbare informatie van elke app per oktober 2026. ShadowPlay is de opnamefunctie van de NVIDIA App.",
+ "func-ante": "Eén app, geen drie",
+ "func-titulo": "Alles wat je met je video's doet.",
+ "b3-titulo": "Opnemen en delen",
+ "b3-texto": "Sleep een deel van het scherm en neem op met systeemgeluid en de microfoon die je kiest. Gecodeerd door de videokaart (NVIDIA, AMD of Intel), tot 120 fps, zonder dat je game frames verliest. Instant replay bewaart de laatste seconden als er iets gebeurt, en de clip wordt gekopieerd, klaar om in Discord te plakken.",
+ "a-grabar": "Scherm opnemen",
+ "a-repeticion": "Replay opslaan",
+ "a-panel": "Opnamepaneel",
+ "b2-titulo": "Bewerken",
+ "b2-texto": "Splits en verwijder stukken op de tijdlijn. Voeg tekst, kaders, pijlen, gepixelde vlakken en geanimeerde zoom toe, elk met een eigen begin en einde. Exporteer en hij is gekopieerd.",
+ "b2-atajo": "opent de editor",
+ "b1-titulo": "Afspelen",
+ "b1-texto": "Zas blijft na het sluiten in het geheugen, dus de volgende video staat er meteen als je hem opent. De interface verdwijnt als je hem niet gebruikt en speelt bijna elk formaat af. Het is ook een snelle fotoviewer: JPEG, PNG, WebP, HEIC, AVIF en meer.",
+ "faq-ante": "Vragen",
+ "faq-titulo": "Wat mensen vaak vragen.",
+ "final-titulo": "Open een video. Doe veel meer.",
+ "descargar-windows": "Zas downloaden voor Windows",
+ "final-nota": "Gratis. Geen advertenties. Werkt zichzelf bij wanneer jij dat wilt.",
+ "pie-versiones": "Releases",
+ "creditos": "Gebouwd op",
+ "y": "en",
+ "stock": "Video's in de screenshots:",
+ "bbb": "Gemeten met",
+ "alt-escaparate": "Het opnamepaneel van Zas open boven het scherm: een gebied of het scherm opnemen, instant replay, geluid, kwaliteit, FPS en codec",
+ "alt-recortar": "De tijdlijn van Zas met een stuk gemarkeerd in amber",
+ "alt-compartir": "Zas meldt dat de clip is opgeslagen en gekopieerd",
+ "alt-copiado": "Zas toont “Opgeslagen en gekopieerd”: de clip staat al op het klembord",
+ "alt-editor": "De editor van Zas met een tekst, een pijl en een kader over de video",
+ "alt-reproduce": "Zas speelt een video af op volledig scherm, met de bediening onderaan",
+ "meta-titulo": "Zas: gratis schermrecorder voor Windows, alternatief voor ShadowPlay, OBS en Medal",
+ "meta-descripcion": "Zas Player is een gratis schermrecorder en cliptool voor Windows: instant replay zonder FPS-verlies, een ingebouwde clipeditor en clips direct op je klembord, klaar voor Discord. Plus een razendsnelle videospeler. Geen advertenties, geen account.",
+ "meta-og-titulo": "Zas Player · Opnemen. Knippen. Delen.",
+ "version-palabra": "versie",
+ "idioma-etiqueta": "Taal",
+ "metodo": "<p>Zas 1.15.1, de versie die je hier downloadt, op een pc met een AMD Ryzen 5 3600, een NVIDIA GeForce RTX 2060, 32 GB geheugen en Windows 11, met een scherm van 2560×1440. Testvideo: één minuut Big Buck Bunny (H.264, 1080p op 60 fps) en twee versies van 10 s die daarvan zijn gemaakt (H.265 in 4K op 30 fps en VP9 1080p op 30 fps).</p><table><tr><th></th><th>H.264 1080p60</th><th>H.265 2160p30</th><th>VP9 1080p30</th></tr><tr><td>Openen met Zas in het geheugen</td><td>378 ms</td><td>134 ms</td><td>125 ms</td></tr><tr><td>Openen met Zas gesloten</td><td>710 ms</td><td>595 ms</td><td>514 ms</td></tr></table><p><b>Openen</b>: vanaf het starten van <code>zas.exe video</code> (hetzelfde als dubbelklikken) tot het eerste frame op het scherm. Medianen van 8 keer openen vanuit het geheugen en 5 keer vanaf nul. Met Zas in het geheugen duurden 2 van de 24 keer langer (0,7 en 2,9 s); met Zas gesloten was de traagste 0,83 s. Het bestand stond al in de cache van Windows.</p><p><b>Clip gekopieerd</b>: een stuk van 12 s markeren en op Ctrl+E drukken (zonder hercodering) tot het bestand op het klembord staat. Mediaan van 5 runs: 0,14 s; de eerste duurde 33 s, zonder verklaring. Framenauwkeurig (met hercodering, Ctrl+Shift+E) duurt hetzelfde stuk 4,6 tot 5,0 s.</p><p><b>FPS tijdens opnemen</b>: Fortnite op 2560×1440 op de voorgrond, gemeten met PresentMon (Intel). Zonder opname 61–69 FPS; bij opname op 60 fps met de videokaart (H.264 of H.265 via NVENC) 68–70 FPS, binnen dezelfde spreiding. Opnemen gebruikt 18% van één CPU-kern. De oude CPU-methode (libx264) gebruikte 2,7 kernen en haperde.</p><p><b>Geheugen</b>: 99 MB in rust (op de achtergrond, klaar om te openen) en ongeveer 300 MB bij het afspelen van de 1080p60-video.</p><p>Dit zijn metingen op één specifieke computer: op die van jou kan het anders uitvallen.</p>",
+ "preguntas": [
+  [
+   "Is Zas een goed alternatief voor ShadowPlay, OBS of Medal?",
+   "Ja, als je je scherm wilt opnemen of gamemomenten wilt bewaren en snel wilt delen. Net als ShadowPlay neemt het op met de videokaart en heeft het instant replay, maar het werkt op NVIDIA, AMD en Intel. Anders dan bij OBS hoef je niets in te stellen. En net als Medal heeft het een clipeditor, maar alles blijft op je pc: geen account, geen cloud en geen advertenties. Wil je live streamen, dan blijft OBS de juiste tool; Zas streamt niet."
+  ],
+  [
+   "Verlies ik FPS als ik opneem met Zas?",
+   "In onze test niet. Fortnite op 1440p draaide op 61–69 FPS zonder opname en op 68–70 terwijl Zas opnam met de videokaart (gemeten met PresentMon op een RTX 2060). Zas codeert op de videokaart (NVENC, AMF of Quick Sync), dus de CPU doet bijna niets: 18% van één kern."
+  ],
+  [
+   "Hoe deel ik een clip op Discord?",
+   "Bewaar het moment met Win+Shift+G (instant replay), of markeer een stuk met I en O en druk op Ctrl+E. De clip wordt naar je klembord gekopieerd: druk in Discord op Ctrl+V. Let op: Discord staat bij gratis accounts bestanden tot 20 MB toe."
+  ],
+  [
+   "Wat is Zas Player?",
+   "Zas (of Zas Player) is een gratis schermrecorder, clipeditor en videospeler voor Windows 10 en 11. Het opent video's direct en heeft een ingebouwde trimmer en fotoviewer."
+  ],
+  [
+   "Hoe download ik Zas?",
+   "Klik op deze pagina op “Zas downloaden”: je downloadt dan het officiële installatieprogramma, Zas-Setup.exe, van GitHub. Open het, de installatie duurt een paar seconden en daarna werkt het zichzelf bij wanneer jij dat wilt."
+  ],
+  [
+   "Is het gratis? Zitten er advertenties in?",
+   "Het is gratis, zonder advertenties en zonder account."
+  ],
+  [
+   "Welke formaten opent het?",
+   "Bijna elke video (MP4, MKV, WebM, MOV, AVI, WMV, TS…) dankzij mpv en FFmpeg, en foto's in JPEG, PNG, WebP, HEIC, AVIF en meer."
+  ]
+ ],
+ "compara": {
+  "filas": [
+   [
+    "Gratis",
+    "si",
+    "si",
+    "si",
+    "si*"
+   ],
+   [
+    "Elke videokaart (NVIDIA, AMD, Intel)",
+    "si",
+    "Alleen NVIDIA",
+    "si",
+    "si"
+   ],
+   [
+    "Instant replay",
+    "si",
+    "si",
+    "Na instellen",
+    "si"
+   ],
+   [
+    "Clipeditor (knippen, tekst, pijlen, vervagen, zoom)",
+    "si",
+    "no",
+    "no",
+    "si"
+   ],
+   [
+    "Clipbestand op het klembord, klaar om te plakken",
+    "si",
+    "no",
+    "no",
+    "Een link"
+   ],
+   [
+    "Videospeler en fotoviewer inbegrepen",
+    "si",
+    "no",
+    "no",
+    "no"
+   ],
+   [
+    "Geen account of cloud",
+    "si",
+    "si",
+    "si",
+    "Vraagt om account"
+   ],
+   [
+    "Automatische highlight-clips",
+    "no",
+    "Sommige games",
+    "no",
+    "si"
+   ],
+   [
+    "Livestreamen",
+    "no",
+    "no",
+    "si",
+    "no"
+   ]
+  ],
+  "pie": "* Met betaalde functies.",
+  "si": "Ja",
+  "no": "Nee"
+ },
+ "jsonld-subcategoria": "Videospeler",
+ "jsonld-funciones": [
+  "Schermrecorder via GPU (NVIDIA, AMD, Intel)",
+  "Instant replay",
+  "Clipeditor",
+  "Clips gekopieerd naar het klembord",
+  "Video's knippen zonder hercodering",
+  "Videospeler",
+  "Afbeeldingsviewer"
+ ]
+}

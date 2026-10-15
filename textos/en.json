@@ -1,0 +1,177 @@
+{
+ "saltar": "Skip to content",
+ "nav-rendimiento": "Performance",
+ "nav-funciones": "Features",
+ "descargar-corto": "Download",
+ "antetitulo": "Free screen recorder and video player for Windows",
+ "titular": "Record. Clip. Share.",
+ "entradilla": "Instant replay and screen recording with no FPS loss, a clip editor built in, and every clip copied to your clipboard, ready for Discord. Plus a video player that opens instantly.",
+ "descargar": "Download Zas",
+ "versiones": "See releases",
+ "gratis": "Free · Windows 10 and 11 · No ads",
+ "rend-ante": "Measured performance",
+ "rend-titulo": "Speed is measured.",
+ "cifra1-nombre": "To open a video",
+ "cifra1-detalle": "From double-click to the first frame, with Zas in memory. Median for a 1080p60 video.",
+ "cifra2-nombre": "To have a clip copied",
+ "cifra2-detalle": "From pressing Ctrl+E to a 12 s clip on the clipboard, ready to paste.",
+ "cifra3-nombre": "FPS lost while recording",
+ "cifra3-detalle": "Fortnite at 1440p: 61–69 FPS without recording and 68–70 while recording with the graphics card. Measured with PresentMon.",
+ "metodo-titulo": "How we measured it",
+ "pasos-ante": "A clip in seconds",
+ "pasos-titulo": "From video to chat in three keys.",
+ "paso1": "Mark the part",
+ "paso1-texto": "Start and end, while you watch.",
+ "paso2": "Export",
+ "paso2-texto": "No re-encoding: the clip is ready right away, at the original quality.",
+ "paso3": "Paste",
+ "paso3-texto": "It’s already on the clipboard: paste it into any chat.",
+ "comp-ante": "Zas vs the rest",
+ "comp-titulo": "The alternative to ShadowPlay, OBS and Medal.",
+ "comp-sub": "Record like ShadowPlay on any graphics card, with no setup like OBS, and edit the clip without uploading it to any cloud. All in one app that is also your video player.",
+ "comp-nota": "Based on each app’s public information as of October 2026. ShadowPlay is the recording feature of the NVIDIA App.",
+ "func-ante": "One app, not three",
+ "func-titulo": "Everything you do with your videos.",
+ "b3-titulo": "Record and share",
+ "b3-texto": "Drag a region of the screen and record with system audio and the microphone of your choice. Encoded by the graphics card (NVIDIA, AMD or Intel), up to 120 fps, without costing your game frames. Instant replay saves the last seconds when something happens, and the clip is copied, ready to paste into Discord.",
+ "a-grabar": "Record the screen",
+ "a-repeticion": "Save the replay",
+ "a-panel": "Recording panel",
+ "b2-titulo": "Edit",
+ "b2-texto": "Split and remove parts on the timeline. Add text, boxes, arrows, pixelated areas and animated zoom, each with its own start and end. Export and it’s copied.",
+ "b2-atajo": "opens the editor",
+ "b1-titulo": "Play",
+ "b1-texto": "It stays in memory after closing, so the next video shows up as soon as you open it. The interface disappears when you’re not using it and it plays almost any format. It’s also a fast photo viewer: JPEG, PNG, WebP, HEIC, AVIF and more.",
+ "faq-ante": "Questions",
+ "faq-titulo": "What people usually ask.",
+ "final-titulo": "Open a video. Do much more.",
+ "descargar-windows": "Download Zas for Windows",
+ "final-nota": "Free. No ads. Updates itself when you say so.",
+ "pie-versiones": "Releases",
+ "creditos": "Built on",
+ "y": "and",
+ "stock": "Videos in the screenshots:",
+ "bbb": "Measured with",
+ "alt-escaparate": "The Zas recording panel open over the screen: record a region or the screen, instant replay, sound, quality, FPS and codec",
+ "alt-recortar": "The Zas timeline with a part marked in amber",
+ "alt-compartir": "Zas saying the clip is saved and copied",
+ "alt-copiado": "Zas showing “Saved and copied”: the clip is already on the clipboard",
+ "alt-editor": "The Zas editor with a text, an arrow and a box over the video",
+ "alt-reproduce": "Zas playing a video full screen, with the controls at the bottom",
+ "meta-titulo": "Zas: free screen recorder for Windows, a ShadowPlay, OBS and Medal alternative",
+ "meta-descripcion": "Zas Player is a free screen recorder and clipping tool for Windows: instant replay with no FPS loss, a built-in clip editor and clips copied to your clipboard, ready for Discord. Plus an instant video player. No ads, no account.",
+ "meta-og-titulo": "Zas Player · Record. Clip. Share.",
+ "version-palabra": "version",
+ "idioma-etiqueta": "Language",
+ "metodo": "<p>Zas 1.15.1, the version you download here, on a PC with an AMD Ryzen 5 3600, an NVIDIA GeForce RTX 2060, 32 GB of memory and Windows 11, with a 2560×1440 screen. Test video: one minute of Big Buck Bunny (H.264, 1080p at 60 fps) and two 10 s versions made from it (H.265 in 4K at 30 fps and VP9 1080p at 30 fps).</p><table><tr><th></th><th>H.264 1080p60</th><th>H.265 2160p30</th><th>VP9 1080p30</th></tr><tr><td>Open with Zas in memory</td><td>378 ms</td><td>134 ms</td><td>125 ms</td></tr><tr><td>Open with Zas closed</td><td>710 ms</td><td>595 ms</td><td>514 ms</td></tr></table><p><b>Open</b>: from launching <code>zas.exe video</code> (the same as a double-click) to the first frame on screen. Medians of 8 opens in memory and 5 from scratch. With Zas in memory, 2 of 24 opens took longer (0.7 and 2.9 s); with Zas closed, the slowest was 0.83 s. The file was already in the Windows cache.</p><p><b>Clip copied</b>: marking a 12 s part and pressing Ctrl+E (no re-encoding) until the file is on the clipboard. Median of 5 runs: 0.14 s; the first took 33 s and is unexplained. Frame-accurate (re-encoding, Ctrl+Shift+E), the same part takes 4.6 to 5.0 s.</p><p><b>FPS while recording</b>: Fortnite at 2560×1440 in the foreground, measured with PresentMon (Intel). Without recording, 61–69 FPS; recording at 60 fps with the graphics card (H.264 or H.265 via NVENC), 68–70 FPS, within the same variation. Recording uses 18% of one CPU core. The old CPU method (libx264) used 2.7 cores and stuttered.</p><p><b>Memory</b>: 99 MB idle (in the background, ready to open) and about 300 MB playing the 1080p60 video.</p><p>These are measurements from one specific computer: yours may differ.</p>",
+ "preguntas": [
+  [
+   "Is Zas a good alternative to ShadowPlay, OBS or Medal?",
+   "Yes, if what you want is to record your screen or save gameplay moments and share them fast. Like ShadowPlay, it records with the graphics card and has instant replay, but it works on NVIDIA, AMD and Intel. Unlike OBS, there is nothing to set up. And like Medal, it has a clip editor, but everything stays on your PC: no account, no cloud and no ads. If you need to stream live, OBS is still the tool; Zas does not stream."
+  ],
+  [
+   "Does recording with Zas lower my FPS?",
+   "In our test, no. Fortnite at 1440p ran at 61–69 FPS without recording and at 68–70 while Zas recorded with the graphics card (measured with PresentMon on an RTX 2060). Zas encodes on the graphics card (NVENC, AMF or Quick Sync), so the CPU barely works: 18% of one core."
+  ],
+  [
+   "How do I share a clip on Discord?",
+   "Save the moment with Win+Shift+G (instant replay), or mark a part with I and O and press Ctrl+E. The clip is copied to your clipboard: in Discord, press Ctrl+V. Note that Discord allows files up to 20 MB on free accounts."
+  ],
+  [
+   "What is Zas Player?",
+   "Zas (or Zas Player) is a free screen recorder, clip editor and video player for Windows 10 and 11. It opens videos instantly and has a trimmer and a photo viewer built in."
+  ],
+  [
+   "How do I download Zas?",
+   "Click “Download Zas” on this page: it downloads the official installer, Zas-Setup.exe, from GitHub. Open it, it installs in seconds and from then on it updates itself when you say so."
+  ],
+  [
+   "Is it free? Does it have ads?",
+   "It’s free, with no ads and no account to create."
+  ],
+  [
+   "What formats does it open?",
+   "Almost any video (MP4, MKV, WebM, MOV, AVI, WMV, TS…) thanks to mpv and FFmpeg, and photos in JPEG, PNG, WebP, HEIC, AVIF and more."
+  ]
+ ],
+ "compara": {
+  "filas": [
+   [
+    "Free",
+    "si",
+    "si",
+    "si",
+    "si*"
+   ],
+   [
+    "Any graphics card (NVIDIA, AMD, Intel)",
+    "si",
+    "NVIDIA only",
+    "si",
+    "si"
+   ],
+   [
+    "Instant replay",
+    "si",
+    "si",
+    "With setup",
+    "si"
+   ],
+   [
+    "Clip editor (trim, text, arrows, blur, zoom)",
+    "si",
+    "no",
+    "no",
+    "si"
+   ],
+   [
+    "Clip file on the clipboard, ready to paste",
+    "si",
+    "no",
+    "no",
+    "A link"
+   ],
+   [
+    "Video player and photo viewer included",
+    "si",
+    "no",
+    "no",
+    "no"
+   ],
+   [
+    "No account or cloud",
+    "si",
+    "si",
+    "si",
+    "Asks to sign up"
+   ],
+   [
+    "Automatic highlight clips",
+    "no",
+    "Some games",
+    "no",
+    "si"
+   ],
+   [
+    "Live streaming",
+    "no",
+    "no",
+    "si",
+    "no"
+   ]
+  ],
+  "pie": "* With paid features.",
+  "si": "Yes",
+  "no": "No"
+ },
+ "jsonld-subcategoria": "Video player",
+ "jsonld-funciones": [
+  "GPU screen recorder (NVIDIA, AMD, Intel)",
+  "Instant replay",
+  "Clip editor",
+  "Clips copied to the clipboard",
+  "Trim videos without re-encoding",
+  "Video player",
+  "Image viewer"
+ ]
+}

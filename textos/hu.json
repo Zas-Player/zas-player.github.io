@@ -1,0 +1,177 @@
+{
+ "saltar": "Ugrás a tartalomra",
+ "nav-rendimiento": "Teljesítmény",
+ "nav-funciones": "Funkciók",
+ "descargar-corto": "Letöltés",
+ "antetitulo": "Ingyenes képernyőrögzítő és videolejátszó Windowsra",
+ "titular": "Rögzíts. Vágj. Ossz meg.",
+ "entradilla": "Azonnali visszajátszás és képernyőfelvétel FPS-veszteség nélkül, beépített klipszerkesztő, és minden klip a vágólapra kerül, készen a Discordra. Ráadásul egy azonnal induló videolejátszó.",
+ "descargar": "A Zas letöltése",
+ "versiones": "Kiadások",
+ "gratis": "Ingyenes · Windows 10 és 11 · Reklámmentes",
+ "rend-ante": "Mért teljesítmény",
+ "rend-titulo": "A sebességet mérjük.",
+ "cifra1-nombre": "Egy videó megnyitása",
+ "cifra1-detalle": "A dupla kattintástól az első képkockáig, memóriában lévő Zas-szal. Medián egy 1080p60-as videóra.",
+ "cifra2-nombre": "Egy klip a vágólapon",
+ "cifra2-detalle": "A Ctrl+E lenyomásától addig, amíg egy 12 mp-es klip a vágólapon van, beillesztésre készen.",
+ "cifra3-nombre": "FPS-veszteség felvétel közben",
+ "cifra3-detalle": "Fortnite 1440p-ben: 61–69 FPS felvétel nélkül és 68–70 a videokártyával történő felvétel közben. PresentMonnal mérve.",
+ "metodo-titulo": "Hogyan mértük",
+ "pasos-ante": "Klip másodpercek alatt",
+ "pasos-titulo": "Videóból a chatbe három billentyűvel.",
+ "paso1": "Jelöld ki a részt",
+ "paso1-texto": "Elejét és végét, nézés közben.",
+ "paso2": "Exportáld",
+ "paso2-texto": "Újrakódolás nélkül: a klip azonnal kész, eredeti minőségben.",
+ "paso3": "Illeszd be",
+ "paso3-texto": "Már a vágólapon van: illeszd be bármelyik chatbe.",
+ "comp-ante": "A Zas és a többiek",
+ "comp-titulo": "Alternatíva a ShadowPlay, az OBS és a Medal helyett.",
+ "comp-sub": "Rögzíts bármilyen videokártyán úgy, mint a ShadowPlay, mindenféle beállítgatás nélkül (nem úgy, mint az OBS-ben), és szerkeszd a klipet anélkül, hogy bármilyen felhőbe feltöltenéd. Mindez egyetlen alkalmazásban, amely egyben a videolejátszód is.",
+ "comp-nota": "Az egyes alkalmazások 2026 októberi nyilvános információi alapján. A ShadowPlay az NVIDIA App felvételi funkciója.",
+ "func-ante": "Egy alkalmazás három helyett",
+ "func-titulo": "Minden, amit a videóiddal csinálsz.",
+ "b3-titulo": "Rögzíts és ossz meg",
+ "b3-texto": "Húzással jelölj ki egy képernyőterületet, és rögzíts a rendszerhanggal és a választott mikrofonnal. A kódolást a videokártya végzi (NVIDIA, AMD vagy Intel), akár 120 fps-sel, anélkül hogy a játékod képkockákat veszítene. Az azonnali visszajátszás elmenti az utolsó másodperceket, ha történik valami, a klip pedig a vágólapra kerül, készen a Discordba való beillesztésre.",
+ "a-grabar": "Képernyő rögzítése",
+ "a-repeticion": "Visszajátszás mentése",
+ "a-panel": "Felvételi panel",
+ "b2-titulo": "Szerkessz",
+ "b2-texto": "Darabold és töröld a részeket az idővonalon. Adj hozzá szöveget, kereteket, nyilakat, pixelezett területeket és animált nagyítást, mindegyiket saját kezdettel és véggel. Exportálod, és már másolva is van.",
+ "b2-atajo": "megnyitja a szerkesztőt",
+ "b1-titulo": "Lejátszás",
+ "b1-texto": "Bezárás után a memóriában marad, így a következő videó azonnal megjelenik, amint megnyitod. A kezelőfelület eltűnik, amikor nem használod, és szinte bármilyen formátumot lejátszik. Gyors fotónézegető is: JPEG, PNG, WebP, HEIC, AVIF és még sok más.",
+ "faq-ante": "Kérdések",
+ "faq-titulo": "Amit a leggyakrabban kérdeznek.",
+ "final-titulo": "Videót nyit. És sokkal többet tud.",
+ "descargar-windows": "A Zas letöltése Windowsra",
+ "final-nota": "Ingyenes. Reklámmentes. Akkor frissül, amikor te szeretnéd.",
+ "pie-versiones": "Kiadások",
+ "creditos": "Alapja:",
+ "y": "és",
+ "stock": "A képernyőképeken szereplő videók:",
+ "bbb": "Mérőeszköz:",
+ "alt-escaparate": "A Zas felvételi panelje a képernyő fölött: terület vagy teljes képernyő rögzítése, azonnali visszajátszás, hang, minőség, FPS és kodek",
+ "alt-recortar": "A Zas idővonala egy borostyánszínnel kijelölt résszel",
+ "alt-compartir": "A Zas jelzi, hogy a klip mentve és másolva",
+ "alt-copiado": "A Zas a „Mentve és másolva” üzenettel: a klip már a vágólapon van",
+ "alt-editor": "A Zas szerkesztője egy szöveggel, egy nyíllal és egy kerettel a videón",
+ "alt-reproduce": "A Zas teljes képernyőn játszik le egy videót, alul a vezérlőkkel",
+ "meta-titulo": "Zas: ingyenes képernyőrögzítő Windowsra, a ShadowPlay, az OBS és a Medal alternatívája",
+ "meta-descripcion": "A Zas Player ingyenes képernyőrögzítő és klipkészítő Windowsra: azonnali visszajátszás FPS-veszteség nélkül, beépített klipszerkesztő és vágólapra másolt klipek, készen a Discordra. Ráadásul egy azonnal induló videolejátszó. Reklámok és fiók nélkül.",
+ "meta-og-titulo": "Zas Player · Rögzíts. Vágj. Ossz meg.",
+ "version-palabra": "verzió",
+ "idioma-etiqueta": "Nyelv",
+ "metodo": "<p>Zas 1.15.1, vagyis az itt letölthető verzió, egy AMD Ryzen 5 3600 processzorral, NVIDIA GeForce RTX 2060 videokártyával, 32 GB memóriával és Windows 11-gyel szerelt PC-n, 2560×1440-es képernyővel. Tesztvideó: egy perc a Big Buck Bunnyból (H.264, 1080p 60 fps-sel) és két belőle készült 10 mp-es változat (H.265 4K-ban 30 fps-sel és VP9 1080p 30 fps-sel).</p><table><tr><th></th><th>H.264 1080p60</th><th>H.265 2160p30</th><th>VP9 1080p30</th></tr><tr><td>Megnyitás memóriában lévő Zas-szal</td><td>378 ms</td><td>134 ms</td><td>125 ms</td></tr><tr><td>Megnyitás bezárt Zas-szal</td><td>710 ms</td><td>595 ms</td><td>514 ms</td></tr></table><p><b>Megnyitás</b>: a <code>zas.exe video</code> elindításától (ugyanaz, mint a dupla kattintás) az első képkocka megjelenéséig. Mediánok 8 memóriából és 5 nulláról indított megnyitásból. Memóriában lévő Zas-szal 24 megnyitásból 2 tovább tartott (0,7 és 2,9 mp); bezárt Zas-szal a leglassabb 0,83 mp volt. A fájl már a Windows gyorsítótárában volt.</p><p><b>Másolt klip</b>: egy 12 mp-es rész kijelölésétől és a Ctrl+E lenyomásától (újrakódolás nélkül) addig, amíg a fájl a vágólapon van. 5 futtatás mediánja: 0,14 mp; az első 33 mp-ig tartott, és nem tudjuk, miért. Képkockapontosan (újrakódolással, Ctrl+Shift+E) ugyanez a rész 4,6–5,0 mp.</p><p><b>FPS felvétel közben</b>: Fortnite 2560×1440-ben az előtérben, PresentMonnal (Intel) mérve. Felvétel nélkül 61–69 FPS; 60 fps-es felvétel közben a videokártyával (H.264 vagy H.265 NVENC-en keresztül) 68–70 FPS, ugyanazon az ingadozáson belül. A felvétel egy CPU-mag 18%-át használja. A korábbi CPU-s módszer (libx264) 2,7 magot használt és akadozott.</p><p><b>Memória</b>: 99 MB tétlenül (a háttérben, megnyitásra készen) és kb. 300 MB az 1080p60-as videó lejátszása közben.</p><p>Ezek egyetlen konkrét számítógépen végzett mérések: a te gépeden eltérhetnek az eredmények.</p>",
+ "preguntas": [
+  [
+   "Jó alternatíva a Zas a ShadowPlay, az OBS vagy a Medal helyett?",
+   "Igen, ha a képernyődet szeretnéd rögzíteni, vagy játékbeli pillanatokat mentenél el és osztanál meg gyorsan. A ShadowPlay-hez hasonlóan a videokártyával rögzít, és van azonnali visszajátszása, de NVIDIA, AMD és Intel kártyákon is működik. Az OBS-sel ellentétben semmit sem kell beállítani. A Medalhoz hasonlóan van klipszerkesztője, de minden a gépeden marad: nincs fiók, nincs felhő és nincsenek reklámok. Ha élőben szeretnél streamelni, arra továbbra is az OBS a megfelelő eszköz; a Zas nem streamel."
+  ],
+  [
+   "Csökkenti a felvétel a Zasszal az FPS-t?",
+   "A tesztünkben nem. A Fortnite 1440p-ben 61–69 FPS-sel futott felvétel nélkül, és 68–70-nel, miközben a Zas a videokártyával rögzített (PresentMonnal mérve egy RTX 2060-on). A Zas a videokártyán kódol (NVENC, AMF vagy Quick Sync), így a processzor alig dolgozik: egy mag 18%-a."
+  ],
+  [
+   "Hogyan oszthatok meg egy klipet Discordon?",
+   "Mentsd el a pillanatot a Win+Shift+G billentyűkombinációval (azonnali visszajátszás), vagy jelölj ki egy részt az I és O billentyűvel, majd nyomd meg a Ctrl+E-t. A klip a vágólapra kerül: a Discordban nyomd meg a Ctrl+V-t. Ne feledd, hogy a Discord ingyenes fiókoknál legfeljebb 20 MB-os fájlokat enged."
+  ],
+  [
+   "Mi az a Zas Player?",
+   "A Zas (vagy Zas Player) ingyenes képernyőrögzítő, klipszerkesztő és videolejátszó Windows 10-re és 11-re. Azonnal megnyitja a videókat, és beépített vágóeszközzel és fotónézegetővel is rendelkezik."
+  ],
+  [
+   "Hogyan tölthetem le a Zast?",
+   "Kattints az oldalon „A Zas letöltése” gombra: letöltődik a hivatalos telepítő, a Zas-Setup.exe a GitHubról. Indítsd el, másodpercek alatt feltelepül, onnantól pedig magától frissül, amikor engeded."
+  ],
+  [
+   "Ingyenes? Vannak benne reklámok?",
+   "Ingyenes, reklámok nélkül, és nem kell fiókot létrehozni."
+  ],
+  [
+   "Milyen formátumokat nyit meg?",
+   "Szinte bármilyen videót (MP4, MKV, WebM, MOV, AVI, WMV, TS…) az mpv-nek és az FFmpegnek köszönhetően, valamint JPEG, PNG, WebP, HEIC, AVIF és más formátumú fotókat."
+  ]
+ ],
+ "compara": {
+  "filas": [
+   [
+    "Ingyenes",
+    "si",
+    "si",
+    "si",
+    "si*"
+   ],
+   [
+    "Bármilyen videokártya (NVIDIA, AMD, Intel)",
+    "si",
+    "Csak NVIDIA",
+    "si",
+    "si"
+   ],
+   [
+    "Azonnali visszajátszás",
+    "si",
+    "si",
+    "Beállítással",
+    "si"
+   ],
+   [
+    "Klipszerkesztő (vágás, szöveg, nyilak, elmosás, nagyítás)",
+    "si",
+    "no",
+    "no",
+    "si"
+   ],
+   [
+    "Klipfájl a vágólapon, beillesztésre készen",
+    "si",
+    "no",
+    "no",
+    "Egy link"
+   ],
+   [
+    "Videolejátszó és fotónézegető is",
+    "si",
+    "no",
+    "no",
+    "no"
+   ],
+   [
+    "Fiók és felhő nélkül",
+    "si",
+    "si",
+    "si",
+    "Regisztrációt kér"
+   ],
+   [
+    "Automatikus kiemelt klipek",
+    "no",
+    "Egyes játékokban",
+    "no",
+    "si"
+   ],
+   [
+    "Élő közvetítés",
+    "no",
+    "no",
+    "si",
+    "no"
+   ]
+  ],
+  "pie": "* Fizetős funkciókkal.",
+  "si": "Igen",
+  "no": "Nem"
+ },
+ "jsonld-subcategoria": "Videolejátszó",
+ "jsonld-funciones": [
+  "GPU-s képernyőrögzítő (NVIDIA, AMD, Intel)",
+  "Azonnali visszajátszás",
+  "Klipszerkesztő",
+  "Vágólapra másolt klipek",
+  "Videók vágása újrakódolás nélkül",
+  "Videolejátszó",
+  "Képnézegető"
+ ]
+}

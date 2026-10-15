@@ -1,0 +1,177 @@
+{
+ "saltar": "Joan edukira",
+ "nav-rendimiento": "Errendimendua",
+ "nav-funciones": "Ezaugarriak",
+ "descargar-corto": "Deskargatu",
+ "antetitulo": "Pantaila-grabagailu eta bideo-erreproduzitzaile doakoa Windows-erako",
+ "titular": "Grabatu. Moztu. Partekatu.",
+ "entradilla": "Berehalako errepikapena eta pantaila-grabaketa FPS-rik galdu gabe, klip-editore integratua eta klip guztiak arbelean kopiatuta, Discord-erako prest. Gainera, berehala irekitzen den bideo-erreproduzitzailea.",
+ "descargar": "Deskargatu Zas",
+ "versiones": "Ikusi bertsioak",
+ "gratis": "Doakoa · Windows 10 eta 11 · Iragarkirik gabe",
+ "rend-ante": "Neurtutako errendimendua",
+ "rend-titulo": "Abiadura neurtu egiten da.",
+ "cifra1-nombre": "Bideo bat irekitzeko",
+ "cifra1-detalle": "Klik bikoitzetik lehen fotogramara, Zas memorian dagoela. 1080p60 bideo baten mediana.",
+ "cifra2-nombre": "Klipa kopiatuta izateko",
+ "cifra2-detalle": "Ctrl+E sakatzen duzunetik 12 s-ko klipa arbelean egon arte, itsasteko prest.",
+ "cifra3-nombre": "Grabatzean galdutako FPSak",
+ "cifra3-detalle": "Fortnite 1440p-n: 61–69 FPS grabatu gabe eta 68–70 txartel grafikoarekin grabatzean. PresentMon-ekin neurtua.",
+ "metodo-titulo": "Nola neurtu dugun",
+ "pasos-ante": "Klip bat segundotan",
+ "pasos-titulo": "Bideotik txatera hiru teklatan.",
+ "paso1": "Markatu zatia",
+ "paso1-texto": "Hasiera eta amaiera, ikusi bitartean.",
+ "paso2": "Esportatu",
+ "paso2-texto": "Berriro kodetu gabe: klipa berehala dago prest, jatorrizko kalitatean.",
+ "paso3": "Itsatsi",
+ "paso3-texto": "Arbelean dago jada: itsatsi edozein txatetan.",
+ "comp-ante": "Zas eta gainerakoak",
+ "comp-titulo": "ShadowPlay, OBS eta Medal-en alternatiba.",
+ "comp-sub": "Grabatu ShadowPlay-rekin bezala edozein txartel grafikotan, OBS-k eskatzen duen konfiguraziorik gabe, eta editatu klipa inongo hodeitara igo gabe. Dena aplikazio bakarrean, zure bideo-erreproduzitzailea ere badena.",
+ "comp-nota": "Aplikazio bakoitzaren informazio publikoan oinarritua, 2026ko urrian. ShadowPlay NVIDIA App-en grabaketa-funtzioa da.",
+ "func-ante": "Aplikazio bat, ez hiru",
+ "func-titulo": "Zure bideoekin egiten duzun guztia.",
+ "b3-titulo": "Grabatu eta partekatu",
+ "b3-texto": "Arrastatu pantailaren eremu bat eta grabatu sistemaren audioarekin eta nahi duzun mikrofonoarekin. Txartel grafikoak kodetzen du (NVIDIA, AMD edo Intel), 120 fps arte, jokoari fotogramarik kendu gabe. Berehalako errepikapenak azken segundoak gordetzen ditu zerbait gertatzen denean, eta klipa kopiatuta geratzen da, Discord-en itsasteko prest.",
+ "a-grabar": "Grabatu pantaila",
+ "a-repeticion": "Gorde errepikapena",
+ "a-panel": "Grabaketa-panela",
+ "b2-titulo": "Editatu",
+ "b2-texto": "Zatitu eta kendu zatiak denbora-lerroan. Gehitu testuak, laukiak, geziak, pixelatutako eremuak eta zoom animatua, bakoitza bere hasiera eta amaierarekin. Esportatu, eta kopiatuta dago.",
+ "b2-atajo": "editorea irekitzen du",
+ "b1-titulo": "Erreproduzitu",
+ "b1-texto": "Itxi ondoren memorian geratzen da, eta hurrengo bideoa ireki bezain laster agertzen da. Interfazea desagertu egiten da erabiltzen ez duzunean, eta ia edozein formatu erreproduzitzen du. Argazki-ikustaile azkarra ere bada: JPEG, PNG, WebP, HEIC, AVIF eta gehiago.",
+ "faq-ante": "Galderak",
+ "faq-titulo": "Jendeak gehien galdetzen duena.",
+ "final-titulo": "Ireki bideo bat. Egin askoz gehiago.",
+ "descargar-windows": "Deskargatu Zas Windows-erako",
+ "final-nota": "Doakoa. Iragarkirik gabe. Zuk nahi duzunean eguneratzen da.",
+ "pie-versiones": "Bertsioak",
+ "creditos": "Oinarria:",
+ "y": "eta",
+ "stock": "Pantaila-argazkietako bideoak:",
+ "bbb": "Neurketetan erabilia:",
+ "alt-escaparate": "Zas-en grabaketa-panela pantailaren gainean irekita: grabatu eremu bat edo pantaila, berehalako errepikapena, soinua, kalitatea, FPSak eta kodeka",
+ "alt-recortar": "Zas-en denbora-lerroa, zati bat anbar kolorez markatuta",
+ "alt-compartir": "Zas klipa gorde eta kopiatu dela adierazten",
+ "alt-copiado": "Zas «Gordeta eta kopiatuta» erakusten: klipa arbelean dago jada",
+ "alt-editor": "Zas-en editorea, bideoaren gainean testu bat, gezi bat eta lauki bat dituela",
+ "alt-reproduce": "Zas bideo bat pantaila osoan erreproduzitzen, kontrolak behealdean dituela",
+ "meta-titulo": "Zas: pantaila-grabagailu doakoa Windows-erako, ShadowPlay, OBS eta Medal-en alternatiba",
+ "meta-descripcion": "Zas Player Windows-erako pantaila-grabagailu eta klip-tresna doakoa da: berehalako errepikapena FPS-rik galdu gabe, klip-editore integratua eta arbelean kopiatutako klipak, Discord-erako prest. Gainera, berehalako bideo-erreproduzitzailea. Iragarkirik eta konturik gabe.",
+ "meta-og-titulo": "Zas Player · Grabatu. Moztu. Partekatu.",
+ "version-palabra": "bertsioa",
+ "idioma-etiqueta": "Hizkuntza",
+ "metodo": "<p>Zas 1.15.1, hemen deskargatzen duzun bertsioa, AMD Ryzen 5 3600 bat, NVIDIA GeForce RTX 2060 bat, 32 GB memoria eta Windows 11 dituen PC batean, 2560×1440 pantaila batekin. Proba-bideoa: Big Buck Bunny-ren minutu bat (H.264, 1080p 60 fps-tan) eta hartatik sortutako 10 s-ko bi bertsio (H.265 4K-n 30 fps-tan eta VP9 1080p 30 fps-tan).</p><table><tr><th></th><th>H.264 1080p60</th><th>H.265 2160p30</th><th>VP9 1080p30</th></tr><tr><td>Ireki Zas memorian dagoela</td><td>378 ms</td><td>134 ms</td><td>125 ms</td></tr><tr><td>Ireki Zas itxita dagoela</td><td>710 ms</td><td>595 ms</td><td>514 ms</td></tr></table><p><b>Irekitzea</b>: <code>zas.exe video</code> abiarazten denetik (klik bikoitzaren berdina) lehen fotograma pantailan agertu arte. Memorian egindako 8 irekitzeren eta hutsetik egindako 5en medianak. Zas memorian zegoela, 24 irekitzetatik 2k gehiago iraun zuten (0,7 eta 2,9 s); Zas itxita zegoela, motelenak 0,83 s iraun zuen. Fitxategia Windows-en cachean zegoen jada.</p><p><b>Klipa kopiatuta</b>: 12 s-ko zati bat markatu eta Ctrl+E sakatzen denetik (berriro kodetu gabe) fitxategia arbelean egon arte. 5 exekuzioren mediana: 0,14 s; lehenengoak 33 s iraun zuen, eta ez dakigu zergatik. Fotograma-zehaztasunez (berriro kodetuta, Ctrl+Shift+E), zati berak 4,6 eta 5,0 s artean behar ditu.</p><p><b>FPSak grabatzean</b>: Fortnite 2560×1440-n lehen planoan, PresentMon-ekin (Intel) neurtua. Grabatu gabe, 61–69 FPS; 60 fps-tan txartel grafikoarekin grabatzean (H.264 edo H.265 NVENC bidez), 68–70 FPS, aldakortasun beraren barruan. Grabaketak CPU-nukleo baten %18 erabiltzen du. CPU bidezko metodo zaharrak (libx264) 2,7 nukleo erabiltzen zituen eta etenak egiten zituen.</p><p><b>Memoria</b>: 99 MB geldirik (atzeko planoan, irekitzeko prest) eta 300 MB inguru 1080p60 bideoa erreproduzitzean.</p><p>Ordenagailu jakin bateko neurketak dira: zurean desberdinak izan daitezke.</p>",
+ "preguntas": [
+  [
+   "Zas ShadowPlay, OBS edo Medal-en alternatiba ona al da?",
+   "Bai, pantaila grabatu edo jokoetako uneak gorde eta azkar partekatu nahi badituzu. ShadowPlay-k bezala, txartel grafikoarekin grabatzen du eta berehalako errepikapena du, baina NVIDIA, AMD eta Intel-ekin dabil. OBS-n ez bezala, ez dago ezer konfiguratu beharrik. Eta Medal-ek bezala, klip-editorea du, baina dena zure PCan geratzen da: konturik, hodeirik eta iragarkirik gabe. Zuzenean igorri behar baduzu, OBS da oraindik tresna egokia; Zas-ek ez du zuzeneko igorpenik egiten."
+  ],
+  [
+   "Zas-ekin grabatzeak FPSak jaisten ditu?",
+   "Gure proban, ez. Fortnite 1440p-n 61–69 FPS-tan ibili zen grabatu gabe, eta 68–70 FPS-tan Zas txartel grafikoarekin grabatzen ari zen bitartean (PresentMon-ekin neurtua, RTX 2060 batean). Zas-ek txartel grafikoan kodetzen du (NVENC, AMF edo Quick Sync), beraz CPUak ia ez du lanik egiten: nukleo baten %18."
+  ],
+  [
+   "Nola partekatu klip bat Discord-en?",
+   "Gorde unea Win+Shift+G sakatuta (berehalako errepikapena), edo markatu zati bat I eta O teklekin eta sakatu Ctrl+E. Klipa arbelean kopiatzen da: Discord-en, sakatu Ctrl+V. Kontuan izan Discord-ek 20 MB arteko fitxategiak onartzen dituela doako kontuetan."
+  ],
+  [
+   "Zer da Zas Player?",
+   "Zas (edo Zas Player) Windows 10 eta 11rako pantaila-grabagailu, klip-editore eta bideo-erreproduzitzaile doakoa da. Bideoak berehala irekitzen ditu, eta mozteko tresna eta argazki-ikustailea ditu integratuta."
+  ],
+  [
+   "Nola deskargatu Zas?",
+   "Egin klik orri honetako «Deskargatu Zas» botoian: instalatzaile ofiziala, Zas-Setup.exe, GitHub-etik deskargatzen da. Ireki, segundo gutxitan instalatzen da, eta handik aurrera zuk nahi duzunean eguneratzen da."
+  ],
+  [
+   "Doakoa da? Iragarkirik ba al du?",
+   "Doakoa da, iragarkirik gabe eta konturik sortu beharrik gabe."
+  ],
+  [
+   "Zer formatu irekitzen ditu?",
+   "Ia edozein bideo (MP4, MKV, WebM, MOV, AVI, WMV, TS…), mpv eta FFmpeg-i esker, eta JPEG, PNG, WebP, HEIC, AVIF eta beste formatu batzuetako argazkiak."
+  ]
+ ],
+ "compara": {
+  "filas": [
+   [
+    "Doakoa",
+    "si",
+    "si",
+    "si",
+    "si*"
+   ],
+   [
+    "Edozein txartel grafiko (NVIDIA, AMD, Intel)",
+    "si",
+    "NVIDIA soilik",
+    "si",
+    "si"
+   ],
+   [
+    "Berehalako errepikapena",
+    "si",
+    "si",
+    "Konfiguratuz gero",
+    "si"
+   ],
+   [
+    "Klip-editorea (moztu, testua, geziak, lausotu, zooma)",
+    "si",
+    "no",
+    "no",
+    "si"
+   ],
+   [
+    "Klip-fitxategia arbelean, itsasteko prest",
+    "si",
+    "no",
+    "no",
+    "Esteka bat"
+   ],
+   [
+    "Bideo-erreproduzitzailea eta argazki-ikustailea barne",
+    "si",
+    "no",
+    "no",
+    "no"
+   ],
+   [
+    "Konturik eta hodeirik gabe",
+    "si",
+    "si",
+    "si",
+    "Erregistroa eskatzen du"
+   ],
+   [
+    "Une onenen klip automatikoak",
+    "no",
+    "Joko batzuetan",
+    "no",
+    "si"
+   ],
+   [
+    "Zuzeneko emanaldiak",
+    "no",
+    "no",
+    "si",
+    "no"
+   ]
+  ],
+  "pie": "* Ordainpeko funtzioekin.",
+  "si": "Bai",
+  "no": "Ez"
+ },
+ "jsonld-subcategoria": "Bideo-erreproduzitzailea",
+ "jsonld-funciones": [
+  "GPU bidezko pantaila-grabagailua (NVIDIA, AMD, Intel)",
+  "Berehalako errepikapena",
+  "Klip-editorea",
+  "Arbelean kopiatutako klipak",
+  "Bideoak moztea berriro kodetu gabe",
+  "Bideo-erreproduzitzailea",
+  "Irudi-ikustailea"
+ ]
+}

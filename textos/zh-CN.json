@@ -1,0 +1,177 @@
+{
+ "saltar": "跳到主要内容",
+ "nav-rendimiento": "性能",
+ "nav-funciones": "功能",
+ "descargar-corto": "下载",
+ "antetitulo": "免费的 Windows 录屏软件和视频播放器",
+ "titular": "录制。剪辑。分享。",
+ "entradilla": "不掉帧的即时重放和屏幕录制，内置剪辑编辑器，每段剪辑都会自动复制到剪贴板，直接发到 Discord。还附带一款秒开的视频播放器。",
+ "descargar": "下载 Zas",
+ "versiones": "查看版本",
+ "gratis": "免费 · Windows 10 和 11 · 无广告",
+ "rend-ante": "实测性能",
+ "rend-titulo": "快不快，测了才算。",
+ "cifra1-nombre": "打开一个视频",
+ "cifra1-detalle": "从双击到显示第一帧，Zas 驻留内存时。1080p60 视频的中位数。",
+ "cifra2-nombre": "复制好一段剪辑",
+ "cifra2-detalle": "从按下 Ctrl+E 到 12 秒的剪辑进入剪贴板、可以直接粘贴。",
+ "cifra3-nombre": "录制时损失的 FPS",
+ "cifra3-detalle": "1440p 的 Fortnite：不录制时 61–69 FPS，用显卡录制时 68–70 FPS。使用 PresentMon 测量。",
+ "metodo-titulo": "我们如何测量",
+ "pasos-ante": "几秒钟出剪辑",
+ "pasos-titulo": "从视频到聊天，只需三个键。",
+ "paso1": "标记片段",
+ "paso1-texto": "边看边标出起点和终点。",
+ "paso2": "导出",
+ "paso2-texto": "无需重新编码：剪辑立即生成，保持原始画质。",
+ "paso3": "粘贴",
+ "paso3-texto": "剪辑已在剪贴板里：粘贴到任意聊天中即可。",
+ "comp-ante": "Zas 与其他软件对比",
+ "comp-titulo": "ShadowPlay、OBS 和 Medal 的替代之选。",
+ "comp-sub": "在任何显卡上都能像 ShadowPlay 一样录制，无需像 OBS 那样配置，剪辑也不用上传到任何云端。全部集成在一个应用里，它同时还是你的视频播放器。",
+ "comp-nota": "依据各应用截至 2026 年十月的公开信息。ShadowPlay 是 NVIDIA App 中的录制功能。",
+ "func-ante": "一个应用，顶三个",
+ "func-titulo": "处理视频的一切，都在这里。",
+ "b3-titulo": "录制与分享",
+ "b3-texto": "拖选屏幕区域，同时录制系统声音和你选择的麦克风。由显卡（NVIDIA、AMD 或 Intel）编码，最高 120 fps，不占用游戏帧数。精彩瞬间发生时，即时重放会保存最近几秒，剪辑自动复制，直接粘贴到 Discord。",
+ "a-grabar": "录制屏幕",
+ "a-repeticion": "保存回放",
+ "a-panel": "录制面板",
+ "b2-titulo": "编辑",
+ "b2-texto": "在时间轴上分割和删除片段。添加文字、方框、箭头、马赛克和动画缩放，每个元素都有各自的开始和结束时间。导出后即已复制。",
+ "b2-atajo": "打开编辑器",
+ "b1-titulo": "播放",
+ "b1-texto": "关闭后仍驻留内存，所以下一个视频一打开就显示。不用时界面自动隐藏，几乎支持所有格式。它也是一款快速的看图工具：JPEG、PNG、WebP、HEIC、AVIF 等。",
+ "faq-ante": "常见问题",
+ "faq-titulo": "大家常问的问题。",
+ "final-titulo": "打开视频，做更多事。",
+ "descargar-windows": "下载 Windows 版 Zas",
+ "final-nota": "免费。无广告。在你同意时自动更新。",
+ "pie-versiones": "版本",
+ "creditos": "基于",
+ "y": "和",
+ "stock": "截图中的视频：",
+ "bbb": "测试视频：",
+ "alt-escaparate": "在屏幕上打开的 Zas 录制面板：录制区域或全屏、即时重放、声音、画质、FPS 和编码器",
+ "alt-recortar": "Zas 时间轴，其中一段以琥珀色标记",
+ "alt-compartir": "Zas 提示剪辑已保存并复制",
+ "alt-copiado": "Zas 显示“已保存并复制”：剪辑已在剪贴板中",
+ "alt-editor": "Zas 编辑器，视频上有文字、箭头和方框",
+ "alt-reproduce": "Zas 全屏播放视频，底部显示控制栏",
+ "meta-titulo": "Zas：免费 Windows 录屏软件，ShadowPlay、OBS 和 Medal 的替代品",
+ "meta-descripcion": "Zas Player 是一款免费的 Windows 录屏和剪辑工具：不掉帧的即时重放、内置剪辑编辑器，剪辑自动复制到剪贴板，直接发到 Discord。还附带秒开的视频播放器。无广告，无需注册账号。",
+ "meta-og-titulo": "Zas Player · 录制。剪辑。分享。",
+ "version-palabra": "版本",
+ "idioma-etiqueta": "语言",
+ "metodo": "<p>测试使用本页提供下载的 Zas 1.15.1，电脑配置为 AMD Ryzen 5 3600、NVIDIA GeForce RTX 2060、32 GB 内存、Windows 11，显示器分辨率 2560×1440。测试视频：一分钟的 Big Buck Bunny（H.264，1080p 60 fps），以及由它制作的两个 10 秒版本（H.265 4K 30 fps 和 VP9 1080p 30 fps）。</p><table><tr><th></th><th>H.264 1080p60</th><th>H.265 2160p30</th><th>VP9 1080p30</th></tr><tr><td>Zas 驻留内存时打开</td><td>378 ms</td><td>134 ms</td><td>125 ms</td></tr><tr><td>Zas 未运行时打开</td><td>710 ms</td><td>595 ms</td><td>514 ms</td></tr></table><p><b>打开</b>：从启动 <code>zas.exe video</code>（等同于双击）到屏幕上显示第一帧。驻留内存时取 8 次打开的中位数，冷启动取 5 次。Zas 驻留内存时，24 次中有 2 次较慢（0.7 秒和 2.9 秒）；Zas 未运行时，最慢一次为 0.83 秒。文件已在 Windows 缓存中。</p><p><b>复制剪辑</b>：标记一段 12 秒的片段并按下 Ctrl+E（不重新编码），直到文件进入剪贴板。5 次运行的中位数：0.14 秒；第一次用了 33 秒，原因不明。如需精确到帧（重新编码，Ctrl+Shift+E），同一片段需要 4.6 到 5.0 秒。</p><p><b>录制时的 FPS</b>：Fortnite 以 2560×1440 在前台运行，使用 PresentMon（Intel）测量。不录制时 61–69 FPS；用显卡以 60 fps 录制（通过 NVENC 编码 H.264 或 H.265）时 68–70 FPS，处于同一波动范围内。录制占用单个 CPU 核心的 18%。旧的 CPU 编码方式（libx264）占用 2.7 个核心，而且会卡顿。</p><p><b>内存</b>：空闲时（在后台随时准备打开）99 MB，播放 1080p60 视频时约 300 MB。</p><p>以上为单台电脑的实测结果，你的电脑可能有所不同。</p>",
+ "preguntas": [
+  [
+   "Zas 能替代 ShadowPlay、OBS 或 Medal 吗？",
+   "如果你想录屏或保存游戏精彩瞬间并快速分享，可以。它像 ShadowPlay 一样用显卡录制，也有即时重放，但 NVIDIA、AMD 和 Intel 显卡都能用。和 OBS 不同，它无需任何配置。它也像 Medal 一样有剪辑编辑器，但所有内容都留在你的电脑上：无需账号，不上云，没有广告。如果你需要直播，OBS 仍是首选；Zas 不支持直播。"
+  ],
+  [
+   "用 Zas 录制会降低 FPS 吗？",
+   "在我们的测试中不会。1440p 的 Fortnite 不录制时为 61–69 FPS，Zas 用显卡录制时为 68–70 FPS（在 RTX 2060 上用 PresentMon 测量）。Zas 使用显卡编码（NVENC、AMF 或 Quick Sync），CPU 几乎不用干活：只占单个核心的 18%。"
+  ],
+  [
+   "怎样把剪辑分享到 Discord？",
+   "按 Win+Shift+G 保存刚才的精彩瞬间（即时重放），或者用 I 和 O 标记一段后按 Ctrl+E。剪辑会复制到剪贴板：在 Discord 中按 Ctrl+V 即可。注意，Discord 免费账号只能发送不超过 20 MB 的文件。"
+  ],
+  [
+   "Zas Player 是什么？",
+   "Zas（或 Zas Player）是一款适用于 Windows 10 和 11 的免费录屏软件、剪辑编辑器和视频播放器。它能秒开视频，并内置视频裁剪工具和看图工具。"
+  ],
+  [
+   "如何下载 Zas？",
+   "点击本页的“下载 Zas”，即可从 GitHub 下载官方安装程序 Zas-Setup.exe。打开后几秒即可安装完成，之后会在你同意时自动更新。"
+  ],
+  [
+   "免费吗？有广告吗？",
+   "完全免费，没有广告，也无需注册账号。"
+  ],
+  [
+   "支持哪些格式？",
+   "借助 mpv 和 FFmpeg，几乎能打开所有视频（MP4、MKV、WebM、MOV、AVI、WMV、TS……），图片支持 JPEG、PNG、WebP、HEIC、AVIF 等格式。"
+  ]
+ ],
+ "compara": {
+  "filas": [
+   [
+    "免费",
+    "si",
+    "si",
+    "si",
+    "si*"
+   ],
+   [
+    "支持任何显卡（NVIDIA、AMD、Intel）",
+    "si",
+    "仅限 NVIDIA",
+    "si",
+    "si"
+   ],
+   [
+    "即时重放",
+    "si",
+    "si",
+    "需配置",
+    "si"
+   ],
+   [
+    "剪辑编辑器（裁剪、文字、箭头、模糊、缩放）",
+    "si",
+    "no",
+    "no",
+    "si"
+   ],
+   [
+    "剪辑文件直接进剪贴板，随时粘贴",
+    "si",
+    "no",
+    "no",
+    "仅链接"
+   ],
+   [
+    "内置视频播放器和看图工具",
+    "si",
+    "no",
+    "no",
+    "no"
+   ],
+   [
+    "无需账号，不上云",
+    "si",
+    "si",
+    "si",
+    "要求注册"
+   ],
+   [
+    "自动生成精彩集锦",
+    "no",
+    "部分游戏",
+    "no",
+    "si"
+   ],
+   [
+    "直播",
+    "no",
+    "no",
+    "si",
+    "no"
+   ]
+  ],
+  "pie": "* 含付费功能。",
+  "si": "是",
+  "no": "否"
+ },
+ "jsonld-subcategoria": "视频播放器",
+ "jsonld-funciones": [
+  "显卡加速录屏（NVIDIA、AMD、Intel）",
+  "即时重放",
+  "剪辑编辑器",
+  "剪辑自动复制到剪贴板",
+  "无需重新编码即可裁剪视频",
+  "视频播放器",
+  "图片查看器"
+ ]
+}

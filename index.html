@@ -1,16 +1,53 @@
 <!doctype html>
-<html lang="en">
+<html lang="en" data-codigo="en" data-version="version">
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<script>(function(){try{if(/bot|crawl|spider|slurp|mediapartners|lighthouse|preview|facebookexternalhit|embedly/i.test(navigator.userAgent))return;var e=null;try{e=localStorage.getItem('zas-idioma')}catch(_){}var n=((navigator.languages&&navigator.languages[0])||navigator.language||'').toLowerCase();var q=e||(n.indexOf('es')===0?'es':'en');if(q!=='en')location.replace((q==='es'?'/es/':'/')+location.hash);}catch(_){}})();</script>
+<script>(function(){try{if(/bot|crawl|spider|slurp|mediapartners|lighthouse|preview|facebookexternalhit|embedly/i.test(navigator.userAgent))return;var R={"es":"/es/","en":"/","pt-BR":"/pt-br/","pt-PT":"/pt-pt/","fr":"/fr/","de":"/de/","it":"/it/","nl":"/nl/","ca":"/ca/","gl":"/gl/","eu":"/eu/","pl":"/pl/","cs":"/cs/","sk":"/sk/","hu":"/hu/","ro":"/ro/","bg":"/bg/","hr":"/hr/","sr-Latn":"/sr-latn/","sl":"/sl/","ru":"/ru/","uk":"/uk/","sv":"/sv/","da":"/da/","nb":"/nb/","fi":"/fi/","et":"/et/","lv":"/lv/","lt":"/lt/","el":"/el/","tr":"/tr/","ja":"/ja/","ko":"/ko/","zh-CN":"/zh-cn/","zh-TW":"/zh-tw/","th":"/th/","vi":"/vi/","id":"/id/","hi":"/hi/"};function zas(n){n=(n||'').toLowerCase();if(!n)return null;if(n.indexOf('pt')==0)return n.indexOf('pt-pt')==0?'pt-PT':'pt-BR';if(n.indexOf('zh')==0)return /hant|-tw|-hk|-mo/.test(n)?'zh-TW':'zh-CN';if(/^(sr|bs)/.test(n))return 'sr-Latn';if(/^(nb|nn|no)/.test(n))return 'nb';for(var c in R){var l=c.toLowerCase();if(n==l||n.indexOf(l+'-')==0)return c;}var d=n.split('-')[0];return R[d]?d:null;}var e=null;try{e=localStorage.getItem('zas-idioma')}catch(_){}var q=(e&&R[e])?e:(zas((navigator.languages&&navigator.languages[0])||navigator.language)||'en');var aqui=document.documentElement.getAttribute('data-codigo');if(R[q]&&q!==aqui)location.replace(R[q]+location.hash);}catch(_){}})();</script>
 <title>Zas: free screen recorder for Windows, a ShadowPlay, OBS and Medal alternative</title>
 <meta name="description" content="Zas Player is a free screen recorder and clipping tool for Windows: instant replay with no FPS loss, a built-in clip editor and clips copied to your clipboard, ready for Discord. Plus an instant video player. No ads, no account.">
 <meta name="theme-color" content="#141518">
 <meta name="robots" content="index, follow, max-image-preview:large">
 <link rel="canonical" href="https://zas-player.github.io/">
-<link rel="alternate" hreflang="en" href="https://zas-player.github.io/">
 <link rel="alternate" hreflang="es" href="https://zas-player.github.io/es/">
+<link rel="alternate" hreflang="en" href="https://zas-player.github.io/">
+<link rel="alternate" hreflang="pt-BR" href="https://zas-player.github.io/pt-br/">
+<link rel="alternate" hreflang="pt-PT" href="https://zas-player.github.io/pt-pt/">
+<link rel="alternate" hreflang="fr" href="https://zas-player.github.io/fr/">
+<link rel="alternate" hreflang="de" href="https://zas-player.github.io/de/">
+<link rel="alternate" hreflang="it" href="https://zas-player.github.io/it/">
+<link rel="alternate" hreflang="nl" href="https://zas-player.github.io/nl/">
+<link rel="alternate" hreflang="ca" href="https://zas-player.github.io/ca/">
+<link rel="alternate" hreflang="gl" href="https://zas-player.github.io/gl/">
+<link rel="alternate" hreflang="eu" href="https://zas-player.github.io/eu/">
+<link rel="alternate" hreflang="pl" href="https://zas-player.github.io/pl/">
+<link rel="alternate" hreflang="cs" href="https://zas-player.github.io/cs/">
+<link rel="alternate" hreflang="sk" href="https://zas-player.github.io/sk/">
+<link rel="alternate" hreflang="hu" href="https://zas-player.github.io/hu/">
+<link rel="alternate" hreflang="ro" href="https://zas-player.github.io/ro/">
+<link rel="alternate" hreflang="bg" href="https://zas-player.github.io/bg/">
+<link rel="alternate" hreflang="hr" href="https://zas-player.github.io/hr/">
+<link rel="alternate" hreflang="sr-Latn" href="https://zas-player.github.io/sr-latn/">
+<link rel="alternate" hreflang="sl" href="https://zas-player.github.io/sl/">
+<link rel="alternate" hreflang="ru" href="https://zas-player.github.io/ru/">
+<link rel="alternate" hreflang="uk" href="https://zas-player.github.io/uk/">
+<link rel="alternate" hreflang="sv" href="https://zas-player.github.io/sv/">
+<link rel="alternate" hreflang="da" href="https://zas-player.github.io/da/">
+<link rel="alternate" hreflang="nb" href="https://zas-player.github.io/nb/">
+<link rel="alternate" hreflang="fi" href="https://zas-player.github.io/fi/">
+<link rel="alternate" hreflang="et" href="https://zas-player.github.io/et/">
+<link rel="alternate" hreflang="lv" href="https://zas-player.github.io/lv/">
+<link rel="alternate" hreflang="lt" href="https://zas-player.github.io/lt/">
+<link rel="alternate" hreflang="el" href="https://zas-player.github.io/el/">
+<link rel="alternate" hreflang="tr" href="https://zas-player.github.io/tr/">
+<link rel="alternate" hreflang="ja" href="https://zas-player.github.io/ja/">
+<link rel="alternate" hreflang="ko" href="https://zas-player.github.io/ko/">
+<link rel="alternate" hreflang="zh-CN" href="https://zas-player.github.io/zh-cn/">
+<link rel="alternate" hreflang="zh-TW" href="https://zas-player.github.io/zh-tw/">
+<link rel="alternate" hreflang="th" href="https://zas-player.github.io/th/">
+<link rel="alternate" hreflang="vi" href="https://zas-player.github.io/vi/">
+<link rel="alternate" hreflang="id" href="https://zas-player.github.io/id/">
+<link rel="alternate" hreflang="hi" href="https://zas-player.github.io/hi/">
 <link rel="alternate" hreflang="x-default" href="https://zas-player.github.io/">
 <link rel="icon" href="/icono.svg" type="image/svg+xml">
 <link rel="icon" href="/icono-48.png" sizes="48x48" type="image/png">
@@ -25,15 +62,52 @@
 <meta property="og:image:height" content="630">
 <meta property="og:locale" content="en_US">
 <meta property="og:locale:alternate" content="es_ES">
+<meta property="og:locale:alternate" content="pt_BR">
+<meta property="og:locale:alternate" content="pt_PT">
+<meta property="og:locale:alternate" content="fr_FR">
+<meta property="og:locale:alternate" content="de_DE">
+<meta property="og:locale:alternate" content="it_IT">
+<meta property="og:locale:alternate" content="nl_NL">
+<meta property="og:locale:alternate" content="ca_ES">
+<meta property="og:locale:alternate" content="gl_ES">
+<meta property="og:locale:alternate" content="eu_ES">
+<meta property="og:locale:alternate" content="pl_PL">
+<meta property="og:locale:alternate" content="cs_CZ">
+<meta property="og:locale:alternate" content="sk_SK">
+<meta property="og:locale:alternate" content="hu_HU">
+<meta property="og:locale:alternate" content="ro_RO">
+<meta property="og:locale:alternate" content="bg_BG">
+<meta property="og:locale:alternate" content="hr_HR">
+<meta property="og:locale:alternate" content="sr_RS">
+<meta property="og:locale:alternate" content="sl_SI">
+<meta property="og:locale:alternate" content="ru_RU">
+<meta property="og:locale:alternate" content="uk_UA">
+<meta property="og:locale:alternate" content="sv_SE">
+<meta property="og:locale:alternate" content="da_DK">
+<meta property="og:locale:alternate" content="nb_NO">
+<meta property="og:locale:alternate" content="fi_FI">
+<meta property="og:locale:alternate" content="et_EE">
+<meta property="og:locale:alternate" content="lv_LV">
+<meta property="og:locale:alternate" content="lt_LT">
+<meta property="og:locale:alternate" content="el_GR">
+<meta property="og:locale:alternate" content="tr_TR">
+<meta property="og:locale:alternate" content="ja_JP">
+<meta property="og:locale:alternate" content="ko_KR">
+<meta property="og:locale:alternate" content="zh_CN">
+<meta property="og:locale:alternate" content="zh_TW">
+<meta property="og:locale:alternate" content="th_TH">
+<meta property="og:locale:alternate" content="vi_VN">
+<meta property="og:locale:alternate" content="id_ID">
+<meta property="og:locale:alternate" content="hi_IN">
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:title" content="Zas Player · Record. Clip. Share.">
 <meta name="twitter:description" content="Zas Player is a free screen recorder and clipping tool for Windows: instant replay with no FPS loss, a built-in clip editor and clips copied to your clipboard, ready for Discord. Plus an instant video player. No ads, no account.">
 <meta name="twitter:image" content="https://zas-player.github.io/img/og.jpg">
-<script type="application/ld+json">{"@context": "https://schema.org", "@type": "SoftwareApplication", "name": "Zas Player", "alternateName": ["Zas", "Zas screen recorder", "Zas clips", "Zas video player", "Zas Player for Windows"], "url": "https://zas-player.github.io/", "description": "Zas Player is a free screen recorder and clipping tool for Windows: instant replay with no FPS loss, a built-in clip editor and clips copied to your clipboard, ready for Discord. Plus an instant video player. No ads, no account.", "applicationCategory": "MultimediaApplication", "applicationSubCategory": "Video player", "operatingSystem": "Windows 10, Windows 11", "downloadUrl": "https://github.com/Zas-Player/zas-releases/releases/latest/download/Zas-Setup.exe", "installUrl": "https://github.com/Zas-Player/zas-releases/releases/latest/download/Zas-Setup.exe", "image": "https://zas-player.github.io/img/og.jpg", "screenshot": ["https://zas-player.github.io/img/reproductor-1600.webp", "https://zas-player.github.io/img/editor-1600.webp", "https://zas-player.github.io/img/panel-1600.webp"], "inLanguage": ["es", "en"], "offers": {"@type": "Offer", "price": "0", "priceCurrency": "EUR"}, "featureList": ["GPU screen recorder (NVIDIA, AMD, Intel)", "Instant replay", "Clip editor", "Clips copied to the clipboard", "Trim videos without re-encoding", "Video player", "Image viewer"], "keywords": "screen recorder, clipping software, instant replay, ShadowPlay alternative, OBS alternative, Medal alternative, Discord clips, video player, Windows", "softwareVersion": "1.15.1"}</script>
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "SoftwareApplication", "name": "Zas Player", "alternateName": ["Zas", "Zas screen recorder", "Zas clips", "Zas video player", "Zas Player for Windows"], "url": "https://zas-player.github.io/", "description": "Zas Player is a free screen recorder and clipping tool for Windows: instant replay with no FPS loss, a built-in clip editor and clips copied to your clipboard, ready for Discord. Plus an instant video player. No ads, no account.", "applicationCategory": "MultimediaApplication", "applicationSubCategory": "Video player", "operatingSystem": "Windows 10, Windows 11", "downloadUrl": "https://github.com/Zas-Player/zas-releases/releases/latest/download/Zas-Setup.exe", "installUrl": "https://github.com/Zas-Player/zas-releases/releases/latest/download/Zas-Setup.exe", "image": "https://zas-player.github.io/img/og.jpg", "screenshot": ["https://zas-player.github.io/img/panel-1600.webp", "https://zas-player.github.io/img/reproductor-1600.webp", "https://zas-player.github.io/img/editor-1600.webp"], "inLanguage": ["es", "en", "pt-BR", "pt-PT", "fr", "de", "it", "nl", "ca", "gl", "eu", "pl", "cs", "sk", "hu", "ro", "bg", "hr", "sr-Latn", "sl", "ru", "uk", "sv", "da", "nb", "fi", "et", "lv", "lt", "el", "tr", "ja", "ko", "zh-CN", "zh-TW", "th", "vi", "id", "hi"], "offers": {"@type": "Offer", "price": "0", "priceCurrency": "EUR"}, "featureList": ["GPU screen recorder (NVIDIA, AMD, Intel)", "Instant replay", "Clip editor", "Clips copied to the clipboard", "Trim videos without re-encoding", "Video player", "Image viewer"], "keywords": "screen recorder, clipping software, instant replay, ShadowPlay alternative, OBS alternative, Medal alternative, Discord clips, video player, Windows", "softwareVersion": "1.15.1"}</script>
 <script type="application/ld+json">{"@context": "https://schema.org", "@type": "WebSite", "name": "Zas Player", "alternateName": "Zas", "url": "https://zas-player.github.io/", "inLanguage": "en"}</script>
 <script type="application/ld+json">{"@context": "https://schema.org", "@type": "FAQPage", "inLanguage": "en", "mainEntity": [{"@type": "Question", "name": "Is Zas a good alternative to ShadowPlay, OBS or Medal?", "acceptedAnswer": {"@type": "Answer", "text": "Yes, if what you want is to record your screen or save gameplay moments and share them fast. Like ShadowPlay, it records with the graphics card and has instant replay, but it works on NVIDIA, AMD and Intel. Unlike OBS, there is nothing to set up. And like Medal, it has a clip editor, but everything stays on your PC: no account, no cloud and no ads. If you need to stream live, OBS is still the tool; Zas does not stream."}}, {"@type": "Question", "name": "Does recording with Zas lower my FPS?", "acceptedAnswer": {"@type": "Answer", "text": "In our test, no. Fortnite at 1440p ran at 61–69 FPS without recording and at 68–70 while Zas recorded with the graphics card (measured with PresentMon on an RTX 2060). Zas encodes on the graphics card (NVENC, AMF or Quick Sync), so the CPU barely works: 18% of one core."}}, {"@type": "Question", "name": "How do I share a clip on Discord?", "acceptedAnswer": {"@type": "Answer", "text": "Save the moment with Win+Shift+G (instant replay), or mark a part with I and O and press Ctrl+E. The clip is copied to your clipboard: in Discord, press Ctrl+V. Note that Discord allows files up to 20 MB on free accounts."}}, {"@type": "Question", "name": "What is Zas Player?", "acceptedAnswer": {"@type": "Answer", "text": "Zas (or Zas Player) is a free screen recorder, clip editor and video player for Windows 10 and 11. It opens videos instantly and has a trimmer and a photo viewer built in."}}, {"@type": "Question", "name": "How do I download Zas?", "acceptedAnswer": {"@type": "Answer", "text": "Click “Download Zas” on this page: it downloads the official installer, Zas-Setup.exe, from GitHub. Open it, it installs in seconds and from then on it updates itself when you say so."}}, {"@type": "Question", "name": "Is it free? Does it have ads?", "acceptedAnswer": {"@type": "Answer", "text": "It’s free, with no ads and no account to create."}}, {"@type": "Question", "name": "What formats does it open?", "acceptedAnswer": {"@type": "Answer", "text": "Almost any video (MP4, MKV, WebM, MOV, AVI, WMV, TS…) thanks to mpv and FFmpeg, and photos in JPEG, PNG, WebP, HEIC, AVIF and more."}}]}</script>
 <link rel="preload" as="image" href="/img/panel-1600.webp" imagesrcset="/img/panel-960.webp 960w, /img/panel-1600.webp 1600w, /img/panel-2400.webp 2400w" imagesizes="(max-width: 1180px) 100vw, 1140px">
-<link rel="stylesheet" href="/estilo.css?v=6b34ef5821">
+<link rel="stylesheet" href="/estilo.css?v=c3f229c6f1">
 </head>
 <body>
 <a class="saltar" href="#principal">Skip to content</a>
@@ -48,7 +122,7 @@
       <a href="#rendimiento" class="enlace solo-ancho">Performance</a>
       <a href="#funciones" class="enlace solo-ancho">Features</a>
       <a href="https://github.com/Zas-Player/zas-releases" class="enlace solo-ancho">GitHub</a>
-      <a class="idioma" href="/es/" hreflang="es" lang="es" aria-label="Leer esta página en español">ES</a>
+      <details class="idiomas"><summary aria-label="Language"><svg aria-hidden="true" viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><path d="M3 12h18M12 3c2.5 2.7 3.8 5.7 3.8 9s-1.3 6.3-3.8 9c-2.5-2.7-3.8-5.7-3.8-9S9.5 5.7 12 3z"/></svg>EN</summary><ul><li><a href="/es/" hreflang="es" lang="es" data-codigo="es">Español</a></li><li><a href="/" hreflang="en" lang="en" data-codigo="en" aria-current="true">English</a></li><li><a href="/pt-br/" hreflang="pt-BR" lang="pt-BR" data-codigo="pt-BR">Português (Brasil)</a></li><li><a href="/pt-pt/" hreflang="pt-PT" lang="pt-PT" data-codigo="pt-PT">Português (Portugal)</a></li><li><a href="/fr/" hreflang="fr" lang="fr" data-codigo="fr">Français</a></li><li><a href="/de/" hreflang="de" lang="de" data-codigo="de">Deutsch</a></li><li><a href="/it/" hreflang="it" lang="it" data-codigo="it">Italiano</a></li><li><a href="/nl/" hreflang="nl" lang="nl" data-codigo="nl">Nederlands</a></li><li><a href="/ca/" hreflang="ca" lang="ca" data-codigo="ca">Català</a></li><li><a href="/gl/" hreflang="gl" lang="gl" data-codigo="gl">Galego</a></li><li><a href="/eu/" hreflang="eu" lang="eu" data-codigo="eu">Euskara</a></li><li><a href="/pl/" hreflang="pl" lang="pl" data-codigo="pl">Polski</a></li><li><a href="/cs/" hreflang="cs" lang="cs" data-codigo="cs">Čeština</a></li><li><a href="/sk/" hreflang="sk" lang="sk" data-codigo="sk">Slovenčina</a></li><li><a href="/hu/" hreflang="hu" lang="hu" data-codigo="hu">Magyar</a></li><li><a href="/ro/" hreflang="ro" lang="ro" data-codigo="ro">Română</a></li><li><a href="/bg/" hreflang="bg" lang="bg" data-codigo="bg">Български</a></li><li><a href="/hr/" hreflang="hr" lang="hr" data-codigo="hr">Hrvatski</a></li><li><a href="/sr-latn/" hreflang="sr-Latn" lang="sr-Latn" data-codigo="sr-Latn">Srpski</a></li><li><a href="/sl/" hreflang="sl" lang="sl" data-codigo="sl">Slovenščina</a></li><li><a href="/ru/" hreflang="ru" lang="ru" data-codigo="ru">Русский</a></li><li><a href="/uk/" hreflang="uk" lang="uk" data-codigo="uk">Українська</a></li><li><a href="/sv/" hreflang="sv" lang="sv" data-codigo="sv">Svenska</a></li><li><a href="/da/" hreflang="da" lang="da" data-codigo="da">Dansk</a></li><li><a href="/nb/" hreflang="nb" lang="nb" data-codigo="nb">Norsk</a></li><li><a href="/fi/" hreflang="fi" lang="fi" data-codigo="fi">Suomi</a></li><li><a href="/et/" hreflang="et" lang="et" data-codigo="et">Eesti</a></li><li><a href="/lv/" hreflang="lv" lang="lv" data-codigo="lv">Latviešu</a></li><li><a href="/lt/" hreflang="lt" lang="lt" data-codigo="lt">Lietuvių</a></li><li><a href="/el/" hreflang="el" lang="el" data-codigo="el">Ελληνικά</a></li><li><a href="/tr/" hreflang="tr" lang="tr" data-codigo="tr">Türkçe</a></li><li><a href="/ja/" hreflang="ja" lang="ja" data-codigo="ja">日本語</a></li><li><a href="/ko/" hreflang="ko" lang="ko" data-codigo="ko">한국어</a></li><li><a href="/zh-cn/" hreflang="zh-CN" lang="zh-CN" data-codigo="zh-CN">简体中文</a></li><li><a href="/zh-tw/" hreflang="zh-TW" lang="zh-TW" data-codigo="zh-TW">繁體中文</a></li><li><a href="/th/" hreflang="th" lang="th" data-codigo="th">ไทย</a></li><li><a href="/vi/" hreflang="vi" lang="vi" data-codigo="vi">Tiếng Việt</a></li><li><a href="/id/" hreflang="id" lang="id" data-codigo="id">Bahasa Indonesia</a></li><li><a href="/hi/" hreflang="hi" lang="hi" data-codigo="hi">हिन्दी</a></li></ul></details>
       <a class="boton boton-peq" href="https://github.com/Zas-Player/zas-releases/releases/latest/download/Zas-Setup.exe">Download</a>
     </nav>
   </div>
@@ -156,7 +230,7 @@
       <div class="tabla-compara"><table>
         <thead><tr><th scope="col"></th><th scope="col" class="zas">Zas</th><th scope="col">ShadowPlay</th><th scope="col">OBS Studio</th><th scope="col">Medal</th></tr></thead>
         <tbody>
-          <tr><th scope="row">Free</th><td class="zas"><span class="si" aria-label="Yes">✓</span></td><td><span class="si" aria-label="Yes">✓</span></td><td><span class="si" aria-label="Yes">✓</span></td><td><span class="si" aria-label="Yes, with paid features">✓*</span></td></tr>
+          <tr><th scope="row">Free</th><td class="zas"><span class="si" aria-label="Yes">✓</span></td><td><span class="si" aria-label="Yes">✓</span></td><td><span class="si" aria-label="Yes">✓</span></td><td><span class="si" aria-label="Yes*">✓*</span></td></tr>
           <tr><th scope="row">Any graphics card (NVIDIA, AMD, Intel)</th><td class="zas"><span class="si" aria-label="Yes">✓</span></td><td>NVIDIA only</td><td><span class="si" aria-label="Yes">✓</span></td><td><span class="si" aria-label="Yes">✓</span></td></tr>
           <tr><th scope="row">Instant replay</th><td class="zas"><span class="si" aria-label="Yes">✓</span></td><td><span class="si" aria-label="Yes">✓</span></td><td>With setup</td><td><span class="si" aria-label="Yes">✓</span></td></tr>
           <tr><th scope="row">Clip editor (trim, text, arrows, blur, zoom)</th><td class="zas"><span class="si" aria-label="Yes">✓</span></td><td><span class="no" aria-label="No">—</span></td><td><span class="no" aria-label="No">—</span></td><td><span class="si" aria-label="Yes">✓</span></td></tr>
@@ -261,6 +335,6 @@
   </div>
 </footer>
 
-<script src="/zas.js?v=6325c4879a" defer></script>
+<script src="/zas.js?v=6942da1ab9" defer></script>
 </body>
 </html>

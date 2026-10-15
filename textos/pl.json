@@ -1,0 +1,177 @@
+{
+ "saltar": "Przejdź do treści",
+ "nav-rendimiento": "Wydajność",
+ "nav-funciones": "Funkcje",
+ "descargar-corto": "Pobierz",
+ "antetitulo": "Darmowy rejestrator ekranu i odtwarzacz wideo dla Windows",
+ "titular": "Nagrywaj. Wycinaj. Udostępniaj.",
+ "entradilla": "Natychmiastowa powtórka i nagrywanie ekranu bez spadku FPS, wbudowany edytor klipów, a każdy klip od razu w schowku, gotowy na Discorda. Do tego odtwarzacz wideo, który uruchamia się w mgnieniu oka.",
+ "descargar": "Pobierz Zas",
+ "versiones": "Zobacz wydania",
+ "gratis": "Za darmo · Windows 10 i 11 · Bez reklam",
+ "rend-ante": "Zmierzona wydajność",
+ "rend-titulo": "Szybkość mierzymy.",
+ "cifra1-nombre": "Do otwarcia wideo",
+ "cifra1-detalle": "Od dwukrotnego kliknięcia do pierwszej klatki, z Zas w pamięci. Mediana dla wideo 1080p60.",
+ "cifra2-nombre": "Do skopiowania klipu",
+ "cifra2-detalle": "Od naciśnięcia Ctrl+E do 12-sekundowego klipu w schowku, gotowego do wklejenia.",
+ "cifra3-nombre": "Utracone FPS podczas nagrywania",
+ "cifra3-detalle": "Fortnite w 1440p: 61–69 FPS bez nagrywania i 68–70 podczas nagrywania kartą graficzną. Zmierzone narzędziem PresentMon.",
+ "metodo-titulo": "Jak to zmierzyliśmy",
+ "pasos-ante": "Klip w kilka sekund",
+ "pasos-titulo": "Z wideo na czat w trzech klawiszach.",
+ "paso1": "Zaznacz fragment",
+ "paso1-texto": "Początek i koniec, w trakcie oglądania.",
+ "paso2": "Eksportuj",
+ "paso2-texto": "Bez ponownego kodowania: klip jest gotowy od razu, w oryginalnej jakości.",
+ "paso3": "Wklej",
+ "paso3-texto": "Jest już w schowku: wklej go na dowolnym czacie.",
+ "comp-ante": "Zas kontra reszta",
+ "comp-titulo": "Alternatywa dla ShadowPlay, OBS i Medal.",
+ "comp-sub": "Nagrywaj jak w ShadowPlay na dowolnej karcie graficznej, bez konfigurowania jak w OBS, i edytuj klip bez wysyłania go do żadnej chmury. Wszystko w jednej aplikacji, która jest też Twoim odtwarzaczem wideo.",
+ "comp-nota": "Na podstawie publicznych informacji o każdej aplikacji według stanu na październik 2026. ShadowPlay to funkcja nagrywania w aplikacji NVIDIA App.",
+ "func-ante": "Jedna aplikacja zamiast trzech",
+ "func-titulo": "Wszystko, co robisz ze swoimi filmami.",
+ "b3-titulo": "Nagrywaj i udostępniaj",
+ "b3-texto": "Zaznacz obszar ekranu i nagrywaj z dźwiękiem systemowym oraz wybranym mikrofonem. Kodowanie odbywa się na karcie graficznej (NVIDIA, AMD lub Intel), do 120 fps, bez utraty klatek w grze. Natychmiastowa powtórka zapisuje ostatnie sekundy, gdy coś się wydarzy, a klip trafia do schowka, gotowy do wklejenia na Discordzie.",
+ "a-grabar": "Nagraj ekran",
+ "a-repeticion": "Zapisz powtórkę",
+ "a-panel": "Panel nagrywania",
+ "b2-titulo": "Edytuj",
+ "b2-texto": "Dziel i usuwaj fragmenty na osi czasu. Dodawaj tekst, ramki, strzałki, rozmyte obszary i animowany zoom, każdy z własnym początkiem i końcem. Eksportujesz i klip jest już skopiowany.",
+ "b2-atajo": "otwiera edytor",
+ "b1-titulo": "Odtwarzaj",
+ "b1-texto": "Po zamknięciu zostaje w pamięci, więc kolejne wideo pojawia się, gdy tylko je otworzysz. Interfejs znika, gdy go nie używasz, a odtwarza niemal każdy format. To także szybka przeglądarka zdjęć: JPEG, PNG, WebP, HEIC, AVIF i nie tylko.",
+ "faq-ante": "Pytania",
+ "faq-titulo": "O co najczęściej pytacie.",
+ "final-titulo": "Otwórz wideo. Zrób dużo więcej.",
+ "descargar-windows": "Pobierz Zas dla Windows",
+ "final-nota": "Za darmo. Bez reklam. Aktualizuje się, kiedy chcesz.",
+ "pie-versiones": "Wydania",
+ "creditos": "Zbudowano na",
+ "y": "i",
+ "stock": "Filmy na zrzutach ekranu:",
+ "bbb": "Zmierzono za pomocą",
+ "alt-escaparate": "Panel nagrywania Zas otwarty na ekranie: nagrywanie obszaru lub ekranu, natychmiastowa powtórka, dźwięk, jakość, FPS i kodek",
+ "alt-recortar": "Oś czasu Zas z fragmentem zaznaczonym na bursztynowo",
+ "alt-compartir": "Zas informuje, że klip został zapisany i skopiowany",
+ "alt-copiado": "Zas z komunikatem „Zapisano i skopiowano”: klip jest już w schowku",
+ "alt-editor": "Edytor Zas z tekstem, strzałką i ramką na wideo",
+ "alt-reproduce": "Zas odtwarza wideo na pełnym ekranie, z kontrolkami na dole",
+ "meta-titulo": "Zas: darmowy rejestrator ekranu dla Windows, alternatywa dla ShadowPlay, OBS i Medal",
+ "meta-descripcion": "Zas Player to darmowy rejestrator ekranu i klipów dla Windows: natychmiastowa powtórka bez spadku FPS, wbudowany edytor klipów i klipy kopiowane do schowka, gotowe na Discorda. Do tego błyskawiczny odtwarzacz wideo. Bez reklam i bez konta.",
+ "meta-og-titulo": "Zas Player · Nagrywaj. Wycinaj. Udostępniaj.",
+ "version-palabra": "wersja",
+ "idioma-etiqueta": "Język",
+ "metodo": "<p>Zas 1.15.1, czyli wersja, którą tu pobierasz, na komputerze z AMD Ryzen 5 3600, NVIDIA GeForce RTX 2060, 32 GB pamięci i Windows 11, z ekranem 2560×1440. Wideo testowe: minuta filmu Big Buck Bunny (H.264, 1080p przy 60 fps) i dwie wykonane z niego wersje po 10 s (H.265 w 4K przy 30 fps oraz VP9 1080p przy 30 fps).</p><table><tr><th></th><th>H.264 1080p60</th><th>H.265 2160p30</th><th>VP9 1080p30</th></tr><tr><td>Otwarcie z Zas w pamięci</td><td>378 ms</td><td>134 ms</td><td>125 ms</td></tr><tr><td>Otwarcie przy zamkniętym Zas</td><td>710 ms</td><td>595 ms</td><td>514 ms</td></tr></table><p><b>Otwarcie</b>: od uruchomienia <code>zas.exe video</code> (to samo co dwukrotne kliknięcie) do pierwszej klatki na ekranie. Mediany z 8 otwarć z pamięci i 5 od zera. Z Zas w pamięci 2 z 24 otwarć trwały dłużej (0,7 i 2,9 s); przy zamkniętym Zas najwolniejsze trwało 0,83 s. Plik był już w pamięci podręcznej Windows.</p><p><b>Skopiowany klip</b>: od zaznaczenia 12-sekundowego fragmentu i naciśnięcia Ctrl+E (bez ponownego kodowania) do chwili, gdy plik jest w schowku. Mediana z 5 prób: 0,14 s; pierwsza trwała 33 s i nie znamy przyczyny. Z dokładnością do klatki (z ponownym kodowaniem, Ctrl+Shift+E) ten sam fragment zajmuje od 4,6 do 5,0 s.</p><p><b>FPS podczas nagrywania</b>: Fortnite w 2560×1440 na pierwszym planie, zmierzone narzędziem PresentMon (Intel). Bez nagrywania 61–69 FPS; przy nagrywaniu w 60 fps kartą graficzną (H.264 lub H.265 przez NVENC) 68–70 FPS, w granicach tej samej zmienności. Nagrywanie zużywa 18% jednego rdzenia CPU. Dawna metoda na CPU (libx264) zużywała 2,7 rdzenia i powodowała przycięcia.</p><p><b>Pamięć</b>: 99 MB w spoczynku (w tle, gotowy do otwarcia) i około 300 MB podczas odtwarzania wideo 1080p60.</p><p>To pomiary z jednego konkretnego komputera: u Ciebie wyniki mogą się różnić.</p>",
+ "preguntas": [
+  [
+   "Czy Zas to dobra alternatywa dla ShadowPlay, OBS lub Medal?",
+   "Tak, jeśli chcesz nagrywać ekran albo zapisywać momenty z gier i szybko je udostępniać. Podobnie jak ShadowPlay nagrywa za pomocą karty graficznej i ma natychmiastową powtórkę, ale działa na kartach NVIDIA, AMD i Intel. W przeciwieństwie do OBS nie trzeba niczego konfigurować. A jak Medal ma edytor klipów, tyle że wszystko zostaje na Twoim komputerze: bez konta, bez chmury i bez reklam. Jeśli chcesz streamować na żywo, nadal najlepszy jest OBS; Zas nie obsługuje transmisji."
+  ],
+  [
+   "Czy nagrywanie w Zas obniża FPS?",
+   "W naszym teście nie. Fortnite w 1440p działał w 61–69 FPS bez nagrywania i w 68–70, gdy Zas nagrywał kartą graficzną (pomiar narzędziem PresentMon na RTX 2060). Zas koduje na karcie graficznej (NVENC, AMF lub Quick Sync), więc procesor prawie nie pracuje: 18% jednego rdzenia."
+  ],
+  [
+   "Jak udostępnić klip na Discordzie?",
+   "Zapisz moment skrótem Win+Shift+G (natychmiastowa powtórka) albo zaznacz fragment klawiszami I i O i naciśnij Ctrl+E. Klip trafia do schowka: na Discordzie naciśnij Ctrl+V. Pamiętaj, że na darmowych kontach Discord przyjmuje pliki do 20 MB."
+  ],
+  [
+   "Czym jest Zas Player?",
+   "Zas (czyli Zas Player) to darmowy rejestrator ekranu, edytor klipów i odtwarzacz wideo dla Windows 10 i 11. Otwiera filmy natychmiast, a do tego ma wbudowane narzędzie do przycinania i przeglądarkę zdjęć."
+  ],
+  [
+   "Jak pobrać Zas?",
+   "Kliknij „Pobierz Zas” na tej stronie: pobierzesz oficjalny instalator Zas-Setup.exe z GitHuba. Uruchom go, instalacja trwa kilka sekund, a potem program aktualizuje się sam, kiedy na to pozwolisz."
+  ],
+  [
+   "Czy jest darmowy? Czy ma reklamy?",
+   "Jest darmowy, bez reklam i bez zakładania konta."
+  ],
+  [
+   "Jakie formaty otwiera?",
+   "Niemal każde wideo (MP4, MKV, WebM, MOV, AVI, WMV, TS…) dzięki mpv i FFmpeg, a także zdjęcia w formatach JPEG, PNG, WebP, HEIC, AVIF i innych."
+  ]
+ ],
+ "compara": {
+  "filas": [
+   [
+    "Za darmo",
+    "si",
+    "si",
+    "si",
+    "si*"
+   ],
+   [
+    "Dowolna karta graficzna (NVIDIA, AMD, Intel)",
+    "si",
+    "Tylko NVIDIA",
+    "si",
+    "si"
+   ],
+   [
+    "Natychmiastowa powtórka",
+    "si",
+    "si",
+    "Po konfiguracji",
+    "si"
+   ],
+   [
+    "Edytor klipów (przycinanie, tekst, strzałki, rozmycie, zoom)",
+    "si",
+    "no",
+    "no",
+    "si"
+   ],
+   [
+    "Plik klipu w schowku, gotowy do wklejenia",
+    "si",
+    "no",
+    "no",
+    "Link"
+   ],
+   [
+    "Odtwarzacz wideo i przeglądarka zdjęć w zestawie",
+    "si",
+    "no",
+    "no",
+    "no"
+   ],
+   [
+    "Bez konta i chmury",
+    "si",
+    "si",
+    "si",
+    "Wymaga rejestracji"
+   ],
+   [
+    "Automatyczne klipy z najlepszych akcji",
+    "no",
+    "Niektóre gry",
+    "no",
+    "si"
+   ],
+   [
+    "Transmisje na żywo",
+    "no",
+    "no",
+    "si",
+    "no"
+   ]
+  ],
+  "pie": "* Z płatnymi funkcjami.",
+  "si": "Tak",
+  "no": "Nie"
+ },
+ "jsonld-subcategoria": "Odtwarzacz wideo",
+ "jsonld-funciones": [
+  "Rejestrator ekranu na GPU (NVIDIA, AMD, Intel)",
+  "Natychmiastowa powtórka",
+  "Edytor klipów",
+  "Klipy kopiowane do schowka",
+  "Przycinanie wideo bez ponownego kodowania",
+  "Odtwarzacz wideo",
+  "Przeglądarka obrazów"
+ ]
+}

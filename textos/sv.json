@@ -1,0 +1,177 @@
+{
+ "saltar": "Hoppa till innehållet",
+ "nav-rendimiento": "Prestanda",
+ "nav-funciones": "Funktioner",
+ "descargar-corto": "Ladda ned",
+ "antetitulo": "Gratis skärminspelare och videospelare för Windows",
+ "titular": "Spela in. Klipp. Dela.",
+ "entradilla": "Omedelbar repris och skärminspelning utan FPS-förlust, inbyggd klippredigerare och varje klipp kopierat till Urklipp, redo för Discord. Dessutom en videospelare som öppnas direkt.",
+ "descargar": "Ladda ned Zas",
+ "versiones": "Se versioner",
+ "gratis": "Gratis · Windows 10 och 11 · Ingen reklam",
+ "rend-ante": "Uppmätt prestanda",
+ "rend-titulo": "Snabbheten är uppmätt.",
+ "cifra1-nombre": "Att öppna en video",
+ "cifra1-detalle": "Från dubbelklick till första bildrutan, med Zas i minnet. Median för en video i 1080p60.",
+ "cifra2-nombre": "Tills klippet är kopierat",
+ "cifra2-detalle": "Från att du trycker på Ctrl+E tills ett klipp på 12 s ligger i Urklipp, redo att klistras in.",
+ "cifra3-nombre": "FPS som förloras vid inspelning",
+ "cifra3-detalle": "Fortnite i 1440p: 61–69 FPS utan inspelning och 68–70 vid inspelning med grafikkortet. Uppmätt med PresentMon.",
+ "metodo-titulo": "Så mätte vi",
+ "pasos-ante": "Ett klipp på sekunder",
+ "pasos-titulo": "Från video till chatt med tre tangenter.",
+ "paso1": "Markera delen",
+ "paso1-texto": "Början och slut, medan du tittar.",
+ "paso2": "Exportera",
+ "paso2-texto": "Ingen omkodning: klippet är klart direkt, i originalkvalitet.",
+ "paso3": "Klistra in",
+ "paso3-texto": "Det ligger redan i Urklipp: klistra in det i vilken chatt som helst.",
+ "comp-ante": "Zas mot de andra",
+ "comp-titulo": "Alternativet till ShadowPlay, OBS och Medal.",
+ "comp-sub": "Spela in som med ShadowPlay på vilket grafikkort som helst, utan att ställa in något som i OBS, och redigera klippet utan att ladda upp det till något moln. Allt i en app som också är din videospelare.",
+ "comp-nota": "Baserat på varje apps offentliga information i oktober 2026. ShadowPlay är inspelningsfunktionen i NVIDIA-appen.",
+ "func-ante": "En app, inte tre",
+ "func-titulo": "Allt du gör med dina videor.",
+ "b3-titulo": "Spela in och dela",
+ "b3-texto": "Dra upp ett område av skärmen och spela in med systemljud och valfri mikrofon. Kodas av grafikkortet (NVIDIA, AMD eller Intel), upp till 120 fps, utan att kosta spelet några bildrutor. Omedelbar repris sparar de senaste sekunderna när något händer, och klippet kopieras, redo att klistras in i Discord.",
+ "a-grabar": "Spela in skärmen",
+ "a-repeticion": "Spara reprisen",
+ "a-panel": "Inspelningspanel",
+ "b2-titulo": "Redigera",
+ "b2-texto": "Dela upp och ta bort delar på tidslinjen. Lägg till text, rutor, pilar, pixlade områden och animerad zoom, var och en med egen början och eget slut. Exportera, så är det kopierat.",
+ "b2-atajo": "öppnar redigeraren",
+ "b1-titulo": "Spela upp",
+ "b1-texto": "Den stannar i minnet när du stänger den, så nästa video visas så fort du öppnar den. Gränssnittet försvinner när du inte använder det, och den spelar upp nästan alla format. Den är också en snabb bildvisare: JPEG, PNG, WebP, HEIC, AVIF med flera.",
+ "faq-ante": "Frågor",
+ "faq-titulo": "Det folk brukar fråga.",
+ "final-titulo": "Öppna en video. Gör mycket mer.",
+ "descargar-windows": "Ladda ned Zas för Windows",
+ "final-nota": "Gratis. Ingen reklam. Uppdateras när du säger till.",
+ "pie-versiones": "Versioner",
+ "creditos": "Byggd på",
+ "y": "och",
+ "stock": "Videor i skärmbilderna:",
+ "bbb": "Uppmätt med",
+ "alt-escaparate": "Inspelningspanelen i Zas öppen över skärmen: spela in ett område eller skärmen, omedelbar repris, ljud, kvalitet, FPS och codec",
+ "alt-recortar": "Tidslinjen i Zas med en del markerad i bärnsten",
+ "alt-compartir": "Zas meddelar att klippet är sparat och kopierat",
+ "alt-copiado": "Zas visar ”Sparat och kopierat”: klippet ligger redan i Urklipp",
+ "alt-editor": "Redigeraren i Zas med en text, en pil och en ruta över videon",
+ "alt-reproduce": "Zas spelar upp en video i helskärm, med kontrollerna längst ned",
+ "meta-titulo": "Zas: gratis skärminspelare för Windows, ett alternativ till ShadowPlay, OBS och Medal",
+ "meta-descripcion": "Zas Player är en gratis skärminspelare och klippverktyg för Windows: omedelbar repris utan FPS-förlust, inbyggd klippredigerare och klipp som kopieras till Urklipp, redo för Discord. Dessutom en videospelare som startar direkt. Ingen reklam, inget konto.",
+ "meta-og-titulo": "Zas Player · Spela in. Klipp. Dela.",
+ "version-palabra": "version",
+ "idioma-etiqueta": "Språk",
+ "metodo": "<p>Zas 1.15.1, versionen du laddar ned här, på en dator med AMD Ryzen 5 3600, NVIDIA GeForce RTX 2060, 32 GB minne och Windows 11, med en skärm på 2560×1440. Testvideo: en minut av Big Buck Bunny (H.264, 1080p i 60 fps) och två versioner på 10 s gjorda av den (H.265 i 4K i 30 fps och VP9 1080p i 30 fps).</p><table><tr><th></th><th>H.264 1080p60</th><th>H.265 2160p30</th><th>VP9 1080p30</th></tr><tr><td>Öppna med Zas i minnet</td><td>378 ms</td><td>134 ms</td><td>125 ms</td></tr><tr><td>Öppna med Zas stängt</td><td>710 ms</td><td>595 ms</td><td>514 ms</td></tr></table><p><b>Öppna</b>: från att <code>zas.exe video</code> startas (samma sak som ett dubbelklick) till första bildrutan på skärmen. Medianer av 8 öppningar i minnet och 5 från början. Med Zas i minnet tog 2 av 24 öppningar längre tid (0,7 och 2,9 s); med Zas stängt var den långsammaste 0,83 s. Filen fanns redan i Windows cache.</p><p><b>Klipp kopierat</b>: från att en del på 12 s markeras och Ctrl+E trycks (ingen omkodning) tills filen ligger i Urklipp. Median av 5 körningar: 0,14 s; den första tog 33 s och saknar förklaring. Bildrutsexakt (med omkodning, Ctrl+Shift+E) tar samma del 4,6 till 5,0 s.</p><p><b>FPS vid inspelning</b>: Fortnite i 2560×1440 i förgrunden, uppmätt med PresentMon (Intel). Utan inspelning 61–69 FPS; vid inspelning i 60 fps med grafikkortet (H.264 eller H.265 via NVENC) 68–70 FPS, inom samma variation. Inspelningen använder 18 % av en processorkärna. Den gamla processormetoden (libx264) använde 2,7 kärnor och hackade.</p><p><b>Minne</b>: 99 MB i vila (i bakgrunden, redo att öppna) och cirka 300 MB vid uppspelning av videon i 1080p60.</p><p>Det här är mätningar från en specifik dator: din kan ge andra resultat.</p>",
+ "preguntas": [
+  [
+   "Är Zas ett bra alternativ till ShadowPlay, OBS eller Medal?",
+   "Ja, om du vill spela in skärmen eller spara spelögonblick och dela dem snabbt. Precis som ShadowPlay spelar det in med grafikkortet och har omedelbar repris, men det fungerar med NVIDIA, AMD och Intel. Till skillnad från OBS finns det inget att ställa in. Och precis som Medal har det en klippredigerare, men allt stannar på din dator: inget konto, inget moln och ingen reklam. Om du behöver livestreama är OBS fortfarande verktyget; Zas streamar inte."
+  ],
+  [
+   "Sänker inspelning med Zas min FPS?",
+   "I vårt test, nej. Fortnite i 1440p gick i 61–69 FPS utan inspelning och i 68–70 medan Zas spelade in med grafikkortet (uppmätt med PresentMon på ett RTX 2060). Zas kodar på grafikkortet (NVENC, AMF eller Quick Sync), så processorn arbetar knappt: 18 % av en kärna."
+  ],
+  [
+   "Hur delar jag ett klipp på Discord?",
+   "Spara ögonblicket med Win+Shift+G (omedelbar repris), eller markera en del med I och O och tryck på Ctrl+E. Klippet kopieras till Urklipp: i Discord trycker du på Ctrl+V. Observera att Discord tillåter filer på upp till 20 MB för gratiskonton."
+  ],
+  [
+   "Vad är Zas Player?",
+   "Zas (eller Zas Player) är en gratis skärminspelare, klippredigerare och videospelare för Windows 10 och 11. Den öppnar videor direkt och har inbyggd trimning och bildvisare."
+  ],
+  [
+   "Hur laddar jag ned Zas?",
+   "Klicka på ”Ladda ned Zas” på den här sidan: då laddas det officiella installationsprogrammet, Zas-Setup.exe, ned från GitHub. Öppna det, installationen tar några sekunder och sedan uppdateras Zas när du säger till."
+  ],
+  [
+   "Är det gratis? Finns det reklam?",
+   "Det är gratis, utan reklam och utan konto att skapa."
+  ],
+  [
+   "Vilka format kan det öppna?",
+   "Nästan alla videor (MP4, MKV, WebM, MOV, AVI, WMV, TS…) tack vare mpv och FFmpeg, och bilder i JPEG, PNG, WebP, HEIC, AVIF med flera."
+  ]
+ ],
+ "compara": {
+  "filas": [
+   [
+    "Gratis",
+    "si",
+    "si",
+    "si",
+    "si*"
+   ],
+   [
+    "Alla grafikkort (NVIDIA, AMD, Intel)",
+    "si",
+    "Bara NVIDIA",
+    "si",
+    "si"
+   ],
+   [
+    "Omedelbar repris",
+    "si",
+    "si",
+    "Kräver inställning",
+    "si"
+   ],
+   [
+    "Klippredigerare (trimma, text, pilar, oskärpa, zoom)",
+    "si",
+    "no",
+    "no",
+    "si"
+   ],
+   [
+    "Klippfilen i Urklipp, redo att klistras in",
+    "si",
+    "no",
+    "no",
+    "En länk"
+   ],
+   [
+    "Videospelare och bildvisare ingår",
+    "si",
+    "no",
+    "no",
+    "no"
+   ],
+   [
+    "Inget konto eller moln",
+    "si",
+    "si",
+    "si",
+    "Kräver konto"
+   ],
+   [
+    "Automatiska höjdpunktsklipp",
+    "no",
+    "Vissa spel",
+    "no",
+    "si"
+   ],
+   [
+    "Livestreaming",
+    "no",
+    "no",
+    "si",
+    "no"
+   ]
+  ],
+  "pie": "* Med betalfunktioner.",
+  "si": "Ja",
+  "no": "Nej"
+ },
+ "jsonld-subcategoria": "Videospelare",
+ "jsonld-funciones": [
+  "Skärminspelare med GPU (NVIDIA, AMD, Intel)",
+  "Omedelbar repris",
+  "Klippredigerare",
+  "Klipp kopieras till Urklipp",
+  "Trimma videor utan omkodning",
+  "Videospelare",
+  "Bildvisare"
+ ]
+}

@@ -1,0 +1,177 @@
+{
+ "saltar": "Pular para o conteúdo",
+ "nav-rendimiento": "Desempenho",
+ "nav-funciones": "Recursos",
+ "descargar-corto": "Baixar",
+ "antetitulo": "Gravador de tela e player de vídeo grátis para Windows",
+ "titular": "Grave. Corte. Compartilhe.",
+ "entradilla": "Replay instantâneo e gravação de tela sem perder FPS, editor de clipes integrado e cada clipe copiado para a área de transferência, pronto para o Discord. E ainda um player de vídeo que abre na hora.",
+ "descargar": "Baixar o Zas",
+ "versiones": "Ver versões",
+ "gratis": "Grátis · Windows 10 e 11 · Sem anúncios",
+ "rend-ante": "Desempenho medido",
+ "rend-titulo": "Velocidade se mede.",
+ "cifra1-nombre": "Para abrir um vídeo",
+ "cifra1-detalle": "Do clique duplo ao primeiro quadro, com o Zas na memória. Mediana para um vídeo 1080p60.",
+ "cifra2-nombre": "Para ter um clipe copiado",
+ "cifra2-detalle": "De apertar Ctrl+E até ter um clipe de 12 s na área de transferência, pronto para colar.",
+ "cifra3-nombre": "FPS perdidos ao gravar",
+ "cifra3-detalle": "Fortnite em 1440p: 61–69 FPS sem gravar e 68–70 gravando com a placa de vídeo. Medido com PresentMon.",
+ "metodo-titulo": "Como medimos",
+ "pasos-ante": "Um clipe em segundos",
+ "pasos-titulo": "Do vídeo ao chat em três teclas.",
+ "paso1": "Marque o trecho",
+ "paso1-texto": "Início e fim, enquanto você assiste.",
+ "paso2": "Exporte",
+ "paso2-texto": "Sem recodificar: o clipe fica pronto na hora, com a qualidade original.",
+ "paso3": "Cole",
+ "paso3-texto": "Ele já está na área de transferência: é só colar em qualquer chat.",
+ "comp-ante": "Zas vs. os outros",
+ "comp-titulo": "A alternativa ao ShadowPlay, OBS e Medal.",
+ "comp-sub": "Grave como no ShadowPlay com qualquer placa de vídeo, sem configurar nada como no OBS, e edite o clipe sem enviar para nenhuma nuvem. Tudo em um só app, que também é o seu player de vídeo.",
+ "comp-nota": "Com base nas informações públicas de cada app em outubro de 2026. O ShadowPlay é o recurso de gravação do NVIDIA App.",
+ "func-ante": "Um app, não três",
+ "func-titulo": "Tudo o que você faz com seus vídeos.",
+ "b3-titulo": "Grave e compartilhe",
+ "b3-texto": "Arraste o mouse para selecionar uma região da tela e grave com o áudio do sistema e o microfone que você quiser. A codificação fica com a placa de vídeo (NVIDIA, AMD ou Intel), até 120 fps, sem roubar quadros do seu jogo. O replay instantâneo salva os últimos segundos quando algo acontece, e o clipe é copiado, pronto para colar no Discord.",
+ "a-grabar": "Gravar a tela",
+ "a-repeticion": "Salvar o replay",
+ "a-panel": "Painel de gravação",
+ "b2-titulo": "Edite",
+ "b2-texto": "Divida e remova trechos na linha do tempo. Adicione textos, caixas, setas, áreas pixeladas e zoom animado, cada um com seu próprio início e fim. Exporte e pronto: já está copiado.",
+ "b2-atajo": "abre o editor",
+ "b1-titulo": "Reproduza",
+ "b1-texto": "Ele continua na memória depois de fechado, então o próximo vídeo aparece assim que você abre. A interface some quando você não está usando, e ele reproduz praticamente qualquer formato. Também é um visualizador de fotos rápido: JPEG, PNG, WebP, HEIC, AVIF e mais.",
+ "faq-ante": "Perguntas",
+ "faq-titulo": "O que todo mundo pergunta.",
+ "final-titulo": "Abra um vídeo. Faça muito mais.",
+ "descargar-windows": "Baixar o Zas para Windows",
+ "final-nota": "Grátis. Sem anúncios. Atualiza sozinho quando você quiser.",
+ "pie-versiones": "Versões",
+ "creditos": "Feito com",
+ "y": "e",
+ "stock": "Vídeos nas capturas de tela:",
+ "bbb": "Medido com",
+ "alt-escaparate": "O painel de gravação do Zas aberto sobre a tela: gravar uma região ou a tela, replay instantâneo, som, qualidade, FPS e codec",
+ "alt-recortar": "A linha do tempo do Zas com um trecho marcado em âmbar",
+ "alt-compartir": "O Zas avisando que o clipe foi salvo e copiado",
+ "alt-copiado": "O Zas mostrando “Salvo e copiado”: o clipe já está na área de transferência",
+ "alt-editor": "O editor do Zas com um texto, uma seta e uma caixa sobre o vídeo",
+ "alt-reproduce": "O Zas reproduzindo um vídeo em tela cheia, com os controles na parte de baixo",
+ "meta-titulo": "Zas: gravador de tela grátis para Windows, alternativa ao ShadowPlay, OBS e Medal",
+ "meta-descripcion": "O Zas Player é um gravador de tela e ferramenta de clipes grátis para Windows: replay instantâneo sem perder FPS, editor de clipes integrado e clipes copiados para a área de transferência, prontos para o Discord. E ainda um player de vídeo instantâneo. Sem anúncios, sem conta.",
+ "meta-og-titulo": "Zas Player · Grave. Corte. Compartilhe.",
+ "version-palabra": "versão",
+ "idioma-etiqueta": "Idioma",
+ "metodo": "<p>Zas 1.15.1, a versão que você baixa aqui, em um PC com AMD Ryzen 5 3600, NVIDIA GeForce RTX 2060, 32 GB de memória e Windows 11, com uma tela de 2560×1440. Vídeo de teste: um minuto de Big Buck Bunny (H.264, 1080p a 60 fps) e duas versões de 10 s feitas a partir dele (H.265 em 4K a 30 fps e VP9 1080p a 30 fps).</p><table><tr><th></th><th>H.264 1080p60</th><th>H.265 2160p30</th><th>VP9 1080p30</th></tr><tr><td>Abrir com o Zas na memória</td><td>378 ms</td><td>134 ms</td><td>125 ms</td></tr><tr><td>Abrir com o Zas fechado</td><td>710 ms</td><td>595 ms</td><td>514 ms</td></tr></table><p><b>Abrir</b>: da execução de <code>zas.exe video</code> (o mesmo que um clique duplo) até o primeiro quadro na tela. Medianas de 8 aberturas na memória e 5 do zero. Com o Zas na memória, 2 de 24 aberturas demoraram mais (0,7 e 2,9 s); com o Zas fechado, a mais lenta levou 0,83 s. O arquivo já estava no cache do Windows.</p><p><b>Clipe copiado</b>: marcar um trecho de 12 s e apertar Ctrl+E (sem recodificar) até o arquivo estar na área de transferência. Mediana de 5 execuções: 0,14 s; a primeira levou 33 s, sem explicação. Com precisão de quadro (recodificando, Ctrl+Shift+E), o mesmo trecho leva de 4,6 a 5,0 s.</p><p><b>FPS ao gravar</b>: Fortnite em 2560×1440 em primeiro plano, medido com PresentMon (Intel). Sem gravar, 61–69 FPS; gravando a 60 fps com a placa de vídeo (H.264 ou H.265 via NVENC), 68–70 FPS, dentro da mesma variação. A gravação usa 18% de um núcleo da CPU. O método antigo, pela CPU (libx264), usava 2,7 núcleos e travava.</p><p><b>Memória</b>: 99 MB em espera (em segundo plano, pronto para abrir) e cerca de 300 MB reproduzindo o vídeo 1080p60.</p><p>São medições de um computador específico: no seu, os resultados podem variar.</p>",
+ "preguntas": [
+  [
+   "O Zas é uma boa alternativa ao ShadowPlay, OBS ou Medal?",
+   "Sim, se você quer gravar a tela ou salvar momentos das suas partidas e compartilhar rápido. Como o ShadowPlay, ele grava com a placa de vídeo e tem replay instantâneo, mas funciona com NVIDIA, AMD e Intel. Ao contrário do OBS, não tem nada para configurar. E, como o Medal, tem editor de clipes, mas tudo fica no seu PC: sem conta, sem nuvem e sem anúncios. Se você precisa fazer transmissões ao vivo, o OBS continua sendo a ferramenta certa; o Zas não faz streaming."
+  ],
+  [
+   "Gravar com o Zas derruba meu FPS?",
+   "No nosso teste, não. Fortnite em 1440p rodou a 61–69 FPS sem gravar e a 68–70 enquanto o Zas gravava com a placa de vídeo (medido com PresentMon em uma RTX 2060). O Zas codifica na placa de vídeo (NVENC, AMF ou Quick Sync), então a CPU quase não trabalha: 18% de um núcleo."
+  ],
+  [
+   "Como compartilho um clipe no Discord?",
+   "Salve o momento com Win+Shift+G (replay instantâneo) ou marque um trecho com I e O e aperte Ctrl+E. O clipe é copiado para a área de transferência: no Discord, aperte Ctrl+V. Lembre que o Discord aceita arquivos de até 20 MB nas contas gratuitas."
+  ],
+  [
+   "O que é o Zas Player?",
+   "O Zas (ou Zas Player) é um gravador de tela, editor de clipes e player de vídeo grátis para Windows 10 e 11. Ele abre vídeos na hora e tem um cortador de vídeo e um visualizador de fotos integrados."
+  ],
+  [
+   "Como baixar o Zas?",
+   "Clique em “Baixar o Zas” nesta página: o instalador oficial, Zas-Setup.exe, será baixado do GitHub. Abra o arquivo, a instalação leva segundos e, a partir daí, ele se atualiza sozinho quando você quiser."
+  ],
+  [
+   "É grátis? Tem anúncios?",
+   "É grátis, sem anúncios e sem precisar criar conta."
+  ],
+  [
+   "Quais formatos ele abre?",
+   "Praticamente qualquer vídeo (MP4, MKV, WebM, MOV, AVI, WMV, TS…), graças ao mpv e ao FFmpeg, e fotos em JPEG, PNG, WebP, HEIC, AVIF e mais."
+  ]
+ ],
+ "compara": {
+  "filas": [
+   [
+    "Grátis",
+    "si",
+    "si",
+    "si",
+    "si*"
+   ],
+   [
+    "Qualquer placa de vídeo (NVIDIA, AMD, Intel)",
+    "si",
+    "Só NVIDIA",
+    "si",
+    "si"
+   ],
+   [
+    "Replay instantâneo",
+    "si",
+    "si",
+    "Configurando",
+    "si"
+   ],
+   [
+    "Editor de clipes (cortar, texto, setas, desfoque, zoom)",
+    "si",
+    "no",
+    "no",
+    "si"
+   ],
+   [
+    "Arquivo do clipe na área de transferência, pronto para colar",
+    "si",
+    "no",
+    "no",
+    "Um link"
+   ],
+   [
+    "Player de vídeo e visualizador de fotos incluídos",
+    "si",
+    "no",
+    "no",
+    "no"
+   ],
+   [
+    "Sem conta nem nuvem",
+    "si",
+    "si",
+    "si",
+    "Pede cadastro"
+   ],
+   [
+    "Clipes automáticos dos melhores momentos",
+    "no",
+    "Alguns jogos",
+    "no",
+    "si"
+   ],
+   [
+    "Transmissão ao vivo",
+    "no",
+    "no",
+    "si",
+    "no"
+   ]
+  ],
+  "pie": "* Com recursos pagos.",
+  "si": "Sim",
+  "no": "Não"
+ },
+ "jsonld-subcategoria": "Player de vídeo",
+ "jsonld-funciones": [
+  "Gravador de tela por GPU (NVIDIA, AMD, Intel)",
+  "Replay instantâneo",
+  "Editor de clipes",
+  "Clipes copiados para a área de transferência",
+  "Cortar vídeos sem recodificar",
+  "Player de vídeo",
+  "Visualizador de imagens"
+ ]
+}

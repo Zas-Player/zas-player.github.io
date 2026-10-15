@@ -1,0 +1,177 @@
+{
+ "saltar": "Zum Inhalt springen",
+ "nav-rendimiento": "Leistung",
+ "nav-funciones": "Funktionen",
+ "descargar-corto": "Download",
+ "antetitulo": "Kostenloser Bildschirmrekorder und Videoplayer für Windows",
+ "titular": "Aufnehmen. Schneiden. Teilen.",
+ "entradilla": "Instant Replay und Bildschirmaufnahme ohne FPS-Verlust, ein integrierter Clip-Editor und jeder Clip direkt in der Zwischenablage, bereit für Discord. Dazu ein Videoplayer, der sofort startet.",
+ "descargar": "Zas herunterladen",
+ "versiones": "Versionen ansehen",
+ "gratis": "Kostenlos · Windows 10 und 11 · Ohne Werbung",
+ "rend-ante": "Gemessene Leistung",
+ "rend-titulo": "Tempo, nachgemessen.",
+ "cifra1-nombre": "Bis ein Video offen ist",
+ "cifra1-detalle": "Vom Doppelklick bis zum ersten Bild, mit Zas im Arbeitsspeicher. Median für ein 1080p60-Video.",
+ "cifra2-nombre": "Bis ein Clip kopiert ist",
+ "cifra2-detalle": "Von Strg+E bis zu einem 12-s-Clip in der Zwischenablage, bereit zum Einfügen.",
+ "cifra3-nombre": "FPS-Verlust bei der Aufnahme",
+ "cifra3-detalle": "Fortnite in 1440p: 61–69 FPS ohne Aufnahme und 68–70 bei Aufnahme über die Grafikkarte. Gemessen mit PresentMon.",
+ "metodo-titulo": "So haben wir gemessen",
+ "pasos-ante": "Ein Clip in Sekunden",
+ "pasos-titulo": "Vom Video in den Chat mit drei Tasten.",
+ "paso1": "Abschnitt markieren",
+ "paso1-texto": "Anfang und Ende, direkt beim Ansehen.",
+ "paso2": "Exportieren",
+ "paso2-texto": "Ohne Neucodierung: Der Clip ist sofort fertig, in Originalqualität.",
+ "paso3": "Einfügen",
+ "paso3-texto": "Er ist schon in der Zwischenablage: Fügen Sie ihn in jeden beliebigen Chat ein.",
+ "comp-ante": "Zas im Vergleich",
+ "comp-titulo": "Die Alternative zu ShadowPlay, OBS und Medal.",
+ "comp-sub": "Nehmen Sie auf wie mit ShadowPlay, aber mit jeder Grafikkarte, ganz ohne Einrichtung wie bei OBS, und bearbeiten Sie den Clip, ohne ihn in eine Cloud hochzuladen. Alles in einer App, die zugleich Ihr Videoplayer ist.",
+ "comp-nota": "Basierend auf den öffentlichen Angaben der jeweiligen App, Stand Oktober 2026. ShadowPlay ist die Aufnahmefunktion der NVIDIA App.",
+ "func-ante": "Eine App statt drei",
+ "func-titulo": "Alles, was Sie mit Ihren Videos machen.",
+ "b3-titulo": "Aufnehmen und teilen",
+ "b3-texto": "Ziehen Sie einen Bereich des Bildschirms auf und nehmen Sie mit Systemsound und dem Mikrofon Ihrer Wahl auf. Codiert wird auf der Grafikkarte (NVIDIA, AMD oder Intel), mit bis zu 120 fps, ohne Ihr Spiel Frames zu kosten. Instant Replay speichert die letzten Sekunden, wenn etwas passiert, und der Clip wird kopiert, bereit zum Einfügen in Discord.",
+ "a-grabar": "Bildschirm aufnehmen",
+ "a-repeticion": "Replay speichern",
+ "a-panel": "Aufnahmeleiste",
+ "b2-titulo": "Bearbeiten",
+ "b2-texto": "Teilen und entfernen Sie Abschnitte in der Zeitleiste. Fügen Sie Text, Rahmen, Pfeile, verpixelte Bereiche und animierten Zoom hinzu, jeweils mit eigenem Anfang und Ende. Exportieren, und schon ist alles kopiert.",
+ "b2-atajo": "öffnet den Editor",
+ "b1-titulo": "Abspielen",
+ "b1-texto": "Zas bleibt nach dem Schließen im Arbeitsspeicher, deshalb erscheint das nächste Video, sobald Sie es öffnen. Die Oberfläche blendet sich aus, wenn Sie sie nicht nutzen, und fast jedes Format wird abgespielt. Außerdem ist Zas ein schneller Fotobetrachter: JPEG, PNG, WebP, HEIC, AVIF und mehr.",
+ "faq-ante": "Fragen",
+ "faq-titulo": "Häufig gestellte Fragen.",
+ "final-titulo": "Video öffnen. Viel mehr machen.",
+ "descargar-windows": "Zas für Windows herunterladen",
+ "final-nota": "Kostenlos. Ohne Werbung. Aktualisiert sich, wann Sie es möchten.",
+ "pie-versiones": "Versionen",
+ "creditos": "Basiert auf",
+ "y": "und",
+ "stock": "Videos in den Screenshots:",
+ "bbb": "Gemessen mit",
+ "alt-escaparate": "Die Aufnahmeleiste von Zas über dem Bildschirm: Bereich oder Bildschirm aufnehmen, Instant Replay, Ton, Qualität, FPS und Codec",
+ "alt-recortar": "Die Zeitleiste von Zas mit einem bernsteinfarben markierten Abschnitt",
+ "alt-compartir": "Zas meldet, dass der Clip gespeichert und kopiert ist",
+ "alt-copiado": "Zas zeigt „Gespeichert und kopiert“: Der Clip ist bereits in der Zwischenablage",
+ "alt-editor": "Der Editor von Zas mit einem Text, einem Pfeil und einem Rahmen über dem Video",
+ "alt-reproduce": "Zas spielt ein Video im Vollbild ab, mit den Steuerelementen unten",
+ "meta-titulo": "Zas: kostenloser Bildschirmrekorder für Windows, Alternative zu ShadowPlay, OBS und Medal",
+ "meta-descripcion": "Zas Player ist ein kostenloser Bildschirmrekorder und Clip-Tool für Windows: Instant Replay ohne FPS-Verlust, integrierter Clip-Editor und Clips direkt in der Zwischenablage, bereit für Discord. Dazu ein blitzschneller Videoplayer. Ohne Werbung, ohne Konto.",
+ "meta-og-titulo": "Zas Player · Aufnehmen. Schneiden. Teilen.",
+ "version-palabra": "Version",
+ "idioma-etiqueta": "Sprache",
+ "metodo": "<p>Zas 1.15.1, die Version, die Sie hier herunterladen, auf einem PC mit AMD Ryzen 5 3600, NVIDIA GeForce RTX 2060, 32 GB Arbeitsspeicher und Windows 11, mit einem Bildschirm in 2560×1440. Testvideo: eine Minute Big Buck Bunny (H.264, 1080p mit 60 fps) und zwei daraus erstellte 10-s-Versionen (H.265 in 4K mit 30 fps und VP9 1080p mit 30 fps).</p><table><tr><th></th><th>H.264 1080p60</th><th>H.265 2160p30</th><th>VP9 1080p30</th></tr><tr><td>Öffnen mit Zas im Arbeitsspeicher</td><td>378 ms</td><td>134 ms</td><td>125 ms</td></tr><tr><td>Öffnen mit geschlossenem Zas</td><td>710 ms</td><td>595 ms</td><td>514 ms</td></tr></table><p><b>Öffnen</b>: vom Start von <code>zas.exe video</code> (wie ein Doppelklick) bis zum ersten Bild auf dem Bildschirm. Mediane aus 8 Starts im Arbeitsspeicher und 5 Kaltstarts. Mit Zas im Arbeitsspeicher dauerten 2 von 24 Starts länger (0,7 und 2,9 s); bei geschlossenem Zas lag der langsamste bei 0,83 s. Die Datei befand sich bereits im Windows-Cache.</p><p><b>Clip kopiert</b>: einen 12-s-Abschnitt markieren und Strg+E drücken (ohne Neucodierung), bis die Datei in der Zwischenablage ist. Median aus 5 Durchläufen: 0,14 s; der erste dauerte 33 s, ohne erkennbaren Grund. Framegenau (mit Neucodierung, Strg+Umschalt+E) dauert derselbe Abschnitt 4,6 bis 5,0 s.</p><p><b>FPS bei der Aufnahme</b>: Fortnite in 2560×1440 im Vordergrund, gemessen mit PresentMon (Intel). Ohne Aufnahme 61–69 FPS; bei Aufnahme mit 60 fps über die Grafikkarte (H.264 oder H.265 per NVENC) 68–70 FPS, also innerhalb derselben Schwankung. Die Aufnahme nutzt 18 % eines CPU-Kerns. Die alte CPU-Methode (libx264) brauchte 2,7 Kerne und ruckelte.</p><p><b>Arbeitsspeicher</b>: 99 MB im Leerlauf (im Hintergrund, bereit zum Öffnen) und etwa 300 MB bei der Wiedergabe des 1080p60-Videos.</p><p>Diese Werte stammen von einem bestimmten Computer: Auf Ihrem können sie abweichen.</p>",
+ "preguntas": [
+  [
+   "Ist Zas eine gute Alternative zu ShadowPlay, OBS oder Medal?",
+   "Ja, wenn Sie Ihren Bildschirm aufnehmen oder Spielmomente festhalten und schnell teilen möchten. Wie ShadowPlay nimmt Zas über die Grafikkarte auf und bietet Instant Replay, funktioniert aber mit NVIDIA, AMD und Intel. Anders als bei OBS müssen Sie nichts einrichten. Und wie Medal hat es einen Clip-Editor, doch alles bleibt auf Ihrem PC: kein Konto, keine Cloud, keine Werbung. Wenn Sie live streamen möchten, ist OBS weiterhin das richtige Werkzeug; Zas streamt nicht."
+  ],
+  [
+   "Kostet die Aufnahme mit Zas FPS?",
+   "In unserem Test nicht. Fortnite lief in 1440p mit 61–69 FPS ohne Aufnahme und mit 68–70, während Zas über die Grafikkarte aufnahm (gemessen mit PresentMon auf einer RTX 2060). Zas codiert auf der Grafikkarte (NVENC, AMF oder Quick Sync), daher hat die CPU kaum etwas zu tun: 18 % eines Kerns."
+  ],
+  [
+   "Wie teile ich einen Clip auf Discord?",
+   "Speichern Sie den Moment mit Win+Umschalt+G (Instant Replay), oder markieren Sie einen Abschnitt mit I und O und drücken Sie Strg+E. Der Clip wird in die Zwischenablage kopiert: In Discord drücken Sie Strg+V. Beachten Sie, dass Discord bei kostenlosen Konten Dateien bis 20 MB erlaubt."
+  ],
+  [
+   "Was ist Zas Player?",
+   "Zas (oder Zas Player) ist ein kostenloser Bildschirmrekorder, Clip-Editor und Videoplayer für Windows 10 und 11. Er öffnet Videos sofort und bringt einen Videoschnitt und einen Fotobetrachter mit."
+  ],
+  [
+   "Wie lade ich Zas herunter?",
+   "Klicken Sie auf dieser Seite auf „Zas herunterladen“: Damit laden Sie das offizielle Installationsprogramm Zas-Setup.exe von GitHub herunter. Öffnen Sie es, die Installation dauert nur Sekunden, und danach aktualisiert sich Zas selbst, wann Sie es möchten."
+  ],
+  [
+   "Ist Zas kostenlos? Gibt es Werbung?",
+   "Zas ist kostenlos, ohne Werbung und ohne Konto."
+  ],
+  [
+   "Welche Formate werden unterstützt?",
+   "Fast jedes Video (MP4, MKV, WebM, MOV, AVI, WMV, TS…) dank mpv und FFmpeg, sowie Fotos in JPEG, PNG, WebP, HEIC, AVIF und mehr."
+  ]
+ ],
+ "compara": {
+  "filas": [
+   [
+    "Kostenlos",
+    "si",
+    "si",
+    "si",
+    "si*"
+   ],
+   [
+    "Jede Grafikkarte (NVIDIA, AMD, Intel)",
+    "si",
+    "Nur NVIDIA",
+    "si",
+    "si"
+   ],
+   [
+    "Instant Replay",
+    "si",
+    "si",
+    "Mit Einrichtung",
+    "si"
+   ],
+   [
+    "Clip-Editor (Schnitt, Text, Pfeile, Unschärfe, Zoom)",
+    "si",
+    "no",
+    "no",
+    "si"
+   ],
+   [
+    "Clip-Datei in der Zwischenablage, bereit zum Einfügen",
+    "si",
+    "no",
+    "no",
+    "Ein Link"
+   ],
+   [
+    "Videoplayer und Fotobetrachter inklusive",
+    "si",
+    "no",
+    "no",
+    "no"
+   ],
+   [
+    "Ohne Konto und Cloud",
+    "si",
+    "si",
+    "si",
+    "Verlangt Registrierung"
+   ],
+   [
+    "Automatische Highlight-Clips",
+    "no",
+    "Einige Spiele",
+    "no",
+    "si"
+   ],
+   [
+    "Livestreaming",
+    "no",
+    "no",
+    "si",
+    "no"
+   ]
+  ],
+  "pie": "* Mit kostenpflichtigen Funktionen.",
+  "si": "Ja",
+  "no": "Nein"
+ },
+ "jsonld-subcategoria": "Videoplayer",
+ "jsonld-funciones": [
+  "GPU-Bildschirmrekorder (NVIDIA, AMD, Intel)",
+  "Instant Replay",
+  "Clip-Editor",
+  "Clips in die Zwischenablage kopiert",
+  "Videos ohne Neucodierung schneiden",
+  "Videoplayer",
+  "Bildbetrachter"
+ ]
+}

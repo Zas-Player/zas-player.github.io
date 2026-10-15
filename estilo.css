@@ -50,9 +50,20 @@ a { color: inherit; text-decoration: none; }
 .nav { display: flex; align-items: center; gap: 6px; }
 .enlace { color: var(--tinta2); font-size: 14px; padding: 8px 10px; border-radius: 8px; transition: color .16s, background-color .16s; }
 .enlace:hover { color: var(--tinta); background: var(--sobre); }
-.idioma { font: inherit; font-size: 13px; color: var(--tinta2); background: none; border: 1px solid var(--borde);
-          border-radius: 8px; padding: 5px 9px; margin: 0 6px 0 4px; cursor: pointer; transition: color .16s, border-color .16s; }
-.idioma:hover { color: var(--tinta); border-color: var(--tinta2); }
+.idiomas { position: relative; margin: 0 6px 0 4px; }
+.idiomas summary { list-style: none; display: inline-flex; align-items: center; gap: 6px; font-size: 13px; color: var(--tinta2);
+                   border: 1px solid var(--borde); border-radius: 8px; padding: 5px 9px; cursor: pointer; transition: color .16s, border-color .16s; }
+.idiomas summary::-webkit-details-marker { display: none; }
+.idiomas summary:hover, .idiomas[open] summary { color: var(--tinta); border-color: var(--tinta2); }
+.idiomas summary svg { width: 15px; height: 15px; fill: none; stroke: currentColor; stroke-width: 1.6; }
+.idiomas ul { position: absolute; right: 0; top: calc(100% + 6px); z-index: 10; margin: 0; padding: 6px; list-style: none;
+              background: var(--panel); border: 1px solid var(--borde); border-radius: 10px; box-shadow: 0 12px 32px rgba(0,0,0,.35);
+              display: grid; grid-template-columns: repeat(3, minmax(120px, 1fr)); gap: 2px; width: max-content; max-width: calc(100vw - 32px);
+              max-height: min(70vh, 520px); overflow-y: auto; }
+.idiomas a { display: block; padding: 6px 10px; border-radius: 6px; font-size: 14px; color: var(--tinta2); white-space: nowrap; }
+.idiomas a:hover { color: var(--tinta); background: var(--sobre); }
+.idiomas a[aria-current] { color: var(--tinta); font-weight: 600; }
+@media (max-width: 640px) { .idiomas ul { grid-template-columns: repeat(2, minmax(110px, 1fr)); position: fixed; right: 16px; top: 60px; } }
 
 /* botones: el ámbar, solo para descargar */
 .boton { display: inline-flex; align-items: center; gap: 10px; background: var(--acento); color: var(--sobre-acento);
@@ -226,3 +237,6 @@ h1 .lema-grande { display: block; }
   .tabla-compara tbody th, .tabla-compara thead th:first-child { position: sticky; left: 0; z-index: 1; background: var(--panel); min-width: 150px; max-width: 170px; box-shadow: 1px 0 0 var(--borde); }
   .tabla-compara th, .tabla-compara td { padding: 13px 12px; font-size: 14px; }
 }
+
+/* japonés, chino y coreano: cortar por frases, no por cualquier carácter */
+:lang(ja), :lang(zh), :lang(ko) { word-break: auto-phrase; }

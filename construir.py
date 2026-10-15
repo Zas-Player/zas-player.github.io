@@ -1,12 +1,14 @@
 #!/usr/bin/env python3
-"""Genera la web de Zas: index.html (español) y en/index.html (inglés) a partir de
-plantilla.html, más sitemap.xml y robots.txt. Las dos páginas llevan todo su texto escrito
-(sin depender de JavaScript), para que Google indexe cada idioma por separado.
+"""Genera la web de Zas en todos sus idiomas a partir de plantilla.html (en castellano, con
+data-i en cada texto) y de textos/<código>.json, más sitemap.xml, robots.txt y llms.txt.
+Cada página lleva todo su texto escrito (sin depender de JavaScript), para que Google la
+indexe en su idioma.
 
     python3 construir.py            # la versión publicada la pregunta a GitHub
 
-Para cambiar textos: el castellano está en plantilla.html; el inglés, en EN.
-Las cifras de rendimiento, en MEDIDAS (salen de ~/zas-web-medios/medir.ps1).
+Inglés en /, castellano en /es/ y el resto en /<código>/ (/fr/, /pt-br/...). Solo se
+publican los idiomas que tienen su textos/<código>.json. Para cambiar un texto, en su
+textos/<código>.json (el castellano es la referencia). Las cifras, en MEDIDAS.
 """
 import hashlib
 import html
@@ -23,155 +25,25 @@ AQUI = Path(__file__).parent
 # Zas 1.15.1, 14-oct-2026: Ryzen 5 3600, RTX 2060, 32 GB, Windows 11, 2560x1440
 MEDIDAS = {"abrir_ms": 378, "clip_s": 0.14, "fps_perdidos": 0}
 
-PAGINA = {
-    "es": {
-        "url": SITIO + "/es/",
-        "titulo": "Zas: grabador de pantalla gratis para Windows, alternativa a ShadowPlay, OBS y Medal",
-        "descripcion": "Zas Player es un grabador de pantalla y de clips gratis para Windows: repetición instantánea sin perder FPS, "
-                       "editor de clips incluido y clips copiados al portapapeles, listos para Discord. Reproductor de vídeo instantáneo. Sin anuncios ni cuenta.",
-        "og_titulo": "Zas Player · Graba. Recorta. Comparte.",
-        "locale": "es_ES",
-        "otra": ("en", SITIO + "/", "/", "EN", "Read this page in English"),
-    },
-    "en": {
-        "url": SITIO + "/",
-        "titulo": "Zas: free screen recorder for Windows, a ShadowPlay, OBS and Medal alternative",
-        "descripcion": "Zas Player is a free screen recorder and clipping tool for Windows: instant replay with no FPS loss, "
-                       "a built-in clip editor and clips copied to your clipboard, ready for Discord. Plus an instant video player. No ads, no account.",
-        "og_titulo": "Zas Player · Record. Clip. Share.",
-        "locale": "en_US",
-        "otra": ("es", SITIO + "/es/", "/es/", "ES", "Leer esta página en español"),
-    },
-}
+LISTA = json.loads((AQUI / "idiomas.json").read_text(encoding="utf-8"))
+IDIOMAS = [l for l in LISTA if (AQUI / "textos" / f"{l['codigo']}.json").exists()]
+TEXTOS = {l["codigo"]: json.loads((AQUI / "textos" / f"{l['codigo']}.json").read_text(encoding="utf-8")) for l in IDIOMAS}
+COMA = {l["codigo"]: l["coma_decimal"] for l in LISTA}
+NOMBRE = {l["codigo"]: l["nombre"] for l in LISTA}
 
-EN = {
-    "saltar": "Skip to content",
-    "nav-rendimiento": "Performance", "nav-funciones": "Features",
-    "descargar-corto": "Download", "descargar": "Download Zas", "descargar-windows": "Download Zas for Windows",
-    "versiones": "See releases",
-    "antetitulo": "Free screen recorder and video player for Windows",
-    "titular": "Record. Clip. Share.",
-    "entradilla": "Instant replay and screen recording with no FPS loss, a clip editor built in, and every clip copied to your clipboard, ready for Discord. Plus a video player that opens instantly.",
-    "alt-escaparate": "The Zas recording panel open over the screen: record a region or the screen, instant replay, sound, quality, FPS and codec",
-    "comp-ante": "Zas vs the rest", "comp-titulo": "The alternative to ShadowPlay, OBS and Medal.",
-    "comp-sub": "Record like ShadowPlay on any graphics card, with no setup like OBS, and edit the clip without uploading it to any cloud. All in one app that is also your video player.",
-    "comp-nota": "Based on each app’s public information as of October 2026. ShadowPlay is the recording feature of the NVIDIA App.",
-    "alt-copiado": "Zas showing “Saved and copied”: the clip is already on the clipboard",
-    "gratis": "Free · Windows 10 and 11 · No ads",
-    "alt-reproductor": "The Zas window playing a video, with the timeline and controls at the bottom",
-    "rend-ante": "Measured performance", "rend-titulo": "Speed is measured.",
-    "cifra1-nombre": "To open a video", "cifra1-detalle": "From double-click to the first frame, with Zas in memory. Median for a 1080p60 video.",
-    "cifra2-nombre": "To have a clip copied", "cifra2-detalle": "From pressing Ctrl+E to a 12 s clip on the clipboard, ready to paste.",
-    "cifra3-nombre": "FPS lost while recording", "cifra3-detalle": "Fortnite at 1440p: 61–69 FPS without recording and 68–70 while recording with the graphics card. Measured with PresentMon.",
-    "metodo-titulo": "How we measured it",
-    "pasos-ante": "A clip in seconds", "pasos-titulo": "From video to chat in three keys.",
-    "paso1": "Mark the part", "paso1-texto": "Start and end, while you watch.",
-    "paso2": "Export", "paso2-texto": "No re-encoding: the clip is ready right away, at the original quality.",
-    "paso3": "Paste", "paso3-texto": "It’s already on the clipboard: paste it into any chat.",
-    "alt-recortar": "The Zas timeline with a part marked in amber", "alt-compartir": "Zas saying the clip is saved and copied",
-    "func-ante": "One app, not three", "func-titulo": "Everything you do with your videos.",
-    "b1-titulo": "Play", "b1-texto": "It stays in memory after closing, so the next video shows up as soon as you open it. The interface disappears when you’re not using it and it plays almost any format. It’s also a fast photo viewer: JPEG, PNG, WebP, HEIC, AVIF and more.",
-    "alt-reproduce": "Zas playing a video full screen, with the controls at the bottom",
-    "b2-titulo": "Edit", "b2-texto": "Split and remove parts on the timeline. Add text, boxes, arrows, pixelated areas and animated zoom, each with its own start and end. Export and it’s copied.",
-    "b2-atajo": "opens the editor", "alt-editor": "The Zas editor with a text, an arrow and a box over the video",
-    "b3-titulo": "Record and share", "b3-texto": "Drag a region of the screen and record with system audio and the microphone of your choice. Encoded by the graphics card (NVIDIA, AMD or Intel), up to 120 fps, without costing your game frames. Instant replay saves the last seconds when something happens, and the clip is copied, ready to paste into Discord.",
-    "a-grabar": "Record the screen", "a-repeticion": "Save the replay", "a-panel": "Recording panel",
-    "alt-panel": "The Zas recording panel open on the left of the screen: record a region or the screen, instant replay, sound, quality, frames per second and codec",
-    "final-titulo": "Open a video. Do much more.", "final-nota": "Free. No ads. Updates itself when you say so.",
-    "faq-ante": "Questions", "faq-titulo": "What people usually ask.",
-    "pie-versiones": "Releases", "creditos": "Built on", "y": "and", "stock": "Videos in the screenshots:", "bbb": "Measured with",
-}
-
-# Comparativa: solo lo que dice la información pública de cada programa (octubre de 2026)
-COMPARA = {
-    "cabecera": {"es": ["", "Zas", "ShadowPlay", "OBS Studio", "Medal"], "en": ["", "Zas", "ShadowPlay", "OBS Studio", "Medal"]},
-    "filas": [
-        ({"es": "Gratis", "en": "Free"}, ["si", "si", "si", "si*"]),
-        ({"es": "Cualquier gráfica (NVIDIA, AMD, Intel)", "en": "Any graphics card (NVIDIA, AMD, Intel)"}, ["si", {"es": "Solo NVIDIA", "en": "NVIDIA only"}, "si", "si"]),
-        ({"es": "Repetición instantánea", "en": "Instant replay"}, ["si", "si", {"es": "Configurándola", "en": "With setup"}, "si"]),
-        ({"es": "Editor de clips (cortar, textos, flechas, pixelar, zoom)", "en": "Clip editor (trim, text, arrows, blur, zoom)"}, ["si", "no", "no", "si"]),
-        ({"es": "El clip, en el portapapeles para pegarlo", "en": "Clip file on the clipboard, ready to paste"}, ["si", "no", "no", {"es": "Un enlace", "en": "A link"}]),
-        ({"es": "Reproductor y visor de fotos incluido", "en": "Video player and photo viewer included"}, ["si", "no", "no", "no"]),
-        ({"es": "Sin cuenta ni nube", "en": "No account or cloud"}, ["si", "si", "si", {"es": "Pide cuenta", "en": "Asks to sign up"}]),
-        ({"es": "Clips automáticos de jugadas", "en": "Automatic highlight clips"}, ["no", {"es": "En algunos juegos", "en": "Some games"}, "no", "si"]),
-        ({"es": "Directos (streaming)", "en": "Live streaming"}, ["no", "no", "si", "no"]),
-    ],
-    "pie": {"es": "* Con funciones de pago.", "en": "* With paid features."},
-}
+LOCALE = {"es": "es_ES", "en": "en_US", "pt-BR": "pt_BR", "pt-PT": "pt_PT", "fr": "fr_FR", "de": "de_DE", "it": "it_IT", "nl": "nl_NL",
+          "ca": "ca_ES", "gl": "gl_ES", "eu": "eu_ES", "pl": "pl_PL", "cs": "cs_CZ", "sk": "sk_SK", "hu": "hu_HU", "ro": "ro_RO",
+          "bg": "bg_BG", "hr": "hr_HR", "sr-Latn": "sr_RS", "sl": "sl_SI", "ru": "ru_RU", "uk": "uk_UA", "sv": "sv_SE", "da": "da_DK",
+          "nb": "nb_NO", "fi": "fi_FI", "et": "et_EE", "lv": "lv_LV", "lt": "lt_LT", "el": "el_GR", "tr": "tr_TR", "ja": "ja_JP",
+          "ko": "ko_KR", "zh-CN": "zh_CN", "zh-TW": "zh_TW", "th": "th_TH", "vi": "vi_VN", "id": "id_ID", "hi": "hi_IN"}
 
 
-def tabla_compara(lang):
-    e = html.escape
-    def celda(v):
-        if isinstance(v, dict):
-            return e(v[lang])
-        if v == "si":
-            return '<span class="si" aria-label="' + ("Sí" if lang == "es" else "Yes") + '">✓</span>'
-        if v == "si*":
-            return '<span class="si" aria-label="' + ("Sí, con funciones de pago" if lang == "es" else "Yes, with paid features") + '">✓*</span>'
-        return '<span class="no" aria-label="No">—</span>'
-    cab = COMPARA["cabecera"][lang]
-    zas = ' class="zas"'
-    fila_cab = "".join('<th scope="col"' + (zas if c == "Zas" else "") + ">" + e(c) + "</th>" for c in cab)
-    t = ['      <div class="tabla-compara"><table>', "        <thead><tr>" + fila_cab + "</tr></thead>", "        <tbody>"]
-    for nombre, vals in COMPARA["filas"]:
-        celdas = "".join("<td" + (zas if k == 0 else "") + ">" + celda(v) + "</td>" for k, v in enumerate(vals))
-        t.append('          <tr><th scope="row">' + e(nombre[lang]) + "</th>" + celdas + "</tr>")
-    t += ["        </tbody>", "      </table></div>", '      <p class="nota-compara">' + e(COMPARA["pie"][lang]) + "</p>"]
-    return "\n".join(t)
+def ruta(lang):
+    return "/" if lang == "en" else f"/{lang.lower()}/"
 
 
-PREGUNTAS = {
-    "es": [
-        ("¿Es Zas una buena alternativa a ShadowPlay, OBS o Medal?", "Sí, si lo que quieres es grabar la pantalla o guardar jugadas y compartirlas rápido. Como ShadowPlay, graba con la tarjeta gráfica y tiene repetición instantánea, pero funciona en NVIDIA, AMD e Intel. A diferencia de OBS, no hay que configurar nada. Y como Medal, trae un editor de clips, pero todo se queda en tu PC: sin cuenta, sin nube y sin anuncios. Si necesitas hacer directos, OBS sigue siendo la opción; Zas no emite en directo."),
-        ("¿Grabar con Zas me baja los FPS?", "En nuestra prueba, no. Fortnite a 1440p iba a 61–69 FPS sin grabar y a 68–70 mientras Zas grababa con la tarjeta gráfica (medido con PresentMon en una RTX 2060). Zas codifica con la gráfica (NVENC, AMF o Quick Sync), así que el procesador apenas trabaja: un 18 % de un núcleo."),
-        ("¿Cómo comparto un clip en Discord?", "Guarda la jugada con Win+Shift+G (repetición instantánea) o marca un tramo con I y O y pulsa Ctrl+E. El clip se copia solo al portapapeles: en Discord pulsa Ctrl+V. Ten en cuenta que Discord deja subir hasta 20 MB por archivo en cuentas gratuitas."),
-        ("¿Qué es Zas Player?", "Zas (o Zas Player) es un grabador de pantalla, editor de clips y reproductor de vídeo gratis para Windows 10 y 11. Abre los vídeos al instante y trae dentro un recortador y un visor de fotos."),
-        ("¿Cómo descargo Zas?", "Pulsa «Descargar Zas» en esta página: baja el instalador oficial, Zas-Setup.exe, desde GitHub. Lo abres, se instala en segundos y a partir de ahí se actualiza solo cuando tú se lo pides."),
-        ("¿Es gratis? ¿Tiene anuncios?", "Es gratis, sin anuncios y sin crear ninguna cuenta."),
-        ("¿Qué formatos abre?", "Casi cualquier vídeo (MP4, MKV, WebM, MOV, AVI, WMV, TS…) gracias a mpv y FFmpeg, y fotos en JPEG, PNG, WebP, HEIC, AVIF y más."),
-    ],
-    "en": [
-        ("Is Zas a good alternative to ShadowPlay, OBS or Medal?", "Yes, if what you want is to record your screen or save gameplay moments and share them fast. Like ShadowPlay, it records with the graphics card and has instant replay, but it works on NVIDIA, AMD and Intel. Unlike OBS, there is nothing to set up. And like Medal, it has a clip editor, but everything stays on your PC: no account, no cloud and no ads. If you need to stream live, OBS is still the tool; Zas does not stream."),
-        ("Does recording with Zas lower my FPS?", "In our test, no. Fortnite at 1440p ran at 61–69 FPS without recording and at 68–70 while Zas recorded with the graphics card (measured with PresentMon on an RTX 2060). Zas encodes on the graphics card (NVENC, AMF or Quick Sync), so the CPU barely works: 18% of one core."),
-        ("How do I share a clip on Discord?", "Save the moment with Win+Shift+G (instant replay), or mark a part with I and O and press Ctrl+E. The clip is copied to your clipboard: in Discord, press Ctrl+V. Note that Discord allows files up to 20 MB on free accounts."),
-        ("What is Zas Player?", "Zas (or Zas Player) is a free screen recorder, clip editor and video player for Windows 10 and 11. It opens videos instantly and has a trimmer and a photo viewer built in."),
-        ("How do I download Zas?", "Click “Download Zas” on this page: it downloads the official installer, Zas-Setup.exe, from GitHub. Open it, it installs in seconds and from then on it updates itself when you say so."),
-        ("Is it free? Does it have ads?", "It’s free, with no ads and no account to create."),
-        ("What formats does it open?", "Almost any video (MP4, MKV, WebM, MOV, AVI, WMV, TS…) thanks to mpv and FFmpeg, and photos in JPEG, PNG, WebP, HEIC, AVIF and more."),
-    ],
-}
-
-METODO = {
-    "es": (
-        "<p>Zas 1.15.1, la versión que se descarga aquí, en un PC con AMD Ryzen 5 3600, NVIDIA GeForce RTX 2060, 32 GB de memoria y Windows 11, con la pantalla a 2560×1440. "
-        "Vídeo de prueba: un minuto de Big Buck Bunny (H.264, 1080p a 60 fps) y dos versiones de 10 s hechas a partir de él (H.265 en 4K a 30 fps y VP9 1080p a 30 fps).</p>"
-        "<table><tr><th></th><th>H.264 1080p60</th><th>H.265 2160p30</th><th>VP9 1080p30</th></tr>"
-        "<tr><td>Abrir con Zas en memoria</td><td>378 ms</td><td>134 ms</td><td>125 ms</td></tr>"
-        "<tr><td>Abrir con Zas cerrado</td><td>710 ms</td><td>595 ms</td><td>514 ms</td></tr></table>"
-        "<p><b>Abrir</b>: desde que se lanza <code>zas.exe vídeo</code> (lo mismo que un doble clic) hasta el primer fotograma en pantalla. Medianas de 8 aperturas en memoria y 5 desde cero. "
-        "Con Zas en memoria, 2 de las 24 aperturas tardaron más (0,7 y 2,9 s); con Zas cerrado, la más lenta fue de 0,83 s. El archivo ya estaba en la caché de Windows.</p>"
-        "<p><b>Clip copiado</b>: marcar un tramo de 12 s y pulsar Ctrl+E (sin recodificar) hasta que el archivo está en el portapapeles. Mediana de 5 tomas: 0,14 s; la primera tardó 33 s y está sin explicar. "
-        "Al fotograma exacto (recodificando, Ctrl+Shift+E) el mismo tramo tarda de 4,6 a 5,0 s.</p>"
-        "<p><b>FPS al grabar</b>: Fortnite a 2560×1440 en primer plano, medido con PresentMon (Intel). Sin grabar, 61–69 FPS; grabando a 60 fps con la tarjeta gráfica (H.264 o H.265 por NVENC), 68–70 FPS, dentro de la misma variación. La grabación usa un 18 % de un núcleo del procesador. El método antiguo por procesador (libx264) usaba 2,7 núcleos y daba tirones.</p>"
-        "<p><b>Memoria</b>: 99 MB en reposo (en segundo plano, lista para abrir) y unos 300 MB reproduciendo el vídeo 1080p60.</p>"
-        "<p>Son medidas de un equipo concreto: en el tuyo pueden variar.</p>"
-    ),
-    "en": (
-        "<p>Zas 1.15.1, the version you download here, on a PC with an AMD Ryzen 5 3600, an NVIDIA GeForce RTX 2060, 32 GB of memory and Windows 11, with a 2560×1440 screen. "
-        "Test video: one minute of Big Buck Bunny (H.264, 1080p at 60 fps) and two 10 s versions made from it (H.265 in 4K at 30 fps and VP9 1080p at 30 fps).</p>"
-        "<table><tr><th></th><th>H.264 1080p60</th><th>H.265 2160p30</th><th>VP9 1080p30</th></tr>"
-        "<tr><td>Open with Zas in memory</td><td>378 ms</td><td>134 ms</td><td>125 ms</td></tr>"
-        "<tr><td>Open with Zas closed</td><td>710 ms</td><td>595 ms</td><td>514 ms</td></tr></table>"
-        "<p><b>Open</b>: from launching <code>zas.exe video</code> (the same as a double-click) to the first frame on screen. Medians of 8 opens in memory and 5 from scratch. "
-        "With Zas in memory, 2 of 24 opens took longer (0.7 and 2.9 s); with Zas closed, the slowest was 0.83 s. The file was already in the Windows cache.</p>"
-        "<p><b>Clip copied</b>: marking a 12 s part and pressing Ctrl+E (no re-encoding) until the file is on the clipboard. Median of 5 runs: 0.14 s; the first took 33 s and is unexplained. "
-        "Frame-accurate (re-encoding, Ctrl+Shift+E), the same part takes 4.6 to 5.0 s.</p>"
-        "<p><b>FPS while recording</b>: Fortnite at 2560×1440 in the foreground, measured with PresentMon (Intel). Without recording, 61–69 FPS; recording at 60 fps with the graphics card (H.264 or H.265 via NVENC), 68–70 FPS, within the same variation. Recording uses 18% of one CPU core. The old CPU method (libx264) used 2.7 cores and stuttered.</p>"
-        "<p><b>Memory</b>: 99 MB idle (in the background, ready to open) and about 300 MB playing the 1080p60 video.</p>"
-        "<p>These are measurements from one specific computer: yours may differ.</p>"
-    ),
-}
+def url(lang):
+    return SITIO + ruta(lang)
 
 
 def version_publicada():
@@ -187,110 +59,144 @@ def numero(n, dec, lang):
     return t.replace(".", ",") if lang == "es" else t
 
 
+def tabla_compara(lang):
+    e = html.escape
+    t = TEXTOS[lang]["compara"]
+    def celda(v):
+        if v == "si":
+            return '<span class="si" aria-label="' + e(t["si"]) + '">✓</span>'
+        if v == "si*":
+            return '<span class="si" aria-label="' + e(t["si"]) + '*">✓*</span>'
+        if v == "no":
+            return '<span class="no" aria-label="' + e(t["no"]) + '">—</span>'
+        return e(v)
+    zas = ' class="zas"'
+    cab = ["", "Zas", "ShadowPlay", "OBS Studio", "Medal"]
+    fila_cab = "".join('<th scope="col"' + (zas if c == "Zas" else "") + ">" + e(c) + "</th>" for c in cab)
+    out = ['      <div class="tabla-compara"><table>', "        <thead><tr>" + fila_cab + "</tr></thead>", "        <tbody>"]
+    for fila in t["filas"]:
+        celdas = "".join("<td" + (zas if k == 0 else "") + ">" + celda(v) + "</td>" for k, v in enumerate(fila[1:]))
+        out.append('          <tr><th scope="row">' + e(fila[0]) + "</th>" + celdas + "</tr>")
+    out += ["        </tbody>", "      </table></div>", '      <p class="nota-compara">' + e(t["pie"]) + "</p>"]
+    return "\n".join(out)
+
+
+def redireccion():
+    """El idioma del navegador, antes de pintar nada: lo elegido en el selector manda; los
+    buscadores no se redirigen (cada idioma se indexa en su página, con hreflang)."""
+    rutas = {l["codigo"]: ruta(l["codigo"]) for l in IDIOMAS}
+    return (
+        "<script>(function(){try{"
+        "if(/bot|crawl|spider|slurp|mediapartners|lighthouse|preview|facebookexternalhit|embedly/i.test(navigator.userAgent))return;"
+        "var R=" + json.dumps(rutas, separators=(",", ":")) + ";"
+        "function zas(n){n=(n||'').toLowerCase();if(!n)return null;"
+        "if(n.indexOf('pt')==0)return n.indexOf('pt-pt')==0?'pt-PT':'pt-BR';"
+        "if(n.indexOf('zh')==0)return /hant|-tw|-hk|-mo/.test(n)?'zh-TW':'zh-CN';"
+        "if(/^(sr|bs)/.test(n))return 'sr-Latn';if(/^(nb|nn|no)/.test(n))return 'nb';"
+        "for(var c in R){var l=c.toLowerCase();if(n==l||n.indexOf(l+'-')==0)return c;}"
+        "var d=n.split('-')[0];return R[d]?d:null;}"
+        "var e=null;try{e=localStorage.getItem('zas-idioma')}catch(_){}"
+        "var q=(e&&R[e])?e:(zas((navigator.languages&&navigator.languages[0])||navigator.language)||'en');"
+        "var aqui=document.documentElement.getAttribute('data-codigo');"
+        "if(R[q]&&q!==aqui)location.replace(R[q]+location.hash);"
+        "}catch(_){}})();</script>\n"
+    )
+
+
 def cabeza(lang, version):
-    p = PAGINA[lang]
+    t = TEXTOS[lang]
     e = html.escape
     datos = {
         "@context": "https://schema.org",
         "@type": "SoftwareApplication",
         "name": "Zas Player",
         "alternateName": ["Zas", "Zas screen recorder", "Zas clips", "Zas video player", "Zas Player for Windows"],
-        "url": p["url"],
-        "description": p["descripcion"],
+        "url": url(lang),
+        "description": t["meta-descripcion"],
         "applicationCategory": "MultimediaApplication",
-        "applicationSubCategory": "Video player" if lang == "en" else "Reproductor de vídeo",
+        "applicationSubCategory": t["jsonld-subcategoria"],
         "operatingSystem": "Windows 10, Windows 11",
         "downloadUrl": DESCARGA,
         "installUrl": DESCARGA,
         "image": SITIO + "/img/og.jpg",
-        "screenshot": [SITIO + "/img/reproductor-1600.webp", SITIO + "/img/editor-1600.webp", SITIO + "/img/panel-1600.webp"],
-        "inLanguage": ["es", "en"],
+        "screenshot": [SITIO + "/img/panel-1600.webp", SITIO + "/img/reproductor-1600.webp", SITIO + "/img/editor-1600.webp"],
+        "inLanguage": [l["codigo"] for l in IDIOMAS],
         "offers": {"@type": "Offer", "price": "0", "priceCurrency": "EUR"},
-        "featureList": ["Grabador de pantalla con la tarjeta gráfica (NVIDIA, AMD, Intel)", "Repetición instantánea", "Editor de clips",
-                        "Clips copiados al portapapeles", "Recortar vídeos sin recodificar", "Reproductor de vídeo", "Visor de imágenes"] if lang == "es" else
-                       ["GPU screen recorder (NVIDIA, AMD, Intel)", "Instant replay", "Clip editor", "Clips copied to the clipboard",
-                        "Trim videos without re-encoding", "Video player", "Image viewer"],
+        "featureList": t["jsonld-funciones"],
         "keywords": "screen recorder, clipping software, instant replay, ShadowPlay alternative, OBS alternative, Medal alternative, Discord clips, video player, Windows",
     }
     if version:
         datos["softwareVersion"] = version
     sitio = {"@context": "https://schema.org", "@type": "WebSite", "name": "Zas Player", "alternateName": "Zas", "url": SITIO + "/", "inLanguage": lang}
     faq = {"@context": "https://schema.org", "@type": "FAQPage", "inLanguage": lang,
-           "mainEntity": [{"@type": "Question", "name": q, "acceptedAnswer": {"@type": "Answer", "text": r}} for q, r in PREGUNTAS[lang]]}
-    alternas = "\n".join([
-        f'<link rel="alternate" hreflang="en" href="{SITIO}/">',
-        f'<link rel="alternate" hreflang="es" href="{SITIO}/es/">',
-        f'<link rel="alternate" hreflang="x-default" href="{SITIO}/">',
-    ])
-    otra_locale = PAGINA[p["otra"][0]]["locale"]
-    # el idioma del navegador, antes de pintar nada: lo elegido con el botón manda; los
-    # buscadores no se redirigen (cada idioma se indexa en su página, con hreflang)
-    idioma = (
-        "<script>(function(){try{"
-        "if(/bot|crawl|spider|slurp|mediapartners|lighthouse|preview|facebookexternalhit|embedly/i.test(navigator.userAgent))return;"
-        "var e=null;try{e=localStorage.getItem('zas-idioma')}catch(_){}"
-        "var n=((navigator.languages&&navigator.languages[0])||navigator.language||'').toLowerCase();"
-        "var q=e||(n.indexOf('es')===0?'es':'en');"
-        f"if(q!=='{lang}')location.replace((q==='es'?'/es/':'/')+location.hash);"
-        "}catch(_){}})();</script>\n"
-    )
-    return idioma + f"""<title>{e(p['titulo'])}</title>
-<meta name="description" content="{e(p['descripcion'])}">
+           "mainEntity": [{"@type": "Question", "name": q, "acceptedAnswer": {"@type": "Answer", "text": r}} for q, r in t["preguntas"]]}
+    alternas = "\n".join([f'<link rel="alternate" hreflang="{l["codigo"]}" href="{url(l["codigo"])}">' for l in IDIOMAS] +
+                         [f'<link rel="alternate" hreflang="x-default" href="{SITIO}/">'])
+    otras = "\n".join(f'<meta property="og:locale:alternate" content="{LOCALE.get(l["codigo"], l["codigo"])}">' for l in IDIOMAS if l["codigo"] != lang)
+    return redireccion() + f"""<title>{e(t['meta-titulo'])}</title>
+<meta name="description" content="{e(t['meta-descripcion'])}">
 <meta name="theme-color" content="#141518">
 <meta name="robots" content="index, follow, max-image-preview:large">
-<link rel="canonical" href="{p['url']}">
+<link rel="canonical" href="{url(lang)}">
 {alternas}
 <link rel="icon" href="/icono.svg" type="image/svg+xml">
 <link rel="icon" href="/icono-48.png" sizes="48x48" type="image/png">
 <link rel="apple-touch-icon" href="/img/icono-180.png">
 <meta property="og:type" content="website">
 <meta property="og:site_name" content="Zas Player">
-<meta property="og:url" content="{p['url']}">
-<meta property="og:title" content="{e(p['og_titulo'])}">
-<meta property="og:description" content="{e(p['descripcion'])}">
+<meta property="og:url" content="{url(lang)}">
+<meta property="og:title" content="{e(t['meta-og-titulo'])}">
+<meta property="og:description" content="{e(t['meta-descripcion'])}">
 <meta property="og:image" content="{SITIO}/img/og.jpg">
 <meta property="og:image:width" content="1200">
 <meta property="og:image:height" content="630">
-<meta property="og:locale" content="{p['locale']}">
-<meta property="og:locale:alternate" content="{otra_locale}">
+<meta property="og:locale" content="{LOCALE.get(lang, lang)}">
+{otras}
 <meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:title" content="{e(p['og_titulo'])}">
-<meta name="twitter:description" content="{e(p['descripcion'])}">
+<meta name="twitter:title" content="{e(t['meta-og-titulo'])}">
+<meta name="twitter:description" content="{e(t['meta-descripcion'])}">
 <meta name="twitter:image" content="{SITIO}/img/og.jpg">
 <script type="application/ld+json">{json.dumps(datos, ensure_ascii=False)}</script>
 <script type="application/ld+json">{json.dumps(sitio, ensure_ascii=False)}</script>
 <script type="application/ld+json">{json.dumps(faq, ensure_ascii=False)}</script>"""
 
 
-def pagina(plantilla, lang, version):
-    s = plantilla
-    if lang == "en":
-        def texto(m):
-            k = m.group(3)
-            return m.group(1) + (html.escape(EN[k], quote=False) if k in EN else m.group(4)) + m.group(5)
-        s = re.sub(r'(<(\w+)\b[^>]*\sdata-i="([^"]+)"[^>]*>)(.*?)(</\2>)', texto, s, flags=re.S)
+def selector(lang):
+    e = html.escape
+    t = TEXTOS[lang]
+    items = "".join(f'<li><a href="{ruta(l["codigo"])}" hreflang="{l["codigo"]}" lang="{l["codigo"]}" data-codigo="{l["codigo"]}"'
+                    + (' aria-current="true"' if l["codigo"] == lang else "") + f'>{e(l["nombre"])}</a></li>' for l in IDIOMAS)
+    corto = lang.split("-")[0].upper()
+    return (f'<details class="idiomas"><summary aria-label="{e(t["idioma-etiqueta"])}">'
+            f'<svg aria-hidden="true" viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><path d="M3 12h18M12 3c2.5 2.7 3.8 5.7 3.8 9s-1.3 6.3-3.8 9c-2.5-2.7-3.8-5.7-3.8-9S9.5 5.7 12 3z"/></svg>'
+            f'{corto}</summary><ul>{items}</ul></details>')
 
-        def alt(m):
-            k = m.group(1)
-            if k not in EN:
-                return m.group(0)
-            return re.sub(r'\salt="[^"]*"', lambda _: ' alt="' + html.escape(EN[k], quote=True) + '"', m.group(0))
-        s = re.sub(r'<img\b[^>]*data-i-alt="([^"]*)"[^>]*>', alt, s, flags=re.S)
-    # las marcas de traducción no hacen falta en la página
+
+def pagina(plantilla, lang, version):
+    t = TEXTOS[lang]
+    s = plantilla
+    def texto(m):
+        k = m.group(3)
+        return m.group(1) + (html.escape(t[k], quote=False) if k in t else m.group(4)) + m.group(5)
+    s = re.sub(r'(<(\w+)\b[^>]*\sdata-i="([^"]+)"[^>]*>)(.*?)(</\2>)', texto, s, flags=re.S)
+    def alt(m):
+        k = m.group(1)
+        if k not in t:
+            return m.group(0)
+        return re.sub(r'\salt="[^"]*"', lambda _: ' alt="' + html.escape(t[k], quote=True) + '"', m.group(0))
+    s = re.sub(r'<img\b[^>]*data-i-alt="([^"]*)"[^>]*>', alt, s, flags=re.S)
     s = re.sub(r'\sdata-i(-alt)?="[^"]*"', "", s)
-    p = PAGINA[lang]
-    otra = p["otra"]
-    vt = (" · " + ("versión " if lang == "es" else "version ") + version) if version else ""
+    vt = (" · " + t["version-palabra"] + " " + version) if version else ""
+    preguntas = "\n".join(f'        <details class="pregunta"><summary><h3>{html.escape(q)}</h3><svg class="flecha" aria-hidden="true" viewBox="0 0 24 24"><path d="M6 9l6 6 6-6"/></svg></summary><div class="respuesta"><p>{html.escape(r)}</p></div></details>'
+                          for q, r in t["preguntas"])
+    num = lambda n, dec: (f"{n:.{dec}f}".replace(".", ",") if COMA.get(lang) else f"{n:.{dec}f}")
     for k, v in {
-        "{{CABEZA}}": cabeza(lang, version), "{{LANG}}": lang, "{{INICIO}}": "/es/" if lang == "es" else "/",
-        "{{OTRA_URL}}": otra[2], "{{OTRA_LANG}}": otra[0], "{{OTRA_CORTO}}": otra[3], "{{OTRA_ETIQUETA}}": otra[4],
-        "{{VERSION_TEXTO}}": vt, "{{C1}}": numero(MEDIDAS["abrir_ms"], 0, lang), "{{C2}}": numero(MEDIDAS["clip_s"], 2, lang),
-        "{{C3}}": str(MEDIDAS["fps_perdidos"]), "{{METODO}}": METODO[lang], "{{COMPARA}}": tabla_compara(lang),
-        "{{PREGUNTAS}}": "\n".join(f'        <details class="pregunta"><summary><h3>{html.escape(q)}</h3><svg class="flecha" aria-hidden="true" viewBox="0 0 24 24"><path d="M6 9l6 6 6-6"/></svg></summary><div class="respuesta"><p>{html.escape(r)}</p></div></details>'
-                                   for q, r in PREGUNTAS[lang]),
+        "{{CABEZA}}": cabeza(lang, version), "{{LANG}}": lang, "{{INICIO}}": ruta(lang), "{{SELECTOR}}": selector(lang),
+        "{{VERSION_TEXTO}}": vt, "{{VERSION_PALABRA}}": html.escape(t["version-palabra"]),
+        "{{C1}}": num(MEDIDAS["abrir_ms"], 0), "{{C2}}": num(MEDIDAS["clip_s"], 2), "{{C3}}": str(MEDIDAS["fps_perdidos"]),
+        "{{METODO}}": t["metodo"], "{{COMPARA}}": tabla_compara(lang), "{{PREGUNTAS}}": preguntas,
     }.items():
         s = s.replace(k, v)
-    # cada archivo con la huella de su contenido: si cambia, el navegador lo vuelve a pedir
     for f in ("estilo.css", "zas.js"):
         huella = hashlib.sha1((AQUI / f).read_bytes()).hexdigest()[:10]
         s = s.replace(f'"/{f}"', f'"/{f}?v={huella}"')
@@ -316,32 +222,26 @@ REDIRIGE = """<!doctype html>
 def main():
     plantilla = (AQUI / "plantilla.html").read_text(encoding="utf-8")
     version = version_publicada()
-    (AQUI / "index.html").write_text(pagina(plantilla, "en", version), encoding="utf-8")
-    (AQUI / "es").mkdir(exist_ok=True)
-    (AQUI / "es" / "index.html").write_text(pagina(plantilla, "es", version), encoding="utf-8")
+    for l in IDIOMAS:
+        destino = AQUI / ruta(l["codigo"]).strip("/") / "index.html" if l["codigo"] != "en" else AQUI / "index.html"
+        destino.parent.mkdir(exist_ok=True)
+        destino.write_text(pagina(plantilla, l["codigo"], version), encoding="utf-8")
     # la dirección de antes del inglés lleva a la de ahora
     (AQUI / "en").mkdir(exist_ok=True)
     (AQUI / "en" / "index.html").write_text(REDIRIGE.format(sitio=SITIO), encoding="utf-8")
     hoy = date.today().isoformat()
-    urls = []
-    for lang in ("en", "es"):
-        urls.append(f"""  <url>
-    <loc>{PAGINA[lang]['url']}</loc>
-    <lastmod>{hoy}</lastmod>
-    <xhtml:link rel="alternate" hreflang="en" href="{SITIO}/"/>
-    <xhtml:link rel="alternate" hreflang="es" href="{SITIO}/es/"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="{SITIO}/"/>
-  </url>""")
+    alternas = "".join(f'\n    <xhtml:link rel="alternate" hreflang="{l["codigo"]}" href="{url(l["codigo"])}"/>' for l in IDIOMAS)
+    alternas += f'\n    <xhtml:link rel="alternate" hreflang="x-default" href="{SITIO}/"/>'
+    urls = [f"  <url>\n    <loc>{url(l['codigo'])}</loc>\n    <lastmod>{hoy}</lastmod>{alternas}\n  </url>" for l in IDIOMAS]
     (AQUI / "sitemap.xml").write_text('<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">\n'
                                       + "\n".join(urls) + "\n</urlset>\n", encoding="utf-8")
-    # buscadores y asistentes de IA: todos bienvenidos
     bots = ["GPTBot", "OAI-SearchBot", "ChatGPT-User", "ClaudeBot", "Claude-User", "Claude-SearchBot", "anthropic-ai",
             "PerplexityBot", "Perplexity-User", "Google-Extended", "Applebot-Extended", "CCBot", "Meta-ExternalAgent", "Bingbot", "DuckAssistBot"]
     robots = "User-agent: *\nAllow: /\n\n" + "".join(f"User-agent: {b}\nAllow: /\n\n" for b in bots) + f"Sitemap: {SITIO}/sitemap.xml\n"
     (AQUI / "robots.txt").write_text(robots, encoding="utf-8")
     (AQUI / "llms.txt").write_text(llms(version, completo=False), encoding="utf-8")
     (AQUI / "llms-full.txt").write_text(llms(version, completo=True), encoding="utf-8")
-    print("hecho; versión", version)
+    print(f"hecho: {len(IDIOMAS)} idiomas; versión {version}")
 
 
 def llms(version, completo):
@@ -432,7 +332,7 @@ Zas 1.15.1 on an AMD Ryzen 5 3600, NVIDIA GeForce RTX 2060, 32 GB RAM, Windows 1
 ## FAQ
 
 """
-    for q, r in PREGUNTAS["en"]:
+    for q, r in TEXTOS["en"]["preguntas"]:
         t += f"### {q}\n{r}\n\n"
     return t
 

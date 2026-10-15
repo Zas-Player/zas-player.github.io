@@ -1,0 +1,177 @@
+{
+ "saltar": "İçeriğe geç",
+ "nav-rendimiento": "Performans",
+ "nav-funciones": "Özellikler",
+ "descargar-corto": "İndir",
+ "antetitulo": "Windows için ücretsiz ekran kaydedici ve video oynatıcı",
+ "titular": "Kaydet. Kırp. Paylaş.",
+ "entradilla": "FPS kaybı olmadan anında tekrar ve ekran kaydı, yerleşik klip düzenleyici ve Discord'a hazır şekilde panoya kopyalanan her klip. Üstelik anında açılan bir video oynatıcı.",
+ "descargar": "Zas'ı indir",
+ "versiones": "Sürümleri gör",
+ "gratis": "Ücretsiz · Windows 10 ve 11 · Reklamsız",
+ "rend-ante": "Ölçülmüş performans",
+ "rend-titulo": "Hız ölçülür.",
+ "cifra1-nombre": "Video açılışı",
+ "cifra1-detalle": "Çift tıklamadan ilk kareye kadar, Zas bellekteyken. 1080p60 bir video için medyan.",
+ "cifra2-nombre": "Klip kopyalama",
+ "cifra2-detalle": "Ctrl+E'ye basmaktan 12 sn'lik bir klibin panoda, yapıştırmaya hazır olmasına kadar.",
+ "cifra3-nombre": "Kayıt sırasında kaybedilen FPS",
+ "cifra3-detalle": "1440p'de Fortnite: kayıt yokken 61–69 FPS, ekran kartıyla kayıt yaparken 68–70. PresentMon ile ölçüldü.",
+ "metodo-titulo": "Nasıl ölçtük",
+ "pasos-ante": "Saniyeler içinde bir klip",
+ "pasos-titulo": "Videodan sohbete üç tuşla.",
+ "paso1": "Bölümü işaretleyin",
+ "paso1-texto": "İzlerken başlangıcı ve bitişi.",
+ "paso2": "Dışa aktarın",
+ "paso2-texto": "Yeniden kodlama yok: klip orijinal kalitede, hemen hazır.",
+ "paso3": "Yapıştırın",
+ "paso3-texto": "Zaten panoda: istediğiniz sohbete yapıştırın.",
+ "comp-ante": "Zas ve diğerleri",
+ "comp-titulo": "ShadowPlay, OBS ve Medal'a alternatif.",
+ "comp-sub": "Her ekran kartında ShadowPlay gibi kaydedin, OBS'deki gibi ayar yapmadan, klibi hiçbir buluta yüklemeden düzenleyin. Hepsi aynı zamanda video oynatıcınız olan tek bir uygulamada.",
+ "comp-nota": "Her uygulamanın Ekim 2026 itibarıyla herkese açık bilgilerine dayanır. ShadowPlay, NVIDIA App'in kayıt özelliğidir.",
+ "func-ante": "Üç değil, tek uygulama",
+ "func-titulo": "Videolarınızla yaptığınız her şey.",
+ "b3-titulo": "Kaydedin ve paylaşın",
+ "b3-texto": "Ekranın bir bölgesini sürükleyerek seçin ve sistem sesi ile seçtiğiniz mikrofonla kaydedin. Kodlamayı ekran kartı yapar (NVIDIA, AMD veya Intel), 120 fps'ye kadar, oyununuzdan kare eksiltmeden. Anında tekrar, bir şey olduğunda son saniyeleri kaydeder ve klip, Discord'a yapıştırmaya hazır şekilde kopyalanır.",
+ "a-grabar": "Ekranı kaydet",
+ "a-repeticion": "Tekrarı kaydet",
+ "a-panel": "Kayıt paneli",
+ "b2-titulo": "Düzenleyin",
+ "b2-texto": "Zaman çizelgesinde bölümleri ayırın ve silin. Her biri kendi başlangıç ve bitişine sahip metin, kutu, ok, pikselli alan ve animasyonlu yakınlaştırma ekleyin. Dışa aktardığınızda kopyalanmış olur.",
+ "b2-atajo": "düzenleyiciyi açar",
+ "b1-titulo": "Oynatın",
+ "b1-texto": "Kapattıktan sonra bellekte kalır, bu yüzden bir sonraki video açar açmaz görünür. Arayüz, kullanmadığınızda kaybolur ve neredeyse her formatı oynatır. Aynı zamanda hızlı bir fotoğraf görüntüleyicidir: JPEG, PNG, WebP, HEIC, AVIF ve daha fazlası.",
+ "faq-ante": "Sorular",
+ "faq-titulo": "Sık sorulanlar.",
+ "final-titulo": "Bir video açın. Daha fazlasını yapın.",
+ "descargar-windows": "Zas'ı Windows için indir",
+ "final-nota": "Ücretsiz. Reklamsız. Siz istediğinizde kendini günceller.",
+ "pie-versiones": "Sürümler",
+ "creditos": "Altyapı:",
+ "y": "ve",
+ "stock": "Ekran görüntülerindeki videolar:",
+ "bbb": "Ölçümlerde kullanılan:",
+ "alt-escaparate": "Ekranın üzerinde açık Zas kayıt paneli: bölge veya ekran kaydı, anında tekrar, ses, kalite, FPS ve codec",
+ "alt-recortar": "Bir bölümü kehribar rengiyle işaretlenmiş Zas zaman çizelgesi",
+ "alt-compartir": "Zas, klibin kaydedilip kopyalandığını bildiriyor",
+ "alt-copiado": "Zas “Kaydedildi ve kopyalandı” mesajını gösteriyor: klip zaten panoda",
+ "alt-editor": "Videonun üzerinde bir metin, bir ok ve bir kutu bulunan Zas düzenleyicisi",
+ "alt-reproduce": "Zas, kontroller altta olacak şekilde bir videoyu tam ekran oynatıyor",
+ "meta-titulo": "Zas: Windows için ücretsiz ekran kaydedici, ShadowPlay, OBS ve Medal alternatifi",
+ "meta-descripcion": "Zas Player, Windows için ücretsiz bir ekran kaydedici ve klip aracıdır: FPS kaybı olmadan anında tekrar, yerleşik klip düzenleyici ve Discord'a hazır şekilde panoya kopyalanan klipler. Üstelik anında açılan bir video oynatıcı. Reklam yok, hesap yok.",
+ "meta-og-titulo": "Zas Player · Kaydet. Kırp. Paylaş.",
+ "version-palabra": "sürüm",
+ "idioma-etiqueta": "Dil",
+ "metodo": "<p>Burada indirdiğiniz sürüm olan Zas 1.15.1; AMD Ryzen 5 3600, NVIDIA GeForce RTX 2060, 32 GB bellek ve Windows 11 bulunan, 2560×1440 ekranlı bir bilgisayarda. Test videosu: Big Buck Bunny'nin bir dakikası (H.264, 60 fps'de 1080p) ve ondan üretilen 10 sn'lik iki sürüm (30 fps'de 4K H.265 ve 30 fps'de VP9 1080p).</p><table><tr><th></th><th>H.264 1080p60</th><th>H.265 2160p30</th><th>VP9 1080p30</th></tr><tr><td>Zas bellekteyken açma</td><td>378 ms</td><td>134 ms</td><td>125 ms</td></tr><tr><td>Zas kapalıyken açma</td><td>710 ms</td><td>595 ms</td><td>514 ms</td></tr></table><p><b>Açma</b>: <code>zas.exe video</code> başlatıldığından (çift tıklamayla aynı) ilk kare ekrana gelene kadar. Bellekten 8 ve sıfırdan 5 açılışın medyanları. Zas bellekteyken 24 açılıştan 2'si daha uzun sürdü (0,7 ve 2,9 sn); Zas kapalıyken en yavaşı 0,83 sn'ydi. Dosya zaten Windows önbelleğindeydi.</p><p><b>Klip kopyalandı</b>: 12 sn'lik bir bölümü işaretleyip Ctrl+E'ye basmaktan (yeniden kodlama olmadan) dosya panoya gelene kadar. 5 denemenin medyanı: 0,14 sn; ilki 33 sn sürdü ve nedeni bilinmiyor. Kare hassasiyetinde (yeniden kodlamayla, Ctrl+Shift+E) aynı bölüm 4,6 ila 5,0 sn sürüyor.</p><p><b>Kayıt sırasında FPS</b>: Ön planda 2560×1440'ta Fortnite, PresentMon (Intel) ile ölçüldü. Kayıt yokken 61–69 FPS; ekran kartıyla 60 fps'de kayıt yaparken (NVENC üzerinden H.264 veya H.265) 68–70 FPS, aynı dalgalanma aralığında. Kayıt, bir CPU çekirdeğinin %18'ini kullanıyor. Eski CPU yöntemi (libx264) 2,7 çekirdek kullanıyor ve takılıyordu.</p><p><b>Bellek</b>: Boştayken 99 MB (arka planda, açmaya hazır) ve 1080p60 videoyu oynatırken yaklaşık 300 MB.</p><p>Bunlar belirli bir bilgisayardan alınan ölçümlerdir: sizinki farklı olabilir.</p>",
+ "preguntas": [
+  [
+   "Zas, ShadowPlay, OBS veya Medal'a iyi bir alternatif mi?",
+   "Evet, ekranınızı kaydetmek ya da oyun anlarını saklayıp hızla paylaşmak istiyorsanız. ShadowPlay gibi ekran kartıyla kayıt yapar ve anında tekrar özelliği vardır, ancak NVIDIA, AMD ve Intel'de çalışır. OBS'nin aksine ayarlanacak hiçbir şey yoktur. Medal gibi bir klip düzenleyicisi de vardır, ama her şey bilgisayarınızda kalır: hesap yok, bulut yok, reklam yok. Canlı yayın yapmanız gerekiyorsa doğru araç hâlâ OBS'dir; Zas yayın yapmaz."
+  ],
+  [
+   "Zas ile kayıt yapmak FPS'imi düşürür mü?",
+   "Testimizde düşürmedi. 1440p'de Fortnite, kayıt yokken 61–69 FPS'de, Zas ekran kartıyla kayıt yaparken 68–70 FPS'de çalıştı (RTX 2060'ta PresentMon ile ölçüldü). Zas kodlamayı ekran kartında yapar (NVENC, AMF veya Quick Sync), bu yüzden işlemci neredeyse hiç çalışmaz: bir çekirdeğin %18'i."
+  ],
+  [
+   "Discord'da bir klibi nasıl paylaşırım?",
+   "Anı Win+Shift+G ile kaydedin (anında tekrar) ya da I ve O ile bir bölüm işaretleyip Ctrl+E'ye basın. Klip panoya kopyalanır: Discord'da Ctrl+V'ye basın. Discord'un ücretsiz hesaplarda 20 MB'a kadar dosyaya izin verdiğini unutmayın."
+  ],
+  [
+   "Zas Player nedir?",
+   "Zas (veya Zas Player), Windows 10 ve 11 için ücretsiz bir ekran kaydedici, klip düzenleyici ve video oynatıcıdır. Videoları anında açar; yerleşik bir kırpma aracı ve fotoğraf görüntüleyicisi vardır."
+  ],
+  [
+   "Zas'ı nasıl indiririm?",
+   "Bu sayfada “Zas'ı indir”e tıklayın: resmî yükleyici Zas-Setup.exe, GitHub'dan indirilir. Açın, saniyeler içinde kurulur ve bundan sonra siz istediğinizde kendini günceller."
+  ],
+  [
+   "Ücretsiz mi? Reklam var mı?",
+   "Ücretsizdir, reklam yoktur ve hesap oluşturmanız gerekmez."
+  ],
+  [
+   "Hangi formatları açar?",
+   "mpv ve FFmpeg sayesinde neredeyse her videoyu (MP4, MKV, WebM, MOV, AVI, WMV, TS…) ve JPEG, PNG, WebP, HEIC, AVIF gibi formatlardaki fotoğrafları açar."
+  ]
+ ],
+ "compara": {
+  "filas": [
+   [
+    "Ücretsiz",
+    "si",
+    "si",
+    "si",
+    "si*"
+   ],
+   [
+    "Her ekran kartı (NVIDIA, AMD, Intel)",
+    "si",
+    "Yalnızca NVIDIA",
+    "si",
+    "si"
+   ],
+   [
+    "Anında tekrar",
+    "si",
+    "si",
+    "Ayar gerekir",
+    "si"
+   ],
+   [
+    "Klip düzenleyici (kırpma, metin, ok, bulanıklaştırma, yakınlaştırma)",
+    "si",
+    "no",
+    "no",
+    "si"
+   ],
+   [
+    "Klip dosyası panoda, yapıştırmaya hazır",
+    "si",
+    "no",
+    "no",
+    "Bir bağlantı"
+   ],
+   [
+    "Video oynatıcı ve fotoğraf görüntüleyici dahil",
+    "si",
+    "no",
+    "no",
+    "no"
+   ],
+   [
+    "Hesap veya bulut yok",
+    "si",
+    "si",
+    "si",
+    "Kayıt ister"
+   ],
+   [
+    "Otomatik öne çıkan an klipleri",
+    "no",
+    "Bazı oyunlar",
+    "no",
+    "si"
+   ],
+   [
+    "Canlı yayın",
+    "no",
+    "no",
+    "si",
+    "no"
+   ]
+  ],
+  "pie": "* Ücretli özelliklerle.",
+  "si": "Evet",
+  "no": "Hayır"
+ },
+ "jsonld-subcategoria": "Video oynatıcı",
+ "jsonld-funciones": [
+  "GPU ile ekran kaydedici (NVIDIA, AMD, Intel)",
+  "Anında tekrar",
+  "Klip düzenleyici",
+  "Panoya kopyalanan klipler",
+  "Yeniden kodlamadan video kırpma",
+  "Video oynatıcı",
+  "Resim görüntüleyici"
+ ]
+}

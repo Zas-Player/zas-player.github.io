@@ -1,0 +1,177 @@
+{
+ "saltar": "Vés al contingut",
+ "nav-rendimiento": "Rendiment",
+ "nav-funciones": "Funcions",
+ "descargar-corto": "Baixa",
+ "antetitulo": "Gravador de pantalla i reproductor de vídeo gratuït per a Windows",
+ "titular": "Grava. Retalla. Comparteix.",
+ "entradilla": "Repetició instantània i gravació de pantalla sense perdre FPS, un editor de clips integrat i cada clip copiat al porta-retalls, a punt per a Discord. I un reproductor de vídeo que s'obre a l'instant.",
+ "descargar": "Baixa Zas",
+ "versiones": "Mostra les versions",
+ "gratis": "Gratuït · Windows 10 i 11 · Sense anuncis",
+ "rend-ante": "Rendiment mesurat",
+ "rend-titulo": "La velocitat es mesura.",
+ "cifra1-nombre": "Per obrir un vídeo",
+ "cifra1-detalle": "Des del doble clic fins al primer fotograma, amb Zas a la memòria. Mediana per a un vídeo 1080p60.",
+ "cifra2-nombre": "Per tenir un clip copiat",
+ "cifra2-detalle": "Des que prems Ctrl+E fins que tens un clip de 12 s al porta-retalls, a punt per enganxar.",
+ "cifra3-nombre": "FPS perduts en gravar",
+ "cifra3-detalle": "Fortnite a 1440p: 61–69 FPS sense gravar i 68–70 gravant amb la targeta gràfica. Mesurat amb PresentMon.",
+ "metodo-titulo": "Com ho hem mesurat",
+ "pasos-ante": "Un clip en segons",
+ "pasos-titulo": "Del vídeo al xat en tres tecles.",
+ "paso1": "Marca el tros",
+ "paso1-texto": "Inici i final, mentre el mires.",
+ "paso2": "Exporta",
+ "paso2-texto": "Sense tornar a codificar: el clip està llest a l'instant, amb la qualitat original.",
+ "paso3": "Enganxa",
+ "paso3-texto": "Ja és al porta-retalls: enganxa'l a qualsevol xat.",
+ "comp-ante": "Zas davant de la resta",
+ "comp-titulo": "L'alternativa a ShadowPlay, OBS i Medal.",
+ "comp-sub": "Grava com ShadowPlay amb qualsevol targeta gràfica, sense configurar res com a OBS, i edita el clip sense pujar-lo a cap núvol. Tot en una sola aplicació que, a més, és el teu reproductor de vídeo.",
+ "comp-nota": "Segons la informació pública de cada aplicació a l'octubre de 2026. ShadowPlay és la funció de gravació de la NVIDIA App.",
+ "func-ante": "Una aplicació, no tres",
+ "func-titulo": "Tot el que fas amb els teus vídeos.",
+ "b3-titulo": "Grava i comparteix",
+ "b3-texto": "Arrossega per seleccionar una zona de la pantalla i grava amb l'àudio del sistema i el micròfon que triïs. La codificació la fa la targeta gràfica (NVIDIA, AMD o Intel), fins a 120 fps, sense restar fotogrames al teu joc. La repetició instantània desa els últims segons quan passa alguna cosa, i el clip es copia, a punt per enganxar-lo a Discord.",
+ "a-grabar": "Grava la pantalla",
+ "a-repeticion": "Desa la repetició",
+ "a-panel": "Tauler de gravació",
+ "b2-titulo": "Edita",
+ "b2-texto": "Divideix i suprimeix fragments a la línia de temps. Afegeix text, quadres, fletxes, zones pixelades i zoom animat, cadascun amb el seu inici i final. Exporta i ja està copiat.",
+ "b2-atajo": "obre l'editor",
+ "b1-titulo": "Reprodueix",
+ "b1-texto": "Es queda a la memòria quan el tanques, així que el vídeo següent apareix tan bon punt l'obres. La interfície desapareix quan no la fas servir i reprodueix gairebé qualsevol format. També és un visualitzador de fotos ràpid: JPEG, PNG, WebP, HEIC, AVIF i més.",
+ "faq-ante": "Preguntes",
+ "faq-titulo": "El que se sol preguntar.",
+ "final-titulo": "Obre un vídeo. Fes-ne molt més.",
+ "descargar-windows": "Baixa Zas per a Windows",
+ "final-nota": "Gratuït. Sense anuncis. S'actualitza quan tu vulguis.",
+ "pie-versiones": "Versions",
+ "creditos": "Fet amb",
+ "y": "i",
+ "stock": "Vídeos de les captures:",
+ "bbb": "Mesurat amb",
+ "alt-escaparate": "El tauler de gravació de Zas obert sobre la pantalla: grava una zona o la pantalla, repetició instantània, so, qualitat, FPS i còdec",
+ "alt-recortar": "La línia de temps de Zas amb un fragment marcat en ambre",
+ "alt-compartir": "Zas indicant que el clip s'ha desat i copiat",
+ "alt-copiado": "Zas mostrant «S'ha desat i copiat»: el clip ja és al porta-retalls",
+ "alt-editor": "L'editor de Zas amb un text, una fletxa i un quadre sobre el vídeo",
+ "alt-reproduce": "Zas reproduint un vídeo a pantalla completa, amb els controls a la part inferior",
+ "meta-titulo": "Zas: gravador de pantalla gratuït per a Windows, alternativa a ShadowPlay, OBS i Medal",
+ "meta-descripcion": "Zas Player és un gravador de pantalla i una eina de clips gratuïta per a Windows: repetició instantània sense perdre FPS, editor de clips integrat i clips copiats al porta-retalls, a punt per a Discord. I un reproductor de vídeo instantani. Sense anuncis ni comptes.",
+ "meta-og-titulo": "Zas Player · Grava. Retalla. Comparteix.",
+ "version-palabra": "versió",
+ "idioma-etiqueta": "Idioma",
+ "metodo": "<p>Zas 1.15.1, la versió que baixes aquí, en un PC amb un AMD Ryzen 5 3600, una NVIDIA GeForce RTX 2060, 32 GB de memòria i Windows 11, amb una pantalla de 2560×1440. Vídeo de prova: un minut de Big Buck Bunny (H.264, 1080p a 60 fps) i dues versions de 10 s fetes a partir d'aquest (H.265 en 4K a 30 fps i VP9 1080p a 30 fps).</p><table><tr><th></th><th>H.264 1080p60</th><th>H.265 2160p30</th><th>VP9 1080p30</th></tr><tr><td>Obrir amb Zas a la memòria</td><td>378 ms</td><td>134 ms</td><td>125 ms</td></tr><tr><td>Obrir amb Zas tancat</td><td>710 ms</td><td>595 ms</td><td>514 ms</td></tr></table><p><b>Obrir</b>: des que s'executa <code>zas.exe video</code> (el mateix que un doble clic) fins al primer fotograma a la pantalla. Medianes de 8 obertures a la memòria i 5 des de zero. Amb Zas a la memòria, 2 de 24 obertures van trigar més (0,7 i 2,9 s); amb Zas tancat, la més lenta va ser de 0,83 s. El fitxer ja era a la memòria cau de Windows.</p><p><b>Clip copiat</b>: marcar un fragment de 12 s i prémer Ctrl+E (sense tornar a codificar) fins que el fitxer és al porta-retalls. Mediana de 5 execucions: 0,14 s; la primera va trigar 33 s i no té explicació. Amb precisió de fotograma (tornant a codificar, Ctrl+Shift+E), el mateix fragment triga de 4,6 a 5,0 s.</p><p><b>FPS en gravar</b>: Fortnite a 2560×1440 en primer pla, mesurat amb PresentMon (Intel). Sense gravar, 61–69 FPS; gravant a 60 fps amb la targeta gràfica (H.264 o H.265 amb NVENC), 68–70 FPS, dins de la mateixa variació. La gravació fa servir el 18 % d'un nucli de la CPU. L'antic mètode per CPU (libx264) en feia servir 2,7 nuclis i anava a batzegades.</p><p><b>Memòria</b>: 99 MB en repòs (en segon pla, a punt per obrir) i uns 300 MB reproduint el vídeo 1080p60.</p><p>Són mesures d'un ordinador concret: al teu poden variar.</p>",
+ "preguntas": [
+  [
+   "Zas és una bona alternativa a ShadowPlay, OBS o Medal?",
+   "Sí, si el que vols és gravar la pantalla o desar moments de les partides i compartir-los ràpidament. Com ShadowPlay, grava amb la targeta gràfica i té repetició instantània, però funciona amb NVIDIA, AMD i Intel. A diferència d'OBS, no cal configurar res. I com Medal, té un editor de clips, però tot es queda al teu PC: sense compte, sense núvol i sense anuncis. Si necessites fer streaming en directe, OBS continua sent l'eina; Zas no fa emissions."
+  ],
+  [
+   "Gravar amb Zas em fa baixar els FPS?",
+   "A la nostra prova, no. Fortnite a 1440p anava a 61–69 FPS sense gravar i a 68–70 mentre Zas gravava amb la targeta gràfica (mesurat amb PresentMon en una RTX 2060). Zas codifica amb la targeta gràfica (NVENC, AMF o Quick Sync), així que la CPU gairebé no treballa: el 18 % d'un nucli."
+  ],
+  [
+   "Com puc compartir un clip a Discord?",
+   "Desa el moment amb Win+Shift+G (repetició instantània), o marca un fragment amb I i O i prem Ctrl+E. El clip es copia al porta-retalls: a Discord, prem Ctrl+V. Tingues en compte que Discord admet fitxers de fins a 20 MB als comptes gratuïts."
+  ],
+  [
+   "Què és Zas Player?",
+   "Zas (o Zas Player) és un gravador de pantalla, editor de clips i reproductor de vídeo gratuït per a Windows 10 i 11. Obre els vídeos a l'instant i inclou un retallador i un visualitzador de fotos."
+  ],
+  [
+   "Com puc baixar Zas?",
+   "Fes clic a «Baixa Zas» en aquesta pàgina: es baixa l'instal·lador oficial, Zas-Setup.exe, des de GitHub. Obre'l, s'instal·la en pocs segons i a partir d'aleshores s'actualitza quan tu vulguis."
+  ],
+  [
+   "És gratuït? Té anuncis?",
+   "És gratuït, sense anuncis i sense haver de crear cap compte."
+  ],
+  [
+   "Quins formats obre?",
+   "Gairebé qualsevol vídeo (MP4, MKV, WebM, MOV, AVI, WMV, TS…) gràcies a mpv i FFmpeg, i fotos en JPEG, PNG, WebP, HEIC, AVIF i més."
+  ]
+ ],
+ "compara": {
+  "filas": [
+   [
+    "Gratuït",
+    "si",
+    "si",
+    "si",
+    "si*"
+   ],
+   [
+    "Qualsevol targeta gràfica (NVIDIA, AMD, Intel)",
+    "si",
+    "Només NVIDIA",
+    "si",
+    "si"
+   ],
+   [
+    "Repetició instantània",
+    "si",
+    "si",
+    "Cal configurar-la",
+    "si"
+   ],
+   [
+    "Editor de clips (retallar, text, fletxes, desenfocament, zoom)",
+    "si",
+    "no",
+    "no",
+    "si"
+   ],
+   [
+    "Fitxer del clip al porta-retalls, a punt per enganxar",
+    "si",
+    "no",
+    "no",
+    "Un enllaç"
+   ],
+   [
+    "Reproductor de vídeo i visualitzador de fotos inclosos",
+    "si",
+    "no",
+    "no",
+    "no"
+   ],
+   [
+    "Sense compte ni núvol",
+    "si",
+    "si",
+    "si",
+    "Demana registrar-se"
+   ],
+   [
+    "Clips automàtics de les millors jugades",
+    "no",
+    "Alguns jocs",
+    "no",
+    "si"
+   ],
+   [
+    "Streaming en directe",
+    "no",
+    "no",
+    "si",
+    "no"
+   ]
+  ],
+  "pie": "* Amb funcions de pagament.",
+  "si": "Sí",
+  "no": "No"
+ },
+ "jsonld-subcategoria": "Reproductor de vídeo",
+ "jsonld-funciones": [
+  "Gravador de pantalla per GPU (NVIDIA, AMD, Intel)",
+  "Repetició instantània",
+  "Editor de clips",
+  "Clips copiats al porta-retalls",
+  "Retalla vídeos sense tornar a codificar",
+  "Reproductor de vídeo",
+  "Visualitzador d'imatges"
+ ]
+}

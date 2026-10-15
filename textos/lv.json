@@ -1,0 +1,177 @@
+{
+ "saltar": "Pāriet uz saturu",
+ "nav-rendimiento": "Veiktspēja",
+ "nav-funciones": "Funkcijas",
+ "descargar-corto": "Lejupielādēt",
+ "antetitulo": "Bezmaksas ekrāna ierakstītājs un video atskaņotājs Windows datoriem",
+ "titular": "Ierakstīt. Izgriezt. Kopīgot.",
+ "entradilla": "Tūlītēja atkārtošana un ekrāna ierakstīšana bez FPS zuduma, iebūvēts klipu redaktors un katrs klips nokopēts starpliktuvē, gatavs Discord. Turklāt video atskaņotājs, kas atveras uzreiz.",
+ "descargar": "Lejupielādēt Zas",
+ "versiones": "Skatīt versijas",
+ "gratis": "Bez maksas · Windows 10 un 11 · Bez reklāmām",
+ "rend-ante": "Izmērīta veiktspēja",
+ "rend-titulo": "Ātrums ir izmērīts.",
+ "cifra1-nombre": "Lai atvērtu video",
+ "cifra1-detalle": "No dubultklikšķa līdz pirmajam kadram, kad Zas ir atmiņā. Mediāna 1080p60 video.",
+ "cifra2-nombre": "Līdz klips nokopēts",
+ "cifra2-detalle": "No Ctrl+E nospiešanas līdz brīdim, kad 12 s klips ir starpliktuvē, gatavs ielīmēšanai.",
+ "cifra3-nombre": "Zaudētie FPS ierakstot",
+ "cifra3-detalle": "Fortnite 1440p izšķirtspējā: 61–69 FPS bez ierakstīšanas un 68–70, ierakstot ar videokarti. Izmērīts ar PresentMon.",
+ "metodo-titulo": "Kā mēs mērījām",
+ "pasos-ante": "Klips dažās sekundēs",
+ "pasos-titulo": "No video līdz čatam ar trim taustiņiem.",
+ "paso1": "Atzīmējiet daļu",
+ "paso1-texto": "Sākumu un beigas, skatoties video.",
+ "paso2": "Eksportējiet",
+ "paso2-texto": "Bez pārkodēšanas: klips ir gatavs uzreiz, oriģinālajā kvalitātē.",
+ "paso3": "Ielīmējiet",
+ "paso3-texto": "Tas jau ir starpliktuvē: ielīmējiet to jebkurā čatā.",
+ "comp-ante": "Zas pret citiem",
+ "comp-titulo": "Alternatīva ShadowPlay, OBS un Medal.",
+ "comp-sub": "Ierakstiet kā ar ShadowPlay jebkurā videokartē, bez iestatīšanas kā OBS un rediģējiet klipu, neaugšupielādējot to nevienā mākonī. Viss vienā lietotnē, kas ir arī jūsu video atskaņotājs.",
+ "comp-nota": "Balstīts uz katras lietotnes publisko informāciju 2026. gada oktobrī. ShadowPlay ir NVIDIA App ierakstīšanas funkcija.",
+ "func-ante": "Viena lietotne, nevis trīs",
+ "func-titulo": "Viss, ko jūs darāt ar saviem video.",
+ "b3-titulo": "Ierakstiet un kopīgojiet",
+ "b3-texto": "Iezīmējiet ekrāna apgabalu un ierakstiet ar sistēmas skaņu un izvēlēto mikrofonu. Kodē videokarte (NVIDIA, AMD vai Intel), līdz 120 fps, nezaudējot kadrus spēlē. Tūlītēja atkārtošana saglabā pēdējās sekundes, kad kaut kas notiek, un klips tiek nokopēts, gatavs ielīmēšanai Discord.",
+ "a-grabar": "Ierakstīt ekrānu",
+ "a-repeticion": "Saglabāt atkārtojumu",
+ "a-panel": "Ierakstīšanas panelis",
+ "b2-titulo": "Rediģējiet",
+ "b2-texto": "Sadaliet un izdzēsiet fragmentus laika joslā. Pievienojiet tekstu, rāmjus, bultas, pikselētus apgabalus un animētu tālummaiņu, katram savs sākums un beigas. Eksportējiet, un tas ir nokopēts.",
+ "b2-atajo": "atver redaktoru",
+ "b1-titulo": "Atskaņojiet",
+ "b1-texto": "Pēc aizvēršanas tas paliek atmiņā, tāpēc nākamais video parādās, tiklīdz to atverat. Saskarne pazūd, kad to neizmantojat, un tas atskaņo gandrīz jebkuru formātu. Tas ir arī ātrs attēlu skatītājs: JPEG, PNG, WebP, HEIC, AVIF un citi.",
+ "faq-ante": "Jautājumi",
+ "faq-titulo": "Ko parasti jautā.",
+ "final-titulo": "Atveriet video. Dariet daudz vairāk.",
+ "descargar-windows": "Lejupielādēt Zas Windows datoram",
+ "final-nota": "Bez maksas. Bez reklāmām. Atjauninās, kad jūs to vēlaties.",
+ "pie-versiones": "Versijas",
+ "creditos": "Veidots uz",
+ "y": "un",
+ "stock": "Video ekrānuzņēmumos:",
+ "bbb": "Mērījumos izmantots",
+ "alt-escaparate": "Zas ierakstīšanas panelis atvērts virs ekrāna: ierakstīt apgabalu vai ekrānu, tūlītēja atkārtošana, skaņa, kvalitāte, FPS un kodeks",
+ "alt-recortar": "Zas laika josla ar dzintara krāsā atzīmētu fragmentu",
+ "alt-compartir": "Zas paziņo, ka klips ir saglabāts un nokopēts",
+ "alt-copiado": "Zas rāda “Saglabāts un nokopēts”: klips jau ir starpliktuvē",
+ "alt-editor": "Zas redaktors ar tekstu, bultu un rāmi virs video",
+ "alt-reproduce": "Zas atskaņo video pilnekrāna režīmā ar vadīklām apakšā",
+ "meta-titulo": "Zas: bezmaksas ekrāna ierakstītājs Windows datoriem, alternatīva ShadowPlay, OBS un Medal",
+ "meta-descripcion": "Zas Player ir bezmaksas ekrāna ierakstītājs un klipu rīks operētājsistēmai Windows: tūlītēja atkārtošana bez FPS zuduma, iebūvēts klipu redaktors un klipi nokopēti starpliktuvē, gatavi Discord. Turklāt video atskaņotājs, kas atveras uzreiz. Bez reklāmām, bez konta.",
+ "meta-og-titulo": "Zas Player · Ierakstīt. Izgriezt. Kopīgot.",
+ "version-palabra": "versija",
+ "idioma-etiqueta": "Valoda",
+ "metodo": "<p>Zas 1.15.1, šeit lejupielādējamā versija, datorā ar AMD Ryzen 5 3600, NVIDIA GeForce RTX 2060, 32 GB atmiņas un Windows 11, ar 2560×1440 ekrānu. Testa video: viena minūte no Big Buck Bunny (H.264, 1080p ar 60 fps) un divas no tās izveidotas 10 s versijas (H.265 4K ar 30 fps un VP9 1080p ar 30 fps).</p><table><tr><th></th><th>H.264 1080p60</th><th>H.265 2160p30</th><th>VP9 1080p30</th></tr><tr><td>Atvēršana, Zas atmiņā</td><td>378 ms</td><td>134 ms</td><td>125 ms</td></tr><tr><td>Atvēršana, Zas aizvērts</td><td>710 ms</td><td>595 ms</td><td>514 ms</td></tr></table><p><b>Atvēršana</b>: no <code>zas.exe video</code> palaišanas (tas pats, kas dubultklikšķis) līdz pirmajam kadram ekrānā. Mediānas no 8 atvēršanām no atmiņas un 5 no nulles. Kad Zas bija atmiņā, 2 no 24 atvēršanām ilga ilgāk (0,7 un 2,9 s); kad Zas bija aizvērts, lēnākā bija 0,83 s. Fails jau bija Windows kešatmiņā.</p><p><b>Klips nokopēts</b>: no 12 s fragmenta atzīmēšanas un Ctrl+E nospiešanas (bez pārkodēšanas) līdz brīdim, kad fails ir starpliktuvē. Mediāna no 5 mēģinājumiem: 0,14 s; pirmais ilga 33 s, un iemesls nav zināms. Ar kadra precizitāti (ar pārkodēšanu, Ctrl+Shift+E) tas pats fragments aizņem 4,6 līdz 5,0 s.</p><p><b>FPS ierakstot</b>: Fortnite 2560×1440 izšķirtspējā priekšplānā, izmērīts ar PresentMon (Intel). Bez ierakstīšanas 61–69 FPS; ierakstot ar 60 fps ar videokarti (H.264 vai H.265, izmantojot NVENC), 68–70 FPS, tās pašas svārstības robežās. Ierakstīšana izmanto 18 % no viena procesora kodola. Vecā procesora metode (libx264) izmantoja 2,7 kodolus un raustījās.</p><p><b>Atmiņa</b>: 99 MB dīkstāvē (fonā, gatavs atvērt) un aptuveni 300 MB, atskaņojot 1080p60 video.</p><p>Šie ir mērījumi vienā konkrētā datorā: jūsējā rezultāti var atšķirties.</p>",
+ "preguntas": [
+  [
+   "Vai Zas ir laba alternatīva ShadowPlay, OBS vai Medal?",
+   "Jā, ja vēlaties ierakstīt ekrānu vai saglabāt spēļu mirkļus un ātri tos kopīgot. Tāpat kā ShadowPlay, tas ieraksta ar videokarti un piedāvā tūlītēju atkārtošanu, taču darbojas ar NVIDIA, AMD un Intel. Atšķirībā no OBS nekas nav jāiestata. Un tāpat kā Medal, tam ir klipu redaktors, taču viss paliek jūsu datorā: bez konta, bez mākoņa un bez reklāmām. Ja jums vajag tiešraidi, OBS joprojām ir īstais rīks; Zas tiešraides neveido."
+  ],
+  [
+   "Vai ierakstīšana ar Zas samazina FPS?",
+   "Mūsu testā – nē. Fortnite 1440p izšķirtspējā darbojās ar 61–69 FPS bez ierakstīšanas un ar 68–70, kamēr Zas ierakstīja ar videokarti (izmērīts ar PresentMon uz RTX 2060). Zas kodē videokartē (NVENC, AMF vai Quick Sync), tāpēc procesors gandrīz nestrādā: 18 % no viena kodola."
+  ],
+  [
+   "Kā kopīgot klipu Discord?",
+   "Saglabājiet mirkli ar Win+Shift+G (tūlītēja atkārtošana) vai atzīmējiet fragmentu ar I un O un nospiediet Ctrl+E. Klips tiek nokopēts starpliktuvē: Discord nospiediet Ctrl+V. Ņemiet vērā, ka bezmaksas kontiem Discord atļauj failus līdz 20 MB."
+  ],
+  [
+   "Kas ir Zas Player?",
+   "Zas (jeb Zas Player) ir bezmaksas ekrāna ierakstītājs, klipu redaktors un video atskaņotājs operētājsistēmai Windows 10 un 11. Tas atver video uzreiz, un tam ir iebūvēts apgriešanas rīks un attēlu skatītājs."
+  ],
+  [
+   "Kā lejupielādēt Zas?",
+   "Šajā lapā noklikšķiniet uz “Lejupielādēt Zas”: tiks lejupielādēts oficiālais instalētājs Zas-Setup.exe no GitHub. Atveriet to, instalēšana aizņem dažas sekundes, un turpmāk tas atjauninās, kad jūs to vēlaties."
+  ],
+  [
+   "Vai tas ir bez maksas? Vai tajā ir reklāmas?",
+   "Tas ir bez maksas, bez reklāmām un bez konta veidošanas."
+  ],
+  [
+   "Kādus formātus tas atver?",
+   "Gandrīz jebkuru video (MP4, MKV, WebM, MOV, AVI, WMV, TS…), pateicoties mpv un FFmpeg, un attēlus JPEG, PNG, WebP, HEIC, AVIF un citos formātos."
+  ]
+ ],
+ "compara": {
+  "filas": [
+   [
+    "Bez maksas",
+    "si",
+    "si",
+    "si",
+    "si*"
+   ],
+   [
+    "Jebkura videokarte (NVIDIA, AMD, Intel)",
+    "si",
+    "Tikai NVIDIA",
+    "si",
+    "si"
+   ],
+   [
+    "Tūlītēja atkārtošana",
+    "si",
+    "si",
+    "Ar iestatīšanu",
+    "si"
+   ],
+   [
+    "Klipu redaktors (apgriešana, teksts, bultas, izpludināšana, tālummaiņa)",
+    "si",
+    "no",
+    "no",
+    "si"
+   ],
+   [
+    "Klipa fails starpliktuvē, gatavs ielīmēšanai",
+    "si",
+    "no",
+    "no",
+    "Saite"
+   ],
+   [
+    "Iekļauts video atskaņotājs un attēlu skatītājs",
+    "si",
+    "no",
+    "no",
+    "no"
+   ],
+   [
+    "Bez konta un mākoņa",
+    "si",
+    "si",
+    "si",
+    "Prasa reģistrēties"
+   ],
+   [
+    "Automātiski spilgtāko mirkļu klipi",
+    "no",
+    "Dažas spēles",
+    "no",
+    "si"
+   ],
+   [
+    "Tiešraide",
+    "no",
+    "no",
+    "si",
+    "no"
+   ]
+  ],
+  "pie": "* Ar maksas funkcijām.",
+  "si": "Jā",
+  "no": "Nē"
+ },
+ "jsonld-subcategoria": "Video atskaņotājs",
+ "jsonld-funciones": [
+  "Ekrāna ierakstītājs ar GPU (NVIDIA, AMD, Intel)",
+  "Tūlītēja atkārtošana",
+  "Klipu redaktors",
+  "Klipi tiek nokopēti starpliktuvē",
+  "Video apgriešana bez pārkodēšanas",
+  "Video atskaņotājs",
+  "Attēlu skatītājs"
+ ]
+}

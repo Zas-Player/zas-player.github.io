@@ -1,0 +1,177 @@
+{
+ "saltar": "Preskoči na vsebino",
+ "nav-rendimiento": "Zmogljivost",
+ "nav-funciones": "Funkcije",
+ "descargar-corto": "Prenos",
+ "antetitulo": "Brezplačen snemalnik zaslona in predvajalnik videa za Windows",
+ "titular": "Posnemite. Izrežite. Delite.",
+ "entradilla": "Takojšnje ponovno predvajanje in snemanje zaslona brez izgube FPS, vgrajen urejevalnik klipov in vsak klip kopiran v odložišče, pripravljen za Discord. Poleg tega predvajalnik videa, ki se odpre v hipu.",
+ "descargar": "Prenesite Zas",
+ "versiones": "Ogled različic",
+ "gratis": "Brezplačno · Windows 10 in 11 · Brez oglasov",
+ "rend-ante": "Izmerjena zmogljivost",
+ "rend-titulo": "Hitrost se meri.",
+ "cifra1-nombre": "Za odpiranje videa",
+ "cifra1-detalle": "Od dvoklika do prve sličice, z Zasom v pomnilniku. Mediana za video 1080p60.",
+ "cifra2-nombre": "Za kopiran klip",
+ "cifra2-detalle": "Od pritiska Ctrl+E do 12-sekundnega klipa v odložišču, pripravljenega za lepljenje.",
+ "cifra3-nombre": "Izgubljeni FPS med snemanjem",
+ "cifra3-detalle": "Fortnite v 1440p: 61–69 FPS brez snemanja in 68–70 med snemanjem z grafično kartico. Izmerjeno s PresentMon.",
+ "metodo-titulo": "Kako smo merili",
+ "pasos-ante": "Klip v nekaj sekundah",
+ "pasos-titulo": "Od videa do klepeta s tremi tipkami.",
+ "paso1": "Označite del",
+ "paso1-texto": "Začetek in konec, medtem ko gledate.",
+ "paso2": "Izvozite",
+ "paso2-texto": "Brez ponovnega kodiranja: klip je takoj pripravljen, v izvirni kakovosti.",
+ "paso3": "Prilepite",
+ "paso3-texto": "Že je v odložišču: prilepite ga v kateri koli klepet.",
+ "comp-ante": "Zas v primerjavi z drugimi",
+ "comp-titulo": "Alternativa za ShadowPlay, OBS in Medal.",
+ "comp-sub": "Snemajte kot s ShadowPlay na kateri koli grafični kartici, brez nastavljanja kot pri OBS, in uredite klip, ne da bi ga nalagali v kakršen koli oblak. Vse v eni aplikaciji, ki je hkrati vaš predvajalnik videa.",
+ "comp-nota": "Na podlagi javno dostopnih podatkov o posamezni aplikaciji, stanje oktobra 2026. ShadowPlay je funkcija snemanja v aplikaciji NVIDIA App.",
+ "func-ante": "Ena aplikacija namesto treh",
+ "func-titulo": "Vse, kar počnete s svojimi videi.",
+ "b3-titulo": "Snemajte in delite",
+ "b3-texto": "Z vlečenjem izberite območje zaslona in snemajte z zvokom sistema in mikrofonom po izbiri. Kodira grafična kartica (NVIDIA, AMD ali Intel), do 120 fps, ne da bi igra izgubljala sličice. Takojšnje ponovno predvajanje shrani zadnje sekunde, ko se kaj zgodi, klip pa se kopira, pripravljen za lepljenje v Discord.",
+ "a-grabar": "Posnemi zaslon",
+ "a-repeticion": "Shrani posnetek",
+ "a-panel": "Plošča za snemanje",
+ "b2-titulo": "Urejajte",
+ "b2-texto": "Razdelite in odstranite dele na časovnici. Dodajte besedilo, okvirje, puščice, pikselirana območja in animirano povečavo, vsakega z lastnim začetkom in koncem. Izvozite in je že kopirano.",
+ "b2-atajo": "odpre urejevalnik",
+ "b1-titulo": "Predvajajte",
+ "b1-texto": "Po zaprtju ostane v pomnilniku, zato se naslednji video prikaže takoj, ko ga odprete. Vmesnik izgine, ko ga ne uporabljate, predvaja pa skoraj vsak format. Je tudi hiter pregledovalnik fotografij: JPEG, PNG, WebP, HEIC, AVIF in drugi.",
+ "faq-ante": "Vprašanja",
+ "faq-titulo": "Kar nas najpogosteje sprašujete.",
+ "final-titulo": "Odprite video. Naredite veliko več.",
+ "descargar-windows": "Prenesite Zas za Windows",
+ "final-nota": "Brezplačno. Brez oglasov. Posodobi se, ko vi to želite.",
+ "pie-versiones": "Različice",
+ "creditos": "Zgrajeno na",
+ "y": "in",
+ "stock": "Videi na posnetkih zaslona:",
+ "bbb": "Izmerjeno z",
+ "alt-escaparate": "Plošča za snemanje Zas, odprta nad zaslonom: snemanje območja ali zaslona, takojšnje ponovno predvajanje, zvok, kakovost, FPS in kodek",
+ "alt-recortar": "Časovnica Zas z delom, označenim z jantarno barvo",
+ "alt-compartir": "Zas sporoča, da je klip shranjen in kopiran",
+ "alt-copiado": "Zas prikazuje „Shranjeno in kopirano“: klip je že v odložišču",
+ "alt-editor": "Urejevalnik Zas z besedilom, puščico in okvirjem čez video",
+ "alt-reproduce": "Zas predvaja video v celozaslonskem načinu, s kontrolniki spodaj",
+ "meta-titulo": "Zas: brezplačen snemalnik zaslona za Windows, alternativa za ShadowPlay, OBS in Medal",
+ "meta-descripcion": "Zas Player je brezplačen snemalnik zaslona in klipov za Windows: takojšnje ponovno predvajanje brez izgube FPS, vgrajen urejevalnik klipov in klipi, kopirani v odložišče, pripravljeni za Discord. Poleg tega bliskovit predvajalnik videa. Brez oglasov in brez računa.",
+ "meta-og-titulo": "Zas Player · Posnemite. Izrežite. Delite.",
+ "version-palabra": "različica",
+ "idioma-etiqueta": "Jezik",
+ "metodo": "<p>Zas 1.15.1, različica, ki jo prenesete tukaj, na računalniku z AMD Ryzen 5 3600, NVIDIA GeForce RTX 2060, 32 GB pomnilnika in sistemom Windows 11, z zaslonom 2560×1440. Testni video: ena minuta filma Big Buck Bunny (H.264, 1080p pri 60 fps) in dve različici po 10 s, narejeni iz njega (H.265 v 4K pri 30 fps in VP9 1080p pri 30 fps).</p><table><tr><th></th><th>H.264 1080p60</th><th>H.265 2160p30</th><th>VP9 1080p30</th></tr><tr><td>Odpiranje z Zasom v pomnilniku</td><td>378 ms</td><td>134 ms</td><td>125 ms</td></tr><tr><td>Odpiranje z zaprtim Zasom</td><td>710 ms</td><td>595 ms</td><td>514 ms</td></tr></table><p><b>Odpiranje</b>: od zagona <code>zas.exe video</code> (enako kot dvoklik) do prve sličice na zaslonu. Mediane 8 odpiranj iz pomnilnika in 5 od začetka. Z Zasom v pomnilniku sta 2 od 24 odpiranj trajali dlje (0,7 in 2,9 s); z zaprtim Zasom je najpočasnejše trajalo 0,83 s. Datoteka je bila že v predpomnilniku sistema Windows.</p><p><b>Kopiran klip</b>: od označitve 12-sekundnega dela in pritiska Ctrl+E (brez ponovnega kodiranja) do trenutka, ko je datoteka v odložišču. Mediana 5 ponovitev: 0,14 s; prva je trajala 33 s, vzrok pa ni pojasnjen. Natančno na sličico (s ponovnim kodiranjem, Ctrl+Shift+E) isti del traja od 4,6 do 5,0 s.</p><p><b>FPS med snemanjem</b>: Fortnite v 2560×1440 v ospredju, izmerjeno s PresentMon (Intel). Brez snemanja 61–69 FPS; med snemanjem pri 60 fps z grafično kartico (H.264 ali H.265 prek NVENC) 68–70 FPS, znotraj enakega nihanja. Snemanje porabi 18 % enega jedra CPE. Stari način s CPE (libx264) je porabil 2,7 jedra in se zatikal.</p><p><b>Pomnilnik</b>: 99 MB v mirovanju (v ozadju, pripravljen na odpiranje) in približno 300 MB med predvajanjem videa 1080p60.</p><p>To so meritve z enega konkretnega računalnika: pri vas so rezultati lahko drugačni.</p>",
+ "preguntas": [
+  [
+   "Je Zas dobra alternativa za ShadowPlay, OBS ali Medal?",
+   "Da, če želite snemati zaslon ali shranjevati trenutke iz iger in jih hitro deliti. Tako kot ShadowPlay snema z grafično kartico in ima takojšnje ponovno predvajanje, vendar deluje na karticah NVIDIA, AMD in Intel. Za razliko od OBS ni treba ničesar nastavljati. Tako kot Medal ima urejevalnik klipov, a vse ostane v vašem računalniku: brez računa, brez oblaka in brez oglasov. Če potrebujete pretakanje v živo, je OBS še vedno pravo orodje; Zas ne pretaka."
+  ],
+  [
+   "Ali snemanje z Zasom zniža moj FPS?",
+   "V našem preizkusu ne. Fortnite v 1440p je tekel s 61–69 FPS brez snemanja in s 68–70, medtem ko je Zas snemal z grafično kartico (izmerjeno s PresentMon na RTX 2060). Zas kodira na grafični kartici (NVENC, AMF ali Quick Sync), zato procesor skoraj ne dela: 18 % enega jedra."
+  ],
+  [
+   "Kako delim klip v Discordu?",
+   "Trenutek shranite s tipkami Win+Shift+G (takojšnje ponovno predvajanje) ali označite del s tipkama I in O ter pritisnite Ctrl+E. Klip se kopira v odložišče: v Discordu pritisnite Ctrl+V. Upoštevajte, da Discord pri brezplačnih računih dovoli datoteke do 20 MB."
+  ],
+  [
+   "Kaj je Zas Player?",
+   "Zas (ali Zas Player) je brezplačen snemalnik zaslona, urejevalnik klipov in predvajalnik videa za Windows 10 in 11. Videe odpre v hipu, vgrajena pa imata tudi orodje za obrezovanje in pregledovalnik fotografij."
+  ],
+  [
+   "Kako prenesem Zas?",
+   "Na tej strani kliknite „Prenesite Zas“: prenese se uradni namestitveni program Zas-Setup.exe z GitHuba. Odprite ga, namesti se v nekaj sekundah, nato pa se posodablja sam, ko mu to dovolite."
+  ],
+  [
+   "Je brezplačen? Ima oglase?",
+   "Brezplačen je, brez oglasov in brez ustvarjanja računa."
+  ],
+  [
+   "Katere formate odpre?",
+   "Skoraj vsak video (MP4, MKV, WebM, MOV, AVI, WMV, TS…) po zaslugi mpv in FFmpeg ter fotografije v formatih JPEG, PNG, WebP, HEIC, AVIF in drugih."
+  ]
+ ],
+ "compara": {
+  "filas": [
+   [
+    "Brezplačno",
+    "si",
+    "si",
+    "si",
+    "si*"
+   ],
+   [
+    "Katera koli grafična kartica (NVIDIA, AMD, Intel)",
+    "si",
+    "Samo NVIDIA",
+    "si",
+    "si"
+   ],
+   [
+    "Takojšnje ponovno predvajanje",
+    "si",
+    "si",
+    "Z nastavitvijo",
+    "si"
+   ],
+   [
+    "Urejevalnik klipov (rezanje, besedilo, puščice, zameglitev, povečava)",
+    "si",
+    "no",
+    "no",
+    "si"
+   ],
+   [
+    "Datoteka klipa v odložišču, pripravljena za lepljenje",
+    "si",
+    "no",
+    "no",
+    "Povezava"
+   ],
+   [
+    "Vključena predvajalnik videa in pregledovalnik fotografij",
+    "si",
+    "no",
+    "no",
+    "no"
+   ],
+   [
+    "Brez računa in oblaka",
+    "si",
+    "si",
+    "si",
+    "Zahteva registracijo"
+   ],
+   [
+    "Samodejni klipi najboljših trenutkov",
+    "no",
+    "Nekatere igre",
+    "no",
+    "si"
+   ],
+   [
+    "Pretakanje v živo",
+    "no",
+    "no",
+    "si",
+    "no"
+   ]
+  ],
+  "pie": "* S plačljivimi funkcijami.",
+  "si": "Da",
+  "no": "Ne"
+ },
+ "jsonld-subcategoria": "Predvajalnik videa",
+ "jsonld-funciones": [
+  "Snemalnik zaslona z grafično kartico (NVIDIA, AMD, Intel)",
+  "Takojšnje ponovno predvajanje",
+  "Urejevalnik klipov",
+  "Klipi, kopirani v odložišče",
+  "Obrezovanje videov brez ponovnega kodiranja",
+  "Predvajalnik videa",
+  "Pregledovalnik slik"
+ ]
+}

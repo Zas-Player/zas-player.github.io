@@ -1,0 +1,177 @@
+{
+ "saltar": "Salt la conținut",
+ "nav-rendimiento": "Performanță",
+ "nav-funciones": "Funcții",
+ "descargar-corto": "Descarcă",
+ "antetitulo": "Înregistrare ecran și player video gratuit pentru Windows",
+ "titular": "Înregistrează. Taie. Trimite.",
+ "entradilla": "Reluare instantanee și înregistrare a ecranului fără pierderi de FPS, editor de clipuri integrat și fiecare clip copiat în clipboard, gata pentru Discord. Plus un player video care se deschide instantaneu.",
+ "descargar": "Descarcă Zas",
+ "versiones": "Vezi versiunile",
+ "gratis": "Gratuit · Windows 10 și 11 · Fără reclame",
+ "rend-ante": "Performanță măsurată",
+ "rend-titulo": "Viteza se măsoară.",
+ "cifra1-nombre": "Ca să deschizi un video",
+ "cifra1-detalle": "De la dublu clic la primul cadru, cu Zas în memorie. Mediana pentru un video 1080p60.",
+ "cifra2-nombre": "Până la clipul copiat",
+ "cifra2-detalle": "De la apăsarea Ctrl+E până la un clip de 12 s în clipboard, gata de lipit.",
+ "cifra3-nombre": "FPS pierdute la înregistrare",
+ "cifra3-detalle": "Fortnite la 1440p: 61–69 FPS fără înregistrare și 68–70 în timpul înregistrării cu placa video. Măsurat cu PresentMon.",
+ "metodo-titulo": "Cum am măsurat",
+ "pasos-ante": "Un clip în secunde",
+ "pasos-titulo": "De la video la chat în trei taste.",
+ "paso1": "Marchează secvența",
+ "paso1-texto": "Început și sfârșit, în timp ce te uiți.",
+ "paso2": "Exportă",
+ "paso2-texto": "Fără recodare: clipul e gata imediat, la calitatea originală.",
+ "paso3": "Lipește",
+ "paso3-texto": "E deja în clipboard: lipește-l în orice chat.",
+ "comp-ante": "Zas față de restul",
+ "comp-titulo": "Alternativa la ShadowPlay, OBS și Medal.",
+ "comp-sub": "Înregistrează ca în ShadowPlay pe orice placă video, fără configurări ca în OBS, și editează clipul fără să-l încarci în vreun cloud. Totul într-o singură aplicație care e și playerul tău video.",
+ "comp-nota": "Pe baza informațiilor publice ale fiecărei aplicații, în octombrie 2026. ShadowPlay este funcția de înregistrare din NVIDIA App.",
+ "func-ante": "O aplicație, nu trei",
+ "func-titulo": "Tot ce faci cu videoclipurile tale.",
+ "b3-titulo": "Înregistrează și trimite",
+ "b3-texto": "Selectează o zonă a ecranului și înregistrează cu sunetul sistemului și microfonul ales. Codificarea se face pe placa video (NVIDIA, AMD sau Intel), până la 120 fps, fără să-ți coste cadre în joc. Reluarea instantanee salvează ultimele secunde când se întâmplă ceva, iar clipul e copiat, gata de lipit în Discord.",
+ "a-grabar": "Înregistrează ecranul",
+ "a-repeticion": "Salvează reluarea",
+ "a-panel": "Panou de înregistrare",
+ "b2-titulo": "Editează",
+ "b2-texto": "Împarte și elimină secvențe pe cronologie. Adaugă text, chenare, săgeți, zone pixelate și zoom animat, fiecare cu propriul început și sfârșit. Exporți și e deja copiat.",
+ "b2-atajo": "deschide editorul",
+ "b1-titulo": "Redă",
+ "b1-texto": "Rămâne în memorie după închidere, așa că următorul video apare imediat ce îl deschizi. Interfața dispare când nu o folosești și redă aproape orice format. Este și un vizualizator de fotografii rapid: JPEG, PNG, WebP, HEIC, AVIF și altele.",
+ "faq-ante": "Întrebări",
+ "faq-titulo": "Ce se întreabă cel mai des.",
+ "final-titulo": "Deschide un video. Fă mult mai mult.",
+ "descargar-windows": "Descarcă Zas pentru Windows",
+ "final-nota": "Gratuit. Fără reclame. Se actualizează singur când vrei tu.",
+ "pie-versiones": "Versiuni",
+ "creditos": "Construit pe",
+ "y": "și",
+ "stock": "Videoclipuri din capturi:",
+ "bbb": "Măsurat cu",
+ "alt-escaparate": "Panoul de înregistrare Zas deschis peste ecran: înregistrare zonă sau ecran, reluare instantanee, sunet, calitate, FPS și codec",
+ "alt-recortar": "Cronologia Zas cu o secvență marcată în culoarea chihlimbarului",
+ "alt-compartir": "Zas anunțând că clipul e salvat și copiat",
+ "alt-copiado": "Zas afișând „Salvat și copiat”: clipul e deja în clipboard",
+ "alt-editor": "Editorul Zas cu un text, o săgeată și un chenar peste video",
+ "alt-reproduce": "Zas redând un video pe tot ecranul, cu controalele în partea de jos",
+ "meta-titulo": "Zas: înregistrare ecran gratuită pentru Windows, alternativă la ShadowPlay, OBS și Medal",
+ "meta-descripcion": "Zas Player este un program gratuit de înregistrare a ecranului și de creat clipuri pentru Windows: reluare instantanee fără pierderi de FPS, editor de clipuri integrat și clipuri copiate în clipboard, gata pentru Discord. Plus un player video instantaneu. Fără reclame, fără cont.",
+ "meta-og-titulo": "Zas Player · Înregistrează. Taie. Trimite.",
+ "version-palabra": "versiunea",
+ "idioma-etiqueta": "Limbă",
+ "metodo": "<p>Zas 1.15.1, versiunea pe care o descarci de aici, pe un PC cu AMD Ryzen 5 3600, NVIDIA GeForce RTX 2060, 32 GB de memorie și Windows 11, cu un ecran de 2560×1440. Video de test: un minut din Big Buck Bunny (H.264, 1080p la 60 fps) și două versiuni de 10 s create din el (H.265 în 4K la 30 fps și VP9 1080p la 30 fps).</p><table><tr><th></th><th>H.264 1080p60</th><th>H.265 2160p30</th><th>VP9 1080p30</th></tr><tr><td>Deschidere cu Zas în memorie</td><td>378 ms</td><td>134 ms</td><td>125 ms</td></tr><tr><td>Deschidere cu Zas închis</td><td>710 ms</td><td>595 ms</td><td>514 ms</td></tr></table><p><b>Deschidere</b>: de la lansarea <code>zas.exe video</code> (la fel ca un dublu clic) până la primul cadru pe ecran. Mediane din 8 deschideri în memorie și 5 de la zero. Cu Zas în memorie, 2 din 24 de deschideri au durat mai mult (0,7 și 2,9 s); cu Zas închis, cea mai lentă a durat 0,83 s. Fișierul era deja în cache-ul Windows.</p><p><b>Clip copiat</b>: de la marcarea unei secvențe de 12 s și apăsarea Ctrl+E (fără recodare) până când fișierul ajunge în clipboard. Mediana din 5 rulări: 0,14 s; prima a durat 33 s, fără o explicație. Cu precizie de cadru (cu recodare, Ctrl+Shift+E), aceeași secvență durează între 4,6 și 5,0 s.</p><p><b>FPS în timpul înregistrării</b>: Fortnite la 2560×1440 în prim-plan, măsurat cu PresentMon (Intel). Fără înregistrare, 61–69 FPS; înregistrând la 60 fps cu placa video (H.264 sau H.265 prin NVENC), 68–70 FPS, în aceeași marjă de variație. Înregistrarea folosește 18% dintr-un nucleu de CPU. Vechea metodă pe CPU (libx264) folosea 2,7 nuclee și sacada.</p><p><b>Memorie</b>: 99 MB în repaus (în fundal, gata de deschidere) și aproximativ 300 MB la redarea videoclipului 1080p60.</p><p>Acestea sunt măsurători de pe un anumit computer: la tine pot fi diferite.</p>",
+ "preguntas": [
+  [
+   "Este Zas o alternativă bună la ShadowPlay, OBS sau Medal?",
+   "Da, dacă vrei să înregistrezi ecranul sau să salvezi momente din jocuri și să le trimiți rapid. Ca ShadowPlay, înregistrează cu placa video și are reluare instantanee, dar funcționează pe NVIDIA, AMD și Intel. Spre deosebire de OBS, nu ai nimic de configurat. Iar ca Medal, are editor de clipuri, dar totul rămâne pe PC-ul tău: fără cont, fără cloud și fără reclame. Dacă ai nevoie de streaming live, OBS rămâne unealta potrivită; Zas nu face streaming."
+  ],
+  [
+   "Înregistrarea cu Zas îmi scade FPS-ul?",
+   "În testul nostru, nu. Fortnite la 1440p a rulat la 61–69 FPS fără înregistrare și la 68–70 în timp ce Zas înregistra cu placa video (măsurat cu PresentMon pe un RTX 2060). Zas codifică pe placa video (NVENC, AMF sau Quick Sync), așa că procesorul aproape că nu lucrează: 18% dintr-un nucleu."
+  ],
+  [
+   "Cum trimit un clip pe Discord?",
+   "Salvează momentul cu Win+Shift+G (reluare instantanee) sau marchează o secvență cu I și O și apasă Ctrl+E. Clipul e copiat în clipboard: în Discord, apasă Ctrl+V. Reține că Discord permite fișiere de până la 20 MB pe conturile gratuite."
+  ],
+  [
+   "Ce este Zas Player?",
+   "Zas (sau Zas Player) este un program gratuit de înregistrare a ecranului, editor de clipuri și player video pentru Windows 10 și 11. Deschide videoclipurile instantaneu și are integrate un instrument de tăiere și un vizualizator de fotografii."
+  ],
+  [
+   "Cum descarc Zas?",
+   "Apasă „Descarcă Zas” pe această pagină: se descarcă programul oficial de instalare, Zas-Setup.exe, de pe GitHub. Deschide-l, se instalează în câteva secunde și de atunci se actualizează singur când vrei tu."
+  ],
+  [
+   "Este gratuit? Are reclame?",
+   "Este gratuit, fără reclame și fără să-ți creezi vreun cont."
+  ],
+  [
+   "Ce formate deschide?",
+   "Aproape orice video (MP4, MKV, WebM, MOV, AVI, WMV, TS…) datorită mpv și FFmpeg, plus fotografii JPEG, PNG, WebP, HEIC, AVIF și altele."
+  ]
+ ],
+ "compara": {
+  "filas": [
+   [
+    "Gratuit",
+    "si",
+    "si",
+    "si",
+    "si*"
+   ],
+   [
+    "Orice placă video (NVIDIA, AMD, Intel)",
+    "si",
+    "Doar NVIDIA",
+    "si",
+    "si"
+   ],
+   [
+    "Reluare instantanee",
+    "si",
+    "si",
+    "Cu configurare",
+    "si"
+   ],
+   [
+    "Editor de clipuri (tăiere, text, săgeți, blur, zoom)",
+    "si",
+    "no",
+    "no",
+    "si"
+   ],
+   [
+    "Fișierul clipului în clipboard, gata de lipit",
+    "si",
+    "no",
+    "no",
+    "Un link"
+   ],
+   [
+    "Player video și vizualizator de fotografii incluse",
+    "si",
+    "no",
+    "no",
+    "no"
+   ],
+   [
+    "Fără cont sau cloud",
+    "si",
+    "si",
+    "si",
+    "Cere cont"
+   ],
+   [
+    "Clipuri automate cu momentele importante",
+    "no",
+    "Unele jocuri",
+    "no",
+    "si"
+   ],
+   [
+    "Streaming live",
+    "no",
+    "no",
+    "si",
+    "no"
+   ]
+  ],
+  "pie": "* Cu funcții plătite.",
+  "si": "Da",
+  "no": "Nu"
+ },
+ "jsonld-subcategoria": "Player video",
+ "jsonld-funciones": [
+  "Înregistrare ecran pe GPU (NVIDIA, AMD, Intel)",
+  "Reluare instantanee",
+  "Editor de clipuri",
+  "Clipuri copiate în clipboard",
+  "Tăiere video fără recodare",
+  "Player video",
+  "Vizualizator de imagini"
+ ]
+}

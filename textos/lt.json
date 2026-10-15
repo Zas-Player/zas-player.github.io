@@ -1,0 +1,177 @@
+{
+ "saltar": "Pereiti prie turinio",
+ "nav-rendimiento": "Našumas",
+ "nav-funciones": "Funkcijos",
+ "descargar-corto": "Atsisiųsti",
+ "antetitulo": "Nemokama ekrano įrašymo programa ir vaizdo grotuvas, skirti Windows",
+ "titular": "Įrašyti. Iškirpti. Dalintis.",
+ "entradilla": "Momentinis pakartojimas ir ekrano įrašymas be FPS nuostolių, integruota klipų rengyklė ir kiekvienas klipas nukopijuotas į mainų sritį, paruoštas Discord. Be to, vaizdo grotuvas, kuris atsidaro akimirksniu.",
+ "descargar": "Atsisiųsti Zas",
+ "versiones": "Žiūrėti versijas",
+ "gratis": "Nemokamai · Windows 10 ir 11 · Be reklamų",
+ "rend-ante": "Išmatuotas našumas",
+ "rend-titulo": "Greitis išmatuotas.",
+ "cifra1-nombre": "Įrašui atidaryti",
+ "cifra1-detalle": "Nuo dvigubo spustelėjimo iki pirmojo kadro, kai Zas yra atmintyje. 1080p60 vaizdo įrašo mediana.",
+ "cifra2-nombre": "Klipui nukopijuoti",
+ "cifra2-detalle": "Nuo Ctrl+E paspaudimo iki 12 s klipas atsiduria mainų srityje, paruoštas įklijuoti.",
+ "cifra3-nombre": "Prarasti FPS įrašant",
+ "cifra3-detalle": "Fortnite 1440p raiška: 61–69 FPS neįrašant ir 68–70 įrašant vaizdo plokšte. Išmatuota su PresentMon.",
+ "metodo-titulo": "Kaip matavome",
+ "pasos-ante": "Klipas per sekundes",
+ "pasos-titulo": "Iš vaizdo įrašo į pokalbį trimis klavišais.",
+ "paso1": "Pažymėkite dalį",
+ "paso1-texto": "Pradžią ir pabaigą, kol žiūrite.",
+ "paso2": "Eksportuokite",
+ "paso2-texto": "Be perkodavimo: klipas paruoštas iš karto, originalios kokybės.",
+ "paso3": "Įklijuokite",
+ "paso3-texto": "Jis jau mainų srityje: įklijuokite jį į bet kurį pokalbį.",
+ "comp-ante": "Zas prieš kitus",
+ "comp-titulo": "Alternatyva ShadowPlay, OBS ir Medal.",
+ "comp-sub": "Įrašykite kaip su ShadowPlay bet kuria vaizdo plokšte, be nustatymų kaip OBS, ir redaguokite klipą neįkeldami jo į jokį debesį. Viskas vienoje programėlėje, kuri yra ir jūsų vaizdo grotuvas.",
+ "comp-nota": "Remiantis kiekvienos programėlės viešai prieinama informacija 2026 m. spalio mėn. ShadowPlay yra NVIDIA App įrašymo funkcija.",
+ "func-ante": "Viena programėlė, ne trys",
+ "func-titulo": "Viskas, ką darote su savo vaizdo įrašais.",
+ "b3-titulo": "Įrašykite ir dalinkitės",
+ "b3-texto": "Pažymėkite ekrano sritį ir įrašykite su sistemos garsu bei pasirinktu mikrofonu. Koduoja vaizdo plokštė (NVIDIA, AMD arba Intel), iki 120 fps, žaidimui neprarandant kadrų. Momentinis pakartojimas išsaugo paskutines sekundes, kai kas nors nutinka, o klipas nukopijuojamas ir paruoštas įklijuoti į Discord.",
+ "a-grabar": "Įrašyti ekraną",
+ "a-repeticion": "Išsaugoti pakartojimą",
+ "a-panel": "Įrašymo skydelis",
+ "b2-titulo": "Redaguokite",
+ "b2-texto": "Skaidykite ir šalinkite dalis laiko juostoje. Pridėkite tekstą, rėmelius, rodykles, pikseliuotas sritis ir animuotą mastelį – kiekvienam savo pradžia ir pabaiga. Eksportuokite, ir jis jau nukopijuotas.",
+ "b2-atajo": "atidaro rengyklę",
+ "b1-titulo": "Leiskite",
+ "b1-texto": "Uždarius jis lieka atmintyje, todėl kitas vaizdo įrašas pasirodo vos jį atidarius. Sąsaja išnyksta, kai jos nenaudojate, ir jis groja beveik bet kokį formatą. Tai ir greita nuotraukų peržiūros programa: JPEG, PNG, WebP, HEIC, AVIF ir kt.",
+ "faq-ante": "Klausimai",
+ "faq-titulo": "Ką dažniausiai klausia.",
+ "final-titulo": "Atidarykite video. Ir daug daugiau.",
+ "descargar-windows": "Atsisiųsti Zas, skirtą Windows",
+ "final-nota": "Nemokamai. Be reklamų. Atsinaujina, kai jūs nurodote.",
+ "pie-versiones": "Versijos",
+ "creditos": "Sukurta naudojant",
+ "y": "ir",
+ "stock": "Vaizdo įrašai ekrano kopijose:",
+ "bbb": "Matuota naudojant",
+ "alt-escaparate": "Zas įrašymo skydelis, atidarytas virš ekrano: įrašyti sritį ar ekraną, momentinis pakartojimas, garsas, kokybė, FPS ir kodekas",
+ "alt-recortar": "Zas laiko juosta su gintaro spalva pažymėta dalimi",
+ "alt-compartir": "Zas praneša, kad klipas išsaugotas ir nukopijuotas",
+ "alt-copiado": "Zas rodo „Išsaugota ir nukopijuota“: klipas jau mainų srityje",
+ "alt-editor": "Zas rengyklė su tekstu, rodykle ir rėmeliu virš vaizdo įrašo",
+ "alt-reproduce": "Zas leidžia vaizdo įrašą visame ekrane, valdikliai apačioje",
+ "meta-titulo": "Zas: nemokama ekrano įrašymo programa, skirta Windows, ShadowPlay, OBS ir Medal alternatyva",
+ "meta-descripcion": "Zas Player – nemokama ekrano įrašymo ir klipų programa, skirta Windows: momentinis pakartojimas be FPS nuostolių, integruota klipų rengyklė ir klipai, nukopijuoti į mainų sritį, paruošti Discord. Be to, akimirksniu atsidarantis vaizdo grotuvas. Be reklamų, be paskyros.",
+ "meta-og-titulo": "Zas Player · Įrašyti. Iškirpti. Dalintis.",
+ "version-palabra": "versija",
+ "idioma-etiqueta": "Kalba",
+ "metodo": "<p>Zas 1.15.1 – čia atsisiunčiama versija – kompiuteryje su AMD Ryzen 5 3600, NVIDIA GeForce RTX 2060, 32 GB atminties ir Windows 11, su 2560×1440 ekranu. Bandomasis vaizdo įrašas: viena Big Buck Bunny minutė (H.264, 1080p, 60 fps) ir dvi iš jos padarytos 10 s versijos (H.265 4K, 30 fps ir VP9 1080p, 30 fps).</p><table><tr><th></th><th>H.264 1080p60</th><th>H.265 2160p30</th><th>VP9 1080p30</th></tr><tr><td>Atidarymas, Zas atmintyje</td><td>378 ms</td><td>134 ms</td><td>125 ms</td></tr><tr><td>Atidarymas, Zas uždarytas</td><td>710 ms</td><td>595 ms</td><td>514 ms</td></tr></table><p><b>Atidarymas</b>: nuo <code>zas.exe video</code> paleidimo (tas pats, kas dvigubas spustelėjimas) iki pirmojo kadro ekrane. 8 atidarymų iš atminties ir 5 nuo nulio medianos. Kai Zas buvo atmintyje, 2 iš 24 atidarymų užtruko ilgiau (0,7 ir 2,9 s); kai Zas buvo uždarytas, lėčiausias buvo 0,83 s. Failas jau buvo Windows podėlyje.</p><p><b>Klipas nukopijuotas</b>: nuo 12 s dalies pažymėjimo ir Ctrl+E paspaudimo (be perkodavimo) iki failas atsiduria mainų srityje. 5 bandymų mediana: 0,14 s; pirmasis užtruko 33 s ir priežastis neaiški. Kadro tikslumu (su perkodavimu, Ctrl+Shift+E) ta pati dalis užtrunka nuo 4,6 iki 5,0 s.</p><p><b>FPS įrašant</b>: Fortnite 2560×1440 raiška pirmame plane, išmatuota su PresentMon (Intel). Neįrašant 61–69 FPS; įrašant 60 fps vaizdo plokšte (H.264 arba H.265 per NVENC) 68–70 FPS, tos pačios svyravimo ribose. Įrašymas naudoja 18 % vieno procesoriaus branduolio. Senasis procesoriaus metodas (libx264) naudojo 2,7 branduolio ir strigo.</p><p><b>Atmintis</b>: 99 MB neveikos būsenoje (fone, pasiruošęs atidaryti) ir apie 300 MB leidžiant 1080p60 vaizdo įrašą.</p><p>Tai vieno konkretaus kompiuterio matavimai: jūsų rezultatai gali skirtis.</p>",
+ "preguntas": [
+  [
+   "Ar Zas yra gera ShadowPlay, OBS ar Medal alternatyva?",
+   "Taip, jei norite įrašyti ekraną arba išsaugoti žaidimų akimirkas ir greitai jomis pasidalinti. Kaip ir ShadowPlay, jis įrašo vaizdo plokšte ir turi momentinį pakartojimą, bet veikia su NVIDIA, AMD ir Intel. Skirtingai nei OBS, nieko nereikia nustatinėti. O kaip ir Medal, jis turi klipų rengyklę, bet viskas lieka jūsų kompiuteryje: be paskyros, be debesies ir be reklamų. Jei reikia tiesioginių transliacijų, OBS vis dar tinkamiausias įrankis; Zas netransliuoja."
+  ],
+  [
+   "Ar įrašymas su Zas sumažina FPS?",
+   "Mūsų bandyme – ne. Fortnite 1440p raiška veikė 61–69 FPS neįrašant ir 68–70 FPS, kol Zas įrašinėjo vaizdo plokšte (išmatuota su PresentMon, RTX 2060). Zas koduoja vaizdo plokšte (NVENC, AMF arba Quick Sync), todėl procesorius beveik nedirba: 18 % vieno branduolio."
+  ],
+  [
+   "Kaip pasidalinti klipu Discord?",
+   "Išsaugokite akimirką su Win+Shift+G (momentinis pakartojimas) arba pažymėkite dalį klavišais I ir O ir paspauskite Ctrl+E. Klipas nukopijuojamas į mainų sritį: Discord paspauskite Ctrl+V. Atminkite, kad nemokamoms paskyroms Discord leidžia iki 20 MB failus."
+  ],
+  [
+   "Kas yra Zas Player?",
+   "Zas (arba Zas Player) – nemokama ekrano įrašymo programa, klipų rengyklė ir vaizdo grotuvas, skirti Windows 10 ir 11. Jis akimirksniu atidaro vaizdo įrašus, turi integruotą karpymo įrankį ir nuotraukų peržiūrą."
+  ],
+  [
+   "Kaip atsisiųsti Zas?",
+   "Šiame puslapyje spustelėkite „Atsisiųsti Zas“: iš GitHub bus atsisiųsta oficiali diegimo programa Zas-Setup.exe. Atidarykite ją, įdiegimas užtrunka kelias sekundes, o vėliau programa atsinaujina, kai jūs nurodote."
+  ],
+  [
+   "Ar jis nemokamas? Ar yra reklamų?",
+   "Jis nemokamas, be reklamų ir nereikia kurti paskyros."
+  ],
+  [
+   "Kokius formatus jis atidaro?",
+   "Beveik bet kokį vaizdo įrašą (MP4, MKV, WebM, MOV, AVI, WMV, TS…) dėka mpv ir FFmpeg, taip pat nuotraukas JPEG, PNG, WebP, HEIC, AVIF ir kitais formatais."
+  ]
+ ],
+ "compara": {
+  "filas": [
+   [
+    "Nemokama",
+    "si",
+    "si",
+    "si",
+    "si*"
+   ],
+   [
+    "Bet kuri vaizdo plokštė (NVIDIA, AMD, Intel)",
+    "si",
+    "Tik NVIDIA",
+    "si",
+    "si"
+   ],
+   [
+    "Momentinis pakartojimas",
+    "si",
+    "si",
+    "Reikia nustatyti",
+    "si"
+   ],
+   [
+    "Klipų rengyklė (karpymas, tekstas, rodyklės, suliejimas, mastelis)",
+    "si",
+    "no",
+    "no",
+    "si"
+   ],
+   [
+    "Klipo failas mainų srityje, paruoštas įklijuoti",
+    "si",
+    "no",
+    "no",
+    "Nuoroda"
+   ],
+   [
+    "Vaizdo grotuvas ir nuotraukų peržiūra",
+    "si",
+    "no",
+    "no",
+    "no"
+   ],
+   [
+    "Be paskyros ir debesies",
+    "si",
+    "si",
+    "si",
+    "Reikia paskyros"
+   ],
+   [
+    "Automatiniai įsimintiniausių akimirkų klipai",
+    "no",
+    "Kai kurie žaidimai",
+    "no",
+    "si"
+   ],
+   [
+    "Tiesioginės transliacijos",
+    "no",
+    "no",
+    "si",
+    "no"
+   ]
+  ],
+  "pie": "* Su mokamomis funkcijomis.",
+  "si": "Taip",
+  "no": "Ne"
+ },
+ "jsonld-subcategoria": "Vaizdo grotuvas",
+ "jsonld-funciones": [
+  "Ekrano įrašymas vaizdo plokšte (NVIDIA, AMD, Intel)",
+  "Momentinis pakartojimas",
+  "Klipų rengyklė",
+  "Klipai kopijuojami į mainų sritį",
+  "Vaizdo įrašų karpymas be perkodavimo",
+  "Vaizdo grotuvas",
+  "Nuotraukų peržiūra"
+ ]
+}
