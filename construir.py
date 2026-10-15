@@ -149,7 +149,18 @@ def cabeza(lang, version):
         f'<link rel="alternate" hreflang="x-default" href="{SITIO}/">',
     ])
     otra_locale = PAGINA[p["otra"][0]]["locale"]
-    return f"""<title>{e(p['titulo'])}</title>
+    # el idioma del navegador, antes de pintar nada: lo elegido con el botón manda; los
+    # buscadores no se redirigen (cada idioma se indexa en su página, con hreflang)
+    idioma = (
+        "<script>(function(){try{"
+        "if(/bot|crawl|spider|slurp|mediapartners|lighthouse|preview|facebookexternalhit|embedly/i.test(navigator.userAgent))return;"
+        "var e=null;try{e=localStorage.getItem('zas-idioma')}catch(_){}"
+        "var n=((navigator.languages&&navigator.languages[0])||navigator.language||'').toLowerCase();"
+        "var q=e||(n.indexOf('es')===0?'es':'en');"
+        f"if(q!=='{lang}')location.replace((q==='es'?'/':'/en/')+location.hash);"
+        "}catch(_){}})();</script>\n"
+    )
+    return idioma + f"""<title>{e(p['titulo'])}</title>
 <meta name="description" content="{e(p['descripcion'])}">
 <meta name="theme-color" content="#141518">
 <meta name="robots" content="index, follow, max-image-preview:large">
