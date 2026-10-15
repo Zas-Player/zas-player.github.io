@@ -19,6 +19,24 @@
     try { localStorage.setItem("zas-idioma", boton.getAttribute("hreflang")); } catch (e) {}
   });
 
+  // preguntas: abrir y cerrar con una animación de altura (sin ella si se pide menos movimiento)
+  var quieto = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
+  document.querySelectorAll(".pregunta").forEach(function (d) {
+    var s = d.querySelector("summary"), r = d.querySelector(".respuesta");
+    if (!s || !r || quieto || !r.animate) return;
+    var anim = null;
+    s.addEventListener("click", function (ev) {
+      ev.preventDefault();
+      if (anim) anim.cancel();
+      var abriendo = !d.open;
+      if (abriendo) d.open = true;
+      var alto = r.scrollHeight + "px";
+      anim = r.animate({ height: abriendo ? ["0px", alto] : [alto, "0px"], opacity: abriendo ? [0, 1] : [1, 0] },
+                       { duration: 220, easing: "cubic-bezier(.2,.7,.2,1)" });
+      anim.onfinish = function () { anim = null; if (!abriendo) d.open = false; };
+    });
+  });
+
   var cab = document.querySelector(".cabecera");
   var alBajar = function () { cab.classList.toggle("con-borde", window.scrollY > 8); };
   window.addEventListener("scroll", alBajar, { passive: true });

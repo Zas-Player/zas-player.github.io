@@ -8,6 +8,7 @@ plantilla.html, más sitemap.xml y robots.txt. Las dos páginas llevan todo su t
 Para cambiar textos: el castellano está en plantilla.html; el inglés, en EN.
 Las cifras de rendimiento, en MEDIDAS (salen de ~/zas-web-medios/medir.ps1).
 """
+import hashlib
 import html
 import json
 import re
@@ -234,10 +235,14 @@ def pagina(plantilla, lang, version):
         "{{OTRA_URL}}": otra[2], "{{OTRA_LANG}}": otra[0], "{{OTRA_CORTO}}": otra[3], "{{OTRA_ETIQUETA}}": otra[4],
         "{{VERSION_TEXTO}}": vt, "{{C1}}": numero(MEDIDAS["abrir_ms"], 0, lang), "{{C2}}": numero(MEDIDAS["clip_s"], 2, lang),
         "{{C3}}": numero(MEDIDAS["frio_ms"], 0, lang), "{{METODO}}": METODO[lang],
-        "{{PREGUNTAS}}": "\n".join(f'        <details class="pregunta"><summary><h3>{html.escape(q)}</h3></summary><p>{html.escape(r)}</p></details>'
+        "{{PREGUNTAS}}": "\n".join(f'        <details class="pregunta"><summary><h3>{html.escape(q)}</h3><svg class="flecha" aria-hidden="true" viewBox="0 0 24 24"><path d="M6 9l6 6 6-6"/></svg></summary><div class="respuesta"><p>{html.escape(r)}</p></div></details>'
                                    for q, r in PREGUNTAS[lang]),
     }.items():
         s = s.replace(k, v)
+    # cada archivo con la huella de su contenido: si cambia, el navegador lo vuelve a pedir
+    for f in ("estilo.css", "zas.js"):
+        huella = hashlib.sha1((AQUI / f).read_bytes()).hexdigest()[:10]
+        s = s.replace(f'"/{f}"', f'"/{f}?v={huella}"')
     assert "{{" not in s, re.findall(r"\{\{\w+\}\}", s)
     return s
 

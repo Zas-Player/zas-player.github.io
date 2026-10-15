@@ -192,14 +192,17 @@ section { padding: 120px 0 0; }
 h1 .antetitulo { display: block; font-size: 13px; line-height: 1.5; letter-spacing: .08em; font-weight: 600; margin: 0 0 16px; }
 h1 .lema-grande { display: block; }
 
-/* preguntas */
-.lista-preguntas { margin-top: 44px; border-top: 1px solid var(--borde); max-width: 860px; }
-.pregunta { border-bottom: 1px solid var(--borde); }
-.pregunta summary { cursor: pointer; list-style: none; padding: 20px 36px 20px 0; position: relative; font-size: 18px; }
+/* preguntas: filas limpias que se abren con suavidad */
+.lista-preguntas { margin-top: 44px; max-width: 880px; display: grid; gap: 10px; }
+.pregunta { background: var(--panel); border: 1px solid var(--borde); border-radius: 12px; transition: border-color .16s, background-color .16s; }
+.pregunta:hover { border-color: color-mix(in srgb, var(--tinta2) 40%, transparent); }
+.pregunta[open] { border-color: color-mix(in srgb, var(--acento) 45%, transparent); }
+.pregunta summary { cursor: pointer; list-style: none; display: flex; align-items: center; justify-content: space-between; gap: 16px; padding: 20px 22px; border-radius: 12px; }
 .pregunta summary::-webkit-details-marker { display: none; }
-.pregunta summary::after { content: "+"; position: absolute; right: 4px; top: 18px; color: var(--acento-texto); font-size: 22px; transition: transform .16s; }
-.pregunta[open] summary::after { transform: rotate(45deg); }
-.pregunta summary:hover { color: var(--tinta); }
-.pregunta p { margin: 0 0 22px; color: var(--tinta2); font-weight: 500; font-size: 16px; max-width: 760px; }
-@media (prefers-reduced-motion: reduce) { .pregunta summary::after { transition: none; } }
-.pregunta summary h3 { display: inline; font-size: 18px; font-weight: 600; letter-spacing: -0.01em; }
+.pregunta summary::marker { content: ""; }
+.pregunta summary h3 { font-size: 17px; font-weight: 600; letter-spacing: -0.01em; margin: 0; }
+.pregunta .flecha { flex: none; width: 20px; height: 20px; fill: none; stroke: var(--tinta2); stroke-width: 2; stroke-linecap: round; stroke-linejoin: round; transition: transform .22s ease, stroke .16s; }
+.pregunta[open] .flecha { transform: rotate(180deg); stroke: var(--acento-texto); }
+.respuesta { overflow: hidden; }
+.respuesta p { margin: 0; padding: 0 22px 22px; color: var(--tinta2); font-weight: 500; font-size: 16px; max-width: 760px; }
+@media (prefers-reduced-motion: reduce) { .pregunta, .pregunta .flecha { transition: none; } }
