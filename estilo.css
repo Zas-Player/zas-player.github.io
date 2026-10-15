@@ -193,7 +193,7 @@ h1 .antetitulo { display: block; font-size: 13px; line-height: 1.5; letter-spaci
 h1 .lema-grande { display: block; }
 
 /* preguntas: filas limpias que se abren con suavidad */
-.lista-preguntas { margin-top: 44px; max-width: 880px; display: grid; gap: 10px; }
+.lista-preguntas { margin-top: 44px; display: grid; gap: 10px; }
 .pregunta { background: var(--panel); border: 1px solid var(--borde); border-radius: 12px; transition: border-color .16s, background-color .16s; }
 .pregunta:hover { border-color: color-mix(in srgb, var(--tinta2) 40%, transparent); }
 .pregunta[open] { border-color: color-mix(in srgb, var(--acento) 45%, transparent); }
@@ -204,5 +204,5 @@ h1 .lema-grande { display: block; }
 .pregunta .flecha { flex: none; width: 20px; height: 20px; fill: none; stroke: var(--tinta2); stroke-width: 2; stroke-linecap: round; stroke-linejoin: round; transition: transform .22s ease, stroke .16s; }
 .pregunta[open] .flecha { transform: rotate(180deg); stroke: var(--acento-texto); }
 .respuesta { overflow: hidden; }
-.respuesta p { margin: 0; padding: 0 22px 22px; color: var(--tinta2); font-weight: 500; font-size: 16px; max-width: 760px; }
+.respuesta p { margin: 0; padding: 0 22px 22px; color: var(--tinta2); font-weight: 500; font-size: 16px; max-width: 920px; }
 @media (prefers-reduced-motion: reduce) { .pregunta, .pregunta .flecha { transition: none; } }
