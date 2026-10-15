@@ -187,3 +187,7 @@ section { padding: 120px 0 0; }
   .boton-peq { width: auto; }
   .final { padding: 104px 0 88px; }
 }
+
+/* el h1 dice qué es (para buscarlo) y el lema */
+h1 .antetitulo { display: block; font-size: 13px; line-height: 1.5; letter-spacing: .08em; font-weight: 600; margin: 0 0 16px; }
+h1 .lema-grande { display: block; }

@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://zas-player.github.io/sitemap.xml

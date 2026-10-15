@@ -1,0 +1,196 @@
+<!doctype html>
+<html lang="{{LANG}}">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+{{CABEZA}}
+<link rel="preload" as="image" href="/img/reproductor-1600.webp" imagesrcset="/img/reproductor-960.webp 960w, /img/reproductor-1600.webp 1600w, /img/reproductor-2400.webp 2400w" imagesizes="(max-width: 1180px) 100vw, 1140px">
+<link rel="stylesheet" href="/estilo.css">
+</head>
+<body>
+<a class="saltar" href="#principal" data-i="saltar">Ir al contenido</a>
+
+<header class="cabecera">
+  <div class="ancho fila">
+    <a class="marca" href="{{INICIO}}" aria-label="Zas">
+      <img src="/icono.svg" alt="" width="24" height="24">
+      <span>Zas</span>
+    </a>
+    <nav aria-label="Principal" class="nav">
+      <a href="#rendimiento" class="enlace solo-ancho" data-i="nav-rendimiento">Rendimiento</a>
+      <a href="#funciones" class="enlace solo-ancho" data-i="nav-funciones">Funciones</a>
+      <a href="https://github.com/Zas-Player/zas-releases" class="enlace solo-ancho">GitHub</a>
+      <a class="idioma" href="{{OTRA_URL}}" hreflang="{{OTRA_LANG}}" lang="{{OTRA_LANG}}" aria-label="{{OTRA_ETIQUETA}}">{{OTRA_CORTO}}</a>
+      <a class="boton boton-peq" href="https://github.com/Zas-Player/zas-releases/releases/latest/download/Zas-Setup.exe" data-i="descargar-corto">Descargar</a>
+    </nav>
+  </div>
+</header>
+
+<main id="principal">
+
+  <!-- Portada -->
+  <section class="portada">
+    <div class="ancho">
+      <h1><span class="antetitulo" data-i="antetitulo">Reproductor de vídeo gratis para Windows</span> <span class="lema-grande" data-i="titular">Abre. Recorta. Comparte.</span></h1>
+      <p class="entradilla" data-i="entradilla">Zas abre tus vídeos al instante. Y además los recorta, graba tu pantalla y edita clips, sin cambiar de programa.</p>
+      <div class="acciones">
+        <a class="boton" href="https://github.com/Zas-Player/zas-releases/releases/latest/download/Zas-Setup.exe">
+          <svg aria-hidden="true" viewBox="0 0 24 24"><path d="M12 4v11M7 10l5 5 5-5M5 20h14"/></svg>
+          <span data-i="descargar">Descargar Zas</span>
+        </a>
+        <a class="enlace-flecha" href="https://github.com/Zas-Player/zas-releases/releases" data-i="versiones">Ver versiones</a>
+      </div>
+      <p class="nota"><span data-i="gratis">Gratis · Windows 10 y 11 · Sin anuncios</span><span id="version">{{VERSION_TEXTO}}</span></p>
+    </div>
+
+    <!-- El producto -->
+    <figure class="escaparate ancho-ancho">
+      <img src="/img/reproductor-1600.webp"
+           srcset="/img/reproductor-960.webp 960w, /img/reproductor-1600.webp 1600w, /img/reproductor-2400.webp 2400w"
+           sizes="(max-width: 1180px) 100vw, 1140px" width="2400" height="1294"
+           alt="La ventana de Zas reproduciendo un vídeo, con la línea de tiempo y los controles abajo"
+           data-i-alt="alt-reproductor" fetchpriority="high">
+    </figure>
+  </section>
+
+  <!-- Rendimiento -->
+  <section class="rendimiento" id="rendimiento" aria-labelledby="t-rendimiento">
+    <div class="ancho">
+      <p class="antetitulo" data-i="rend-ante">Rendimiento medido</p>
+      <h2 id="t-rendimiento" data-i="rend-titulo">La velocidad se mide.</h2>
+      <dl class="cifras">
+        <div class="cifra">
+          <dt data-i="cifra1-nombre">Para abrir un vídeo</dt>
+          <dd><span class="numero" id="c1">{{C1}}</span><span class="unidad">ms</span></dd>
+          <dd class="detalle" data-i="cifra1-detalle">Del doble clic al primer fotograma, con Zas en memoria. Mediana de un vídeo 1080p60.</dd>
+        </div>
+        <div class="cifra">
+          <dt data-i="cifra2-nombre">Para tener un clip copiado</dt>
+          <dd><span class="numero" id="c2">{{C2}}</span><span class="unidad">s</span></dd>
+          <dd class="detalle" data-i="cifra2-detalle">De pulsar Ctrl+E a tener un tramo de 12 s en el portapapeles, listo para pegar.</dd>
+        </div>
+        <div class="cifra">
+          <dt data-i="cifra3-nombre">Desde cero</dt>
+          <dd><span class="numero" id="c3">{{C3}}</span><span class="unidad">ms</span></dd>
+          <dd class="detalle" data-i="cifra3-detalle">Del doble clic al primer fotograma con Zas cerrado del todo.</dd>
+        </div>
+      </dl>
+      <details class="metodo">
+        <summary data-i="metodo-titulo">Cómo lo medimos</summary>
+        <div id="metodo" class="metodo-texto">{{METODO}}</div>
+      </details>
+    </div>
+  </section>
+
+  <!-- Así de rápido -->
+  <section class="pasos" aria-labelledby="t-pasos">
+    <div class="ancho">
+      <p class="antetitulo" data-i="pasos-ante">Un clip en segundos</p>
+      <h2 id="t-pasos" data-i="pasos-titulo">Del vídeo al chat en tres teclas.</h2>
+      <ol class="secuencia">
+        <li>
+          <figure>
+            <img src="/img/recortar-720.webp" srcset="/img/recortar-720.webp 720w, /img/recortar-1104.webp 1104w" sizes="(max-width: 900px) 100vw, 360px"
+                 width="1104" height="690" loading="lazy" alt="La línea de tiempo de Zas con un tramo marcado en ámbar" data-i-alt="alt-recortar">
+          </figure>
+          <h3><kbd>I</kbd> <kbd>O</kbd> <span data-i="paso1">Marca el tramo</span></h3>
+          <p data-i="paso1-texto">El principio y el final, mientras lo ves.</p>
+        </li>
+        <li>
+          <figure>
+            <img src="/img/compartir-720.webp" srcset="/img/compartir-720.webp 720w, /img/compartir-1104.webp 1104w" sizes="(max-width: 900px) 100vw, 360px"
+                 width="1104" height="690" loading="lazy" alt="Zas avisando de que el clip está guardado y copiado" data-i-alt="alt-compartir">
+          </figure>
+          <h3><kbd>Ctrl</kbd> <kbd>E</kbd> <span data-i="paso2">Exporta</span></h3>
+          <p data-i="paso2-texto">Sin recodificar: el clip sale al momento, con la calidad del original.</p>
+        </li>
+        <li>
+          <figure class="pegar" aria-hidden="true">
+            <div class="chat">
+              <div class="burbuja">
+                <div class="adjunto"><svg viewBox="0 0 24 24"><path d="M8 5v14l11-7z"/></svg><span>carrera_recorte.mp4</span></div>
+              </div>
+            </div>
+          </figure>
+          <h3><kbd>Ctrl</kbd> <kbd>V</kbd> <span data-i="paso3">Pega</span></h3>
+          <p data-i="paso3-texto">Ya está en el portapapeles: pégalo en cualquier chat.</p>
+        </li>
+      </ol>
+    </div>
+  </section>
+
+  <!-- Funciones -->
+  <section class="funciones" id="funciones" aria-labelledby="t-funciones">
+    <div class="ancho">
+      <p class="antetitulo" data-i="func-ante">Un programa, no tres</p>
+      <h2 id="t-funciones" data-i="func-titulo">Todo lo que haces con tus vídeos.</h2>
+    </div>
+
+    <article class="bloque ancho">
+      <div class="bloque-texto">
+        <h3 data-i="b1-titulo">Reproduce</h3>
+        <p data-i="b1-texto">Se queda en memoria al cerrar, así que el siguiente vídeo sale en cuanto lo abres. La interfaz desaparece cuando no la usas y abre casi cualquier formato. También es un visor rápido de fotos: JPEG, PNG, WebP, HEIC, AVIF y más.</p>
+      </div>
+      <figure class="bloque-imagen">
+        <img src="/img/reproduce-960.webp" srcset="/img/reproduce-960.webp 960w, /img/reproduce-1600.webp 1600w" sizes="(max-width: 900px) 100vw, 620px"
+             width="1600" height="863" loading="lazy" alt="Zas reproduciendo un vídeo a pantalla completa, con los controles abajo" data-i-alt="alt-reproduce">
+      </figure>
+    </article>
+
+    <article class="bloque ancho invertido">
+      <div class="bloque-texto">
+        <h3 data-i="b2-titulo">Edita</h3>
+        <p data-i="b2-texto">Divide y quita trozos en la línea de tiempo. Añade textos, recuadros, flechas, zonas pixeladas y zoom animado, cada uno con su principio y su fin. Exporta y se copia solo.</p>
+        <p class="atajo"><kbd>E</kbd> <span data-i="b2-atajo">abre el editor</span></p>
+      </div>
+      <figure class="bloque-imagen">
+        <img src="/img/editor-960.webp" srcset="/img/editor-960.webp 960w, /img/editor-1600.webp 1600w" sizes="(max-width: 900px) 100vw, 620px"
+             width="1600" height="863" loading="lazy" alt="El editor de Zas con un texto, una flecha y un recuadro sobre el vídeo" data-i-alt="alt-editor">
+      </figure>
+    </article>
+
+    <article class="bloque ancho">
+      <div class="bloque-texto">
+        <h3 data-i="b3-titulo">Graba y comparte</h3>
+        <p data-i="b3-texto">Arrastra una zona de la pantalla y graba con el sonido del sistema y el micrófono que elijas. Lo codifica la tarjeta gráfica, hasta 120 fps. La repetición instantánea guarda los últimos segundos cuando pasa algo.</p>
+        <ul class="atajos">
+          <li><kbd>Win</kbd> <kbd>Shift</kbd> <kbd>R</kbd> <span data-i="a-grabar">Grabar la pantalla</span></li>
+          <li><kbd>Win</kbd> <kbd>Shift</kbd> <kbd>G</kbd> <span data-i="a-repeticion">Guardar la repetición</span></li>
+          <li><kbd>Alt</kbd> <kbd>Z</kbd> <span data-i="a-panel">Panel de grabación</span></li>
+        </ul>
+      </div>
+      <figure class="bloque-imagen">
+        <img src="/img/panel-960.webp" srcset="/img/panel-960.webp 960w, /img/panel-1600.webp 1600w, /img/panel-2400.webp 2400w" sizes="(max-width: 900px) 100vw, 620px"
+             width="1600" height="900" loading="lazy" alt="El panel de grabación de Zas abierto a la izquierda de la pantalla: grabar zona o pantalla, repetición instantánea, sonido, calidad, fotogramas por segundo y códec" data-i-alt="alt-panel">
+      </figure>
+    </article>
+  </section>
+
+  <!-- Final -->
+  <section class="final">
+    <div class="ancho">
+      <img src="/icono.svg" alt="" width="64" height="64">
+      <h2 data-i="final-titulo">Abre un vídeo. Haz mucho más.</h2>
+      <a class="boton" href="https://github.com/Zas-Player/zas-releases/releases/latest/download/Zas-Setup.exe">
+        <svg aria-hidden="true" viewBox="0 0 24 24"><path d="M12 4v11M7 10l5 5 5-5M5 20h14"/></svg>
+        <span data-i="descargar-windows">Descargar Zas para Windows</span>
+      </a>
+      <p class="nota" data-i="final-nota">Gratis. Sin anuncios. Se actualiza solo cuando tú quieres.</p>
+    </div>
+  </section>
+</main>
+
+<footer class="pie">
+  <div class="ancho fila-pie">
+    <span class="marca-pie"><img src="/icono.svg" alt="" width="18" height="18"> Zas</span>
+    <nav aria-label="Pie" class="nav-pie">
+      <a href="https://github.com/Zas-Player/zas-releases">GitHub</a>
+      <a href="https://github.com/Zas-Player/zas-releases/releases" data-i="pie-versiones">Versiones</a>
+    </nav>
+    <p class="creditos"><span data-i="creditos">Hecho sobre</span> <a href="https://mpv.io">mpv</a> <span data-i="y">y</span> <a href="https://ffmpeg.org">FFmpeg</a>. <span data-i="stock">Vídeos de las capturas:</span> <a href="https://mixkit.co">Mixkit</a>. <span data-i="bbb">Medidas con</span> <a href="https://peach.blender.org">Big Buck Bunny</a>, © Blender Foundation, CC BY 3.0.</p>
+  </div>
+</footer>
+
+<script src="/zas.js" defer></script>
+</body>
+</html>
