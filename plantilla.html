@@ -4,7 +4,7 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 {{CABEZA}}
-<link rel="preload" as="image" href="/img/reproductor-1600.webp" imagesrcset="/img/reproductor-960.webp 960w, /img/reproductor-1600.webp 1600w, /img/reproductor-2400.webp 2400w" imagesizes="(max-width: 1180px) 100vw, 1140px">
+<link rel="preload" as="image" href="/img/panel-1600.webp" imagesrcset="/img/panel-960.webp 960w, /img/panel-1600.webp 1600w, /img/panel-2400.webp 2400w" imagesizes="(max-width: 1180px) 100vw, 1140px">
 <link rel="stylesheet" href="/estilo.css">
 </head>
 <body>
@@ -31,8 +31,8 @@
   <!-- Portada -->
   <section class="portada">
     <div class="ancho">
-      <h1><span class="antetitulo" data-i="antetitulo">Reproductor de vídeo gratis para Windows</span> <span class="lema-grande" data-i="titular">Abre. Recorta. Comparte.</span></h1>
-      <p class="entradilla" data-i="entradilla">Zas abre tus vídeos al instante. Y además los recorta, graba tu pantalla y edita clips, sin cambiar de programa.</p>
+      <h1><span class="antetitulo" data-i="antetitulo">Grabador de pantalla y reproductor gratis para Windows</span> <span class="lema-grande" data-i="titular">Graba. Recorta. Comparte.</span></h1>
+      <p class="entradilla" data-i="entradilla">Repetición instantánea y grabación de pantalla sin perder FPS, un editor de clips dentro y cada clip copiado al portapapeles, listo para Discord. Y un reproductor que abre tus vídeos al instante.</p>
       <div class="acciones">
         <a class="boton" href="https://github.com/Zas-Player/zas-releases/releases/latest/download/Zas-Setup.exe">
           <svg aria-hidden="true" viewBox="0 0 24 24"><path d="M12 4v11M7 10l5 5 5-5M5 20h14"/></svg>
@@ -45,11 +45,11 @@
 
     <!-- El producto -->
     <figure class="escaparate ancho-ancho">
-      <img src="/img/reproductor-1600.webp"
-           srcset="/img/reproductor-960.webp 960w, /img/reproductor-1600.webp 1600w, /img/reproductor-2400.webp 2400w"
-           sizes="(max-width: 1180px) 100vw, 1140px" width="2400" height="1294"
-           alt="La ventana de Zas reproduciendo un vídeo, con la línea de tiempo y los controles abajo"
-           data-i-alt="alt-reproductor" fetchpriority="high">
+      <img src="/img/panel-1600.webp"
+           srcset="/img/panel-960.webp 960w, /img/panel-1600.webp 1600w, /img/panel-2400.webp 2400w"
+           sizes="(max-width: 1180px) 100vw, 1140px" width="2400" height="1350"
+           alt="El panel de grabación de Zas abierto sobre la pantalla: grabar zona o pantalla, repetición instantánea, sonido, calidad, FPS y códec"
+           data-i-alt="alt-escaparate" fetchpriority="high">
     </figure>
   </section>
 
@@ -70,9 +70,9 @@
           <dd class="detalle" data-i="cifra2-detalle">De pulsar Ctrl+E a tener un tramo de 12 s en el portapapeles, listo para pegar.</dd>
         </div>
         <div class="cifra">
-          <dt data-i="cifra3-nombre">Desde cero</dt>
-          <dd><span class="numero" id="c3">{{C3}}</span><span class="unidad">ms</span></dd>
-          <dd class="detalle" data-i="cifra3-detalle">Del doble clic al primer fotograma con Zas cerrado del todo.</dd>
+          <dt data-i="cifra3-nombre">FPS perdidos al grabar</dt>
+          <dd><span class="numero" id="c3">{{C3}}</span><span class="unidad">FPS</span></dd>
+          <dd class="detalle" data-i="cifra3-detalle">Fortnite a 1440p: 61–69 FPS sin grabar y 68–70 grabando con la tarjeta gráfica. Medido con PresentMon.</dd>
         </div>
       </dl>
       <details class="metodo">
@@ -119,6 +119,17 @@
     </div>
   </section>
 
+  <!-- Comparativa -->
+  <section class="compara" id="comparativa" aria-labelledby="t-compara">
+    <div class="ancho">
+      <p class="antetitulo" data-i="comp-ante">Zas frente a los demás</p>
+      <h2 id="t-compara" data-i="comp-titulo">La alternativa a ShadowPlay, OBS y Medal.</h2>
+      <p class="sub-compara" data-i="comp-sub">Graba como ShadowPlay en cualquier gráfica, sin configurar nada como en OBS y edita el clip sin subirlo a ninguna nube. Todo en un programa que además es tu reproductor.</p>
+{{COMPARA}}
+      <p class="nota-compara" data-i="comp-nota">Según la información pública de cada programa en octubre de 2026. ShadowPlay es la grabación de la NVIDIA App.</p>
+    </div>
+  </section>
+
   <!-- Funciones -->
   <section class="funciones" id="funciones" aria-labelledby="t-funciones">
     <div class="ancho">
@@ -128,15 +139,19 @@
 
     <article class="bloque ancho">
       <div class="bloque-texto">
-        <h3 data-i="b1-titulo">Reproduce</h3>
-        <p data-i="b1-texto">Se queda en memoria al cerrar, así que el siguiente vídeo sale en cuanto lo abres. La interfaz desaparece cuando no la usas y abre casi cualquier formato. También es un visor rápido de fotos: JPEG, PNG, WebP, HEIC, AVIF y más.</p>
+        <h3 data-i="b3-titulo">Graba y comparte</h3>
+        <p data-i="b3-texto">Arrastra una zona de la pantalla y graba con el sonido del sistema y el micrófono que elijas. Lo codifica la tarjeta gráfica, hasta 120 fps. La repetición instantánea guarda los últimos segundos cuando pasa algo.</p>
+        <ul class="atajos">
+          <li><kbd>Win</kbd> <kbd>Shift</kbd> <kbd>R</kbd> <span data-i="a-grabar">Grabar la pantalla</span></li>
+          <li><kbd>Win</kbd> <kbd>Shift</kbd> <kbd>G</kbd> <span data-i="a-repeticion">Guardar la repetición</span></li>
+          <li><kbd>Alt</kbd> <kbd>Z</kbd> <span data-i="a-panel">Panel de grabación</span></li>
+        </ul>
       </div>
       <figure class="bloque-imagen">
-        <img src="/img/reproduce-960.webp" srcset="/img/reproduce-960.webp 960w, /img/reproduce-1600.webp 1600w" sizes="(max-width: 900px) 100vw, 620px"
-             width="1600" height="863" loading="lazy" alt="Zas reproduciendo un vídeo a pantalla completa, con los controles abajo" data-i-alt="alt-reproduce">
+        <img src="/img/copiado-960.webp" srcset="/img/copiado-960.webp 960w, /img/copiado-1600.webp 1600w" sizes="(max-width: 900px) 100vw, 620px"
+             width="1600" height="863" loading="lazy" alt="Zas con el aviso «Guardado y copiado»: el clip ya está en el portapapeles" data-i-alt="alt-copiado">
       </figure>
     </article>
-
     <article class="bloque ancho invertido">
       <div class="bloque-texto">
         <h3 data-i="b2-titulo">Edita</h3>
@@ -151,19 +166,15 @@
 
     <article class="bloque ancho">
       <div class="bloque-texto">
-        <h3 data-i="b3-titulo">Graba y comparte</h3>
-        <p data-i="b3-texto">Arrastra una zona de la pantalla y graba con el sonido del sistema y el micrófono que elijas. Lo codifica la tarjeta gráfica, hasta 120 fps. La repetición instantánea guarda los últimos segundos cuando pasa algo.</p>
-        <ul class="atajos">
-          <li><kbd>Win</kbd> <kbd>Shift</kbd> <kbd>R</kbd> <span data-i="a-grabar">Grabar la pantalla</span></li>
-          <li><kbd>Win</kbd> <kbd>Shift</kbd> <kbd>G</kbd> <span data-i="a-repeticion">Guardar la repetición</span></li>
-          <li><kbd>Alt</kbd> <kbd>Z</kbd> <span data-i="a-panel">Panel de grabación</span></li>
-        </ul>
+        <h3 data-i="b1-titulo">Reproduce</h3>
+        <p data-i="b1-texto">Se queda en memoria al cerrar, así que el siguiente vídeo sale en cuanto lo abres. La interfaz desaparece cuando no la usas y abre casi cualquier formato. También es un visor rápido de fotos: JPEG, PNG, WebP, HEIC, AVIF y más.</p>
       </div>
       <figure class="bloque-imagen">
-        <img src="/img/panel-960.webp" srcset="/img/panel-960.webp 960w, /img/panel-1600.webp 1600w, /img/panel-2400.webp 2400w" sizes="(max-width: 900px) 100vw, 620px"
-             width="1600" height="900" loading="lazy" alt="El panel de grabación de Zas abierto a la izquierda de la pantalla: grabar zona o pantalla, repetición instantánea, sonido, calidad, fotogramas por segundo y códec" data-i-alt="alt-panel">
+        <img src="/img/reproduce-960.webp" srcset="/img/reproduce-960.webp 960w, /img/reproduce-1600.webp 1600w" sizes="(max-width: 900px) 100vw, 620px"
+             width="1600" height="863" loading="lazy" alt="Zas reproduciendo un vídeo a pantalla completa, con los controles abajo" data-i-alt="alt-reproduce">
       </figure>
     </article>
+
   </section>
 
   <!-- Preguntas -->
