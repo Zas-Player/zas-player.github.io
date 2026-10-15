@@ -191,3 +191,15 @@ section { padding: 120px 0 0; }
 /* el h1 dice qué es (para buscarlo) y el lema */
 h1 .antetitulo { display: block; font-size: 13px; line-height: 1.5; letter-spacing: .08em; font-weight: 600; margin: 0 0 16px; }
 h1 .lema-grande { display: block; }
+
+/* preguntas */
+.lista-preguntas { margin-top: 44px; border-top: 1px solid var(--borde); max-width: 860px; }
+.pregunta { border-bottom: 1px solid var(--borde); }
+.pregunta summary { cursor: pointer; list-style: none; padding: 20px 36px 20px 0; position: relative; font-size: 18px; }
+.pregunta summary::-webkit-details-marker { display: none; }
+.pregunta summary::after { content: "+"; position: absolute; right: 4px; top: 18px; color: var(--acento-texto); font-size: 22px; transition: transform .16s; }
+.pregunta[open] summary::after { transform: rotate(45deg); }
+.pregunta summary:hover { color: var(--tinta); }
+.pregunta p { margin: 0 0 22px; color: var(--tinta2); font-weight: 500; font-size: 16px; max-width: 760px; }
+@media (prefers-reduced-motion: reduce) { .pregunta summary::after { transition: none; } }
+.pregunta summary h3 { display: inline; font-size: 18px; font-weight: 600; letter-spacing: -0.01em; }

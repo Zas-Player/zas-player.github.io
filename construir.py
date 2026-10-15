@@ -25,19 +25,19 @@ MEDIDAS = {"abrir_ms": 378, "clip_s": 0.14, "frio_ms": 710}
 PAGINA = {
     "es": {
         "url": SITIO + "/",
-        "titulo": "Zas: reproductor de vídeo gratis para Windows con grabador de pantalla y editor",
-        "descripcion": "Zas es un reproductor de vídeo gratis para Windows 10 y 11 que abre al instante. "
-                       "Recorta vídeos sin perder calidad, graba la pantalla con sonido, edita clips y cópialos al portapapeles. Sin anuncios.",
-        "og_titulo": "Zas · Abre. Recorta. Comparte.",
+        "titulo": "Zas Player: reproductor de vídeo y grabador de pantalla gratis para Windows",
+        "descripcion": "Descarga Zas Player, el reproductor de vídeo gratis para Windows 10 y 11 que abre al instante. "
+                       "Graba la pantalla con sonido, recorta vídeos sin perder calidad y edita clips. Sin anuncios.",
+        "og_titulo": "Zas Player · Abre. Recorta. Comparte.",
         "locale": "es_ES",
         "otra": ("en", SITIO + "/en/", "/en/", "EN", "Read this page in English"),
     },
     "en": {
         "url": SITIO + "/en/",
-        "titulo": "Zas: free video player for Windows with screen recorder and editor",
-        "descripcion": "Zas is a free video player for Windows 10 and 11 that opens instantly. "
-                       "Trim videos without quality loss, record your screen with sound, edit clips and copy them to the clipboard. No ads.",
-        "og_titulo": "Zas · Open. Trim. Share.",
+        "titulo": "Zas Player: free video player and screen recorder for Windows",
+        "descripcion": "Download Zas Player, the free video player for Windows 10 and 11 that opens instantly. "
+                       "Record your screen with sound, trim videos without quality loss and edit clips. No ads.",
+        "og_titulo": "Zas Player · Open. Trim. Share.",
         "locale": "en_US",
         "otra": ("es", SITIO + "/", "/", "ES", "Leer esta página en español"),
     },
@@ -72,7 +72,25 @@ EN = {
     "a-grabar": "Record the screen", "a-repeticion": "Save the replay", "a-panel": "Recording panel",
     "alt-panel": "The Zas recording panel open on the left of the screen: record a region or the screen, instant replay, sound, quality, frames per second and codec",
     "final-titulo": "Open a video. Do much more.", "final-nota": "Free. No ads. Updates itself when you say so.",
+    "faq-ante": "Questions", "faq-titulo": "What people usually ask.",
     "pie-versiones": "Releases", "creditos": "Built on", "y": "and", "stock": "Videos in the screenshots:", "bbb": "Measured with",
+}
+
+PREGUNTAS = {
+    "es": [
+        ("¿Qué es Zas Player?", "Zas (o Zas Player) es un reproductor de vídeo gratis para Windows 10 y 11 que abre al instante. Trae dentro un grabador de pantalla, un recortador de vídeos, un editor de clips y un visor de fotos."),
+        ("¿Cómo descargo Zas?", "Pulsa «Descargar Zas» en esta página: baja el instalador oficial, Zas-Setup.exe, desde GitHub. Lo abres, se instala en segundos y a partir de ahí se actualiza solo cuando tú se lo pides."),
+        ("¿Zas sirve para grabar la pantalla?", "Sí. Pulsa Win+Shift+R, arrastra una zona y graba con el sonido del sistema y el micrófono que elijas, hasta 120 fps y codificado por la tarjeta gráfica. La repetición instantánea guarda los últimos segundos con Win+Shift+G, y Alt+Z abre el panel de grabación."),
+        ("¿Es gratis? ¿Tiene anuncios?", "Es gratis, sin anuncios y sin crear ninguna cuenta."),
+        ("¿Qué formatos abre?", "Casi cualquier vídeo (MP4, MKV, WebM, MOV, AVI, WMV, TS…) gracias a mpv y FFmpeg, y fotos en JPEG, PNG, WebP, HEIC, AVIF y más."),
+    ],
+    "en": [
+        ("What is Zas Player?", "Zas (or Zas Player) is a free video player for Windows 10 and 11 that opens instantly. It has a screen recorder, a video trimmer, a clip editor and a photo viewer built in."),
+        ("How do I download Zas?", "Click “Download Zas” on this page: it downloads the official installer, Zas-Setup.exe, from GitHub. Open it, it installs in seconds and from then on it updates itself when you say so."),
+        ("Can Zas record my screen?", "Yes. Press Win+Shift+R, drag a region and record with system audio and the microphone of your choice, up to 120 fps and encoded by the graphics card. Instant replay saves the last seconds with Win+Shift+G, and Alt+Z opens the recording panel."),
+        ("Is it free? Does it have ads?", "It’s free, with no ads and no account to create."),
+        ("What formats does it open?", "Almost any video (MP4, MKV, WebM, MOV, AVI, WMV, TS…) thanks to mpv and FFmpeg, and photos in JPEG, PNG, WebP, HEIC, AVIF and more."),
+    ],
 }
 
 METODO = {
@@ -124,7 +142,8 @@ def cabeza(lang, version):
     datos = {
         "@context": "https://schema.org",
         "@type": "SoftwareApplication",
-        "name": "Zas",
+        "name": "Zas Player",
+        "alternateName": ["Zas", "Zas video player", "Zas screen recorder", "Zas Player for Windows"],
         "url": p["url"],
         "description": p["descripcion"],
         "applicationCategory": "MultimediaApplication",
@@ -143,6 +162,9 @@ def cabeza(lang, version):
     }
     if version:
         datos["softwareVersion"] = version
+    sitio = {"@context": "https://schema.org", "@type": "WebSite", "name": "Zas Player", "alternateName": "Zas", "url": SITIO + "/", "inLanguage": lang}
+    faq = {"@context": "https://schema.org", "@type": "FAQPage", "inLanguage": lang,
+           "mainEntity": [{"@type": "Question", "name": q, "acceptedAnswer": {"@type": "Answer", "text": r}} for q, r in PREGUNTAS[lang]]}
     alternas = "\n".join([
         f'<link rel="alternate" hreflang="es" href="{SITIO}/">',
         f'<link rel="alternate" hreflang="en" href="{SITIO}/en/">',
@@ -170,7 +192,7 @@ def cabeza(lang, version):
 <link rel="icon" href="/icono-48.png" sizes="48x48" type="image/png">
 <link rel="apple-touch-icon" href="/img/icono-180.png">
 <meta property="og:type" content="website">
-<meta property="og:site_name" content="Zas">
+<meta property="og:site_name" content="Zas Player">
 <meta property="og:url" content="{p['url']}">
 <meta property="og:title" content="{e(p['og_titulo'])}">
 <meta property="og:description" content="{e(p['descripcion'])}">
@@ -183,7 +205,9 @@ def cabeza(lang, version):
 <meta name="twitter:title" content="{e(p['og_titulo'])}">
 <meta name="twitter:description" content="{e(p['descripcion'])}">
 <meta name="twitter:image" content="{SITIO}/img/og.jpg">
-<script type="application/ld+json">{json.dumps(datos, ensure_ascii=False)}</script>"""
+<script type="application/ld+json">{json.dumps(datos, ensure_ascii=False)}</script>
+<script type="application/ld+json">{json.dumps(sitio, ensure_ascii=False)}</script>
+<script type="application/ld+json">{json.dumps(faq, ensure_ascii=False)}</script>"""
 
 
 def pagina(plantilla, lang, version):
@@ -210,6 +234,8 @@ def pagina(plantilla, lang, version):
         "{{OTRA_URL}}": otra[2], "{{OTRA_LANG}}": otra[0], "{{OTRA_CORTO}}": otra[3], "{{OTRA_ETIQUETA}}": otra[4],
         "{{VERSION_TEXTO}}": vt, "{{C1}}": numero(MEDIDAS["abrir_ms"], 0, lang), "{{C2}}": numero(MEDIDAS["clip_s"], 2, lang),
         "{{C3}}": numero(MEDIDAS["frio_ms"], 0, lang), "{{METODO}}": METODO[lang],
+        "{{PREGUNTAS}}": "\n".join(f'        <details class="pregunta"><summary><h3>{html.escape(q)}</h3></summary><p>{html.escape(r)}</p></details>'
+                                   for q, r in PREGUNTAS[lang]),
     }.items():
         s = s.replace(k, v)
     assert "{{" not in s, re.findall(r"\{\{\w+\}\}", s)
