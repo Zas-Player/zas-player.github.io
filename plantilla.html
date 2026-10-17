@@ -8,7 +8,7 @@
 <link rel="stylesheet" href="/estilo.css">
 </head>
 <body>
-<a class="saltar" href="#principal" data-i="saltar">Ir al contenido</a>
+<a class="saltar" href="#main" data-i="saltar">Ir al contenido</a>
 
 <header class="cabecera">
   <div class="ancho fila">
@@ -17,8 +17,8 @@
       <span>Zas</span>
     </a>
     <nav aria-label="Principal" class="nav">
-      <a href="#rendimiento" class="enlace solo-ancho" data-i="nav-rendimiento">Rendimiento</a>
-      <a href="#funciones" class="enlace solo-ancho" data-i="nav-funciones">Funciones</a>
+      <a href="#performance" class="enlace solo-ancho" data-i="nav-rendimiento">Rendimiento</a>
+      <a href="#features" class="enlace solo-ancho" data-i="nav-funciones">Funciones</a>
       <a href="https://github.com/Zas-Player/zas-releases" class="enlace solo-ancho">GitHub</a>
       {{SELECTOR}}
       <a class="boton boton-peq" href="https://github.com/Zas-Player/zas-releases/releases/latest/download/Zas-Setup.exe" data-i="descargar-corto">Descargar</a>
@@ -26,7 +26,7 @@
   </div>
 </header>
 
-<main id="principal">
+<main id="main">
 
   <!-- Portada -->
   <section class="portada">
@@ -54,10 +54,10 @@
   </section>
 
   <!-- Rendimiento -->
-  <section class="rendimiento" id="rendimiento" aria-labelledby="t-rendimiento">
+  <section class="rendimiento" id="performance" aria-labelledby="t-performance">
     <div class="ancho">
       <p class="antetitulo" data-i="rend-ante">Rendimiento medido</p>
-      <h2 id="t-rendimiento" data-i="rend-titulo">La velocidad se mide.</h2>
+      <h2 id="t-performance" data-i="rend-titulo">La velocidad se mide.</h2>
       <dl class="cifras">
         <div class="cifra">
           <dt data-i="cifra1-nombre">Para abrir un vídeo</dt>
@@ -77,16 +77,16 @@
       </dl>
       <details class="metodo">
         <summary data-i="metodo-titulo">Cómo lo medimos</summary>
-        <div id="metodo" class="metodo-texto">{{METODO}}</div>
+        <div id="method" class="metodo-texto">{{METODO}}</div>
       </details>
     </div>
   </section>
 
   <!-- Así de rápido -->
-  <section class="pasos" aria-labelledby="t-pasos">
+  <section class="pasos" aria-labelledby="t-steps">
     <div class="ancho">
       <p class="antetitulo" data-i="pasos-ante">Un clip en segundos</p>
-      <h2 id="t-pasos" data-i="pasos-titulo">Del vídeo al chat en tres teclas.</h2>
+      <h2 id="t-steps" data-i="pasos-titulo">Del vídeo al chat en tres teclas.</h2>
       <ol class="secuencia">
         <li>
           <figure>
@@ -120,10 +120,10 @@
   </section>
 
   <!-- Comparativa -->
-  <section class="compara" id="comparativa" aria-labelledby="t-compara">
+  <section class="compara" id="comparison" aria-labelledby="t-comparison">
     <div class="ancho">
       <p class="antetitulo" data-i="comp-ante">Zas frente a los demás</p>
-      <h2 id="t-compara" data-i="comp-titulo">La alternativa a ShadowPlay, OBS y Medal.</h2>
+      <h2 id="t-comparison" data-i="comp-titulo">La alternativa a ShadowPlay, OBS y Medal.</h2>
       <p class="sub-compara" data-i="comp-sub">Graba como ShadowPlay en cualquier gráfica, sin configurar nada como en OBS y edita el clip sin subirlo a ninguna nube. Todo en un programa que además es tu reproductor.</p>
 {{COMPARA}}
       <p class="nota-compara" data-i="comp-nota">Según la información pública de cada programa en octubre de 2026. ShadowPlay es la grabación de la NVIDIA App.</p>
@@ -131,10 +131,10 @@
   </section>
 
   <!-- Funciones -->
-  <section class="funciones" id="funciones" aria-labelledby="t-funciones">
+  <section class="funciones" id="features" aria-labelledby="t-features">
     <div class="ancho">
       <p class="antetitulo" data-i="func-ante">Un programa, no tres</p>
-      <h2 id="t-funciones" data-i="func-titulo">Todo lo que haces con tus vídeos.</h2>
+      <h2 id="t-features" data-i="func-titulo">Todo lo que haces con tus vídeos.</h2>
     </div>
 
     <article class="bloque ancho">
@@ -178,10 +178,10 @@
   </section>
 
   <!-- Preguntas -->
-  <section class="preguntas" id="preguntas" aria-labelledby="t-preguntas">
+  <section class="preguntas" id="faq" aria-labelledby="t-faq">
     <div class="ancho">
       <p class="antetitulo" data-i="faq-ante">Preguntas</p>
-      <h2 id="t-preguntas" data-i="faq-titulo">Lo que suele preguntarse.</h2>
+      <h2 id="t-faq" data-i="faq-titulo">Lo que suele preguntarse.</h2>
       <div class="lista-preguntas">
 {{PREGUNTAS}}
       </div>
