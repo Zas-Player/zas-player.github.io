@@ -82,21 +82,16 @@ def tabla_compara(lang):
 
 
 def redireccion():
-    """El idioma del navegador, antes de pintar nada: lo elegido en el selector manda; los
-    buscadores no se redirigen (cada idioma se indexa en su página, con hreflang)."""
+    """Inglés por defecto: solo se redirige a lo elegido en el selector (guardado en el
+    navegador), nunca por el idioma del navegador; los buscadores no se redirigen (cada
+    idioma se indexa en su página, con hreflang)."""
     rutas = {l["codigo"]: ruta(l["codigo"]) for l in IDIOMAS}
     return (
         "<script>(function(){try{"
         "if(/bot|crawl|spider|slurp|mediapartners|lighthouse|preview|facebookexternalhit|embedly/i.test(navigator.userAgent))return;"
         "var R=" + json.dumps(rutas, separators=(",", ":")) + ";"
-        "function zas(n){n=(n||'').toLowerCase();if(!n)return null;"
-        "if(n.indexOf('pt')==0)return n.indexOf('pt-pt')==0?'pt-PT':'pt-BR';"
-        "if(n.indexOf('zh')==0)return /hant|-tw|-hk|-mo/.test(n)?'zh-TW':'zh-CN';"
-        "if(/^(sr|bs)/.test(n))return 'sr-Latn';if(/^(nb|nn|no)/.test(n))return 'nb';"
-        "for(var c in R){var l=c.toLowerCase();if(n==l||n.indexOf(l+'-')==0)return c;}"
-        "var d=n.split('-')[0];return R[d]?d:null;}"
         "var e=null;try{e=localStorage.getItem('zas-idioma')}catch(_){}"
-        "var q=(e&&R[e])?e:(zas((navigator.languages&&navigator.languages[0])||navigator.language)||'en');"
+        "if(!(e&&R[e]))return;var q=e;"
         "var aqui=document.documentElement.getAttribute('data-codigo');"
         "if(R[q]&&q!==aqui)location.replace(R[q]+location.hash);"
         "}catch(_){}})();</script>\n"
