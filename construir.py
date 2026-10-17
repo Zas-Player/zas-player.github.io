@@ -119,7 +119,7 @@ def cabeza(lang, version):
         "downloadUrl": DESCARGA,
         "installUrl": DESCARGA,
         "image": SITIO + "/img/og.jpg",
-        "screenshot": [SITIO + "/img/panel-1600.webp", SITIO + "/img/reproductor-1600.webp", SITIO + "/img/editor-1600.webp"],
+        "screenshot": [SITIO + "/img/panel-1600.webp", SITIO + "/img/player-1600.webp", SITIO + "/img/editor-1600.webp"],
         "inLanguage": [l["codigo"] for l in IDIOMAS],
         "offers": {"@type": "Offer", "price": "0", "priceCurrency": "EUR"},
         "featureList": t["jsonld-funciones"],
@@ -139,9 +139,9 @@ def cabeza(lang, version):
 <meta name="robots" content="index, follow, max-image-preview:large">
 <link rel="canonical" href="{url(lang)}">
 {alternas}
-<link rel="icon" href="/icono.svg" type="image/svg+xml">
-<link rel="icon" href="/icono-48.png" sizes="48x48" type="image/png">
-<link rel="apple-touch-icon" href="/img/icono-180.png">
+<link rel="icon" href="/icon.svg" type="image/svg+xml">
+<link rel="icon" href="/icon-48.png" sizes="48x48" type="image/png">
+<link rel="apple-touch-icon" href="/img/icon-180.png">
 <meta property="og:type" content="website">
 <meta property="og:site_name" content="Zas Player">
 <meta property="og:url" content="{url(lang)}">
@@ -197,7 +197,7 @@ def pagina(plantilla, lang, version):
         "{{METODO}}": t["metodo"], "{{COMPARA}}": tabla_compara(lang), "{{PREGUNTAS}}": preguntas,
     }.items():
         s = s.replace(k, v)
-    for f in ("estilo.css", "zas.js"):
+    for f in ("style.css", "zas.js"):
         huella = hashlib.sha1((AQUI / f).read_bytes()).hexdigest()[:10]
         s = s.replace(f'"/{f}"', f'"/{f}?v={huella}"')
     assert "{{" not in s, re.findall(r"\{\{\w+\}\}", s)
