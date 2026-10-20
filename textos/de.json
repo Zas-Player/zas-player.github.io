@@ -173,5 +173,13 @@
   "Videos ohne Neucodierung schneiden",
   "Videoplayer",
   "Bildbetrachter"
- ]
+ ],
+ "ver-titulo": "Zas-Versionen",
+ "ver-sub": "Was in jeder Version neu ist. Zas aktualisiert sich selbst; hier kannst du jede herunterladen.",
+ "ver-ultima": "Neueste",
+ "ver-instalador": "Installer",
+ "ver-portable": "Portabel (.zip)",
+ "ver-meta-titulo": "Zas Player-Versionen: Neuerungen und Downloads",
+ "ver-meta-descripcion": "Alle Versionen von Zas Player für Windows, mit den Neuerungen und dem Download.",
+ "ver-error": "Die Liste konnte nicht geladen werden. Sieh sie dir auf GitHub an."
 }

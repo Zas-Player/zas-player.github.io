@@ -173,5 +173,13 @@
   "Cắt video không cần mã hóa lại",
   "Trình phát video",
   "Trình xem ảnh"
- ]
+ ],
+ "ver-titulo": "Các phiên bản Zas",
+ "ver-sub": "Điểm mới trong từng phiên bản. Zas tự cập nhật; bạn có thể tải bất kỳ phiên bản nào tại đây.",
+ "ver-ultima": "Mới nhất",
+ "ver-instalador": "Trình cài đặt",
+ "ver-portable": "Di động (.zip)",
+ "ver-meta-titulo": "Các phiên bản Zas Player: điểm mới và tải xuống",
+ "ver-meta-descripcion": "Mọi phiên bản Zas Player cho Windows, kèm điểm mới và bản tải xuống.",
+ "ver-error": "Không tải được danh sách. Xem trên GitHub."
 }

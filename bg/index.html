@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<script>(function(){try{if(/bot|crawl|spider|slurp|mediapartners|lighthouse|preview|facebookexternalhit|embedly/i.test(navigator.userAgent))return;var R={"es":"/es/","en":"/","pt-BR":"/pt-br/","pt-PT":"/pt-pt/","fr":"/fr/","de":"/de/","it":"/it/","nl":"/nl/","ca":"/ca/","gl":"/gl/","eu":"/eu/","pl":"/pl/","cs":"/cs/","sk":"/sk/","hu":"/hu/","ro":"/ro/","bg":"/bg/","hr":"/hr/","sr-Latn":"/sr-latn/","sl":"/sl/","ru":"/ru/","uk":"/uk/","sv":"/sv/","da":"/da/","nb":"/nb/","fi":"/fi/","et":"/et/","lv":"/lv/","lt":"/lt/","el":"/el/","tr":"/tr/","ja":"/ja/","ko":"/ko/","zh-CN":"/zh-cn/","zh-TW":"/zh-tw/","th":"/th/","vi":"/vi/","id":"/id/","hi":"/hi/"};function zas(n){n=(n||'').toLowerCase();if(!n)return null;if(n.indexOf('pt')==0)return n.indexOf('pt-pt')==0?'pt-PT':'pt-BR';if(n.indexOf('zh')==0)return /hant|-tw|-hk|-mo/.test(n)?'zh-TW':'zh-CN';if(/^(sr|bs)/.test(n))return 'sr-Latn';if(/^(nb|nn|no)/.test(n))return 'nb';for(var c in R){var l=c.toLowerCase();if(n==l||n.indexOf(l+'-')==0)return c;}var d=n.split('-')[0];return R[d]?d:null;}var e=null;try{e=localStorage.getItem('zas-idioma')}catch(_){}var q=(e&&R[e])?e:(zas((navigator.languages&&navigator.languages[0])||navigator.language)||'en');var aqui=document.documentElement.getAttribute('data-codigo');if(R[q]&&q!==aqui)location.replace(R[q]+location.hash);}catch(_){}})();</script>
+<script>(function(){try{if(/bot|crawl|spider|slurp|mediapartners|lighthouse|preview|facebookexternalhit|embedly/i.test(navigator.userAgent))return;var R={"es":"/es/","en":"/","pt-BR":"/pt-br/","pt-PT":"/pt-pt/","fr":"/fr/","de":"/de/","it":"/it/","nl":"/nl/","ca":"/ca/","gl":"/gl/","eu":"/eu/","pl":"/pl/","cs":"/cs/","sk":"/sk/","hu":"/hu/","ro":"/ro/","bg":"/bg/","hr":"/hr/","sr-Latn":"/sr-latn/","sl":"/sl/","ru":"/ru/","uk":"/uk/","sv":"/sv/","da":"/da/","nb":"/nb/","fi":"/fi/","et":"/et/","lv":"/lv/","lt":"/lt/","el":"/el/","tr":"/tr/","ja":"/ja/","ko":"/ko/","zh-CN":"/zh-cn/","zh-TW":"/zh-tw/","th":"/th/","vi":"/vi/","id":"/id/","hi":"/hi/"};function zas(n){n=(n||'').toLowerCase();if(!n)return null;if(n.indexOf('pt')==0)return n.indexOf('pt-pt')==0?'pt-PT':'pt-BR';if(n.indexOf('zh')==0)return /hant|-tw|-hk|-mo/.test(n)?'zh-TW':'zh-CN';if(/^(sr|bs)/.test(n))return 'sr-Latn';if(/^(nb|nn|no)/.test(n))return 'nb';for(var c in R){var l=c.toLowerCase();if(n==l||n.indexOf(l+'-')==0)return c;}var d=n.split('-')[0];return R[d]?d:null;}var e=null;try{e=localStorage.getItem('zas-idioma')}catch(_){}var q=(e&&R[e])?e:(zas((navigator.languages&&navigator.languages[0])||navigator.language)||'en');var aqui=document.documentElement.getAttribute('data-codigo');if(R[q]&&q!==aqui)location.replace(R[q]+""+location.hash);}catch(_){}})();</script>
 <title>Zas: безплатна програма за запис на екрана за Windows, алтернатива на ShadowPlay, OBS и Medal</title>
 <meta name="description" content="Zas Player е безплатна програма за запис на екрана и клипове за Windows: моментален повтор без загуба на FPS, вграден редактор на клипове и клипове, копирани в клипборда, готови за Discord. Плюс мигновен видеоплейър. Без реклами и без акаунт.">
 <meta name="theme-color" content="#141518">
@@ -107,7 +107,7 @@
 <script type="application/ld+json">{"@context": "https://schema.org", "@type": "WebSite", "name": "Zas Player", "alternateName": "Zas", "url": "https://zas-player.github.io/", "inLanguage": "bg"}</script>
 <script type="application/ld+json">{"@context": "https://schema.org", "@type": "FAQPage", "inLanguage": "bg", "mainEntity": [{"@type": "Question", "name": "Добра алтернатива ли е Zas на ShadowPlay, OBS или Medal?", "acceptedAnswer": {"@type": "Answer", "text": "Да, ако искате да записвате екрана си или да запазвате моменти от игри и бързо да ги споделяте. Подобно на ShadowPlay, записва с видеокартата и има моментален повтор, но работи с NVIDIA, AMD и Intel. За разлика от OBS, няма нищо за настройване. А подобно на Medal, има редактор на клипове, но всичко остава на вашия компютър: без акаунт, без облак и без реклами. Ако ви трябва стрийминг на живо, OBS остава правилният инструмент; Zas не стриймва."}}, {"@type": "Question", "name": "Намалява ли записът със Zas моите FPS?", "acceptedAnswer": {"@type": "Answer", "text": "В нашия тест — не. Fortnite при 1440p вървеше с 61–69 FPS без запис и с 68–70, докато Zas записваше с видеокартата (измерено с PresentMon на RTX 2060). Zas кодира на видеокартата (NVENC, AMF или Quick Sync), така че процесорът почти не работи: 18% от едно ядро."}}, {"@type": "Question", "name": "Как да споделя клип в Discord?", "acceptedAnswer": {"@type": "Answer", "text": "Запазете момента с Win+Shift+G (моментален повтор) или маркирайте част с I и O и натиснете Ctrl+E. Клипът се копира в клипборда: в Discord натиснете Ctrl+V. Имайте предвид, че Discord позволява файлове до 20 MB при безплатните акаунти."}}, {"@type": "Question", "name": "Какво е Zas Player?", "acceptedAnswer": {"@type": "Answer", "text": "Zas (или Zas Player) е безплатна програма за запис на екрана, редактор на клипове и видеоплейър за Windows 10 и 11. Отваря видеоклипове мигновено и има вграден инструмент за изрязване и преглед на снимки."}}, {"@type": "Question", "name": "Как да изтегля Zas?", "acceptedAnswer": {"@type": "Answer", "text": "Щракнете върху „Изтеглете Zas“ на тази страница: ще се изтегли официалният инсталатор Zas-Setup.exe от GitHub. Отворете го, инсталира се за секунди и оттам нататък се обновява сам, когато вие разрешите."}}, {"@type": "Question", "name": "Безплатен ли е? Има ли реклами?", "acceptedAnswer": {"@type": "Answer", "text": "Безплатен е, без реклами и без нужда от създаване на акаунт."}}, {"@type": "Question", "name": "Какви формати отваря?", "acceptedAnswer": {"@type": "Answer", "text": "Почти всяко видео (MP4, MKV, WebM, MOV, AVI, WMV, TS…) благодарение на mpv и FFmpeg, както и снимки в JPEG, PNG, WebP, HEIC, AVIF и други."}}]}</script>
 <link rel="preload" as="image" href="/img/panel-1600.webp" imagesrcset="/img/panel-960.webp 960w, /img/panel-1600.webp 1600w, /img/panel-2400.webp 2400w" imagesizes="(max-width: 1180px) 100vw, 1140px">
-<link rel="stylesheet" href="/style.css?v=c3f229c6f1">
+<link rel="stylesheet" href="/style.css?v=2b3d658cee">
 </head>
 <body>
 <a class="saltar" href="#main">Към съдържанието</a>
@@ -140,7 +140,7 @@
           <svg aria-hidden="true" viewBox="0 0 24 24"><path d="M12 4v11M7 10l5 5 5-5M5 20h14"/></svg>
           <span>Изтеглете Zas</span>
         </a>
-        <a class="enlace-flecha" href="https://github.com/Zas-Player/zas-releases/releases">Вижте версиите</a>
+        <a class="enlace-flecha" href="/bg/releases/">Вижте версиите</a>
       </div>
       <p class="nota"><span>Безплатно · Windows 10 и 11 · Без реклами</span><span id="version"> · версия 1.21.28</span></p>
     </div>
@@ -329,12 +329,12 @@
     <span class="marca-pie"><img src="/icon.svg" alt="" width="18" height="18"> Zas Player</span>
     <nav aria-label="Pie" class="nav-pie">
       <a href="https://github.com/Zas-Player/zas-releases">GitHub</a>
-      <a href="https://github.com/Zas-Player/zas-releases/releases">Версии</a>
+      <a href="/bg/releases/">Версии</a>
     </nav>
     <p class="creditos"><span>Изграден върху</span> <a href="https://mpv.io">mpv</a> <span>и</span> <a href="https://ffmpeg.org">FFmpeg</a>. <span>Видеоклипове в екранните снимки:</span> <a href="https://mixkit.co">Mixkit</a>. <span>Измерено с</span> <a href="https://peach.blender.org">Big Buck Bunny</a>, © Blender Foundation, CC BY 3.0.</p>
   </div>
 </footer>
 
-<script src="/zas.js?v=6942da1ab9" defer></script>
+<script src="/zas.js?v=0a7b6e97bb" defer></script>
 </body>
 </html>

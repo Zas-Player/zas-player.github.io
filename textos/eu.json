@@ -173,5 +173,13 @@
   "Bideoak moztea berriro kodetu gabe",
   "Bideo-erreproduzitzailea",
   "Irudi-ikustailea"
- ]
+ ],
+ "ver-titulo": "Zas-en bertsioak",
+ "ver-sub": "Bertsio bakoitzaren berritasunak. Zas bere kabuz eguneratzen da; hemen edozein deskarga dezakezu.",
+ "ver-ultima": "Azkena",
+ "ver-instalador": "Instalatzailea",
+ "ver-portable": "Eramangarria (.zip)",
+ "ver-meta-titulo": "Zas Player-en bertsioak: berritasunak eta deskargak",
+ "ver-meta-descripcion": "Windowserako Zas Player-en bertsio guztiak, bakoitzaren berritasunekin eta deskargarekin.",
+ "ver-error": "Ezin izan da zerrenda kargatu. Ikusi GitHub-en."
 }

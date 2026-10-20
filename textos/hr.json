@@ -173,5 +173,13 @@
   "Rezanje videozapisa bez ponovnog kodiranja",
   "Video player",
   "Preglednik slika"
- ]
+ ],
+ "ver-titulo": "Verzije Zasa",
+ "ver-sub": "Novosti u svakoj verziji. Zas se sam ažurira; ovdje možete preuzeti bilo koju.",
+ "ver-ultima": "Najnovija",
+ "ver-instalador": "Instalacijski program",
+ "ver-portable": "Prijenosna (.zip)",
+ "ver-meta-titulo": "Verzije Zas Playera: novosti i preuzimanja",
+ "ver-meta-descripcion": "Sve verzije Zas Playera za Windows, s novostima i preuzimanjem svake.",
+ "ver-error": "Popis se nije mogao učitati. Pogledajte ih na GitHubu."
 }

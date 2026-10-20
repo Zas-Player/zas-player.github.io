@@ -173,5 +173,13 @@
   "Recortar vídeos sen recodificar",
   "Reprodutor de vídeo",
   "Visor de imaxes"
- ]
+ ],
+ "ver-titulo": "Versións de Zas",
+ "ver-sub": "O novo de cada versión. Zas actualízase só; aquí podes descargar calquera.",
+ "ver-ultima": "Última",
+ "ver-instalador": "Instalador",
+ "ver-portable": "Portátil (.zip)",
+ "ver-meta-titulo": "Versións de Zas Player: novidades e descargas",
+ "ver-meta-descripcion": "Todas as versións de Zas Player para Windows, co novo de cada unha e a súa descarga.",
+ "ver-error": "Non se puido cargar a lista. Mira-as en GitHub."
 }

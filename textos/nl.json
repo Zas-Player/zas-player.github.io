@@ -173,5 +173,13 @@
   "Video's knippen zonder hercodering",
   "Videospeler",
   "Afbeeldingsviewer"
- ]
+ ],
+ "ver-titulo": "Zas-versies",
+ "ver-sub": "Wat er nieuw is in elke versie. Zas werkt zichzelf bij; hier kun je elke versie downloaden.",
+ "ver-ultima": "Nieuwste",
+ "ver-instalador": "Installatieprogramma",
+ "ver-portable": "Draagbaar (.zip)",
+ "ver-meta-titulo": "Zas Player-versies: nieuw en downloads",
+ "ver-meta-descripcion": "Alle versies van Zas Player voor Windows, met wat er nieuw is en de download.",
+ "ver-error": "De lijst kon niet worden geladen. Bekijk ze op GitHub."
 }

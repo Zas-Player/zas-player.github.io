@@ -173,5 +173,13 @@
   "Videote lõikamine ilma ümberkodeerimiseta",
   "Videopleier",
   "Pildivaatur"
- ]
+ ],
+ "ver-titulo": "Zasi versioonid",
+ "ver-sub": "Mis on igas versioonis uut. Zas uueneb ise; siit saad alla laadida ükskõik millise.",
+ "ver-ultima": "Uusim",
+ "ver-instalador": "Paigaldaja",
+ "ver-portable": "Kaasaskantav (.zip)",
+ "ver-meta-titulo": "Zas Playeri versioonid: uudised ja allalaadimised",
+ "ver-meta-descripcion": "Kõik Zas Playeri versioonid Windowsile, iga uudiste ja allalaadimisega.",
+ "ver-error": "Loendit ei õnnestunud laadida. Vaata neid GitHubis."
 }

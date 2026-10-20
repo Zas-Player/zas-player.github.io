@@ -173,5 +173,13 @@
   "Découpe de vidéos sans réencodage",
   "Lecteur vidéo",
   "Visionneuse d’images"
- ]
+ ],
+ "ver-titulo": "Versions de Zas",
+ "ver-sub": "Les nouveautés de chaque version. Zas se met à jour tout seul ; vous pouvez télécharger n’importe laquelle ici.",
+ "ver-ultima": "Dernière",
+ "ver-instalador": "Programme d’installation",
+ "ver-portable": "Portable (.zip)",
+ "ver-meta-titulo": "Versions de Zas Player : nouveautés et téléchargements",
+ "ver-meta-descripcion": "Toutes les versions de Zas Player pour Windows, avec leurs nouveautés et leur téléchargement.",
+ "ver-error": "Impossible de charger la liste. Consultez-les sur GitHub."
 }

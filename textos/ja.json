@@ -173,5 +173,13 @@
   "再エンコードなしで動画をトリミング",
   "動画プレーヤー",
   "画像ビューアー"
- ]
+ ],
+ "ver-titulo": "Zas のバージョン",
+ "ver-sub": "各バージョンの新機能。Zas は自動で更新されます。ここからどのバージョンでもダウンロードできます。",
+ "ver-ultima": "最新",
+ "ver-instalador": "インストーラー",
+ "ver-portable": "ポータブル (.zip)",
+ "ver-meta-titulo": "Zas Player のバージョン：新機能とダウンロード",
+ "ver-meta-descripcion": "Windows 版 Zas Player の全バージョンと、それぞれの新機能・ダウンロード。",
+ "ver-error": "一覧を読み込めませんでした。GitHub でご覧ください。"
 }

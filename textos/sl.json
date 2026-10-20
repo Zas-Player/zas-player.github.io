@@ -173,5 +173,13 @@
   "Obrezovanje videov brez ponovnega kodiranja",
   "Predvajalnik videa",
   "Pregledovalnik slik"
- ]
+ ],
+ "ver-titulo": "Različice Zas",
+ "ver-sub": "Novosti v vsaki različici. Zas se posodablja sam; tukaj lahko prenesete katero koli.",
+ "ver-ultima": "Najnovejša",
+ "ver-instalador": "Namestitveni program",
+ "ver-portable": "Prenosna (.zip)",
+ "ver-meta-titulo": "Različice Zas Player: novosti in prenosi",
+ "ver-meta-descripcion": "Vse različice Zas Player za Windows z novostmi in prenosom vsake.",
+ "ver-error": "Seznama ni bilo mogoče naložiti. Oglejte si jih na GitHubu."
 }

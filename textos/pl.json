@@ -173,5 +173,13 @@
   "Przycinanie wideo bez ponownego kodowania",
   "Odtwarzacz wideo",
   "Przeglądarka obrazów"
- ]
+ ],
+ "ver-titulo": "Wersje Zas",
+ "ver-sub": "Co nowego w każdej wersji. Zas aktualizuje się sam; tutaj możesz pobrać dowolną.",
+ "ver-ultima": "Najnowsza",
+ "ver-instalador": "Instalator",
+ "ver-portable": "Przenośna (.zip)",
+ "ver-meta-titulo": "Wersje Zas Player: nowości i pobieranie",
+ "ver-meta-descripcion": "Wszystkie wersje Zas Player dla Windows, z nowościami i plikami do pobrania.",
+ "ver-error": "Nie udało się wczytać listy. Zobacz je na GitHubie."
 }

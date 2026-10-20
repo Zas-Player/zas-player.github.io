@@ -173,5 +173,13 @@
   "Taglio dei video senza ricodifica",
   "Lettore video",
   "Visualizzatore di immagini"
- ]
+ ],
+ "ver-titulo": "Versioni di Zas",
+ "ver-sub": "Le novità di ogni versione. Zas si aggiorna da solo; qui puoi scaricarne una qualsiasi.",
+ "ver-ultima": "Ultima",
+ "ver-instalador": "Programma di installazione",
+ "ver-portable": "Portatile (.zip)",
+ "ver-meta-titulo": "Versioni di Zas Player: novità e download",
+ "ver-meta-descripcion": "Tutte le versioni di Zas Player per Windows, con le novità e il download di ciascuna.",
+ "ver-error": "Impossibile caricare l’elenco. Guardale su GitHub."
 }

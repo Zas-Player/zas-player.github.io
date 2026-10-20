@@ -173,5 +173,13 @@
   "Yeniden kodlamadan video kırpma",
   "Video oynatıcı",
   "Resim görüntüleyici"
- ]
+ ],
+ "ver-titulo": "Zas sürümleri",
+ "ver-sub": "Her sürümdeki yenilikler. Zas kendini günceller; buradan istediğin sürümü indirebilirsin.",
+ "ver-ultima": "En yeni",
+ "ver-instalador": "Yükleyici",
+ "ver-portable": "Taşınabilir (.zip)",
+ "ver-meta-titulo": "Zas Player sürümleri: yenilikler ve indirmeler",
+ "ver-meta-descripcion": "Windows için tüm Zas Player sürümleri, her birinin yenilikleri ve indirmesiyle.",
+ "ver-error": "Liste yüklenemedi. GitHub’da bak."
 }

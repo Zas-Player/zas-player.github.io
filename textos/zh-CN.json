@@ -173,5 +173,13 @@
   "无需重新编码即可裁剪视频",
   "视频播放器",
   "图片查看器"
- ]
+ ],
+ "ver-titulo": "Zas 版本",
+ "ver-sub": "每个版本的新内容。Zas 会自动更新；你也可以在这里下载任意版本。",
+ "ver-ultima": "最新",
+ "ver-instalador": "安装程序",
+ "ver-portable": "便携版 (.zip)",
+ "ver-meta-titulo": "Zas Player 版本：更新内容与下载",
+ "ver-meta-descripcion": "Windows 版 Zas Player 的所有版本，附每个版本的新内容和下载。",
+ "ver-error": "无法加载列表。请在 GitHub 上查看。"
 }

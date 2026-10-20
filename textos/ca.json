@@ -173,5 +173,13 @@
   "Retalla vídeos sense tornar a codificar",
   "Reproductor de vídeo",
   "Visualitzador d'imatges"
- ]
+ ],
+ "ver-titulo": "Versions de Zas",
+ "ver-sub": "El que és nou de cada versió. Zas s’actualitza sol; aquí en pots baixar qualsevol.",
+ "ver-ultima": "Última",
+ "ver-instalador": "Instal·lador",
+ "ver-portable": "Portable (.zip)",
+ "ver-meta-titulo": "Versions de Zas Player: novetats i baixades",
+ "ver-meta-descripcion": "Totes les versions de Zas Player per a Windows, amb el que és nou de cadascuna i la seva baixada.",
+ "ver-error": "No s’ha pogut carregar la llista. Mira-les a GitHub."
 }

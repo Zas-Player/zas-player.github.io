@@ -6,7 +6,9 @@ indexe en su idioma.
 
     python3 construir.py            # la versión publicada la pregunta a GitHub
 
-Inglés en /, castellano en /es/ y el resto en /<código>/ (/fr/, /pt-br/...). Solo se
+Inglés en /, castellano en /es/ y el resto en /<código>/ (/fr/, /pt-br/...); la lista de
+versiones, en <idioma>/releases/ (plantilla-versiones.html: la escrita aquí con las de GitHub y,
+al abrirla, zas.js trae las que hayan salido después). Solo se
 publican los idiomas que tienen su textos/<código>.json. Para cambiar un texto, en su
 textos/<código>.json (el castellano es la referencia). Las cifras, en MEDIDAS.
 """
@@ -54,6 +56,71 @@ def version_publicada():
         return None
 
 
+def versiones_publicadas():
+    """Todas las versiones de zas-releases, de la más nueva a la más vieja (sin borradores)."""
+    todas, pag = [], 1
+    while True:
+        with urllib.request.urlopen(f"https://api.github.com/repos/Zas-Player/zas-releases/releases?per_page=100&page={pag}", timeout=15) as r:
+            lote = json.load(r)
+        todas += [v for v in lote if not v.get("draft")]
+        if len(lote) < 100:
+            return todas
+        pag += 1
+
+
+def notas_html(texto):
+    """Las notas de una versión (Markdown sencillo: listas con -, **negrita** y `código`) en
+    HTML. zas.js hace lo mismo con las que trae al abrir la página: mismo resultado."""
+    def linea(t):
+        t = html.escape(t, quote=False)
+        t = re.sub(r"\*\*(.+?)\*\*", r"<strong>\1</strong>", t)
+        return re.sub(r"`([^`]+)`", r"<code>\1</code>", t)
+    out, lista = [], False
+    for l in (texto or "").replace("\r", "").split("\n"):
+        l = l.strip()
+        m = re.match(r"^[-*] +(.*)", l)
+        if m and not lista:
+            out.append("<ul>")
+            lista = True
+        if not m and lista:
+            out.append("</ul>")
+            lista = False
+        if m:
+            out.append("<li>" + linea(m.group(1)) + "</li>")
+        elif l:
+            out.append("<p>" + linea(re.sub(r"^#+ *", "", l)) + "</p>")
+    if lista:
+        out.append("</ul>")
+    return "".join(out)
+
+
+def mb(n):
+    return f"{n / 1e6:.0f} MB"
+
+
+def versiones_html(lang, versiones):
+    t = TEXTOS[lang]
+    e = html.escape
+    out = []
+    for i, v in enumerate(versiones):
+        num = v["tag_name"].lstrip("v")
+        fecha = (v.get("published_at") or "")[:10]
+        bajadas = ""
+        for a in v.get("assets", []):
+            if a["name"].endswith(".exe"):
+                nombre = t["ver-instalador"]
+            elif a["name"].endswith(".zip"):
+                nombre = t["ver-portable"]
+            else:
+                continue
+            bajadas += f'<a class="bajada" href="{e(a["browser_download_url"])}">{e(nombre)} <span>{mb(a["size"])}</span></a>'
+        ultima = f' <span class="ultima">{e(t["ver-ultima"])}</span>' if i == 0 else ""
+        out.append(f'      <article class="version" id="v{e(num)}"><header><h2>{e(num)}{ultima}</h2>'
+                   f'<time datetime="{e(fecha)}">{e(fecha)}</time></header>'
+                   f'<div class="notas">{notas_html(v.get("body"))}</div><div class="bajadas">{bajadas}</div></article>')
+    return "\n".join(out)
+
+
 def numero(n, dec, lang):
     t = f"{n:.{dec}f}"
     return t.replace(".", ",") if lang == "es" else t
@@ -81,7 +148,7 @@ def tabla_compara(lang):
     return "\n".join(out)
 
 
-def redireccion():
+def redireccion(sufijo=""):
     """El idioma del navegador, antes de pintar nada: lo elegido en el selector manda; los
     buscadores no se redirigen (cada idioma se indexa en su página, con hreflang)."""
     rutas = {l["codigo"]: ruta(l["codigo"]) for l in IDIOMAS}
@@ -98,7 +165,7 @@ def redireccion():
         "var e=null;try{e=localStorage.getItem('zas-idioma')}catch(_){}"
         "var q=(e&&R[e])?e:(zas((navigator.languages&&navigator.languages[0])||navigator.language)||'en');"
         "var aqui=document.documentElement.getAttribute('data-codigo');"
-        "if(R[q]&&q!==aqui)location.replace(R[q]+location.hash);"
+        "if(R[q]&&q!==aqui)location.replace(R[q]+" + json.dumps(sufijo) + "+location.hash);"
         "}catch(_){}})();</script>\n"
     )
 
@@ -161,10 +228,10 @@ def cabeza(lang, version):
 <script type="application/ld+json">{json.dumps(faq, ensure_ascii=False)}</script>"""
 
 
-def selector(lang):
+def selector(lang, sufijo=""):
     e = html.escape
     t = TEXTOS[lang]
-    items = "".join(f'<li><a href="{ruta(l["codigo"])}" hreflang="{l["codigo"]}" lang="{l["codigo"]}" data-codigo="{l["codigo"]}"'
+    items = "".join(f'<li><a href="{ruta(l["codigo"])}{sufijo}" hreflang="{l["codigo"]}" lang="{l["codigo"]}" data-codigo="{l["codigo"]}"'
                     + (' aria-current="true"' if l["codigo"] == lang else "") + f'>{e(l["nombre"])}</a></li>' for l in IDIOMAS)
     corto = lang.split("-")[0].upper()
     return (f'<details class="idiomas"><summary aria-label="{e(t["idioma-etiqueta"])}">'
@@ -192,9 +259,54 @@ def pagina(plantilla, lang, version):
     num = lambda n, dec: (f"{n:.{dec}f}".replace(".", ",") if COMA.get(lang) else f"{n:.{dec}f}")
     for k, v in {
         "{{CABEZA}}": cabeza(lang, version), "{{LANG}}": lang, "{{INICIO}}": ruta(lang), "{{SELECTOR}}": selector(lang),
+        "{{VERSIONES_URL}}": ruta(lang) + "releases/",
         "{{VERSION_TEXTO}}": vt, "{{VERSION_PALABRA}}": html.escape(t["version-palabra"]),
         "{{C1}}": num(MEDIDAS["abrir_ms"], 0), "{{C2}}": num(MEDIDAS["clip_s"], 2), "{{C3}}": str(MEDIDAS["fps_perdidos"]),
         "{{METODO}}": t["metodo"], "{{COMPARA}}": tabla_compara(lang), "{{PREGUNTAS}}": preguntas,
+    }.items():
+        s = s.replace(k, v)
+    for f in ("style.css", "zas.js"):
+        huella = hashlib.sha1((AQUI / f).read_bytes()).hexdigest()[:10]
+        s = s.replace(f'"/{f}"', f'"/{f}?v={huella}"')
+    assert "{{" not in s, re.findall(r"\{\{\w+\}\}", s)
+    return s
+
+
+def textos_html(s, t):
+    def texto(m):
+        k = m.group(3)
+        return m.group(1) + (html.escape(t[k], quote=False) if k in t else m.group(4)) + m.group(5)
+    s = re.sub(r'(<(\w+)\b[^>]*\sdata-i="([^"]+)"[^>]*>)(.*?)(</\2>)', texto, s, flags=re.S)
+    return re.sub(r'\sdata-i(-alt)?="[^"]*"', "", s)
+
+
+def pagina_versiones(plantilla, lang, version, versiones):
+    t = TEXTOS[lang]
+    e = html.escape
+    aqui = url(lang) + "releases/"
+    alternas = "\n".join([f'<link rel="alternate" hreflang="{l["codigo"]}" href="{url(l["codigo"])}releases/">' for l in IDIOMAS] +
+                         [f'<link rel="alternate" hreflang="x-default" href="{SITIO}/releases/">'])
+    cabeza_v = redireccion("releases/") + f"""<title>{e(t['ver-meta-titulo'])}</title>
+<meta name="description" content="{e(t['ver-meta-descripcion'])}">
+<meta name="theme-color" content="#141518">
+<meta name="robots" content="index, follow">
+<link rel="canonical" href="{aqui}">
+{alternas}
+<link rel="icon" href="/icon.svg" type="image/svg+xml">
+<link rel="icon" href="/icon-48.png" sizes="48x48" type="image/png">
+<link rel="apple-touch-icon" href="/img/icon-180.png">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Zas Player">
+<meta property="og:url" content="{aqui}">
+<meta property="og:title" content="{e(t['ver-meta-titulo'])}">
+<meta property="og:description" content="{e(t['ver-meta-descripcion'])}">
+<meta property="og:image" content="{SITIO}/img/og.jpg">"""
+    s = textos_html(plantilla, t)
+    for k, v in {
+        "{{CABEZA}}": cabeza_v, "{{LANG}}": lang, "{{INICIO}}": ruta(lang), "{{SELECTOR}}": selector(lang, "releases/"),
+        "{{VERSIONES_URL}}": ruta(lang) + "releases/", "{{VERSION_PALABRA}}": e(t["version-palabra"]),
+        "{{T_ULTIMA}}": e(t["ver-ultima"]), "{{T_INSTALADOR}}": e(t["ver-instalador"]), "{{T_PORTABLE}}": e(t["ver-portable"]),
+        "{{VERSIONES}}": versiones_html(lang, versiones),
     }.items():
         s = s.replace(k, v)
     for f in ("style.css", "zas.js"):
@@ -221,11 +333,16 @@ REDIRIGE = """<!doctype html>
 
 def main():
     plantilla = (AQUI / "plantilla.html").read_text(encoding="utf-8")
+    plantilla_v = (AQUI / "plantilla-versiones.html").read_text(encoding="utf-8")
     version = version_publicada()
+    versiones = versiones_publicadas()
     for l in IDIOMAS:
         destino = AQUI / ruta(l["codigo"]).strip("/") / "index.html" if l["codigo"] != "en" else AQUI / "index.html"
         destino.parent.mkdir(exist_ok=True)
         destino.write_text(pagina(plantilla, l["codigo"], version), encoding="utf-8")
+        destino_v = destino.parent / "releases" / "index.html"
+        destino_v.parent.mkdir(exist_ok=True)
+        destino_v.write_text(pagina_versiones(plantilla_v, l["codigo"], version, versiones), encoding="utf-8")
     # la dirección de antes del inglés lleva a la de ahora
     (AQUI / "en").mkdir(exist_ok=True)
     (AQUI / "en" / "index.html").write_text(REDIRIGE.format(sitio=SITIO), encoding="utf-8")
@@ -233,6 +350,8 @@ def main():
     alternas = "".join(f'\n    <xhtml:link rel="alternate" hreflang="{l["codigo"]}" href="{url(l["codigo"])}"/>' for l in IDIOMAS)
     alternas += f'\n    <xhtml:link rel="alternate" hreflang="x-default" href="{SITIO}/"/>'
     urls = [f"  <url>\n    <loc>{url(l['codigo'])}</loc>\n    <lastmod>{hoy}</lastmod>{alternas}\n  </url>" for l in IDIOMAS]
+    alternas_v = alternas.replace('/"/>', '/releases/"/>')
+    urls += [f"  <url>\n    <loc>{url(l['codigo'])}releases/</loc>\n    <lastmod>{hoy}</lastmod>{alternas_v}\n  </url>" for l in IDIOMAS]
     (AQUI / "sitemap.xml").write_text('<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">\n'
                                       + "\n".join(urls) + "\n</urlset>\n", encoding="utf-8")
     bots = ["GPTBot", "OAI-SearchBot", "ChatGPT-User", "ClaudeBot", "Claude-User", "Claude-SearchBot", "anthropic-ai",
@@ -241,7 +360,7 @@ def main():
     (AQUI / "robots.txt").write_text(robots, encoding="utf-8")
     (AQUI / "llms.txt").write_text(llms(version, completo=False), encoding="utf-8")
     (AQUI / "llms-full.txt").write_text(llms(version, completo=True), encoding="utf-8")
-    print(f"hecho: {len(IDIOMAS)} idiomas; versión {version}")
+    print(f"hecho: {len(IDIOMAS)} idiomas; versión {version}; {len(versiones)} versiones en releases/")
 
 
 def llms(version, completo):
@@ -287,7 +406,7 @@ Based on each product's public information as of October 2026.
 
 - [Website](https://zas-player.github.io/): screenshots, comparison and measured performance
 - [Download Zas-Setup.exe](https://github.com/Zas-Player/zas-releases/releases/latest/download/Zas-Setup.exe): official installer, always the latest version
-- [Releases and changelog](https://github.com/Zas-Player/zas-releases/releases)
+- [Releases and changelog](https://zas-player.github.io/releases/)
 - [Website in Spanish / web en español](https://zas-player.github.io/es/)
 - [Full details for LLMs](https://zas-player.github.io/llms-full.txt)
 

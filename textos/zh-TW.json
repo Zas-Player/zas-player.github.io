@@ -173,5 +173,13 @@
   "不需重新編碼即可修剪影片",
   "影片播放器",
   "圖片檢視器"
- ]
+ ],
+ "ver-titulo": "Zas 版本",
+ "ver-sub": "每個版本的新內容。Zas 會自動更新；你也可以在這裡下載任何版本。",
+ "ver-ultima": "最新",
+ "ver-instalador": "安裝程式",
+ "ver-portable": "可攜版 (.zip)",
+ "ver-meta-titulo": "Zas Player 版本：更新內容與下載",
+ "ver-meta-descripcion": "Windows 版 Zas Player 的所有版本，附每個版本的新內容與下載。",
+ "ver-error": "無法載入清單。請到 GitHub 查看。"
 }

@@ -173,5 +173,13 @@
   "Trim videos without re-encoding",
   "Video player",
   "Image viewer"
- ]
+ ],
+ "ver-titulo": "Zas releases",
+ "ver-sub": "What’s new in each version. Zas updates itself; you can download any of them here.",
+ "ver-ultima": "Latest",
+ "ver-instalador": "Installer",
+ "ver-portable": "Portable (.zip)",
+ "ver-meta-titulo": "Zas Player releases: changelog and downloads",
+ "ver-meta-descripcion": "Every Zas Player release for Windows, with what’s new in each and its download.",
+ "ver-error": "The list couldn’t be loaded. See them on GitHub."
 }

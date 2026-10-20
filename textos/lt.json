@@ -173,5 +173,13 @@
   "Vaizdo įrašų karpymas be perkodavimo",
   "Vaizdo grotuvas",
   "Nuotraukų peržiūra"
- ]
+ ],
+ "ver-titulo": "Zas versijos",
+ "ver-sub": "Kas nauja kiekvienoje versijoje. Zas atsinaujina pats; čia galite atsisiųsti bet kurią.",
+ "ver-ultima": "Naujausia",
+ "ver-instalador": "Diegimo programa",
+ "ver-portable": "Nešiojama (.zip)",
+ "ver-meta-titulo": "Zas Player versijos: naujovės ir atsisiuntimai",
+ "ver-meta-descripcion": "Visos Zas Player versijos Windows sistemai su naujovėmis ir atsisiuntimais.",
+ "ver-error": "Sąrašo nepavyko įkelti. Peržiūrėkite jas GitHub."
 }

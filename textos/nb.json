@@ -173,5 +173,13 @@
   "Trim videoer uten omkoding",
   "Videospiller",
   "Bildeviser"
- ]
+ ],
+ "ver-titulo": "Zas-versjoner",
+ "ver-sub": "Det nye i hver versjon. Zas oppdaterer seg selv; her kan du laste ned hvilken som helst.",
+ "ver-ultima": "Nyeste",
+ "ver-instalador": "Installasjonsprogram",
+ "ver-portable": "Bærbar (.zip)",
+ "ver-meta-titulo": "Zas Player-versjoner: nyheter og nedlastinger",
+ "ver-meta-descripcion": "Alle versjoner av Zas Player for Windows, med nyhetene og nedlastingen for hver.",
+ "ver-error": "Listen kunne ikke lastes. Se dem på GitHub."
 }

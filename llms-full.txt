@@ -37,7 +37,7 @@ Based on each product's public information as of October 2026.
 
 - [Website](https://zas-player.github.io/): screenshots, comparison and measured performance
 - [Download Zas-Setup.exe](https://github.com/Zas-Player/zas-releases/releases/latest/download/Zas-Setup.exe): official installer, always the latest version
-- [Releases and changelog](https://github.com/Zas-Player/zas-releases/releases)
+- [Releases and changelog](https://zas-player.github.io/releases/)
 - [Website in Spanish / web en español](https://zas-player.github.io/es/)
 - [Full details for LLMs](https://zas-player.github.io/llms-full.txt)
 

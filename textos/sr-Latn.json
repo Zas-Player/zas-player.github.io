@@ -173,5 +173,13 @@
   "Sečenje videa bez ponovnog kodiranja",
   "Video plejer",
   "Pregledač slika"
- ]
+ ],
+ "ver-titulo": "Verzije Zas-a",
+ "ver-sub": "Novosti u svakoj verziji. Zas se sam ažurira; ovde možete preuzeti bilo koju.",
+ "ver-ultima": "Najnovija",
+ "ver-instalador": "Instalacioni program",
+ "ver-portable": "Prenosiva (.zip)",
+ "ver-meta-titulo": "Verzije Zas Player-a: novosti i preuzimanja",
+ "ver-meta-descripcion": "Sve verzije Zas Player-a za Windows, sa novostima i preuzimanjem svake.",
+ "ver-error": "Lista nije mogla da se učita. Pogledajte ih na GitHub-u."
 }

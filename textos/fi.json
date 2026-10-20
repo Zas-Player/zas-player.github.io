@@ -173,5 +173,13 @@
   "Videoiden leikkaus ilman uudelleenkoodausta",
   "Videosoitin",
   "Kuvankatseluohjelma"
- ]
+ ],
+ "ver-titulo": "Zasin versiot",
+ "ver-sub": "Mitä uutta kussakin versiossa. Zas päivittyy itse; täältä voit ladata minkä tahansa.",
+ "ver-ultima": "Uusin",
+ "ver-instalador": "Asennusohjelma",
+ "ver-portable": "Siirrettävä (.zip)",
+ "ver-meta-titulo": "Zas Playerin versiot: uutuudet ja lataukset",
+ "ver-meta-descripcion": "Kaikki Zas Playerin versiot Windowsille uutuuksineen ja latauksineen.",
+ "ver-error": "Luetteloa ei voitu ladata. Katso ne GitHubista."
 }

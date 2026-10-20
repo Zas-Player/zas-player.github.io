@@ -173,5 +173,13 @@
   "Tăiere video fără recodare",
   "Player video",
   "Vizualizator de imagini"
- ]
+ ],
+ "ver-titulo": "Versiunile Zas",
+ "ver-sub": "Ce e nou în fiecare versiune. Zas se actualizează singur; aici poți descărca oricare.",
+ "ver-ultima": "Cea mai nouă",
+ "ver-instalador": "Program de instalare",
+ "ver-portable": "Portabilă (.zip)",
+ "ver-meta-titulo": "Versiunile Zas Player: noutăți și descărcări",
+ "ver-meta-descripcion": "Toate versiunile Zas Player pentru Windows, cu noutățile și descărcarea fiecăreia.",
+ "ver-error": "Lista nu a putut fi încărcată. Vezi-le pe GitHub."
 }

@@ -173,5 +173,13 @@
   "Potong video tanpa encode ulang",
   "Pemutar video",
   "Penampil gambar"
- ]
+ ],
+ "ver-titulo": "Versi Zas",
+ "ver-sub": "Yang baru di setiap versi. Zas memperbarui dirinya sendiri; Anda bisa mengunduh versi mana pun di sini.",
+ "ver-ultima": "Terbaru",
+ "ver-instalador": "Penginstal",
+ "ver-portable": "Portabel (.zip)",
+ "ver-meta-titulo": "Versi Zas Player: yang baru dan unduhan",
+ "ver-meta-descripcion": "Semua versi Zas Player untuk Windows, dengan yang baru dan unduhannya.",
+ "ver-error": "Daftar tidak dapat dimuat. Lihat di GitHub."
 }

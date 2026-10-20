@@ -173,5 +173,13 @@
   "Video apgriešana bez pārkodēšanas",
   "Video atskaņotājs",
   "Attēlu skatītājs"
- ]
+ ],
+ "ver-titulo": "Zas versijas",
+ "ver-sub": "Kas jauns katrā versijā. Zas atjaunojas pats; šeit varat lejupielādēt jebkuru.",
+ "ver-ultima": "Jaunākā",
+ "ver-instalador": "Instalētājs",
+ "ver-portable": "Pārnēsājama (.zip)",
+ "ver-meta-titulo": "Zas Player versijas: jaunumi un lejupielādes",
+ "ver-meta-descripcion": "Visas Zas Player versijas Windows, ar katras jaunumiem un lejupielādi.",
+ "ver-error": "Sarakstu neizdevās ielādēt. Skatiet tās GitHub."
 }

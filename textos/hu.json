@@ -173,5 +173,13 @@
   "Videók vágása újrakódolás nélkül",
   "Videolejátszó",
   "Képnézegető"
- ]
+ ],
+ "ver-titulo": "A Zas verziói",
+ "ver-sub": "Mi új az egyes verziókban. A Zas magától frissül; itt bármelyiket letöltheted.",
+ "ver-ultima": "Legújabb",
+ "ver-instalador": "Telepítő",
+ "ver-portable": "Hordozható (.zip)",
+ "ver-meta-titulo": "A Zas Player verziói: újdonságok és letöltések",
+ "ver-meta-descripcion": "A Zas Player összes Windows-verziója, az újdonságokkal és a letöltéssel.",
+ "ver-error": "A listát nem sikerült betölteni. Nézd meg a GitHubon."
 }

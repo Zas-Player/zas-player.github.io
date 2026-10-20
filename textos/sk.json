@@ -173,5 +173,13 @@
   "Strihanie videa bez prekódovania",
   "Prehrávač videa",
   "Prehliadač obrázkov"
- ]
+ ],
+ "ver-titulo": "Verzie Zas",
+ "ver-sub": "Čo je nové v každej verzii. Zas sa aktualizuje sám; tu si môžete stiahnuť ktorúkoľvek.",
+ "ver-ultima": "Najnovšia",
+ "ver-instalador": "Inštalátor",
+ "ver-portable": "Prenosná (.zip)",
+ "ver-meta-titulo": "Verzie Zas Player: novinky a na stiahnutie",
+ "ver-meta-descripcion": "Všetky verzie Zas Player pre Windows s novinkami a na stiahnutie.",
+ "ver-error": "Zoznam sa nepodarilo načítať. Pozrite si ich na GitHube."
 }

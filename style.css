@@ -240,3 +240,27 @@ h1 .lema-grande { display: block; }
 
 /* japonés, chino y coreano: cortar por frases, no por cualquier carácter */
 :lang(ja), :lang(zh), :lang(ko) { word-break: auto-phrase; }
+
+/* versiones: una tarjeta por versión, como las preguntas */
+.versiones { padding: 72px 0 96px; }
+.estrecho { max-width: 820px; }
+.versiones h1 { font-size: clamp(32px, 5vw, 48px); letter-spacing: -0.02em; line-height: 1.1; margin: 0 0 12px; }
+.entradilla-versiones { color: var(--tinta2); font-size: 17px; font-weight: 500; margin: 0 0 40px; }
+.lista-versiones { display: grid; gap: 14px; }
+.version { background: var(--panel); border: 1px solid var(--borde); border-radius: 12px; padding: 20px 22px; scroll-margin-top: 76px; }
+.version:first-child { border-color: color-mix(in srgb, var(--acento) 45%, transparent); }
+.version header { display: flex; align-items: baseline; justify-content: space-between; gap: 12px; flex-wrap: wrap; }
+.version h2 { font-size: 20px; letter-spacing: -0.01em; margin: 0; display: flex; align-items: center; gap: 10px; }
+.version time { color: var(--tinta2); font-size: 13px; font-weight: 500; }
+.ultima { background: var(--acento); color: var(--sobre-acento); font-size: 11px; letter-spacing: .06em; text-transform: uppercase; padding: 3px 8px; border-radius: 6px; }
+.notas { color: var(--tinta); font-size: 15px; font-weight: 500; margin: 10px 0 0; overflow-wrap: anywhere; }
+.notas ul { margin: 0; padding-left: 20px; }
+.notas li { margin: 4px 0; }
+.notas li::marker { color: var(--tinta2); }
+.notas p { margin: 6px 0; }
+.notas code { font-family: ui-monospace, Consolas, monospace; font-size: .9em; background: var(--sobre); padding: 1px 5px; border-radius: 5px; }
+.bajadas { display: flex; flex-wrap: wrap; gap: 8px; margin: 14px 0 0; }
+.bajada { font-size: 13px; color: var(--tinta); border: 1px solid var(--borde); border-radius: 8px; padding: 6px 11px; transition: border-color .16s, background-color .16s; }
+.bajada:hover { border-color: var(--tinta2); background: var(--sobre); }
+.bajada span { color: var(--tinta2); font-weight: 500; }
+@media (max-width: 600px) { .versiones { padding: 40px 0 64px; } .version { padding: 16px; } }
