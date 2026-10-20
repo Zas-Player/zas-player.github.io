@@ -70,9 +70,9 @@
     };
     if (window.fetch) traer(1, []).then(function (vs) {
       if (!vs.length) return;
-      var primera = lista.querySelector(".version h2");
-      var ya = lista.querySelectorAll(".version").length;
-      if (vs.length !== ya || !primera || primera.firstChild.nodeValue.trim() !== vs[0].tag_name.replace(/^v/, "")) { pintar(vs); fechas(); }
+      // always repaint: notes can be edited after the site is built
+      pintar(vs);
+      fechas();
     }).catch(function () {
       if (!lista.querySelector(".version")) document.getElementById("versiones-error").hidden = false;
     });
