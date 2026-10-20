@@ -15,6 +15,7 @@ textos/<código>.json (el castellano es la referencia). Las cifras, en MEDIDAS.
 import hashlib
 import html
 import json
+import os
 import re
 import urllib.request
 from datetime import date
@@ -48,10 +49,19 @@ def url(lang):
     return SITIO + ruta(lang)
 
 
+def releases_api(path, timeout):
+    """GitHub API of zas-releases. With GH_TOKEN (CI) the requests carry it: anonymous ones get
+    60 per hour per IP, shared on GitHub's runners."""
+    req = urllib.request.Request("https://api.github.com/repos/Zas-Player/zas-releases/" + path)
+    if os.environ.get("GH_TOKEN"):
+        req.add_header("Authorization", "Bearer " + os.environ["GH_TOKEN"])
+    with urllib.request.urlopen(req, timeout=timeout) as r:
+        return json.load(r)
+
+
 def version_publicada():
     try:
-        with urllib.request.urlopen("https://api.github.com/repos/Zas-Player/zas-releases/releases/latest", timeout=10) as r:
-            return json.load(r)["tag_name"].lstrip("v")
+        return releases_api("releases/latest", 10)["tag_name"].lstrip("v")
     except Exception:
         return None
 
@@ -60,8 +70,7 @@ def versiones_publicadas():
     """Todas las versiones de zas-releases, de la más nueva a la más vieja (sin borradores)."""
     todas, pag = [], 1
     while True:
-        with urllib.request.urlopen(f"https://api.github.com/repos/Zas-Player/zas-releases/releases?per_page=100&page={pag}", timeout=15) as r:
-            lote = json.load(r)
+        lote = releases_api(f"releases?per_page=100&page={pag}", 15)
         todas += [v for v in lote if not v.get("draft")]
         if len(lote) < 100:
             return todas
