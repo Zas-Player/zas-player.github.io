@@ -16,7 +16,7 @@
  "cifra2-nombre": "Klip kopyalama",
  "cifra2-detalle": "Ctrl+E'ye basmaktan 12 sn'lik bir klibin panoda, yapıştırmaya hazır olmasına kadar.",
  "cifra3-nombre": "Kayıt sırasında kaybedilen FPS",
- "cifra3-detalle": "1440p'de Fortnite: kayıt yokken 61–69 FPS, ekran kartıyla kayıt yaparken 68–70. PresentMon ile ölçüldü.",
+ "cifra3-detalle": "1440p'de Fortnite: ekran kartıyla kayıt yaparken de kayıt yokken de aynı 61–70 FPS. PresentMon ile ölçüldü.",
  "metodo-titulo": "Nasıl ölçtük",
  "pasos-ante": "Saniyeler içinde bir klip",
  "pasos-titulo": "Videodan sohbete üç tuşla.",
@@ -63,7 +63,7 @@
  "meta-og-titulo": "Zas Player · Kaydet. Kırp. Paylaş.",
  "version-palabra": "sürüm",
  "idioma-etiqueta": "Dil",
- "metodo": "<p>Burada indirdiğiniz sürüm olan Zas 1.15.1; AMD Ryzen 5 3600, NVIDIA GeForce RTX 2060, 32 GB bellek ve Windows 11 bulunan, 2560×1440 ekranlı bir bilgisayarda. Test videosu: Big Buck Bunny'nin bir dakikası (H.264, 60 fps'de 1080p) ve ondan üretilen 10 sn'lik iki sürüm (30 fps'de 4K H.265 ve 30 fps'de VP9 1080p).</p><table><tr><th></th><th>H.264 1080p60</th><th>H.265 2160p30</th><th>VP9 1080p30</th></tr><tr><td>Zas bellekteyken açma</td><td>378 ms</td><td>134 ms</td><td>125 ms</td></tr><tr><td>Zas kapalıyken açma</td><td>710 ms</td><td>595 ms</td><td>514 ms</td></tr></table><p><b>Açma</b>: <code>zas.exe video</code> başlatıldığından (çift tıklamayla aynı) ilk kare ekrana gelene kadar. Bellekten 8 ve sıfırdan 5 açılışın medyanları. Zas bellekteyken 24 açılıştan 2'si daha uzun sürdü (0,7 ve 2,9 sn); Zas kapalıyken en yavaşı 0,83 sn'ydi. Dosya zaten Windows önbelleğindeydi.</p><p><b>Klip kopyalandı</b>: 12 sn'lik bir bölümü işaretleyip Ctrl+E'ye basmaktan (yeniden kodlama olmadan) dosya panoya gelene kadar. 5 denemenin medyanı: 0,14 sn; ilki 33 sn sürdü ve nedeni bilinmiyor. Kare hassasiyetinde (yeniden kodlamayla, Ctrl+Shift+E) aynı bölüm 4,6 ila 5,0 sn sürüyor.</p><p><b>Kayıt sırasında FPS</b>: Ön planda 2560×1440'ta Fortnite, PresentMon (Intel) ile ölçüldü. Kayıt yokken 61–69 FPS; ekran kartıyla 60 fps'de kayıt yaparken (NVENC üzerinden H.264 veya H.265) 68–70 FPS, aynı dalgalanma aralığında. Kayıt, bir CPU çekirdeğinin %18'ini kullanıyor. Eski CPU yöntemi (libx264) 2,7 çekirdek kullanıyor ve takılıyordu.</p><p><b>Bellek</b>: Boştayken 99 MB (arka planda, açmaya hazır) ve 1080p60 videoyu oynatırken yaklaşık 300 MB.</p><p>Bunlar belirli bir bilgisayardan alınan ölçümlerdir: sizinki farklı olabilir.</p>",
+ "metodo": "<p>Burada indirdiğiniz sürüm olan Zas 1.15.1; AMD Ryzen 5 3600, NVIDIA GeForce RTX 2060, 32 GB bellek ve Windows 11 bulunan, 2560×1440 ekranlı bir bilgisayarda. Test videosu: Big Buck Bunny'nin bir dakikası (H.264, 60 fps'de 1080p) ve ondan üretilen 10 sn'lik iki sürüm (30 fps'de 4K H.265 ve 30 fps'de VP9 1080p).</p><table><tr><th></th><th>H.264 1080p60</th><th>H.265 2160p30</th><th>VP9 1080p30</th></tr><tr><td>Zas bellekteyken açma</td><td>378 ms</td><td>134 ms</td><td>125 ms</td></tr><tr><td>Zas kapalıyken açma</td><td>710 ms</td><td>595 ms</td><td>514 ms</td></tr></table><p><b>Açma</b>: <code>zas.exe video</code> başlatıldığından (çift tıklamayla aynı) ilk kare ekrana gelene kadar. Bellekten 8 ve sıfırdan 5 açılışın medyanları. Zas bellekteyken 24 açılıştan 2'si daha uzun sürdü (0,7 ve 2,9 sn); Zas kapalıyken en yavaşı 0,83 sn'ydi. Dosya zaten Windows önbelleğindeydi.</p><p><b>Klip kopyalandı</b>: 12 sn'lik bir bölümü işaretleyip Ctrl+E'ye basmaktan (yeniden kodlama olmadan) dosya panoya gelene kadar. 5 denemenin medyanı: 0,14 sn; ilki 33 sn sürdü ve nedeni bilinmiyor. Kare hassasiyetinde (yeniden kodlamayla, Ctrl+Shift+E) aynı bölüm 4,6 ila 5,0 sn sürüyor.</p><p><b>Kayıt sırasında FPS</b>: Ön planda 2560×1440'ta Fortnite, PresentMon (Intel) ile ölçüldü. Ekran kartıyla 60 fps'de kayıt yaparken (NVENC üzerinden H.264 veya H.265) de kayıt yokken de aynı 61–70 FPS. Kayıt, bir CPU çekirdeğinin %18'ini kullanıyor. Eski CPU yöntemi (libx264) 2,7 çekirdek kullanıyor ve takılıyordu.</p><p><b>Bellek</b>: Boştayken 99 MB (arka planda, açmaya hazır) ve 1080p60 videoyu oynatırken yaklaşık 300 MB.</p><p>Bunlar belirli bir bilgisayardan alınan ölçümlerdir: sizinki farklı olabilir.</p>",
  "preguntas": [
   [
    "Zas, ShadowPlay, OBS veya Medal'a iyi bir alternatif mi?",
@@ -71,7 +71,7 @@
   ],
   [
    "Zas ile kayıt yapmak FPS'imi düşürür mü?",
-   "Testimizde düşürmedi. 1440p'de Fortnite, kayıt yokken 61–69 FPS'de, Zas ekran kartıyla kayıt yaparken 68–70 FPS'de çalıştı (RTX 2060'ta PresentMon ile ölçüldü). Zas kodlamayı ekran kartında yapar (NVENC, AMF veya Quick Sync), bu yüzden işlemci neredeyse hiç çalışmaz: bir çekirdeğin %18'i."
+   "Testimizde düşürmedi. 1440p'de Fortnite, Zas ekran kartıyla kayıt yaparken de kayıt yokken de aynı 61–70 FPS'de çalıştı (RTX 2060'ta PresentMon ile ölçüldü). Zas kodlamayı ekran kartında yapar (NVENC, AMF veya Quick Sync), bu yüzden işlemci neredeyse hiç çalışmaz: bir çekirdeğin %18'i."
   ],
   [
    "Discord'da bir klibi nasıl paylaşırım?",

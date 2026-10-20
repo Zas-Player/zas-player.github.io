@@ -16,7 +16,7 @@
  "cifra2-nombre": "Klipa kopiatuta izateko",
  "cifra2-detalle": "Ctrl+E sakatzen duzunetik 12 s-ko klipa arbelean egon arte, itsasteko prest.",
  "cifra3-nombre": "Grabatzean galdutako FPSak",
- "cifra3-detalle": "Fortnite 1440p-n: 61–69 FPS grabatu gabe eta 68–70 txartel grafikoarekin grabatzean. PresentMon-ekin neurtua.",
+ "cifra3-detalle": "Fortnite 1440p-n: 61–70 FPS berberak txartel grafikoarekin grabatzean eta grabatu gabe. PresentMon-ekin neurtua.",
  "metodo-titulo": "Nola neurtu dugun",
  "pasos-ante": "Klip bat segundotan",
  "pasos-titulo": "Bideotik txatera hiru teklatan.",
@@ -63,7 +63,7 @@
  "meta-og-titulo": "Zas Player · Grabatu. Moztu. Partekatu.",
  "version-palabra": "bertsioa",
  "idioma-etiqueta": "Hizkuntza",
- "metodo": "<p>Zas 1.15.1, hemen deskargatzen duzun bertsioa, AMD Ryzen 5 3600 bat, NVIDIA GeForce RTX 2060 bat, 32 GB memoria eta Windows 11 dituen PC batean, 2560×1440 pantaila batekin. Proba-bideoa: Big Buck Bunny-ren minutu bat (H.264, 1080p 60 fps-tan) eta hartatik sortutako 10 s-ko bi bertsio (H.265 4K-n 30 fps-tan eta VP9 1080p 30 fps-tan).</p><table><tr><th></th><th>H.264 1080p60</th><th>H.265 2160p30</th><th>VP9 1080p30</th></tr><tr><td>Ireki Zas memorian dagoela</td><td>378 ms</td><td>134 ms</td><td>125 ms</td></tr><tr><td>Ireki Zas itxita dagoela</td><td>710 ms</td><td>595 ms</td><td>514 ms</td></tr></table><p><b>Irekitzea</b>: <code>zas.exe video</code> abiarazten denetik (klik bikoitzaren berdina) lehen fotograma pantailan agertu arte. Memorian egindako 8 irekitzeren eta hutsetik egindako 5en medianak. Zas memorian zegoela, 24 irekitzetatik 2k gehiago iraun zuten (0,7 eta 2,9 s); Zas itxita zegoela, motelenak 0,83 s iraun zuen. Fitxategia Windows-en cachean zegoen jada.</p><p><b>Klipa kopiatuta</b>: 12 s-ko zati bat markatu eta Ctrl+E sakatzen denetik (berriro kodetu gabe) fitxategia arbelean egon arte. 5 exekuzioren mediana: 0,14 s; lehenengoak 33 s iraun zuen, eta ez dakigu zergatik. Fotograma-zehaztasunez (berriro kodetuta, Ctrl+Shift+E), zati berak 4,6 eta 5,0 s artean behar ditu.</p><p><b>FPSak grabatzean</b>: Fortnite 2560×1440-n lehen planoan, PresentMon-ekin (Intel) neurtua. Grabatu gabe, 61–69 FPS; 60 fps-tan txartel grafikoarekin grabatzean (H.264 edo H.265 NVENC bidez), 68–70 FPS, aldakortasun beraren barruan. Grabaketak CPU-nukleo baten %18 erabiltzen du. CPU bidezko metodo zaharrak (libx264) 2,7 nukleo erabiltzen zituen eta etenak egiten zituen.</p><p><b>Memoria</b>: 99 MB geldirik (atzeko planoan, irekitzeko prest) eta 300 MB inguru 1080p60 bideoa erreproduzitzean.</p><p>Ordenagailu jakin bateko neurketak dira: zurean desberdinak izan daitezke.</p>",
+ "metodo": "<p>Zas 1.15.1, hemen deskargatzen duzun bertsioa, AMD Ryzen 5 3600 bat, NVIDIA GeForce RTX 2060 bat, 32 GB memoria eta Windows 11 dituen PC batean, 2560×1440 pantaila batekin. Proba-bideoa: Big Buck Bunny-ren minutu bat (H.264, 1080p 60 fps-tan) eta hartatik sortutako 10 s-ko bi bertsio (H.265 4K-n 30 fps-tan eta VP9 1080p 30 fps-tan).</p><table><tr><th></th><th>H.264 1080p60</th><th>H.265 2160p30</th><th>VP9 1080p30</th></tr><tr><td>Ireki Zas memorian dagoela</td><td>378 ms</td><td>134 ms</td><td>125 ms</td></tr><tr><td>Ireki Zas itxita dagoela</td><td>710 ms</td><td>595 ms</td><td>514 ms</td></tr></table><p><b>Irekitzea</b>: <code>zas.exe video</code> abiarazten denetik (klik bikoitzaren berdina) lehen fotograma pantailan agertu arte. Memorian egindako 8 irekitzeren eta hutsetik egindako 5en medianak. Zas memorian zegoela, 24 irekitzetatik 2k gehiago iraun zuten (0,7 eta 2,9 s); Zas itxita zegoela, motelenak 0,83 s iraun zuen. Fitxategia Windows-en cachean zegoen jada.</p><p><b>Klipa kopiatuta</b>: 12 s-ko zati bat markatu eta Ctrl+E sakatzen denetik (berriro kodetu gabe) fitxategia arbelean egon arte. 5 exekuzioren mediana: 0,14 s; lehenengoak 33 s iraun zuen, eta ez dakigu zergatik. Fotograma-zehaztasunez (berriro kodetuta, Ctrl+Shift+E), zati berak 4,6 eta 5,0 s artean behar ditu.</p><p><b>FPSak grabatzean</b>: Fortnite 2560×1440-n lehen planoan, PresentMon-ekin (Intel) neurtua. 60 fps-tan txartel grafikoarekin grabatzean (H.264 edo H.265 NVENC bidez) eta grabatu gabe, 61–70 FPS berberak. Grabaketak CPU-nukleo baten %18 erabiltzen du. CPU bidezko metodo zaharrak (libx264) 2,7 nukleo erabiltzen zituen eta etenak egiten zituen.</p><p><b>Memoria</b>: 99 MB geldirik (atzeko planoan, irekitzeko prest) eta 300 MB inguru 1080p60 bideoa erreproduzitzean.</p><p>Ordenagailu jakin bateko neurketak dira: zurean desberdinak izan daitezke.</p>",
  "preguntas": [
   [
    "Zas ShadowPlay, OBS edo Medal-en alternatiba ona al da?",
@@ -71,7 +71,7 @@
   ],
   [
    "Zas-ekin grabatzeak FPSak jaisten ditu?",
-   "Gure proban, ez. Fortnite 1440p-n 61–69 FPS-tan ibili zen grabatu gabe, eta 68–70 FPS-tan Zas txartel grafikoarekin grabatzen ari zen bitartean (PresentMon-ekin neurtua, RTX 2060 batean). Zas-ek txartel grafikoan kodetzen du (NVENC, AMF edo Quick Sync), beraz CPUak ia ez du lanik egiten: nukleo baten %18."
+   "Gure proban, ez. Fortnite 1440p-n 61–70 FPS berberetan ibili zen, Zas txartel grafikoarekin grabatzen ari zela eta grabatu gabe (PresentMon-ekin neurtua, RTX 2060 batean). Zas-ek txartel grafikoan kodetzen du (NVENC, AMF edo Quick Sync), beraz CPUak ia ez du lanik egiten: nukleo baten %18."
   ],
   [
    "Nola partekatu klip bat Discord-en?",

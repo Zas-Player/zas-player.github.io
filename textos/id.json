@@ -16,7 +16,7 @@
  "cifra2-nombre": "Hingga klip tersalin",
  "cifra2-detalle": "Dari menekan Ctrl+E hingga klip 12 detik ada di clipboard, siap ditempel.",
  "cifra3-nombre": "FPS yang hilang saat merekam",
- "cifra3-detalle": "Fortnite di 1440p: 61–69 FPS tanpa merekam dan 68–70 FPS saat merekam dengan kartu grafis. Diukur dengan PresentMon.",
+ "cifra3-detalle": "Fortnite di 1440p: sama-sama 61–70 FPS dengan maupun tanpa merekam dengan kartu grafis. Diukur dengan PresentMon.",
  "metodo-titulo": "Cara kami mengukurnya",
  "pasos-ante": "Klip dalam hitungan detik",
  "pasos-titulo": "Dari video ke chat cukup tiga tombol.",
@@ -63,7 +63,7 @@
  "meta-og-titulo": "Zas Player · Rekam. Potong. Bagikan.",
  "version-palabra": "versi",
  "idioma-etiqueta": "Bahasa",
- "metodo": "<p>Zas 1.15.1, versi yang Anda unduh di sini, di PC dengan AMD Ryzen 5 3600, NVIDIA GeForce RTX 2060, memori 32 GB, dan Windows 11, dengan layar 2560×1440. Video uji: satu menit Big Buck Bunny (H.264, 1080p 60 fps) dan dua versi 10 detik yang dibuat darinya (H.265 4K 30 fps dan VP9 1080p 30 fps).</p><table><tr><th></th><th>H.264 1080p60</th><th>H.265 2160p30</th><th>VP9 1080p30</th></tr><tr><td>Buka dengan Zas di memori</td><td>378 ms</td><td>134 ms</td><td>125 ms</td></tr><tr><td>Buka dengan Zas tertutup</td><td>710 ms</td><td>595 ms</td><td>514 ms</td></tr></table><p><b>Membuka</b>: dari menjalankan <code>zas.exe video</code> (sama dengan klik dua kali) hingga frame pertama tampil di layar. Median dari 8 kali buka di memori dan 5 kali dari awal. Dengan Zas di memori, 2 dari 24 kali buka lebih lama (0,7 dan 2,9 detik); dengan Zas tertutup, yang paling lambat 0,83 detik. File sudah ada di cache Windows.</p><p><b>Klip tersalin</b>: menandai bagian 12 detik dan menekan Ctrl+E (tanpa encode ulang) hingga file ada di clipboard. Median dari 5 kali percobaan: 0,14 detik; percobaan pertama butuh 33 detik dan penyebabnya belum diketahui. Dengan akurasi per frame (encode ulang, Ctrl+Shift+E), bagian yang sama butuh 4,6 hingga 5,0 detik.</p><p><b>FPS saat merekam</b>: Fortnite di 2560×1440 di latar depan, diukur dengan PresentMon (Intel). Tanpa merekam, 61–69 FPS; merekam di 60 fps dengan kartu grafis (H.264 atau H.265 via NVENC), 68–70 FPS, masih dalam rentang variasi yang sama. Perekaman memakai 18% dari satu core CPU. Metode CPU lama (libx264) memakai 2,7 core dan tersendat.</p><p><b>Memori</b>: 99 MB saat diam (di latar belakang, siap membuka) dan sekitar 300 MB saat memutar video 1080p60.</p><p>Ini hasil pengukuran di satu komputer tertentu: hasil di komputer Anda bisa berbeda.</p>",
+ "metodo": "<p>Zas 1.15.1, versi yang Anda unduh di sini, di PC dengan AMD Ryzen 5 3600, NVIDIA GeForce RTX 2060, memori 32 GB, dan Windows 11, dengan layar 2560×1440. Video uji: satu menit Big Buck Bunny (H.264, 1080p 60 fps) dan dua versi 10 detik yang dibuat darinya (H.265 4K 30 fps dan VP9 1080p 30 fps).</p><table><tr><th></th><th>H.264 1080p60</th><th>H.265 2160p30</th><th>VP9 1080p30</th></tr><tr><td>Buka dengan Zas di memori</td><td>378 ms</td><td>134 ms</td><td>125 ms</td></tr><tr><td>Buka dengan Zas tertutup</td><td>710 ms</td><td>595 ms</td><td>514 ms</td></tr></table><p><b>Membuka</b>: dari menjalankan <code>zas.exe video</code> (sama dengan klik dua kali) hingga frame pertama tampil di layar. Median dari 8 kali buka di memori dan 5 kali dari awal. Dengan Zas di memori, 2 dari 24 kali buka lebih lama (0,7 dan 2,9 detik); dengan Zas tertutup, yang paling lambat 0,83 detik. File sudah ada di cache Windows.</p><p><b>Klip tersalin</b>: menandai bagian 12 detik dan menekan Ctrl+E (tanpa encode ulang) hingga file ada di clipboard. Median dari 5 kali percobaan: 0,14 detik; percobaan pertama butuh 33 detik dan penyebabnya belum diketahui. Dengan akurasi per frame (encode ulang, Ctrl+Shift+E), bagian yang sama butuh 4,6 hingga 5,0 detik.</p><p><b>FPS saat merekam</b>: Fortnite di 2560×1440 di latar depan, diukur dengan PresentMon (Intel). Dengan maupun tanpa merekam di 60 fps dengan kartu grafis (H.264 atau H.265 via NVENC), sama-sama 61–70 FPS. Perekaman memakai 18% dari satu core CPU. Metode CPU lama (libx264) memakai 2,7 core dan tersendat.</p><p><b>Memori</b>: 99 MB saat diam (di latar belakang, siap membuka) dan sekitar 300 MB saat memutar video 1080p60.</p><p>Ini hasil pengukuran di satu komputer tertentu: hasil di komputer Anda bisa berbeda.</p>",
  "preguntas": [
   [
    "Apakah Zas alternatif yang bagus untuk ShadowPlay, OBS, atau Medal?",
@@ -71,7 +71,7 @@
   ],
   [
    "Apakah merekam dengan Zas menurunkan FPS?",
-   "Dalam pengujian kami, tidak. Fortnite di 1440p berjalan di 61–69 FPS tanpa merekam dan 68–70 FPS saat Zas merekam dengan kartu grafis (diukur dengan PresentMon di RTX 2060). Zas melakukan encode di kartu grafis (NVENC, AMF, atau Quick Sync), jadi CPU hampir tidak bekerja: 18% dari satu core."
+   "Dalam pengujian kami, tidak. Fortnite di 1440p berjalan di 61–70 FPS yang sama, baik saat Zas merekam dengan kartu grafis maupun tanpa merekam (diukur dengan PresentMon di RTX 2060). Zas melakukan encode di kartu grafis (NVENC, AMF, atau Quick Sync), jadi CPU hampir tidak bekerja: 18% dari satu core."
   ],
   [
    "Bagaimana cara membagikan klip ke Discord?",

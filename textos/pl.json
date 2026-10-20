@@ -16,7 +16,7 @@
  "cifra2-nombre": "Do skopiowania klipu",
  "cifra2-detalle": "Od naciśnięcia Ctrl+E do 12-sekundowego klipu w schowku, gotowego do wklejenia.",
  "cifra3-nombre": "Utracone FPS podczas nagrywania",
- "cifra3-detalle": "Fortnite w 1440p: 61–69 FPS bez nagrywania i 68–70 podczas nagrywania kartą graficzną. Zmierzone narzędziem PresentMon.",
+ "cifra3-detalle": "Fortnite w 1440p: te same 61–70 FPS z nagrywaniem kartą graficzną i bez niego. Zmierzone narzędziem PresentMon.",
  "metodo-titulo": "Jak to zmierzyliśmy",
  "pasos-ante": "Klip w kilka sekund",
  "pasos-titulo": "Z wideo na czat w trzech klawiszach.",
@@ -63,7 +63,7 @@
  "meta-og-titulo": "Zas Player · Nagrywaj. Wycinaj. Udostępniaj.",
  "version-palabra": "wersja",
  "idioma-etiqueta": "Język",
- "metodo": "<p>Zas 1.15.1, czyli wersja, którą tu pobierasz, na komputerze z AMD Ryzen 5 3600, NVIDIA GeForce RTX 2060, 32 GB pamięci i Windows 11, z ekranem 2560×1440. Wideo testowe: minuta filmu Big Buck Bunny (H.264, 1080p przy 60 fps) i dwie wykonane z niego wersje po 10 s (H.265 w 4K przy 30 fps oraz VP9 1080p przy 30 fps).</p><table><tr><th></th><th>H.264 1080p60</th><th>H.265 2160p30</th><th>VP9 1080p30</th></tr><tr><td>Otwarcie z Zas w pamięci</td><td>378 ms</td><td>134 ms</td><td>125 ms</td></tr><tr><td>Otwarcie przy zamkniętym Zas</td><td>710 ms</td><td>595 ms</td><td>514 ms</td></tr></table><p><b>Otwarcie</b>: od uruchomienia <code>zas.exe video</code> (to samo co dwukrotne kliknięcie) do pierwszej klatki na ekranie. Mediany z 8 otwarć z pamięci i 5 od zera. Z Zas w pamięci 2 z 24 otwarć trwały dłużej (0,7 i 2,9 s); przy zamkniętym Zas najwolniejsze trwało 0,83 s. Plik był już w pamięci podręcznej Windows.</p><p><b>Skopiowany klip</b>: od zaznaczenia 12-sekundowego fragmentu i naciśnięcia Ctrl+E (bez ponownego kodowania) do chwili, gdy plik jest w schowku. Mediana z 5 prób: 0,14 s; pierwsza trwała 33 s i nie znamy przyczyny. Z dokładnością do klatki (z ponownym kodowaniem, Ctrl+Shift+E) ten sam fragment zajmuje od 4,6 do 5,0 s.</p><p><b>FPS podczas nagrywania</b>: Fortnite w 2560×1440 na pierwszym planie, zmierzone narzędziem PresentMon (Intel). Bez nagrywania 61–69 FPS; przy nagrywaniu w 60 fps kartą graficzną (H.264 lub H.265 przez NVENC) 68–70 FPS, w granicach tej samej zmienności. Nagrywanie zużywa 18% jednego rdzenia CPU. Dawna metoda na CPU (libx264) zużywała 2,7 rdzenia i powodowała przycięcia.</p><p><b>Pamięć</b>: 99 MB w spoczynku (w tle, gotowy do otwarcia) i około 300 MB podczas odtwarzania wideo 1080p60.</p><p>To pomiary z jednego konkretnego komputera: u Ciebie wyniki mogą się różnić.</p>",
+ "metodo": "<p>Zas 1.15.1, czyli wersja, którą tu pobierasz, na komputerze z AMD Ryzen 5 3600, NVIDIA GeForce RTX 2060, 32 GB pamięci i Windows 11, z ekranem 2560×1440. Wideo testowe: minuta filmu Big Buck Bunny (H.264, 1080p przy 60 fps) i dwie wykonane z niego wersje po 10 s (H.265 w 4K przy 30 fps oraz VP9 1080p przy 30 fps).</p><table><tr><th></th><th>H.264 1080p60</th><th>H.265 2160p30</th><th>VP9 1080p30</th></tr><tr><td>Otwarcie z Zas w pamięci</td><td>378 ms</td><td>134 ms</td><td>125 ms</td></tr><tr><td>Otwarcie przy zamkniętym Zas</td><td>710 ms</td><td>595 ms</td><td>514 ms</td></tr></table><p><b>Otwarcie</b>: od uruchomienia <code>zas.exe video</code> (to samo co dwukrotne kliknięcie) do pierwszej klatki na ekranie. Mediany z 8 otwarć z pamięci i 5 od zera. Z Zas w pamięci 2 z 24 otwarć trwały dłużej (0,7 i 2,9 s); przy zamkniętym Zas najwolniejsze trwało 0,83 s. Plik był już w pamięci podręcznej Windows.</p><p><b>Skopiowany klip</b>: od zaznaczenia 12-sekundowego fragmentu i naciśnięcia Ctrl+E (bez ponownego kodowania) do chwili, gdy plik jest w schowku. Mediana z 5 prób: 0,14 s; pierwsza trwała 33 s i nie znamy przyczyny. Z dokładnością do klatki (z ponownym kodowaniem, Ctrl+Shift+E) ten sam fragment zajmuje od 4,6 do 5,0 s.</p><p><b>FPS podczas nagrywania</b>: Fortnite w 2560×1440 na pierwszym planie, zmierzone narzędziem PresentMon (Intel). Z nagrywaniem w 60 fps kartą graficzną (H.264 lub H.265 przez NVENC) i bez niego te same 61–70 FPS. Nagrywanie zużywa 18% jednego rdzenia CPU. Dawna metoda na CPU (libx264) zużywała 2,7 rdzenia i powodowała przycięcia.</p><p><b>Pamięć</b>: 99 MB w spoczynku (w tle, gotowy do otwarcia) i około 300 MB podczas odtwarzania wideo 1080p60.</p><p>To pomiary z jednego konkretnego komputera: u Ciebie wyniki mogą się różnić.</p>",
  "preguntas": [
   [
    "Czy Zas to dobra alternatywa dla ShadowPlay, OBS lub Medal?",
@@ -71,7 +71,7 @@
   ],
   [
    "Czy nagrywanie w Zas obniża FPS?",
-   "W naszym teście nie. Fortnite w 1440p działał w 61–69 FPS bez nagrywania i w 68–70, gdy Zas nagrywał kartą graficzną (pomiar narzędziem PresentMon na RTX 2060). Zas koduje na karcie graficznej (NVENC, AMF lub Quick Sync), więc procesor prawie nie pracuje: 18% jednego rdzenia."
+   "W naszym teście nie. Fortnite w 1440p działał w tych samych 61–70 FPS, zarówno gdy Zas nagrywał kartą graficzną, jak i bez nagrywania (pomiar narzędziem PresentMon na RTX 2060). Zas koduje na karcie graficznej (NVENC, AMF lub Quick Sync), więc procesor prawie nie pracuje: 18% jednego rdzenia."
   ],
   [
    "Jak udostępnić klip na Discordzie?",

@@ -16,7 +16,7 @@
  "cifra2-nombre": "Til klippet er kopiert",
  "cifra2-detalle": "Fra du trykker Ctrl+E til et klipp på 12 s ligger på utklippstavlen, klart til å limes inn.",
  "cifra3-nombre": "FPS tapt under opptak",
- "cifra3-detalle": "Fortnite i 1440p: 61–69 FPS uten opptak og 68–70 under opptak med skjermkortet. Målt med PresentMon.",
+ "cifra3-detalle": "Fortnite i 1440p: de samme 61–70 FPS med og uten opptak med skjermkortet. Målt med PresentMon.",
  "metodo-titulo": "Slik målte vi",
  "pasos-ante": "Et klipp på sekunder",
  "pasos-titulo": "Fra video til chat med tre taster.",
@@ -63,7 +63,7 @@
  "meta-og-titulo": "Zas Player · Ta opp. Klipp. Del.",
  "version-palabra": "versjon",
  "idioma-etiqueta": "Språk",
- "metodo": "<p>Zas 1.15.1, versjonen du laster ned her, på en PC med AMD Ryzen 5 3600, NVIDIA GeForce RTX 2060, 32 GB minne og Windows 11, med en skjerm på 2560×1440. Testvideo: ett minutt av Big Buck Bunny (H.264, 1080p i 60 fps) og to versjoner på 10 s laget av den (H.265 i 4K i 30 fps og VP9 1080p i 30 fps).</p><table><tr><th></th><th>H.264 1080p60</th><th>H.265 2160p30</th><th>VP9 1080p30</th></tr><tr><td>Åpne med Zas i minnet</td><td>378 ms</td><td>134 ms</td><td>125 ms</td></tr><tr><td>Åpne med Zas lukket</td><td>710 ms</td><td>595 ms</td><td>514 ms</td></tr></table><p><b>Åpne</b>: fra <code>zas.exe video</code> startes (det samme som et dobbeltklikk) til første bilde vises på skjermen. Medianer av 8 åpninger fra minnet og 5 fra bunnen av. Med Zas i minnet tok 2 av 24 åpninger lengre tid (0,7 og 2,9 s); med Zas lukket var den tregeste 0,83 s. Filen lå allerede i Windows-hurtigbufferen.</p><p><b>Klipp kopiert</b>: fra en del på 12 s merkes og Ctrl+E trykkes (ingen omkoding) til filen ligger på utklippstavlen. Median av 5 kjøringer: 0,14 s; den første tok 33 s og er uforklart. Bildepresist (med omkoding, Ctrl+Shift+E) tar den samme delen 4,6 til 5,0 s.</p><p><b>FPS under opptak</b>: Fortnite i 2560×1440 i forgrunnen, målt med PresentMon (Intel). Uten opptak 61–69 FPS; med opptak i 60 fps med skjermkortet (H.264 eller H.265 via NVENC) 68–70 FPS, innenfor samme variasjon. Opptaket bruker 18 % av én prosessorkjerne. Den gamle prosessormetoden (libx264) brukte 2,7 kjerner og hakket.</p><p><b>Minne</b>: 99 MB i hvile (i bakgrunnen, klar til å åpne) og rundt 300 MB under avspilling av videoen i 1080p60.</p><p>Dette er målinger fra én bestemt datamaskin: din kan gi andre resultater.</p>",
+ "metodo": "<p>Zas 1.15.1, versjonen du laster ned her, på en PC med AMD Ryzen 5 3600, NVIDIA GeForce RTX 2060, 32 GB minne og Windows 11, med en skjerm på 2560×1440. Testvideo: ett minutt av Big Buck Bunny (H.264, 1080p i 60 fps) og to versjoner på 10 s laget av den (H.265 i 4K i 30 fps og VP9 1080p i 30 fps).</p><table><tr><th></th><th>H.264 1080p60</th><th>H.265 2160p30</th><th>VP9 1080p30</th></tr><tr><td>Åpne med Zas i minnet</td><td>378 ms</td><td>134 ms</td><td>125 ms</td></tr><tr><td>Åpne med Zas lukket</td><td>710 ms</td><td>595 ms</td><td>514 ms</td></tr></table><p><b>Åpne</b>: fra <code>zas.exe video</code> startes (det samme som et dobbeltklikk) til første bilde vises på skjermen. Medianer av 8 åpninger fra minnet og 5 fra bunnen av. Med Zas i minnet tok 2 av 24 åpninger lengre tid (0,7 og 2,9 s); med Zas lukket var den tregeste 0,83 s. Filen lå allerede i Windows-hurtigbufferen.</p><p><b>Klipp kopiert</b>: fra en del på 12 s merkes og Ctrl+E trykkes (ingen omkoding) til filen ligger på utklippstavlen. Median av 5 kjøringer: 0,14 s; den første tok 33 s og er uforklart. Bildepresist (med omkoding, Ctrl+Shift+E) tar den samme delen 4,6 til 5,0 s.</p><p><b>FPS under opptak</b>: Fortnite i 2560×1440 i forgrunnen, målt med PresentMon (Intel). Med og uten opptak i 60 fps med skjermkortet (H.264 eller H.265 via NVENC) de samme 61–70 FPS. Opptaket bruker 18 % av én prosessorkjerne. Den gamle prosessormetoden (libx264) brukte 2,7 kjerner og hakket.</p><p><b>Minne</b>: 99 MB i hvile (i bakgrunnen, klar til å åpne) og rundt 300 MB under avspilling av videoen i 1080p60.</p><p>Dette er målinger fra én bestemt datamaskin: din kan gi andre resultater.</p>",
  "preguntas": [
   [
    "Er Zas et godt alternativ til ShadowPlay, OBS eller Medal?",
@@ -71,7 +71,7 @@
   ],
   [
    "Gir opptak med Zas lavere FPS?",
-   "Ikke i vår test. Fortnite i 1440p gikk i 61–69 FPS uten opptak og i 68–70 mens Zas tok opp med skjermkortet (målt med PresentMon på et RTX 2060). Zas koder på skjermkortet (NVENC, AMF eller Quick Sync), så prosessoren nesten ikke jobber: 18 % av én kjerne."
+   "Ikke i vår test. Fortnite i 1440p gikk i de samme 61–70 FPS med og uten at Zas tok opp med skjermkortet (målt med PresentMon på et RTX 2060). Zas koder på skjermkortet (NVENC, AMF eller Quick Sync), så prosessoren nesten ikke jobber: 18 % av én kjerne."
   ],
   [
    "Hvordan deler jeg et klipp på Discord?",

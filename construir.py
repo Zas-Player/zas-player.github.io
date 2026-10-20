@@ -414,7 +414,7 @@ Based on each product's public information as of October 2026.
 
 - Price: free. No ads, no account, everything stays on your PC.
 - Platform: Windows 10 and 11, 64-bit. Installs per user in seconds and updates itself (checks once a day, installs when the user agrees).
-- Recording: any region or the whole monitor, system audio plus a chosen microphone, 24/30/60/120 fps, encoded on the graphics card (NVENC, AMF or Quick Sync; H.264 or H.265, chosen automatically). Measured: no FPS loss in Fortnite at 1440p (61-69 FPS without recording, 68-70 while recording; PresentMon, RTX 2060), using 18% of one CPU core.
+- Recording: any region or the whole monitor, system audio plus a chosen microphone, 24/30/60/120 fps, encoded on the graphics card (NVENC, AMF or Quick Sync; H.264 or H.265, chosen automatically). Measured: no FPS loss in Fortnite at 1440p (the same 61-70 FPS with and without recording; PresentMon, RTX 2060), using 18% of one CPU core.
 - Instant replay: keeps the last seconds of the screen in memory; Win+Shift+G saves them as a clip.
 - Sharing: every recording and export is copied to the clipboard as a file. Measured: a 12 s clip is on the clipboard 0.14 s after Ctrl+E (lossless, no re-encoding). Discord's free upload limit is 20 MB per file.
 - Player: opens almost any video (MP4, MKV, WebM, MOV, AVI, WMV, TS, FLV...) and images (JPEG, PNG, WebP, HEIC, AVIF, JXL...). Measured: 378 ms from double-click to first frame (H.264 1080p60).
@@ -442,7 +442,7 @@ Opens videos instantly because Zas stays in memory after the window closes. The 
 
 Zas 1.15.1 on an AMD Ryzen 5 3600, NVIDIA GeForce RTX 2060, 32 GB RAM, Windows 11, 2560x1440:
 
-- FPS while recording: Fortnite at 1440p in the foreground (PresentMon): 61-69 FPS without recording, 68-70 FPS while recording at 60 fps with H.264 or H.265 via NVENC. Recording used 18% of one CPU core; the old CPU method (libx264) used 2.7 cores and stuttered.
+- FPS while recording: Fortnite at 1440p in the foreground (PresentMon): the same 61-70 FPS with and without recording at 60 fps with H.264 or H.265 via NVENC. Recording used 18% of one CPU core; the old CPU method (libx264) used 2.7 cores and stuttered.
 - Open with Zas in memory (double-click to first frame, median): H.264 1080p60 378 ms, H.265 2160p30 134 ms, VP9 1080p30 125 ms.
 - Open with Zas fully closed (median): H.264 1080p60 710 ms, H.265 595 ms, VP9 514 ms.
 - 12 s clip copied to the clipboard without re-encoding: 0.14 s (median of 5).

@@ -16,7 +16,7 @@
  "cifra2-nombre": "Na zkopírování klipu",
  "cifra2-detalle": "Od stisknutí Ctrl+E po 12s klip ve schránce, připravený k vložení.",
  "cifra3-nombre": "Ztráta FPS při nahrávání",
- "cifra3-detalle": "Fortnite v 1440p: 61–69 FPS bez nahrávání a 68–70 při nahrávání grafickou kartou. Měřeno nástrojem PresentMon.",
+ "cifra3-detalle": "Fortnite v 1440p: stejných 61–70 FPS s nahráváním grafickou kartou i bez něj. Měřeno nástrojem PresentMon.",
  "metodo-titulo": "Jak jsme to měřili",
  "pasos-ante": "Klip za pár sekund",
  "pasos-titulo": "Z videa do chatu třemi klávesami.",
@@ -63,7 +63,7 @@
  "meta-og-titulo": "Zas Player · Nahrajte. Střihněte. Sdílejte.",
  "version-palabra": "verze",
  "idioma-etiqueta": "Jazyk",
- "metodo": "<p>Zas 1.15.1, tedy verze, kterou si zde stáhnete, na PC s AMD Ryzen 5 3600, NVIDIA GeForce RTX 2060, 32 GB paměti a Windows 11, s obrazovkou 2560×1440. Testovací video: minuta z Big Buck Bunny (H.264, 1080p při 60 fps) a dvě z něj vytvořené verze po 10 s (H.265 ve 4K při 30 fps a VP9 1080p při 30 fps).</p><table><tr><th></th><th>H.264 1080p60</th><th>H.265 2160p30</th><th>VP9 1080p30</th></tr><tr><td>Otevření se Zas v paměti</td><td>378 ms</td><td>134 ms</td><td>125 ms</td></tr><tr><td>Otevření se zavřeným Zas</td><td>710 ms</td><td>595 ms</td><td>514 ms</td></tr></table><p><b>Otevření</b>: od spuštění <code>zas.exe video</code> (totéž co dvojklik) po první snímek na obrazovce. Mediány z 8 otevření z paměti a 5 od nuly. Se Zas v paměti trvala 2 z 24 otevření déle (0,7 a 2,9 s); se zavřeným Zas trvalo nejpomalejší 0,83 s. Soubor už byl v mezipaměti Windows.</p><p><b>Zkopírovaný klip</b>: od označení 12s úseku a stisknutí Ctrl+E (bez překódování) po okamžik, kdy je soubor ve schránce. Medián z 5 pokusů: 0,14 s; první trval 33 s a příčinu neznáme. S přesností na snímek (s překódováním, Ctrl+Shift+E) trvá stejný úsek 4,6 až 5,0 s.</p><p><b>FPS při nahrávání</b>: Fortnite v rozlišení 2560×1440 v popředí, měřeno nástrojem PresentMon (Intel). Bez nahrávání 61–69 FPS; při nahrávání v 60 fps grafickou kartou (H.264 nebo H.265 přes NVENC) 68–70 FPS, tedy v rámci stejného kolísání. Nahrávání využívá 18 % jednoho jádra CPU. Dřívější metoda přes CPU (libx264) využívala 2,7 jádra a obraz se zasekával.</p><p><b>Paměť</b>: 99 MB v nečinnosti (na pozadí, připraveno k otevření) a asi 300 MB při přehrávání videa 1080p60.</p><p>Jde o měření z jednoho konkrétního počítače: u vás se výsledky mohou lišit.</p>",
+ "metodo": "<p>Zas 1.15.1, tedy verze, kterou si zde stáhnete, na PC s AMD Ryzen 5 3600, NVIDIA GeForce RTX 2060, 32 GB paměti a Windows 11, s obrazovkou 2560×1440. Testovací video: minuta z Big Buck Bunny (H.264, 1080p při 60 fps) a dvě z něj vytvořené verze po 10 s (H.265 ve 4K při 30 fps a VP9 1080p při 30 fps).</p><table><tr><th></th><th>H.264 1080p60</th><th>H.265 2160p30</th><th>VP9 1080p30</th></tr><tr><td>Otevření se Zas v paměti</td><td>378 ms</td><td>134 ms</td><td>125 ms</td></tr><tr><td>Otevření se zavřeným Zas</td><td>710 ms</td><td>595 ms</td><td>514 ms</td></tr></table><p><b>Otevření</b>: od spuštění <code>zas.exe video</code> (totéž co dvojklik) po první snímek na obrazovce. Mediány z 8 otevření z paměti a 5 od nuly. Se Zas v paměti trvala 2 z 24 otevření déle (0,7 a 2,9 s); se zavřeným Zas trvalo nejpomalejší 0,83 s. Soubor už byl v mezipaměti Windows.</p><p><b>Zkopírovaný klip</b>: od označení 12s úseku a stisknutí Ctrl+E (bez překódování) po okamžik, kdy je soubor ve schránce. Medián z 5 pokusů: 0,14 s; první trval 33 s a příčinu neznáme. S přesností na snímek (s překódováním, Ctrl+Shift+E) trvá stejný úsek 4,6 až 5,0 s.</p><p><b>FPS při nahrávání</b>: Fortnite v rozlišení 2560×1440 v popředí, měřeno nástrojem PresentMon (Intel). S nahráváním v 60 fps grafickou kartou (H.264 nebo H.265 přes NVENC) i bez něj stejných 61–70 FPS. Nahrávání využívá 18 % jednoho jádra CPU. Dřívější metoda přes CPU (libx264) využívala 2,7 jádra a obraz se zasekával.</p><p><b>Paměť</b>: 99 MB v nečinnosti (na pozadí, připraveno k otevření) a asi 300 MB při přehrávání videa 1080p60.</p><p>Jde o měření z jednoho konkrétního počítače: u vás se výsledky mohou lišit.</p>",
  "preguntas": [
   [
    "Je Zas dobrá alternativa k ShadowPlay, OBS nebo Medal?",
@@ -71,7 +71,7 @@
   ],
   [
    "Sníží nahrávání v Zas moje FPS?",
-   "V našem testu ne. Fortnite v 1440p běžel na 61–69 FPS bez nahrávání a na 68–70, když Zas nahrával grafickou kartou (měřeno nástrojem PresentMon na RTX 2060). Zas kóduje na grafické kartě (NVENC, AMF nebo Quick Sync), takže procesor téměř nepracuje: 18 % jednoho jádra."
+   "V našem testu ne. Fortnite v 1440p běžel na stejných 61–70 FPS, ať Zas nahrával grafickou kartou, nebo ne (měřeno nástrojem PresentMon na RTX 2060). Zas kóduje na grafické kartě (NVENC, AMF nebo Quick Sync), takže procesor téměř nepracuje: 18 % jednoho jádra."
   ],
   [
    "Jak sdílet klip na Discordu?",

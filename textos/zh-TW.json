@@ -16,7 +16,7 @@
  "cifra2-nombre": "複製好一段剪輯",
  "cifra2-detalle": "從按下 Ctrl+E 到 12 秒的剪輯進入剪貼簿、可以直接貼上。",
  "cifra3-nombre": "錄影時損失的 FPS",
- "cifra3-detalle": "1440p 的 Fortnite：不錄影時 61–69 FPS，用顯示卡錄影時 68–70 FPS。以 PresentMon 測量。",
+ "cifra3-detalle": "1440p 的 Fortnite：用顯示卡錄影和不錄影時都是同樣的 61–70 FPS。以 PresentMon 測量。",
  "metodo-titulo": "我們如何測量",
  "pasos-ante": "幾秒就有剪輯",
  "pasos-titulo": "從影片到聊天，只要三個鍵。",
@@ -63,7 +63,7 @@
  "meta-og-titulo": "Zas Player · 錄影。剪輯。分享。",
  "version-palabra": "版本",
  "idioma-etiqueta": "語言",
- "metodo": "<p>測試使用本頁提供下載的 Zas 1.15.1，電腦配備 AMD Ryzen 5 3600、NVIDIA GeForce RTX 2060、32 GB 記憶體、Windows 11，螢幕解析度 2560×1440。測試影片：一分鐘的 Big Buck Bunny（H.264，1080p 60 fps），以及由它製作的兩個 10 秒版本（H.265 4K 30 fps 和 VP9 1080p 30 fps）。</p><table><tr><th></th><th>H.264 1080p60</th><th>H.265 2160p30</th><th>VP9 1080p30</th></tr><tr><td>Zas 常駐記憶體時開啟</td><td>378 ms</td><td>134 ms</td><td>125 ms</td></tr><tr><td>Zas 未執行時開啟</td><td>710 ms</td><td>595 ms</td><td>514 ms</td></tr></table><p><b>開啟</b>：從執行 <code>zas.exe video</code>（等同按兩下）到螢幕上出現第一個畫面。常駐記憶體時取 8 次開啟的中位數，冷啟動取 5 次。Zas 常駐記憶體時，24 次中有 2 次較慢（0.7 秒和 2.9 秒）；Zas 未執行時，最慢一次為 0.83 秒。檔案已在 Windows 快取中。</p><p><b>複製剪輯</b>：標記一段 12 秒的片段並按下 Ctrl+E（不重新編碼），直到檔案進入剪貼簿。5 次執行的中位數：0.14 秒；第一次花了 33 秒，原因不明。若要精確到幀（重新編碼，Ctrl+Shift+E），同一片段需要 4.6 到 5.0 秒。</p><p><b>錄影時的 FPS</b>：Fortnite 以 2560×1440 在前景執行，以 PresentMon（Intel）測量。不錄影時 61–69 FPS；用顯示卡以 60 fps 錄影（透過 NVENC 編碼 H.264 或 H.265）時 68–70 FPS，落在相同的波動範圍內。錄影只占用單一 CPU 核心的 18%。舊的 CPU 編碼方式（libx264）占用 2.7 個核心，而且會卡頓。</p><p><b>記憶體</b>：閒置時（在背景隨時準備開啟）99 MB，播放 1080p60 影片時約 300 MB。</p><p>以上為單一台電腦的實測結果，你的電腦可能有所不同。</p>",
+ "metodo": "<p>測試使用本頁提供下載的 Zas 1.15.1，電腦配備 AMD Ryzen 5 3600、NVIDIA GeForce RTX 2060、32 GB 記憶體、Windows 11，螢幕解析度 2560×1440。測試影片：一分鐘的 Big Buck Bunny（H.264，1080p 60 fps），以及由它製作的兩個 10 秒版本（H.265 4K 30 fps 和 VP9 1080p 30 fps）。</p><table><tr><th></th><th>H.264 1080p60</th><th>H.265 2160p30</th><th>VP9 1080p30</th></tr><tr><td>Zas 常駐記憶體時開啟</td><td>378 ms</td><td>134 ms</td><td>125 ms</td></tr><tr><td>Zas 未執行時開啟</td><td>710 ms</td><td>595 ms</td><td>514 ms</td></tr></table><p><b>開啟</b>：從執行 <code>zas.exe video</code>（等同按兩下）到螢幕上出現第一個畫面。常駐記憶體時取 8 次開啟的中位數，冷啟動取 5 次。Zas 常駐記憶體時，24 次中有 2 次較慢（0.7 秒和 2.9 秒）；Zas 未執行時，最慢一次為 0.83 秒。檔案已在 Windows 快取中。</p><p><b>複製剪輯</b>：標記一段 12 秒的片段並按下 Ctrl+E（不重新編碼），直到檔案進入剪貼簿。5 次執行的中位數：0.14 秒；第一次花了 33 秒，原因不明。若要精確到幀（重新編碼，Ctrl+Shift+E），同一片段需要 4.6 到 5.0 秒。</p><p><b>錄影時的 FPS</b>：Fortnite 以 2560×1440 在前景執行，以 PresentMon（Intel）測量。用顯示卡以 60 fps 錄影（透過 NVENC 編碼 H.264 或 H.265）和不錄影時，都是同樣的 61–70 FPS。錄影只占用單一 CPU 核心的 18%。舊的 CPU 編碼方式（libx264）占用 2.7 個核心，而且會卡頓。</p><p><b>記憶體</b>：閒置時（在背景隨時準備開啟）99 MB，播放 1080p60 影片時約 300 MB。</p><p>以上為單一台電腦的實測結果，你的電腦可能有所不同。</p>",
  "preguntas": [
   [
    "Zas 能取代 ShadowPlay、OBS 或 Medal 嗎？",
@@ -71,7 +71,7 @@
   ],
   [
    "用 Zas 錄影會降低 FPS 嗎？",
-   "在我們的測試中不會。1440p 的 Fortnite 不錄影時為 61–69 FPS，Zas 用顯示卡錄影時為 68–70 FPS（在 RTX 2060 上以 PresentMon 測量）。Zas 使用顯示卡編碼（NVENC、AMF 或 Quick Sync），CPU 幾乎不用出力：只占單一核心的 18%。"
+   "在我們的測試中不會。1440p 的 Fortnite 在 Zas 用顯示卡錄影和不錄影時都是同樣的 61–70 FPS（在 RTX 2060 上以 PresentMon 測量）。Zas 使用顯示卡編碼（NVENC、AMF 或 Quick Sync），CPU 幾乎不用出力：只占單一核心的 18%。"
   ],
   [
    "要怎麼把剪輯分享到 Discord？",

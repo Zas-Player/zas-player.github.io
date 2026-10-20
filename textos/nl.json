@@ -16,7 +16,7 @@
  "cifra2-nombre": "Om een clip te kopiëren",
  "cifra2-detalle": "Van Ctrl+E tot een clip van 12 s op het klembord, klaar om te plakken.",
  "cifra3-nombre": "FPS-verlies tijdens opnemen",
- "cifra3-detalle": "Fortnite op 1440p: 61–69 FPS zonder opname en 68–70 tijdens opname met de videokaart. Gemeten met PresentMon.",
+ "cifra3-detalle": "Fortnite op 1440p: dezelfde 61–70 FPS met en zonder opname met de videokaart. Gemeten met PresentMon.",
  "metodo-titulo": "Hoe we het hebben gemeten",
  "pasos-ante": "Een clip in seconden",
  "pasos-titulo": "Van video naar chat in drie toetsen.",
@@ -63,7 +63,7 @@
  "meta-og-titulo": "Zas Player · Opnemen. Knippen. Delen.",
  "version-palabra": "versie",
  "idioma-etiqueta": "Taal",
- "metodo": "<p>Zas 1.15.1, de versie die je hier downloadt, op een pc met een AMD Ryzen 5 3600, een NVIDIA GeForce RTX 2060, 32 GB geheugen en Windows 11, met een scherm van 2560×1440. Testvideo: één minuut Big Buck Bunny (H.264, 1080p op 60 fps) en twee versies van 10 s die daarvan zijn gemaakt (H.265 in 4K op 30 fps en VP9 1080p op 30 fps).</p><table><tr><th></th><th>H.264 1080p60</th><th>H.265 2160p30</th><th>VP9 1080p30</th></tr><tr><td>Openen met Zas in het geheugen</td><td>378 ms</td><td>134 ms</td><td>125 ms</td></tr><tr><td>Openen met Zas gesloten</td><td>710 ms</td><td>595 ms</td><td>514 ms</td></tr></table><p><b>Openen</b>: vanaf het starten van <code>zas.exe video</code> (hetzelfde als dubbelklikken) tot het eerste frame op het scherm. Medianen van 8 keer openen vanuit het geheugen en 5 keer vanaf nul. Met Zas in het geheugen duurden 2 van de 24 keer langer (0,7 en 2,9 s); met Zas gesloten was de traagste 0,83 s. Het bestand stond al in de cache van Windows.</p><p><b>Clip gekopieerd</b>: een stuk van 12 s markeren en op Ctrl+E drukken (zonder hercodering) tot het bestand op het klembord staat. Mediaan van 5 runs: 0,14 s; de eerste duurde 33 s, zonder verklaring. Framenauwkeurig (met hercodering, Ctrl+Shift+E) duurt hetzelfde stuk 4,6 tot 5,0 s.</p><p><b>FPS tijdens opnemen</b>: Fortnite op 2560×1440 op de voorgrond, gemeten met PresentMon (Intel). Zonder opname 61–69 FPS; bij opname op 60 fps met de videokaart (H.264 of H.265 via NVENC) 68–70 FPS, binnen dezelfde spreiding. Opnemen gebruikt 18% van één CPU-kern. De oude CPU-methode (libx264) gebruikte 2,7 kernen en haperde.</p><p><b>Geheugen</b>: 99 MB in rust (op de achtergrond, klaar om te openen) en ongeveer 300 MB bij het afspelen van de 1080p60-video.</p><p>Dit zijn metingen op één specifieke computer: op die van jou kan het anders uitvallen.</p>",
+ "metodo": "<p>Zas 1.15.1, de versie die je hier downloadt, op een pc met een AMD Ryzen 5 3600, een NVIDIA GeForce RTX 2060, 32 GB geheugen en Windows 11, met een scherm van 2560×1440. Testvideo: één minuut Big Buck Bunny (H.264, 1080p op 60 fps) en twee versies van 10 s die daarvan zijn gemaakt (H.265 in 4K op 30 fps en VP9 1080p op 30 fps).</p><table><tr><th></th><th>H.264 1080p60</th><th>H.265 2160p30</th><th>VP9 1080p30</th></tr><tr><td>Openen met Zas in het geheugen</td><td>378 ms</td><td>134 ms</td><td>125 ms</td></tr><tr><td>Openen met Zas gesloten</td><td>710 ms</td><td>595 ms</td><td>514 ms</td></tr></table><p><b>Openen</b>: vanaf het starten van <code>zas.exe video</code> (hetzelfde als dubbelklikken) tot het eerste frame op het scherm. Medianen van 8 keer openen vanuit het geheugen en 5 keer vanaf nul. Met Zas in het geheugen duurden 2 van de 24 keer langer (0,7 en 2,9 s); met Zas gesloten was de traagste 0,83 s. Het bestand stond al in de cache van Windows.</p><p><b>Clip gekopieerd</b>: een stuk van 12 s markeren en op Ctrl+E drukken (zonder hercodering) tot het bestand op het klembord staat. Mediaan van 5 runs: 0,14 s; de eerste duurde 33 s, zonder verklaring. Framenauwkeurig (met hercodering, Ctrl+Shift+E) duurt hetzelfde stuk 4,6 tot 5,0 s.</p><p><b>FPS tijdens opnemen</b>: Fortnite op 2560×1440 op de voorgrond, gemeten met PresentMon (Intel). Met en zonder opname op 60 fps met de videokaart (H.264 of H.265 via NVENC) dezelfde 61–70 FPS. Opnemen gebruikt 18% van één CPU-kern. De oude CPU-methode (libx264) gebruikte 2,7 kernen en haperde.</p><p><b>Geheugen</b>: 99 MB in rust (op de achtergrond, klaar om te openen) en ongeveer 300 MB bij het afspelen van de 1080p60-video.</p><p>Dit zijn metingen op één specifieke computer: op die van jou kan het anders uitvallen.</p>",
  "preguntas": [
   [
    "Is Zas een goed alternatief voor ShadowPlay, OBS of Medal?",
@@ -71,7 +71,7 @@
   ],
   [
    "Verlies ik FPS als ik opneem met Zas?",
-   "In onze test niet. Fortnite op 1440p draaide op 61–69 FPS zonder opname en op 68–70 terwijl Zas opnam met de videokaart (gemeten met PresentMon op een RTX 2060). Zas codeert op de videokaart (NVENC, AMF of Quick Sync), dus de CPU doet bijna niets: 18% van één kern."
+   "In onze test niet. Fortnite op 1440p draaide op dezelfde 61–70 FPS, met en zonder dat Zas opnam met de videokaart (gemeten met PresentMon op een RTX 2060). Zas codeert op de videokaart (NVENC, AMF of Quick Sync), dus de CPU doet bijna niets: 18% van één kern."
   ],
   [
    "Hoe deel ik een clip op Discord?",

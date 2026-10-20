@@ -16,7 +16,7 @@
  "cifra2-nombre": "Klipin kopiointiin",
  "cifra2-detalle": "Ctrl+E-painalluksesta siihen, että 12 s:n klippi on leikepöydällä valmiina liitettäväksi.",
  "cifra3-nombre": "FPS-pudotus tallennettaessa",
- "cifra3-detalle": "Fortnite 1440p:llä: 61–69 FPS ilman tallennusta ja 68–70 tallennettaessa näytönohjaimella. Mitattu PresentMonilla.",
+ "cifra3-detalle": "Fortnite 1440p:llä: samat 61–70 FPS näytönohjaimella tallennettaessa ja ilman tallennusta. Mitattu PresentMonilla.",
  "metodo-titulo": "Miten mittasimme",
  "pasos-ante": "Klippi sekunneissa",
  "pasos-titulo": "Videosta chattiin kolmella näppäimellä.",
@@ -63,7 +63,7 @@
  "meta-og-titulo": "Zas Player · Tallenna. Leikkaa. Jaa.",
  "version-palabra": "versio",
  "idioma-etiqueta": "Kieli",
- "metodo": "<p>Zas 1.15.1, eli täältä ladattava versio, PC:llä, jossa on AMD Ryzen 5 3600, NVIDIA GeForce RTX 2060, 32 Gt muistia ja Windows 11 sekä 2560×1440-näyttö. Testivideo: minuutti Big Buck Bunnya (H.264, 1080p, 60 fps) ja siitä tehdyt kaksi 10 s:n versiota (H.265 4K, 30 fps ja VP9 1080p, 30 fps).</p><table><tr><th></th><th>H.264 1080p60</th><th>H.265 2160p30</th><th>VP9 1080p30</th></tr><tr><td>Avaus, Zas muistissa</td><td>378 ms</td><td>134 ms</td><td>125 ms</td></tr><tr><td>Avaus, Zas suljettuna</td><td>710 ms</td><td>595 ms</td><td>514 ms</td></tr></table><p><b>Avaus</b>: komennon <code>zas.exe video</code> käynnistyksestä (sama kuin kaksoisnapsautus) ensimmäiseen kuvaan näytöllä. Mediaanit 8 avauksesta muistista ja 5 kylmäkäynnistyksestä. Kun Zas oli muistissa, 2 avausta 24:stä kesti pidempään (0,7 ja 2,9 s); Zasin ollessa suljettuna hitain oli 0,83 s. Tiedosto oli jo Windowsin välimuistissa.</p><p><b>Klippi kopioitu</b>: 12 s:n osan merkitsemisestä ja Ctrl+E:n painamisesta (ei uudelleenkoodausta) siihen, että tiedosto on leikepöydällä. Mediaani 5 ajosta: 0,14 s; ensimmäinen kesti 33 s, eikä syytä tiedetä. Ruudun tarkkuudella (uudelleenkoodaus, Ctrl+Shift+E) sama osa vie 4,6–5,0 s.</p><p><b>FPS tallennettaessa</b>: Fortnite 2560×1440-tarkkuudella etualalla, mitattu PresentMonilla (Intel). Ilman tallennusta 61–69 FPS; tallennettaessa 60 fps:llä näytönohjaimella (H.264 tai H.265, NVENC) 68–70 FPS, saman vaihtelun sisällä. Tallennus käyttää 18 % yhdestä suoritinytimestä. Vanha suoritinpohjainen tapa (libx264) käytti 2,7 ydintä ja nyki.</p><p><b>Muisti</b>: 99 Mt levossa (taustalla, valmiina avaamaan) ja noin 300 Mt 1080p60-videota toistettaessa.</p><p>Nämä ovat mittauksia yhdeltä tietokoneelta: omasi voi antaa eri tulokset.</p>",
+ "metodo": "<p>Zas 1.15.1, eli täältä ladattava versio, PC:llä, jossa on AMD Ryzen 5 3600, NVIDIA GeForce RTX 2060, 32 Gt muistia ja Windows 11 sekä 2560×1440-näyttö. Testivideo: minuutti Big Buck Bunnya (H.264, 1080p, 60 fps) ja siitä tehdyt kaksi 10 s:n versiota (H.265 4K, 30 fps ja VP9 1080p, 30 fps).</p><table><tr><th></th><th>H.264 1080p60</th><th>H.265 2160p30</th><th>VP9 1080p30</th></tr><tr><td>Avaus, Zas muistissa</td><td>378 ms</td><td>134 ms</td><td>125 ms</td></tr><tr><td>Avaus, Zas suljettuna</td><td>710 ms</td><td>595 ms</td><td>514 ms</td></tr></table><p><b>Avaus</b>: komennon <code>zas.exe video</code> käynnistyksestä (sama kuin kaksoisnapsautus) ensimmäiseen kuvaan näytöllä. Mediaanit 8 avauksesta muistista ja 5 kylmäkäynnistyksestä. Kun Zas oli muistissa, 2 avausta 24:stä kesti pidempään (0,7 ja 2,9 s); Zasin ollessa suljettuna hitain oli 0,83 s. Tiedosto oli jo Windowsin välimuistissa.</p><p><b>Klippi kopioitu</b>: 12 s:n osan merkitsemisestä ja Ctrl+E:n painamisesta (ei uudelleenkoodausta) siihen, että tiedosto on leikepöydällä. Mediaani 5 ajosta: 0,14 s; ensimmäinen kesti 33 s, eikä syytä tiedetä. Ruudun tarkkuudella (uudelleenkoodaus, Ctrl+Shift+E) sama osa vie 4,6–5,0 s.</p><p><b>FPS tallennettaessa</b>: Fortnite 2560×1440-tarkkuudella etualalla, mitattu PresentMonilla (Intel). Tallennettaessa 60 fps:llä näytönohjaimella (H.264 tai H.265, NVENC) ja ilman tallennusta samat 61–70 FPS. Tallennus käyttää 18 % yhdestä suoritinytimestä. Vanha suoritinpohjainen tapa (libx264) käytti 2,7 ydintä ja nyki.</p><p><b>Muisti</b>: 99 Mt levossa (taustalla, valmiina avaamaan) ja noin 300 Mt 1080p60-videota toistettaessa.</p><p>Nämä ovat mittauksia yhdeltä tietokoneelta: omasi voi antaa eri tulokset.</p>",
  "preguntas": [
   [
    "Onko Zas hyvä vaihtoehto ShadowPlaylle, OBS:lle tai Medalille?",
@@ -71,7 +71,7 @@
   ],
   [
    "Laskeeko Zasilla tallentaminen FPS:ää?",
-   "Testissämme ei. Fortnite 1440p:llä pyöri 61–69 FPS:n nopeudella ilman tallennusta ja 68–70 FPS:llä Zasin tallentaessa näytönohjaimella (mitattu PresentMonilla, RTX 2060). Zas koodaa näytönohjaimella (NVENC, AMF tai Quick Sync), joten suoritin tuskin tekee töitä: 18 % yhdestä ytimestä."
+   "Testissämme ei. Fortnite 1440p:llä pyöri samalla 61–70 FPS:n nopeudella sekä Zasin tallentaessa näytönohjaimella että ilman tallennusta (mitattu PresentMonilla, RTX 2060). Zas koodaa näytönohjaimella (NVENC, AMF tai Quick Sync), joten suoritin tuskin tekee töitä: 18 % yhdestä ytimestä."
   ],
   [
    "Miten jaan klipin Discordissa?",

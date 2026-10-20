@@ -16,7 +16,7 @@
  "cifra2-nombre": "Klipui nukopijuoti",
  "cifra2-detalle": "Nuo Ctrl+E paspaudimo iki 12 s klipas atsiduria mainų srityje, paruoštas įklijuoti.",
  "cifra3-nombre": "Prarasti FPS įrašant",
- "cifra3-detalle": "Fortnite 1440p raiška: 61–69 FPS neįrašant ir 68–70 įrašant vaizdo plokšte. Išmatuota su PresentMon.",
+ "cifra3-detalle": "Fortnite 1440p raiška: tie patys 61–70 FPS įrašant vaizdo plokšte ir neįrašant. Išmatuota su PresentMon.",
  "metodo-titulo": "Kaip matavome",
  "pasos-ante": "Klipas per sekundes",
  "pasos-titulo": "Iš vaizdo įrašo į pokalbį trimis klavišais.",
@@ -63,7 +63,7 @@
  "meta-og-titulo": "Zas Player · Įrašyti. Iškirpti. Dalintis.",
  "version-palabra": "versija",
  "idioma-etiqueta": "Kalba",
- "metodo": "<p>Zas 1.15.1 – čia atsisiunčiama versija – kompiuteryje su AMD Ryzen 5 3600, NVIDIA GeForce RTX 2060, 32 GB atminties ir Windows 11, su 2560×1440 ekranu. Bandomasis vaizdo įrašas: viena Big Buck Bunny minutė (H.264, 1080p, 60 fps) ir dvi iš jos padarytos 10 s versijos (H.265 4K, 30 fps ir VP9 1080p, 30 fps).</p><table><tr><th></th><th>H.264 1080p60</th><th>H.265 2160p30</th><th>VP9 1080p30</th></tr><tr><td>Atidarymas, Zas atmintyje</td><td>378 ms</td><td>134 ms</td><td>125 ms</td></tr><tr><td>Atidarymas, Zas uždarytas</td><td>710 ms</td><td>595 ms</td><td>514 ms</td></tr></table><p><b>Atidarymas</b>: nuo <code>zas.exe video</code> paleidimo (tas pats, kas dvigubas spustelėjimas) iki pirmojo kadro ekrane. 8 atidarymų iš atminties ir 5 nuo nulio medianos. Kai Zas buvo atmintyje, 2 iš 24 atidarymų užtruko ilgiau (0,7 ir 2,9 s); kai Zas buvo uždarytas, lėčiausias buvo 0,83 s. Failas jau buvo Windows podėlyje.</p><p><b>Klipas nukopijuotas</b>: nuo 12 s dalies pažymėjimo ir Ctrl+E paspaudimo (be perkodavimo) iki failas atsiduria mainų srityje. 5 bandymų mediana: 0,14 s; pirmasis užtruko 33 s ir priežastis neaiški. Kadro tikslumu (su perkodavimu, Ctrl+Shift+E) ta pati dalis užtrunka nuo 4,6 iki 5,0 s.</p><p><b>FPS įrašant</b>: Fortnite 2560×1440 raiška pirmame plane, išmatuota su PresentMon (Intel). Neįrašant 61–69 FPS; įrašant 60 fps vaizdo plokšte (H.264 arba H.265 per NVENC) 68–70 FPS, tos pačios svyravimo ribose. Įrašymas naudoja 18 % vieno procesoriaus branduolio. Senasis procesoriaus metodas (libx264) naudojo 2,7 branduolio ir strigo.</p><p><b>Atmintis</b>: 99 MB neveikos būsenoje (fone, pasiruošęs atidaryti) ir apie 300 MB leidžiant 1080p60 vaizdo įrašą.</p><p>Tai vieno konkretaus kompiuterio matavimai: jūsų rezultatai gali skirtis.</p>",
+ "metodo": "<p>Zas 1.15.1 – čia atsisiunčiama versija – kompiuteryje su AMD Ryzen 5 3600, NVIDIA GeForce RTX 2060, 32 GB atminties ir Windows 11, su 2560×1440 ekranu. Bandomasis vaizdo įrašas: viena Big Buck Bunny minutė (H.264, 1080p, 60 fps) ir dvi iš jos padarytos 10 s versijos (H.265 4K, 30 fps ir VP9 1080p, 30 fps).</p><table><tr><th></th><th>H.264 1080p60</th><th>H.265 2160p30</th><th>VP9 1080p30</th></tr><tr><td>Atidarymas, Zas atmintyje</td><td>378 ms</td><td>134 ms</td><td>125 ms</td></tr><tr><td>Atidarymas, Zas uždarytas</td><td>710 ms</td><td>595 ms</td><td>514 ms</td></tr></table><p><b>Atidarymas</b>: nuo <code>zas.exe video</code> paleidimo (tas pats, kas dvigubas spustelėjimas) iki pirmojo kadro ekrane. 8 atidarymų iš atminties ir 5 nuo nulio medianos. Kai Zas buvo atmintyje, 2 iš 24 atidarymų užtruko ilgiau (0,7 ir 2,9 s); kai Zas buvo uždarytas, lėčiausias buvo 0,83 s. Failas jau buvo Windows podėlyje.</p><p><b>Klipas nukopijuotas</b>: nuo 12 s dalies pažymėjimo ir Ctrl+E paspaudimo (be perkodavimo) iki failas atsiduria mainų srityje. 5 bandymų mediana: 0,14 s; pirmasis užtruko 33 s ir priežastis neaiški. Kadro tikslumu (su perkodavimu, Ctrl+Shift+E) ta pati dalis užtrunka nuo 4,6 iki 5,0 s.</p><p><b>FPS įrašant</b>: Fortnite 2560×1440 raiška pirmame plane, išmatuota su PresentMon (Intel). Įrašant 60 fps vaizdo plokšte (H.264 arba H.265 per NVENC) ir neįrašant – tie patys 61–70 FPS. Įrašymas naudoja 18 % vieno procesoriaus branduolio. Senasis procesoriaus metodas (libx264) naudojo 2,7 branduolio ir strigo.</p><p><b>Atmintis</b>: 99 MB neveikos būsenoje (fone, pasiruošęs atidaryti) ir apie 300 MB leidžiant 1080p60 vaizdo įrašą.</p><p>Tai vieno konkretaus kompiuterio matavimai: jūsų rezultatai gali skirtis.</p>",
  "preguntas": [
   [
    "Ar Zas yra gera ShadowPlay, OBS ar Medal alternatyva?",
@@ -71,7 +71,7 @@
   ],
   [
    "Ar įrašymas su Zas sumažina FPS?",
-   "Mūsų bandyme – ne. Fortnite 1440p raiška veikė 61–69 FPS neįrašant ir 68–70 FPS, kol Zas įrašinėjo vaizdo plokšte (išmatuota su PresentMon, RTX 2060). Zas koduoja vaizdo plokšte (NVENC, AMF arba Quick Sync), todėl procesorius beveik nedirba: 18 % vieno branduolio."
+   "Mūsų bandyme – ne. Fortnite 1440p raiška veikė tais pačiais 61–70 FPS ir Zas įrašinėjant vaizdo plokšte, ir neįrašant (išmatuota su PresentMon, RTX 2060). Zas koduoja vaizdo plokšte (NVENC, AMF arba Quick Sync), todėl procesorius beveik nedirba: 18 % vieno branduolio."
   ],
   [
    "Kaip pasidalinti klipu Discord?",

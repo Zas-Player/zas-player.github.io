@@ -16,7 +16,7 @@
  "cifra2-nombre": "Până la clipul copiat",
  "cifra2-detalle": "De la apăsarea Ctrl+E până la un clip de 12 s în clipboard, gata de lipit.",
  "cifra3-nombre": "FPS pierdute la înregistrare",
- "cifra3-detalle": "Fortnite la 1440p: 61–69 FPS fără înregistrare și 68–70 în timpul înregistrării cu placa video. Măsurat cu PresentMon.",
+ "cifra3-detalle": "Fortnite la 1440p: aceleași 61–70 FPS cu și fără înregistrare cu placa video. Măsurat cu PresentMon.",
  "metodo-titulo": "Cum am măsurat",
  "pasos-ante": "Un clip în secunde",
  "pasos-titulo": "De la video la chat în trei taste.",
@@ -63,7 +63,7 @@
  "meta-og-titulo": "Zas Player · Înregistrează. Taie. Trimite.",
  "version-palabra": "versiunea",
  "idioma-etiqueta": "Limbă",
- "metodo": "<p>Zas 1.15.1, versiunea pe care o descarci de aici, pe un PC cu AMD Ryzen 5 3600, NVIDIA GeForce RTX 2060, 32 GB de memorie și Windows 11, cu un ecran de 2560×1440. Video de test: un minut din Big Buck Bunny (H.264, 1080p la 60 fps) și două versiuni de 10 s create din el (H.265 în 4K la 30 fps și VP9 1080p la 30 fps).</p><table><tr><th></th><th>H.264 1080p60</th><th>H.265 2160p30</th><th>VP9 1080p30</th></tr><tr><td>Deschidere cu Zas în memorie</td><td>378 ms</td><td>134 ms</td><td>125 ms</td></tr><tr><td>Deschidere cu Zas închis</td><td>710 ms</td><td>595 ms</td><td>514 ms</td></tr></table><p><b>Deschidere</b>: de la lansarea <code>zas.exe video</code> (la fel ca un dublu clic) până la primul cadru pe ecran. Mediane din 8 deschideri în memorie și 5 de la zero. Cu Zas în memorie, 2 din 24 de deschideri au durat mai mult (0,7 și 2,9 s); cu Zas închis, cea mai lentă a durat 0,83 s. Fișierul era deja în cache-ul Windows.</p><p><b>Clip copiat</b>: de la marcarea unei secvențe de 12 s și apăsarea Ctrl+E (fără recodare) până când fișierul ajunge în clipboard. Mediana din 5 rulări: 0,14 s; prima a durat 33 s, fără o explicație. Cu precizie de cadru (cu recodare, Ctrl+Shift+E), aceeași secvență durează între 4,6 și 5,0 s.</p><p><b>FPS în timpul înregistrării</b>: Fortnite la 2560×1440 în prim-plan, măsurat cu PresentMon (Intel). Fără înregistrare, 61–69 FPS; înregistrând la 60 fps cu placa video (H.264 sau H.265 prin NVENC), 68–70 FPS, în aceeași marjă de variație. Înregistrarea folosește 18% dintr-un nucleu de CPU. Vechea metodă pe CPU (libx264) folosea 2,7 nuclee și sacada.</p><p><b>Memorie</b>: 99 MB în repaus (în fundal, gata de deschidere) și aproximativ 300 MB la redarea videoclipului 1080p60.</p><p>Acestea sunt măsurători de pe un anumit computer: la tine pot fi diferite.</p>",
+ "metodo": "<p>Zas 1.15.1, versiunea pe care o descarci de aici, pe un PC cu AMD Ryzen 5 3600, NVIDIA GeForce RTX 2060, 32 GB de memorie și Windows 11, cu un ecran de 2560×1440. Video de test: un minut din Big Buck Bunny (H.264, 1080p la 60 fps) și două versiuni de 10 s create din el (H.265 în 4K la 30 fps și VP9 1080p la 30 fps).</p><table><tr><th></th><th>H.264 1080p60</th><th>H.265 2160p30</th><th>VP9 1080p30</th></tr><tr><td>Deschidere cu Zas în memorie</td><td>378 ms</td><td>134 ms</td><td>125 ms</td></tr><tr><td>Deschidere cu Zas închis</td><td>710 ms</td><td>595 ms</td><td>514 ms</td></tr></table><p><b>Deschidere</b>: de la lansarea <code>zas.exe video</code> (la fel ca un dublu clic) până la primul cadru pe ecran. Mediane din 8 deschideri în memorie și 5 de la zero. Cu Zas în memorie, 2 din 24 de deschideri au durat mai mult (0,7 și 2,9 s); cu Zas închis, cea mai lentă a durat 0,83 s. Fișierul era deja în cache-ul Windows.</p><p><b>Clip copiat</b>: de la marcarea unei secvențe de 12 s și apăsarea Ctrl+E (fără recodare) până când fișierul ajunge în clipboard. Mediana din 5 rulări: 0,14 s; prima a durat 33 s, fără o explicație. Cu precizie de cadru (cu recodare, Ctrl+Shift+E), aceeași secvență durează între 4,6 și 5,0 s.</p><p><b>FPS în timpul înregistrării</b>: Fortnite la 2560×1440 în prim-plan, măsurat cu PresentMon (Intel). Cu și fără înregistrare la 60 fps cu placa video (H.264 sau H.265 prin NVENC), aceleași 61–70 FPS. Înregistrarea folosește 18% dintr-un nucleu de CPU. Vechea metodă pe CPU (libx264) folosea 2,7 nuclee și sacada.</p><p><b>Memorie</b>: 99 MB în repaus (în fundal, gata de deschidere) și aproximativ 300 MB la redarea videoclipului 1080p60.</p><p>Acestea sunt măsurători de pe un anumit computer: la tine pot fi diferite.</p>",
  "preguntas": [
   [
    "Este Zas o alternativă bună la ShadowPlay, OBS sau Medal?",
@@ -71,7 +71,7 @@
   ],
   [
    "Înregistrarea cu Zas îmi scade FPS-ul?",
-   "În testul nostru, nu. Fortnite la 1440p a rulat la 61–69 FPS fără înregistrare și la 68–70 în timp ce Zas înregistra cu placa video (măsurat cu PresentMon pe un RTX 2060). Zas codifică pe placa video (NVENC, AMF sau Quick Sync), așa că procesorul aproape că nu lucrează: 18% dintr-un nucleu."
+   "În testul nostru, nu. Fortnite la 1440p a rulat la aceleași 61–70 FPS, fie că Zas înregistra cu placa video, fie că nu (măsurat cu PresentMon pe un RTX 2060). Zas codifică pe placa video (NVENC, AMF sau Quick Sync), așa că procesorul aproape că nu lucrează: 18% dintr-un nucleu."
   ],
   [
    "Cum trimit un clip pe Discord?",

@@ -16,7 +16,7 @@
  "cifra2-nombre": "Để có clip đã sao chép",
  "cifra2-detalle": "Từ lúc nhấn Ctrl+E đến khi clip 12 giây nằm trong bộ nhớ tạm, sẵn sàng để dán.",
  "cifra3-nombre": "FPS bị mất khi quay",
- "cifra3-detalle": "Fortnite ở 1440p: 61–69 FPS khi không quay và 68–70 FPS khi quay bằng card đồ họa. Đo bằng PresentMon.",
+ "cifra3-detalle": "Fortnite ở 1440p: cùng 61–70 FPS dù có quay bằng card đồ họa hay không. Đo bằng PresentMon.",
  "metodo-titulo": "Cách chúng tôi đo",
  "pasos-ante": "Clip trong vài giây",
  "pasos-titulo": "Từ video đến khung chat chỉ với ba phím.",
@@ -63,7 +63,7 @@
  "meta-og-titulo": "Zas Player · Quay. Cắt. Chia sẻ.",
  "version-palabra": "phiên bản",
  "idioma-etiqueta": "Ngôn ngữ",
- "metodo": "<p>Zas 1.15.1, phiên bản bạn tải tại đây, chạy trên PC dùng AMD Ryzen 5 3600, NVIDIA GeForce RTX 2060, 32 GB bộ nhớ và Windows 11, màn hình 2560×1440. Video thử nghiệm: một phút Big Buck Bunny (H.264, 1080p ở 60 fps) và hai phiên bản dài 10 giây tạo từ video đó (H.265 4K ở 30 fps và VP9 1080p ở 30 fps).</p><table><tr><th></th><th>H.264 1080p60</th><th>H.265 2160p30</th><th>VP9 1080p30</th></tr><tr><td>Mở khi Zas đang trong bộ nhớ</td><td>378 ms</td><td>134 ms</td><td>125 ms</td></tr><tr><td>Mở khi Zas đã đóng</td><td>710 ms</td><td>595 ms</td><td>514 ms</td></tr></table><p><b>Mở</b>: từ lúc chạy <code>zas.exe video</code> (tương đương nhấp đúp) đến khi khung hình đầu tiên hiện trên màn hình. Trung vị của 8 lần mở khi trong bộ nhớ và 5 lần mở từ đầu. Khi Zas trong bộ nhớ, 2 trên 24 lần mở lâu hơn (0,7 và 2,9 giây); khi Zas đã đóng, lần chậm nhất là 0,83 giây. Tệp đã nằm sẵn trong bộ nhớ đệm của Windows.</p><p><b>Sao chép clip</b>: đánh dấu đoạn 12 giây và nhấn Ctrl+E (không mã hóa lại) cho đến khi tệp nằm trong bộ nhớ tạm. Trung vị của 5 lần chạy: 0,14 giây; lần đầu mất 33 giây và chưa rõ nguyên nhân. Khi cắt chính xác từng khung hình (mã hóa lại, Ctrl+Shift+E), cùng đoạn đó mất 4,6 đến 5,0 giây.</p><p><b>FPS khi quay</b>: Fortnite ở 2560×1440 chạy ở cửa sổ chính, đo bằng PresentMon (Intel). Không quay: 61–69 FPS; quay ở 60 fps bằng card đồ họa (H.264 hoặc H.265 qua NVENC): 68–70 FPS, nằm trong cùng biên độ dao động. Việc quay chỉ dùng 18% của một nhân CPU. Cách cũ dùng CPU (libx264) tốn 2,7 nhân và bị giật.</p><p><b>Bộ nhớ</b>: 99 MB khi rảnh (chạy nền, sẵn sàng mở) và khoảng 300 MB khi phát video 1080p60.</p><p>Đây là số đo trên một máy tính cụ thể: máy của bạn có thể khác.</p>",
+ "metodo": "<p>Zas 1.15.1, phiên bản bạn tải tại đây, chạy trên PC dùng AMD Ryzen 5 3600, NVIDIA GeForce RTX 2060, 32 GB bộ nhớ và Windows 11, màn hình 2560×1440. Video thử nghiệm: một phút Big Buck Bunny (H.264, 1080p ở 60 fps) và hai phiên bản dài 10 giây tạo từ video đó (H.265 4K ở 30 fps và VP9 1080p ở 30 fps).</p><table><tr><th></th><th>H.264 1080p60</th><th>H.265 2160p30</th><th>VP9 1080p30</th></tr><tr><td>Mở khi Zas đang trong bộ nhớ</td><td>378 ms</td><td>134 ms</td><td>125 ms</td></tr><tr><td>Mở khi Zas đã đóng</td><td>710 ms</td><td>595 ms</td><td>514 ms</td></tr></table><p><b>Mở</b>: từ lúc chạy <code>zas.exe video</code> (tương đương nhấp đúp) đến khi khung hình đầu tiên hiện trên màn hình. Trung vị của 8 lần mở khi trong bộ nhớ và 5 lần mở từ đầu. Khi Zas trong bộ nhớ, 2 trên 24 lần mở lâu hơn (0,7 và 2,9 giây); khi Zas đã đóng, lần chậm nhất là 0,83 giây. Tệp đã nằm sẵn trong bộ nhớ đệm của Windows.</p><p><b>Sao chép clip</b>: đánh dấu đoạn 12 giây và nhấn Ctrl+E (không mã hóa lại) cho đến khi tệp nằm trong bộ nhớ tạm. Trung vị của 5 lần chạy: 0,14 giây; lần đầu mất 33 giây và chưa rõ nguyên nhân. Khi cắt chính xác từng khung hình (mã hóa lại, Ctrl+Shift+E), cùng đoạn đó mất 4,6 đến 5,0 giây.</p><p><b>FPS khi quay</b>: Fortnite ở 2560×1440 chạy ở cửa sổ chính, đo bằng PresentMon (Intel). Có quay ở 60 fps bằng card đồ họa (H.264 hoặc H.265 qua NVENC) hay không đều đạt cùng 61–70 FPS. Việc quay chỉ dùng 18% của một nhân CPU. Cách cũ dùng CPU (libx264) tốn 2,7 nhân và bị giật.</p><p><b>Bộ nhớ</b>: 99 MB khi rảnh (chạy nền, sẵn sàng mở) và khoảng 300 MB khi phát video 1080p60.</p><p>Đây là số đo trên một máy tính cụ thể: máy của bạn có thể khác.</p>",
  "preguntas": [
   [
    "Zas có phải là lựa chọn tốt thay cho ShadowPlay, OBS hay Medal?",
@@ -71,7 +71,7 @@
   ],
   [
    "Quay bằng Zas có làm tụt FPS không?",
-   "Trong thử nghiệm của chúng tôi thì không. Fortnite ở 1440p chạy 61–69 FPS khi không quay và 68–70 FPS khi Zas quay bằng card đồ họa (đo bằng PresentMon trên RTX 2060). Zas mã hóa bằng card đồ họa (NVENC, AMF hoặc Quick Sync), nên CPU gần như không phải làm gì: chỉ 18% của một nhân."
+   "Trong thử nghiệm của chúng tôi thì không. Fortnite ở 1440p chạy cùng 61–70 FPS dù Zas có quay bằng card đồ họa hay không (đo bằng PresentMon trên RTX 2060). Zas mã hóa bằng card đồ họa (NVENC, AMF hoặc Quick Sync), nên CPU gần như không phải làm gì: chỉ 18% của một nhân."
   ],
   [
    "Làm sao để chia sẻ clip lên Discord?",

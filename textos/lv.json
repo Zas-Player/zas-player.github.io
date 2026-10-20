@@ -16,7 +16,7 @@
  "cifra2-nombre": "Līdz klips nokopēts",
  "cifra2-detalle": "No Ctrl+E nospiešanas līdz brīdim, kad 12 s klips ir starpliktuvē, gatavs ielīmēšanai.",
  "cifra3-nombre": "Zaudētie FPS ierakstot",
- "cifra3-detalle": "Fortnite 1440p izšķirtspējā: 61–69 FPS bez ierakstīšanas un 68–70, ierakstot ar videokarti. Izmērīts ar PresentMon.",
+ "cifra3-detalle": "Fortnite 1440p izšķirtspējā: tie paši 61–70 FPS, ierakstot ar videokarti un bez ierakstīšanas. Izmērīts ar PresentMon.",
  "metodo-titulo": "Kā mēs mērījām",
  "pasos-ante": "Klips dažās sekundēs",
  "pasos-titulo": "No video līdz čatam ar trim taustiņiem.",
@@ -63,7 +63,7 @@
  "meta-og-titulo": "Zas Player · Ierakstīt. Izgriezt. Kopīgot.",
  "version-palabra": "versija",
  "idioma-etiqueta": "Valoda",
- "metodo": "<p>Zas 1.15.1, šeit lejupielādējamā versija, datorā ar AMD Ryzen 5 3600, NVIDIA GeForce RTX 2060, 32 GB atmiņas un Windows 11, ar 2560×1440 ekrānu. Testa video: viena minūte no Big Buck Bunny (H.264, 1080p ar 60 fps) un divas no tās izveidotas 10 s versijas (H.265 4K ar 30 fps un VP9 1080p ar 30 fps).</p><table><tr><th></th><th>H.264 1080p60</th><th>H.265 2160p30</th><th>VP9 1080p30</th></tr><tr><td>Atvēršana, Zas atmiņā</td><td>378 ms</td><td>134 ms</td><td>125 ms</td></tr><tr><td>Atvēršana, Zas aizvērts</td><td>710 ms</td><td>595 ms</td><td>514 ms</td></tr></table><p><b>Atvēršana</b>: no <code>zas.exe video</code> palaišanas (tas pats, kas dubultklikšķis) līdz pirmajam kadram ekrānā. Mediānas no 8 atvēršanām no atmiņas un 5 no nulles. Kad Zas bija atmiņā, 2 no 24 atvēršanām ilga ilgāk (0,7 un 2,9 s); kad Zas bija aizvērts, lēnākā bija 0,83 s. Fails jau bija Windows kešatmiņā.</p><p><b>Klips nokopēts</b>: no 12 s fragmenta atzīmēšanas un Ctrl+E nospiešanas (bez pārkodēšanas) līdz brīdim, kad fails ir starpliktuvē. Mediāna no 5 mēģinājumiem: 0,14 s; pirmais ilga 33 s, un iemesls nav zināms. Ar kadra precizitāti (ar pārkodēšanu, Ctrl+Shift+E) tas pats fragments aizņem 4,6 līdz 5,0 s.</p><p><b>FPS ierakstot</b>: Fortnite 2560×1440 izšķirtspējā priekšplānā, izmērīts ar PresentMon (Intel). Bez ierakstīšanas 61–69 FPS; ierakstot ar 60 fps ar videokarti (H.264 vai H.265, izmantojot NVENC), 68–70 FPS, tās pašas svārstības robežās. Ierakstīšana izmanto 18 % no viena procesora kodola. Vecā procesora metode (libx264) izmantoja 2,7 kodolus un raustījās.</p><p><b>Atmiņa</b>: 99 MB dīkstāvē (fonā, gatavs atvērt) un aptuveni 300 MB, atskaņojot 1080p60 video.</p><p>Šie ir mērījumi vienā konkrētā datorā: jūsējā rezultāti var atšķirties.</p>",
+ "metodo": "<p>Zas 1.15.1, šeit lejupielādējamā versija, datorā ar AMD Ryzen 5 3600, NVIDIA GeForce RTX 2060, 32 GB atmiņas un Windows 11, ar 2560×1440 ekrānu. Testa video: viena minūte no Big Buck Bunny (H.264, 1080p ar 60 fps) un divas no tās izveidotas 10 s versijas (H.265 4K ar 30 fps un VP9 1080p ar 30 fps).</p><table><tr><th></th><th>H.264 1080p60</th><th>H.265 2160p30</th><th>VP9 1080p30</th></tr><tr><td>Atvēršana, Zas atmiņā</td><td>378 ms</td><td>134 ms</td><td>125 ms</td></tr><tr><td>Atvēršana, Zas aizvērts</td><td>710 ms</td><td>595 ms</td><td>514 ms</td></tr></table><p><b>Atvēršana</b>: no <code>zas.exe video</code> palaišanas (tas pats, kas dubultklikšķis) līdz pirmajam kadram ekrānā. Mediānas no 8 atvēršanām no atmiņas un 5 no nulles. Kad Zas bija atmiņā, 2 no 24 atvēršanām ilga ilgāk (0,7 un 2,9 s); kad Zas bija aizvērts, lēnākā bija 0,83 s. Fails jau bija Windows kešatmiņā.</p><p><b>Klips nokopēts</b>: no 12 s fragmenta atzīmēšanas un Ctrl+E nospiešanas (bez pārkodēšanas) līdz brīdim, kad fails ir starpliktuvē. Mediāna no 5 mēģinājumiem: 0,14 s; pirmais ilga 33 s, un iemesls nav zināms. Ar kadra precizitāti (ar pārkodēšanu, Ctrl+Shift+E) tas pats fragments aizņem 4,6 līdz 5,0 s.</p><p><b>FPS ierakstot</b>: Fortnite 2560×1440 izšķirtspējā priekšplānā, izmērīts ar PresentMon (Intel). Ierakstot ar 60 fps ar videokarti (H.264 vai H.265, izmantojot NVENC) un bez ierakstīšanas – tie paši 61–70 FPS. Ierakstīšana izmanto 18 % no viena procesora kodola. Vecā procesora metode (libx264) izmantoja 2,7 kodolus un raustījās.</p><p><b>Atmiņa</b>: 99 MB dīkstāvē (fonā, gatavs atvērt) un aptuveni 300 MB, atskaņojot 1080p60 video.</p><p>Šie ir mērījumi vienā konkrētā datorā: jūsējā rezultāti var atšķirties.</p>",
  "preguntas": [
   [
    "Vai Zas ir laba alternatīva ShadowPlay, OBS vai Medal?",
@@ -71,7 +71,7 @@
   ],
   [
    "Vai ierakstīšana ar Zas samazina FPS?",
-   "Mūsu testā – nē. Fortnite 1440p izšķirtspējā darbojās ar 61–69 FPS bez ierakstīšanas un ar 68–70, kamēr Zas ierakstīja ar videokarti (izmērīts ar PresentMon uz RTX 2060). Zas kodē videokartē (NVENC, AMF vai Quick Sync), tāpēc procesors gandrīz nestrādā: 18 % no viena kodola."
+   "Mūsu testā – nē. Fortnite 1440p izšķirtspējā darbojās ar tiem pašiem 61–70 FPS gan tad, kad Zas ierakstīja ar videokarti, gan bez ierakstīšanas (izmērīts ar PresentMon uz RTX 2060). Zas kodē videokartē (NVENC, AMF vai Quick Sync), tāpēc procesors gandrīz nestrādā: 18 % no viena kodola."
   ],
   [
    "Kā kopīgot klipu Discord?",

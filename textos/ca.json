@@ -16,7 +16,7 @@
  "cifra2-nombre": "Per tenir un clip copiat",
  "cifra2-detalle": "Des que prems Ctrl+E fins que tens un clip de 12 s al porta-retalls, a punt per enganxar.",
  "cifra3-nombre": "FPS perduts en gravar",
- "cifra3-detalle": "Fortnite a 1440p: 61–69 FPS sense gravar i 68–70 gravant amb la targeta gràfica. Mesurat amb PresentMon.",
+ "cifra3-detalle": "Fortnite a 1440p: els mateixos 61–70 FPS amb i sense gravar amb la targeta gràfica. Mesurat amb PresentMon.",
  "metodo-titulo": "Com ho hem mesurat",
  "pasos-ante": "Un clip en segons",
  "pasos-titulo": "Del vídeo al xat en tres tecles.",
@@ -63,7 +63,7 @@
  "meta-og-titulo": "Zas Player · Grava. Retalla. Comparteix.",
  "version-palabra": "versió",
  "idioma-etiqueta": "Idioma",
- "metodo": "<p>Zas 1.15.1, la versió que baixes aquí, en un PC amb un AMD Ryzen 5 3600, una NVIDIA GeForce RTX 2060, 32 GB de memòria i Windows 11, amb una pantalla de 2560×1440. Vídeo de prova: un minut de Big Buck Bunny (H.264, 1080p a 60 fps) i dues versions de 10 s fetes a partir d'aquest (H.265 en 4K a 30 fps i VP9 1080p a 30 fps).</p><table><tr><th></th><th>H.264 1080p60</th><th>H.265 2160p30</th><th>VP9 1080p30</th></tr><tr><td>Obrir amb Zas a la memòria</td><td>378 ms</td><td>134 ms</td><td>125 ms</td></tr><tr><td>Obrir amb Zas tancat</td><td>710 ms</td><td>595 ms</td><td>514 ms</td></tr></table><p><b>Obrir</b>: des que s'executa <code>zas.exe video</code> (el mateix que un doble clic) fins al primer fotograma a la pantalla. Medianes de 8 obertures a la memòria i 5 des de zero. Amb Zas a la memòria, 2 de 24 obertures van trigar més (0,7 i 2,9 s); amb Zas tancat, la més lenta va ser de 0,83 s. El fitxer ja era a la memòria cau de Windows.</p><p><b>Clip copiat</b>: marcar un fragment de 12 s i prémer Ctrl+E (sense tornar a codificar) fins que el fitxer és al porta-retalls. Mediana de 5 execucions: 0,14 s; la primera va trigar 33 s i no té explicació. Amb precisió de fotograma (tornant a codificar, Ctrl+Shift+E), el mateix fragment triga de 4,6 a 5,0 s.</p><p><b>FPS en gravar</b>: Fortnite a 2560×1440 en primer pla, mesurat amb PresentMon (Intel). Sense gravar, 61–69 FPS; gravant a 60 fps amb la targeta gràfica (H.264 o H.265 amb NVENC), 68–70 FPS, dins de la mateixa variació. La gravació fa servir el 18 % d'un nucli de la CPU. L'antic mètode per CPU (libx264) en feia servir 2,7 nuclis i anava a batzegades.</p><p><b>Memòria</b>: 99 MB en repòs (en segon pla, a punt per obrir) i uns 300 MB reproduint el vídeo 1080p60.</p><p>Són mesures d'un ordinador concret: al teu poden variar.</p>",
+ "metodo": "<p>Zas 1.15.1, la versió que baixes aquí, en un PC amb un AMD Ryzen 5 3600, una NVIDIA GeForce RTX 2060, 32 GB de memòria i Windows 11, amb una pantalla de 2560×1440. Vídeo de prova: un minut de Big Buck Bunny (H.264, 1080p a 60 fps) i dues versions de 10 s fetes a partir d'aquest (H.265 en 4K a 30 fps i VP9 1080p a 30 fps).</p><table><tr><th></th><th>H.264 1080p60</th><th>H.265 2160p30</th><th>VP9 1080p30</th></tr><tr><td>Obrir amb Zas a la memòria</td><td>378 ms</td><td>134 ms</td><td>125 ms</td></tr><tr><td>Obrir amb Zas tancat</td><td>710 ms</td><td>595 ms</td><td>514 ms</td></tr></table><p><b>Obrir</b>: des que s'executa <code>zas.exe video</code> (el mateix que un doble clic) fins al primer fotograma a la pantalla. Medianes de 8 obertures a la memòria i 5 des de zero. Amb Zas a la memòria, 2 de 24 obertures van trigar més (0,7 i 2,9 s); amb Zas tancat, la més lenta va ser de 0,83 s. El fitxer ja era a la memòria cau de Windows.</p><p><b>Clip copiat</b>: marcar un fragment de 12 s i prémer Ctrl+E (sense tornar a codificar) fins que el fitxer és al porta-retalls. Mediana de 5 execucions: 0,14 s; la primera va trigar 33 s i no té explicació. Amb precisió de fotograma (tornant a codificar, Ctrl+Shift+E), el mateix fragment triga de 4,6 a 5,0 s.</p><p><b>FPS en gravar</b>: Fortnite a 2560×1440 en primer pla, mesurat amb PresentMon (Intel). Gravant a 60 fps amb la targeta gràfica (H.264 o H.265 amb NVENC) i sense gravar, els mateixos 61–70 FPS. La gravació fa servir el 18 % d'un nucli de la CPU. L'antic mètode per CPU (libx264) en feia servir 2,7 nuclis i anava a batzegades.</p><p><b>Memòria</b>: 99 MB en repòs (en segon pla, a punt per obrir) i uns 300 MB reproduint el vídeo 1080p60.</p><p>Són mesures d'un ordinador concret: al teu poden variar.</p>",
  "preguntas": [
   [
    "Zas és una bona alternativa a ShadowPlay, OBS o Medal?",
@@ -71,7 +71,7 @@
   ],
   [
    "Gravar amb Zas em fa baixar els FPS?",
-   "A la nostra prova, no. Fortnite a 1440p anava a 61–69 FPS sense gravar i a 68–70 mentre Zas gravava amb la targeta gràfica (mesurat amb PresentMon en una RTX 2060). Zas codifica amb la targeta gràfica (NVENC, AMF o Quick Sync), així que la CPU gairebé no treballa: el 18 % d'un nucli."
+   "A la nostra prova, no. Fortnite a 1440p anava als mateixos 61–70 FPS amb Zas gravant amb la targeta gràfica i sense gravar (mesurat amb PresentMon en una RTX 2060). Zas codifica amb la targeta gràfica (NVENC, AMF o Quick Sync), així que la CPU gairebé no treballa: el 18 % d'un nucli."
   ],
   [
    "Com puc compartir un clip a Discord?",

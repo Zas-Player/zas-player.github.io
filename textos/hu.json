@@ -16,7 +16,7 @@
  "cifra2-nombre": "Egy klip a vágólapon",
  "cifra2-detalle": "A Ctrl+E lenyomásától addig, amíg egy 12 mp-es klip a vágólapon van, beillesztésre készen.",
  "cifra3-nombre": "FPS-veszteség felvétel közben",
- "cifra3-detalle": "Fortnite 1440p-ben: 61–69 FPS felvétel nélkül és 68–70 a videokártyával történő felvétel közben. PresentMonnal mérve.",
+ "cifra3-detalle": "Fortnite 1440p-ben: ugyanaz a 61–70 FPS videokártyás felvétellel és anélkül. PresentMonnal mérve.",
  "metodo-titulo": "Hogyan mértük",
  "pasos-ante": "Klip másodpercek alatt",
  "pasos-titulo": "Videóból a chatbe három billentyűvel.",
@@ -63,7 +63,7 @@
  "meta-og-titulo": "Zas Player · Rögzíts. Vágj. Ossz meg.",
  "version-palabra": "verzió",
  "idioma-etiqueta": "Nyelv",
- "metodo": "<p>Zas 1.15.1, vagyis az itt letölthető verzió, egy AMD Ryzen 5 3600 processzorral, NVIDIA GeForce RTX 2060 videokártyával, 32 GB memóriával és Windows 11-gyel szerelt PC-n, 2560×1440-es képernyővel. Tesztvideó: egy perc a Big Buck Bunnyból (H.264, 1080p 60 fps-sel) és két belőle készült 10 mp-es változat (H.265 4K-ban 30 fps-sel és VP9 1080p 30 fps-sel).</p><table><tr><th></th><th>H.264 1080p60</th><th>H.265 2160p30</th><th>VP9 1080p30</th></tr><tr><td>Megnyitás memóriában lévő Zas-szal</td><td>378 ms</td><td>134 ms</td><td>125 ms</td></tr><tr><td>Megnyitás bezárt Zas-szal</td><td>710 ms</td><td>595 ms</td><td>514 ms</td></tr></table><p><b>Megnyitás</b>: a <code>zas.exe video</code> elindításától (ugyanaz, mint a dupla kattintás) az első képkocka megjelenéséig. Mediánok 8 memóriából és 5 nulláról indított megnyitásból. Memóriában lévő Zas-szal 24 megnyitásból 2 tovább tartott (0,7 és 2,9 mp); bezárt Zas-szal a leglassabb 0,83 mp volt. A fájl már a Windows gyorsítótárában volt.</p><p><b>Másolt klip</b>: egy 12 mp-es rész kijelölésétől és a Ctrl+E lenyomásától (újrakódolás nélkül) addig, amíg a fájl a vágólapon van. 5 futtatás mediánja: 0,14 mp; az első 33 mp-ig tartott, és nem tudjuk, miért. Képkockapontosan (újrakódolással, Ctrl+Shift+E) ugyanez a rész 4,6–5,0 mp.</p><p><b>FPS felvétel közben</b>: Fortnite 2560×1440-ben az előtérben, PresentMonnal (Intel) mérve. Felvétel nélkül 61–69 FPS; 60 fps-es felvétel közben a videokártyával (H.264 vagy H.265 NVENC-en keresztül) 68–70 FPS, ugyanazon az ingadozáson belül. A felvétel egy CPU-mag 18%-át használja. A korábbi CPU-s módszer (libx264) 2,7 magot használt és akadozott.</p><p><b>Memória</b>: 99 MB tétlenül (a háttérben, megnyitásra készen) és kb. 300 MB az 1080p60-as videó lejátszása közben.</p><p>Ezek egyetlen konkrét számítógépen végzett mérések: a te gépeden eltérhetnek az eredmények.</p>",
+ "metodo": "<p>Zas 1.15.1, vagyis az itt letölthető verzió, egy AMD Ryzen 5 3600 processzorral, NVIDIA GeForce RTX 2060 videokártyával, 32 GB memóriával és Windows 11-gyel szerelt PC-n, 2560×1440-es képernyővel. Tesztvideó: egy perc a Big Buck Bunnyból (H.264, 1080p 60 fps-sel) és két belőle készült 10 mp-es változat (H.265 4K-ban 30 fps-sel és VP9 1080p 30 fps-sel).</p><table><tr><th></th><th>H.264 1080p60</th><th>H.265 2160p30</th><th>VP9 1080p30</th></tr><tr><td>Megnyitás memóriában lévő Zas-szal</td><td>378 ms</td><td>134 ms</td><td>125 ms</td></tr><tr><td>Megnyitás bezárt Zas-szal</td><td>710 ms</td><td>595 ms</td><td>514 ms</td></tr></table><p><b>Megnyitás</b>: a <code>zas.exe video</code> elindításától (ugyanaz, mint a dupla kattintás) az első képkocka megjelenéséig. Mediánok 8 memóriából és 5 nulláról indított megnyitásból. Memóriában lévő Zas-szal 24 megnyitásból 2 tovább tartott (0,7 és 2,9 mp); bezárt Zas-szal a leglassabb 0,83 mp volt. A fájl már a Windows gyorsítótárában volt.</p><p><b>Másolt klip</b>: egy 12 mp-es rész kijelölésétől és a Ctrl+E lenyomásától (újrakódolás nélkül) addig, amíg a fájl a vágólapon van. 5 futtatás mediánja: 0,14 mp; az első 33 mp-ig tartott, és nem tudjuk, miért. Képkockapontosan (újrakódolással, Ctrl+Shift+E) ugyanez a rész 4,6–5,0 mp.</p><p><b>FPS felvétel közben</b>: Fortnite 2560×1440-ben az előtérben, PresentMonnal (Intel) mérve. 60 fps-es videokártyás felvétellel (H.264 vagy H.265 NVENC-en keresztül) és anélkül is ugyanaz a 61–70 FPS. A felvétel egy CPU-mag 18%-át használja. A korábbi CPU-s módszer (libx264) 2,7 magot használt és akadozott.</p><p><b>Memória</b>: 99 MB tétlenül (a háttérben, megnyitásra készen) és kb. 300 MB az 1080p60-as videó lejátszása közben.</p><p>Ezek egyetlen konkrét számítógépen végzett mérések: a te gépeden eltérhetnek az eredmények.</p>",
  "preguntas": [
   [
    "Jó alternatíva a Zas a ShadowPlay, az OBS vagy a Medal helyett?",
@@ -71,7 +71,7 @@
   ],
   [
    "Csökkenti a felvétel a Zasszal az FPS-t?",
-   "A tesztünkben nem. A Fortnite 1440p-ben 61–69 FPS-sel futott felvétel nélkül, és 68–70-nel, miközben a Zas a videokártyával rögzített (PresentMonnal mérve egy RTX 2060-on). A Zas a videokártyán kódol (NVENC, AMF vagy Quick Sync), így a processzor alig dolgozik: egy mag 18%-a."
+   "A tesztünkben nem. A Fortnite 1440p-ben ugyanazzal a 61–70 FPS-sel futott, akár rögzített a Zas a videokártyával, akár nem (PresentMonnal mérve egy RTX 2060-on). A Zas a videokártyán kódol (NVENC, AMF vagy Quick Sync), így a processzor alig dolgozik: egy mag 18%-a."
   ],
   [
    "Hogyan oszthatok meg egy klipet Discordon?",

@@ -16,7 +16,7 @@
  "cifra2-nombre": "Para tener un clip copiado",
  "cifra2-detalle": "De pulsar Ctrl+E a tener un tramo de 12 s en el portapapeles, listo para pegar.",
  "cifra3-nombre": "FPS perdidos al grabar",
- "cifra3-detalle": "Fortnite a 1440p: 61–69 FPS sin grabar y 68–70 grabando con la tarjeta gráfica. Medido con PresentMon.",
+ "cifra3-detalle": "Fortnite a 1440p: los mismos 61–70 FPS con y sin grabar con la tarjeta gráfica. Medido con PresentMon.",
  "metodo-titulo": "Cómo lo medimos",
  "pasos-ante": "Un clip en segundos",
  "pasos-titulo": "Del vídeo al chat en tres teclas.",
@@ -63,7 +63,7 @@
  "meta-og-titulo": "Zas Player · Graba. Recorta. Comparte.",
  "version-palabra": "versión",
  "idioma-etiqueta": "Idioma",
- "metodo": "<p>Zas 1.15.1, la versión que se descarga aquí, en un PC con AMD Ryzen 5 3600, NVIDIA GeForce RTX 2060, 32 GB de memoria y Windows 11, con la pantalla a 2560×1440. Vídeo de prueba: un minuto de Big Buck Bunny (H.264, 1080p a 60 fps) y dos versiones de 10 s hechas a partir de él (H.265 en 4K a 30 fps y VP9 1080p a 30 fps).</p><table><tr><th></th><th>H.264 1080p60</th><th>H.265 2160p30</th><th>VP9 1080p30</th></tr><tr><td>Abrir con Zas en memoria</td><td>378 ms</td><td>134 ms</td><td>125 ms</td></tr><tr><td>Abrir con Zas cerrado</td><td>710 ms</td><td>595 ms</td><td>514 ms</td></tr></table><p><b>Abrir</b>: desde que se lanza <code>zas.exe vídeo</code> (lo mismo que un doble clic) hasta el primer fotograma en pantalla. Medianas de 8 aperturas en memoria y 5 desde cero. Con Zas en memoria, 2 de las 24 aperturas tardaron más (0,7 y 2,9 s); con Zas cerrado, la más lenta fue de 0,83 s. El archivo ya estaba en la caché de Windows.</p><p><b>Clip copiado</b>: marcar un tramo de 12 s y pulsar Ctrl+E (sin recodificar) hasta que el archivo está en el portapapeles. Mediana de 5 tomas: 0,14 s; la primera tardó 33 s y está sin explicar. Al fotograma exacto (recodificando, Ctrl+Shift+E) el mismo tramo tarda de 4,6 a 5,0 s.</p><p><b>FPS al grabar</b>: Fortnite a 2560×1440 en primer plano, medido con PresentMon (Intel). Sin grabar, 61–69 FPS; grabando a 60 fps con la tarjeta gráfica (H.264 o H.265 por NVENC), 68–70 FPS, dentro de la misma variación. La grabación usa un 18 % de un núcleo del procesador. El método antiguo por procesador (libx264) usaba 2,7 núcleos y daba tirones.</p><p><b>Memoria</b>: 99 MB en reposo (en segundo plano, lista para abrir) y unos 300 MB reproduciendo el vídeo 1080p60.</p><p>Son medidas de un equipo concreto: en el tuyo pueden variar.</p>",
+ "metodo": "<p>Zas 1.15.1, la versión que se descarga aquí, en un PC con AMD Ryzen 5 3600, NVIDIA GeForce RTX 2060, 32 GB de memoria y Windows 11, con la pantalla a 2560×1440. Vídeo de prueba: un minuto de Big Buck Bunny (H.264, 1080p a 60 fps) y dos versiones de 10 s hechas a partir de él (H.265 en 4K a 30 fps y VP9 1080p a 30 fps).</p><table><tr><th></th><th>H.264 1080p60</th><th>H.265 2160p30</th><th>VP9 1080p30</th></tr><tr><td>Abrir con Zas en memoria</td><td>378 ms</td><td>134 ms</td><td>125 ms</td></tr><tr><td>Abrir con Zas cerrado</td><td>710 ms</td><td>595 ms</td><td>514 ms</td></tr></table><p><b>Abrir</b>: desde que se lanza <code>zas.exe vídeo</code> (lo mismo que un doble clic) hasta el primer fotograma en pantalla. Medianas de 8 aperturas en memoria y 5 desde cero. Con Zas en memoria, 2 de las 24 aperturas tardaron más (0,7 y 2,9 s); con Zas cerrado, la más lenta fue de 0,83 s. El archivo ya estaba en la caché de Windows.</p><p><b>Clip copiado</b>: marcar un tramo de 12 s y pulsar Ctrl+E (sin recodificar) hasta que el archivo está en el portapapeles. Mediana de 5 tomas: 0,14 s; la primera tardó 33 s y está sin explicar. Al fotograma exacto (recodificando, Ctrl+Shift+E) el mismo tramo tarda de 4,6 a 5,0 s.</p><p><b>FPS al grabar</b>: Fortnite a 2560×1440 en primer plano, medido con PresentMon (Intel). Grabando a 60 fps con la tarjeta gráfica (H.264 o H.265 por NVENC) y sin grabar, los mismos 61–70 FPS. La grabación usa un 18 % de un núcleo del procesador. El método antiguo por procesador (libx264) usaba 2,7 núcleos y daba tirones.</p><p><b>Memoria</b>: 99 MB en reposo (en segundo plano, lista para abrir) y unos 300 MB reproduciendo el vídeo 1080p60.</p><p>Son medidas de un equipo concreto: en el tuyo pueden variar.</p>",
  "preguntas": [
   [
    "¿Es Zas una buena alternativa a ShadowPlay, OBS o Medal?",
@@ -71,7 +71,7 @@
   ],
   [
    "¿Grabar con Zas me baja los FPS?",
-   "En nuestra prueba, no. Fortnite a 1440p iba a 61–69 FPS sin grabar y a 68–70 mientras Zas grababa con la tarjeta gráfica (medido con PresentMon en una RTX 2060). Zas codifica con la gráfica (NVENC, AMF o Quick Sync), así que el procesador apenas trabaja: un 18 % de un núcleo."
+   "En nuestra prueba, no. Fortnite a 1440p iba a los mismos 61–70 FPS con Zas grabando con la tarjeta gráfica y sin grabar (medido con PresentMon en una RTX 2060). Zas codifica con la gráfica (NVENC, AMF o Quick Sync), así que el procesador apenas trabaja: un 18 % de un núcleo."
   ],
   [
    "¿Cómo comparto un clip en Discord?",

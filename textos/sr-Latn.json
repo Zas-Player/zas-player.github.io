@@ -16,7 +16,7 @@
  "cifra2-nombre": "Za kopiran klip",
  "cifra2-detalle": "Od pritiska na Ctrl+E do klipa od 12 s u ostavi, spremnog za lepljenje.",
  "cifra3-nombre": "Izgubljeni FPS tokom snimanja",
- "cifra3-detalle": "Fortnite u 1440p: 61–69 FPS bez snimanja i 68–70 tokom snimanja grafičkom karticom. Izmereno alatom PresentMon.",
+ "cifra3-detalle": "Fortnite u 1440p: istih 61–70 FPS sa snimanjem grafičkom karticom i bez njega. Izmereno alatom PresentMon.",
  "metodo-titulo": "Kako smo merili",
  "pasos-ante": "Klip za nekoliko sekundi",
  "pasos-titulo": "Od videa do četa u tri tastera.",
@@ -63,7 +63,7 @@
  "meta-og-titulo": "Zas Player · Snimite. Isecite. Podelite.",
  "version-palabra": "verzija",
  "idioma-etiqueta": "Jezik",
- "metodo": "<p>Zas 1.15.1, verzija koju ovde preuzimate, na računaru sa procesorom AMD Ryzen 5 3600, grafičkom karticom NVIDIA GeForce RTX 2060, 32 GB memorije i sistemom Windows 11, sa ekranom 2560×1440. Test video: jedan minut filma Big Buck Bunny (H.264, 1080p pri 60 fps) i dve verzije od po 10 s napravljene od njega (H.265 u 4K pri 30 fps i VP9 1080p pri 30 fps).</p><table><tr><th></th><th>H.264 1080p60</th><th>H.265 2160p30</th><th>VP9 1080p30</th></tr><tr><td>Otvaranje sa Zasom u memoriji</td><td>378 ms</td><td>134 ms</td><td>125 ms</td></tr><tr><td>Otvaranje sa zatvorenim Zasom</td><td>710 ms</td><td>595 ms</td><td>514 ms</td></tr></table><p><b>Otvaranje</b>: od pokretanja <code>zas.exe video</code> (isto kao dvostruki klik) do prvog kadra na ekranu. Medijane od 8 otvaranja iz memorije i 5 od nule. Sa Zasom u memoriji 2 od 24 otvaranja su trajala duže (0,7 i 2,9 s); sa zatvorenim Zasom najsporije je trajalo 0,83 s. Datoteka je već bila u kešu sistema Windows.</p><p><b>Kopiran klip</b>: od označavanja dela od 12 s i pritiska na Ctrl+E (bez ponovnog kodiranja) do trenutka kada je datoteka u ostavi. Medijana od 5 pokretanja: 0,14 s; prvo je trajalo 33 s i nema objašnjenja. Precizno do frejma (sa ponovnim kodiranjem, Ctrl+Shift+E) isti deo traje od 4,6 do 5,0 s.</p><p><b>FPS tokom snimanja</b>: Fortnite u 2560×1440 u prvom planu, izmereno alatom PresentMon (Intel). Bez snimanja 61–69 FPS; tokom snimanja pri 60 fps grafičkom karticom (H.264 ili H.265 preko NVENC-a) 68–70 FPS, u okviru istih oscilacija. Snimanje koristi 18% jednog procesorskog jezgra. Stari metod na procesoru (libx264) koristio je 2,7 jezgra i seckao.</p><p><b>Memorija</b>: 99 MB u mirovanju (u pozadini, spreman za otvaranje) i oko 300 MB tokom reprodukcije videa 1080p60.</p><p>Ovo su merenja sa jednog određenog računara: kod vas rezultati mogu biti drugačiji.</p>",
+ "metodo": "<p>Zas 1.15.1, verzija koju ovde preuzimate, na računaru sa procesorom AMD Ryzen 5 3600, grafičkom karticom NVIDIA GeForce RTX 2060, 32 GB memorije i sistemom Windows 11, sa ekranom 2560×1440. Test video: jedan minut filma Big Buck Bunny (H.264, 1080p pri 60 fps) i dve verzije od po 10 s napravljene od njega (H.265 u 4K pri 30 fps i VP9 1080p pri 30 fps).</p><table><tr><th></th><th>H.264 1080p60</th><th>H.265 2160p30</th><th>VP9 1080p30</th></tr><tr><td>Otvaranje sa Zasom u memoriji</td><td>378 ms</td><td>134 ms</td><td>125 ms</td></tr><tr><td>Otvaranje sa zatvorenim Zasom</td><td>710 ms</td><td>595 ms</td><td>514 ms</td></tr></table><p><b>Otvaranje</b>: od pokretanja <code>zas.exe video</code> (isto kao dvostruki klik) do prvog kadra na ekranu. Medijane od 8 otvaranja iz memorije i 5 od nule. Sa Zasom u memoriji 2 od 24 otvaranja su trajala duže (0,7 i 2,9 s); sa zatvorenim Zasom najsporije je trajalo 0,83 s. Datoteka je već bila u kešu sistema Windows.</p><p><b>Kopiran klip</b>: od označavanja dela od 12 s i pritiska na Ctrl+E (bez ponovnog kodiranja) do trenutka kada je datoteka u ostavi. Medijana od 5 pokretanja: 0,14 s; prvo je trajalo 33 s i nema objašnjenja. Precizno do frejma (sa ponovnim kodiranjem, Ctrl+Shift+E) isti deo traje od 4,6 do 5,0 s.</p><p><b>FPS tokom snimanja</b>: Fortnite u 2560×1440 u prvom planu, izmereno alatom PresentMon (Intel). Sa snimanjem pri 60 fps grafičkom karticom (H.264 ili H.265 preko NVENC-a) i bez njega, istih 61–70 FPS. Snimanje koristi 18% jednog procesorskog jezgra. Stari metod na procesoru (libx264) koristio je 2,7 jezgra i seckao.</p><p><b>Memorija</b>: 99 MB u mirovanju (u pozadini, spreman za otvaranje) i oko 300 MB tokom reprodukcije videa 1080p60.</p><p>Ovo su merenja sa jednog određenog računara: kod vas rezultati mogu biti drugačiji.</p>",
  "preguntas": [
   [
    "Da li je Zas dobra alternativa za ShadowPlay, OBS ili Medal?",
@@ -71,7 +71,7 @@
   ],
   [
    "Da li snimanje u Zasu smanjuje moj FPS?",
-   "U našem testu ne. Fortnite u 1440p radio je na 61–69 FPS bez snimanja i na 68–70 dok je Zas snimao grafičkom karticom (izmereno alatom PresentMon na RTX 2060). Zas kodira na grafičkoj kartici (NVENC, AMF ili Quick Sync), pa procesor skoro da ne radi: 18% jednog jezgra."
+   "U našem testu ne. Fortnite u 1440p radio je na istih 61–70 FPS i dok je Zas snimao grafičkom karticom i bez snimanja (izmereno alatom PresentMon na RTX 2060). Zas kodira na grafičkoj kartici (NVENC, AMF ili Quick Sync), pa procesor skoro da ne radi: 18% jednog jezgra."
   ],
   [
    "Kako da podelim klip na Discordu?",
