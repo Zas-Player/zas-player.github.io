@@ -206,7 +206,7 @@ def cabeza(lang, version):
 <meta name="robots" content="index, follow, max-image-preview:large">
 <link rel="canonical" href="{url(lang)}">
 {alternas}
-<link rel="icon" href="/icon.svg" type="image/svg+xml">
+<link rel="icon" href="/favicon.svg" type="image/svg+xml">
 <link rel="icon" href="/icon-48.png" sizes="48x48" type="image/png">
 <link rel="apple-touch-icon" href="/img/icon-180.png">
 <meta property="og:type" content="website">
@@ -292,7 +292,7 @@ def pagina_versiones(plantilla, lang, version, versiones):
 <meta name="robots" content="index, follow">
 <link rel="canonical" href="{aqui}">
 {alternas}
-<link rel="icon" href="/icon.svg" type="image/svg+xml">
+<link rel="icon" href="/favicon.svg" type="image/svg+xml">
 <link rel="icon" href="/icon-48.png" sizes="48x48" type="image/png">
 <link rel="apple-touch-icon" href="/img/icon-180.png">
 <meta property="og:type" content="website">
