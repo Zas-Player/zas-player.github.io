@@ -3,6 +3,7 @@
 las mismas listas, las mismas etiquetas HTML, los mismos números y nombres propios.
 
     python3 textos/comprobar.py fr de it
+    python3 textos/comprobar.py            # no arguments: every textos/*.json (what CI runs)
 """
 import json
 import re
@@ -55,7 +56,8 @@ def mirar(codigo):
 
 if __name__ == "__main__":
     total = 0
-    for c in sys.argv[1:]:
+    codes = sys.argv[1:] or sorted(f.stem for f in AQUI.glob("*.json") if f.stem != "en")
+    for c in codes:
         m = mirar(c)
         total += len(m)
         print(f"{c}: " + ("bien" if not m else f"{len(m)} problemas"))

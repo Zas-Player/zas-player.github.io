@@ -33,7 +33,7 @@
  "func-ante": "Un programa, no tres",
  "func-titulo": "Todo lo que haces con tus vídeos.",
  "b3-titulo": "Graba y comparte",
- "b3-texto": "Arrastra una zona de la pantalla y graba con el sonido del sistema y el micrófono que elijas. Lo codifica la tarjeta gráfica, hasta 120 fps. La repetición instantánea guarda los últimos segundos cuando pasa algo.",
+ "b3-texto": "Arrastra una zona de la pantalla y graba con el sonido del sistema y el micrófono que elijas. Lo codifica la tarjeta gráfica (NVIDIA, AMD o Intel), hasta 120 fps, sin quitarle fotogramas a tu juego. La repetición instantánea guarda los últimos segundos cuando pasa algo, y el clip se copia, listo para pegarlo en Discord.",
  "a-grabar": "Grabar la pantalla",
  "a-repeticion": "Guardar la repetición",
  "a-panel": "Panel de grabación",

@@ -1,0 +1,32 @@
+# Checks the site on every push and PR: texts valid in every language and the HTML
+# regenerated from them (construir.py leaves no diff). Nothing is pushed from here.
+name: Check
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+
+permissions:
+  contents: read
+
+jobs:
+  check:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v5
+      - name: Texts
+        run: python3 textos/comprobar.py
+      - name: Generated HTML up to date
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          python3 construir.py
+          # the sitemap carries today's date: it changes without any commit here
+          if ! git diff --quiet -- . ':!sitemap.xml'; then
+            git diff --stat -- . ':!sitemap.xml'
+            echo "::error::Generated files are stale: run python3 construir.py and commit"
+            exit 1
+          fi
